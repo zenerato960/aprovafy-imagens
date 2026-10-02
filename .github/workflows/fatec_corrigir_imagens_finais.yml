@@ -1,0 +1,49 @@
+name: Corrigir imagens finais FATEC
+on:
+  push:
+    paths:
+      - '.github/workflows/fatec_corrigir_imagens_finais.yml'
+permissions:
+  contents: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pymupdf requests
+      - name: Renderizar recortes oficiais
+        shell: python
+        run: |
+          import fitz, requests
+          from pathlib import Path
+          cases = [
+            ('2011','2sem',49,'https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2021/09/prova-vestibular-2s-2011.pdf',18,(48,225,555,705)),
+            ('2013','1sem',37,'https://fatweb.s3.amazonaws.com/vestibularfatec/gabarito/81-prova.pdf',16,(45,45,555,345)),
+            ('2014','1sem',33,'https://fatweb.s3.amazonaws.com/vestibularfatec/gabarito/20148342/Prova.pdf',13,(42,35,560,258)),
+            ('2015','2sem',49,'https://fatweb.s3.amazonaws.com/vestibularfatec/gabarito/201526382/Prova.pdf',18,(42,35,555,705)),
+            ('2017','2sem',3,'https://fatweb.s3.amazonaws.com/vestibularfatec/gabarito/201729482/Prova.pdf',2,(300,45,555,715)),
+          ]
+          for year, sem, q, url, page, rect in cases:
+              r=requests.get(url, timeout=90); r.raise_for_status()
+              if not r.content.startswith(b'%PDF'): raise RuntimeError(url)
+              doc=fitz.open(stream=r.content, filetype='pdf')
+              pix=doc[page-1].get_pixmap(matrix=fitz.Matrix(2,2), clip=fitz.Rect(*rect), alpha=False)
+              out=Path(f'imagens/fatec/{year}/{sem}/questao_{q:03d}.png')
+              out.parent.mkdir(parents=True, exist_ok=True)
+              pix.save(out)
+              print(out, pix.width, pix.height)
+      - name: Publicar imagens
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add imagens/fatec
+          if git diff --cached --quiet; then
+            echo 'Sem mudanças'
+          else
+            git commit -m 'Corrigir imagens finais FATEC'
+            git push
+          fi
