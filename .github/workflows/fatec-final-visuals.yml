@@ -1,0 +1,74 @@
+name: Publicar visuais finais FATEC
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fatec-final-visuals.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Preparar ambiente
+        run: pip install --quiet pymupdf pillow requests
+      - name: Gerar recortes oficiais
+        shell: bash
+        run: |
+          python - <<'PY'
+          import fitz, requests
+          from PIL import Image
+          from pathlib import Path
+
+          sources = {
+            '2009_2': 'https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2021/09/prova-vestibular-2s-2009.pdf',
+            '2010_1': 'https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2021/09/prova-vestibular-1s-2010.pdf',
+            '2010_2': 'https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2021/09/prova-vestibular-2s-2010.pdf',
+            '2012_1': 'https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2021/09/prova-vestibular-1s-2012.pdf',
+            '2014_2': 'https://fatweb.s3.amazonaws.com/vestibularfatec/gabarito/201425429/Prova.pdf',
+            '2016_2': 'https://fatweb.s3.amazonaws.com/vestibularfatec/gabarito/201626015/Prova.pdf',
+            '2018_2': 'https://fatweb.s3.amazonaws.com/vestibularfatec/gabarito/201827920/Prova.pdf',
+            '2019_2': 'https://fatweb.s3.amazonaws.com/vestibularfatec/gabarito/201928914/Prova.pdf',
+            '2023_2': 'https://fatweb.s3.amazonaws.com/vestibularfatec/gabarito/202327519/Prova.pdf',
+          }
+          # edition: (PDF page index, pixel crop after 1.5x render, repository path)
+          jobs = {
+            '2009_2': (17, (240,150,450,290), 'imagens/fatec/2009/2sem/questao_045.png'),
+            '2010_1': (13, (95,615,760,795), 'imagens/fatec/2010/1sem/questao_038.png'),
+            '2010_2': (15, (120,115,805,260), 'imagens/fatec/2010/2sem/questao_040.png'),
+            '2012_1': (9, (535,790,735,875), 'imagens/fatec/2012/1sem/questao_024.png'),
+            '2014_2': (3, (75,378,835,1060), 'imagens/fatec/2014/2sem/questao_006.png'),
+            '2016_2': (5, (80,590,820,1040), 'imagens/fatec/2016/2sem/questao_014.png'),
+            '2018_2': (3, (95,180,815,905), 'imagens/fatec/2018/2sem/questao_006.png'),
+            '2019_2': (17, (115,555,775,870), 'imagens/fatec/2019/2sem/questao_045.png'),
+            '2023_2': (20, (95,755,855,1068), 'imagens/fatec/2023/2sem/questao_051.png'),
+          }
+          tmp=Path('/tmp/fatec-final'); tmp.mkdir(parents=True, exist_ok=True)
+          s=requests.Session(); s.headers['User-Agent']='Mozilla/5.0'
+          for ed,(pno,box,outpath) in jobs.items():
+              pdf=tmp/f'{ed}.pdf'
+              r=s.get(sources[ed], timeout=90); r.raise_for_status()
+              if not r.content.startswith(b'%PDF'): raise RuntimeError(f'{ed}: fonte não é PDF')
+              pdf.write_bytes(r.content)
+              doc=fitz.open(pdf)
+              pix=doc[pno].get_pixmap(matrix=fitz.Matrix(1.5,1.5), alpha=False)
+              page=tmp/f'{ed}.png'; pix.save(page)
+              im=Image.open(page).convert('RGB').crop(box)
+              out=Path(outpath); out.parent.mkdir(parents=True, exist_ok=True)
+              im.save(out, optimize=True)
+              print(ed, out, im.size)
+          PY
+      - name: Publicar imagens
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add imagens/fatec
+          if git diff --cached --quiet; then
+            echo 'Nenhuma alteração necessária.'
+          else
+            git commit -m 'Adicionar visuais finais auditados FATEC'
+            git push
+          fi
