@@ -1,0 +1,29 @@
+name: Temporary FUVEST 2018 2021 analysis PDFs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp_fuvest_2018_2021_analysis.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar PDFs oficiais
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          curl -fL --retry 3 -o out/fuvest_2018_analise.pdf https://acervo.fuvest.br/fuvest/2018/fuvest_2018_analise_1_fase_grupos.pdf
+          curl -fL --retry 3 -o out/fuvest_2021_analise.pdf https://acervo.fuvest.br/fuvest/2021/fuvest_2021_analise_1_fase_grupos.pdf
+          file out/*.pdf
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fuvest_2018_2021_analysis
+          path: out/*.pdf
+          retention-days: 1
