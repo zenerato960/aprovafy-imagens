@@ -72,7 +72,6 @@ def extract_links(page_url: str, html: str) -> list[tuple[str, str]]:
         if not is_pdf(href):
             continue
         text = ' '.join(a.stripped_strings).strip()
-        # Inclui contexto próximo para capturar links cujo texto é apenas “Biologia”, “1º Dia” etc.
         contexts = [text, href]
         parent = a.parent
         for _ in range(4):
@@ -87,13 +86,9 @@ def extract_links(page_url: str, html: str) -> list[tuple[str, str]]:
 
         if any(x in blob for x in EXCLUDE):
             continue
-
-        # Exige evidência de que o PDF pertence à área de provas/gabaritos.
-        relevant = any(x in blob for x in INCLUDE)
-        relevant = relevant or ('provas_e_gabaritos' in blob)
+        relevant = any(x in blob for x in INCLUDE) or ('provas_e_gabaritos' in blob)
         if not relevant:
             continue
-
         if href not in seen:
             seen.add(href)
             found.append((text, href))
@@ -102,7 +97,6 @@ def extract_links(page_url: str, html: str) -> list[tuple[str, str]]:
 
 
 def dedupe_first_phase_variants(items: list[tuple[str, str]]) -> list[tuple[str, str]]:
-    """Mantém uma versão da 1ª fase quando V/K/Q/X/Z ou V1/V2/V3/V4 são duplicatas."""
     result: list[tuple[str, str]] = []
     kept_variant = False
     variant_re = re.compile(r'(?:^|[_\-\s])(v[1-4]?|k|q|x|z)(?:[_\-\s.]|$)', re.I)
@@ -112,19 +106,15 @@ def dedupe_first_phase_variants(items: list[tuple[str, str]]) -> list[tuple[str,
         if 'gabarito' in b or '2fase' in b or '2_fase' in b or 'segunda_fase' in b or 'segunda-fase' in b:
             result.append((text, href))
             continue
-
-        # Só trata como caderno variante quando há marca explícita de versão.
         if variant_re.search(unquote(text + ' ' + urlparse(href).path)) and ('prova' in b or 'fase' in b):
             preferred = bool(re.search(r'(?:^|[_\-\s])v1?(?:[_\-\s.]|$)', unquote(text + ' ' + urlparse(href).path), re.I))
             if not kept_variant and preferred:
                 result.append((text, href))
                 kept_variant = True
             elif not kept_variant:
-                # Guarda provisoriamente a primeira versão; se V/V1 surgir depois, será substituída.
                 result.append((text, href))
                 kept_variant = True
             continue
-
         result.append((text, href))
 
     return result
@@ -219,7 +209,6 @@ def main() -> None:
     ])
     (OUT / 'MANIFESTO_FONTES.txt').write_text('\n'.join(manifest), encoding='utf-8')
 
-    # A ausência de qualquer ano invalida o pacote para o objetivo solicitado.
     missing_years = [y for y in YEARS if not (OUT / str(y)).exists() or not list((OUT / str(y)).glob('*.pdf'))]
     if missing_years:
         raise SystemExit(f'Pacote incompleto. Anos sem PDFs: {missing_years}')
@@ -229,3 +218,5 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+
+# trigger: workflow FUVEST 2009-2025
