@@ -1,0 +1,90 @@
+name: Publicar imagens FATEC
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fatec-images.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Preparar dependencias
+        run: |
+          python -m pip install --quiet pymupdf pillow
+          mkdir -p /tmp/fatec
+      - name: Baixar provas oficiais
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fL --retry 3 -o /tmp/fatec/2011_1.pdf 'https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2021/09/prova-vestibular-1s-2011.pdf'
+          curl -fL --retry 3 -o /tmp/fatec/2013_1.pdf 'https://fatweb.s3.amazonaws.com/vestibularfatec/gabarito/81-prova.pdf'
+          curl -fL --retry 3 -o /tmp/fatec/2014_1.pdf 'https://fatweb.s3.amazonaws.com/vestibularfatec/gabarito/20148342/Prova.pdf'
+          curl -fL --retry 3 -o /tmp/fatec/2019_1.pdf 'https://fatweb.s3.amazonaws.com/vestibularfatec/gabarito/201916513/Prova.pdf'
+          curl -fL --retry 3 -o /tmp/fatec/2022_2.pdf 'https://fatweb.s3.amazonaws.com/vestibularfatec/gabarito/202228712/Prova.pdf'
+          curl -fL --retry 3 -o /tmp/fatec/2025_2.pdf 'https://fatweb.s3.amazonaws.com/vestibularfatec/gabarito/202528719/Prova.pdf'
+          for f in /tmp/fatec/*.pdf; do test "$(head -c 4 "$f")" = '%PDF'; done
+      - name: Recortar questoes com elementos visuais
+        run: |
+          python - <<'PY'
+          import fitz
+          from pathlib import Path
+          from PIL import Image
+
+          root = Path('imagens/fatec')
+          root.mkdir(parents=True, exist_ok=True)
+          zoom = 2.5
+
+          cases = [
+              ('2011_1', 23, 8, (35, 35, 570, 465)),
+              ('2011_1', 24, 8, (35, 455, 570, 730)),
+              ('2013_1', 5, 3, (35, 460, 565, 730)),
+              ('2014_1', 10, 6, (40, 45, 570, 430)),
+              ('2019_1', 12, 6, (300, 50, 570, 730)),
+              ('2022_2', 44, 18, (30, 15, 575, 350)),
+          ]
+          for ed, q, pno, rect in cases:
+              doc = fitz.open(f'/tmp/fatec/{ed}.pdf')
+              page = doc[pno - 1]
+              pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), clip=fitz.Rect(*rect), alpha=False)
+              d = root / ed
+              d.mkdir(parents=True, exist_ok=True)
+              pix.save(d / f'questao_{q:03d}.png')
+
+          # Q41/2025-2 usa texto-base no topo e a questao na parte inferior.
+          ed, q, pno = '2025_2', 41, 15
+          doc = fitz.open(f'/tmp/fatec/{ed}.pdf')
+          page = doc[pno - 1]
+          clips = [fitz.Rect(20, 20, 560, 250), fitz.Rect(20, 365, 560, 735)]
+          ims = []
+          for clip in clips:
+              pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), clip=clip, alpha=False)
+              ims.append(Image.frombytes('RGB', [pix.width, pix.height], pix.samples))
+          gap = 24
+          w = max(im.width for im in ims)
+          h = sum(im.height for im in ims) + gap
+          canvas = Image.new('RGB', (w, h), 'white')
+          y = 0
+          for i, im in enumerate(ims):
+              canvas.paste(im, (0, y))
+              y += im.height + (gap if i == 0 else 0)
+          d = root / ed
+          d.mkdir(parents=True, exist_ok=True)
+          canvas.save(d / f'questao_{q:03d}.png', optimize=True)
+          PY
+      - name: Publicar imagens no repositorio
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add imagens/fatec
+          if git diff --cached --quiet; then
+            echo 'Nenhuma alteracao.'
+          else
+            git commit -m 'Adicionar imagens FATEC necessárias às questões'
+            git push origin HEAD:main
+          fi
