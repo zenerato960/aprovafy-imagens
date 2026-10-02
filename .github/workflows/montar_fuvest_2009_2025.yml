@@ -1,0 +1,44 @@
+name: Montar pacote FUVEST 2009-2025
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/montar_fuvest_2009_2025.py'
+      - '.github/workflows/montar_fuvest_2009_2025.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  PYTHONUNBUFFERED: '1'
+
+jobs:
+  montar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install requests beautifulsoup4
+
+      - name: Baixar acervo oficial FUVEST 2009-2025
+        run: python scripts/montar_fuvest_2009_2025.py
+
+      - name: Mostrar tamanho final
+        run: du -sh fuvest_pacote && find fuvest_pacote -type f -name '*.pdf' | wc -l
+
+      - name: Publicar ZIP unico como artefato
+        uses: actions/upload-artifact@v4
+        with:
+          name: FUVEST_2009_2025
+          path: fuvest_pacote/
+          compression-level: 6
+          retention-days: 7
+          if-no-files-found: error
