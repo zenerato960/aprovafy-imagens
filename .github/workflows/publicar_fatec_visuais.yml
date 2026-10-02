@@ -1,0 +1,36 @@
+name: Publicar visuais FATEC
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/publicar_fatec_visuais.py'
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar dependencias
+        run: pip install pymupdf pillow requests
+      - name: Gerar imagens de contexto das questoes visuais
+        run: python scripts/publicar_fatec_visuais.py
+      - name: Publicar imagens
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add imagens/fatec
+          if git diff --cached --quiet; then
+            echo 'Nenhuma alteracao para publicar.'
+            exit 0
+          fi
+          git commit -m 'Publicar visuais FATEC 2009-2025'
+          git push origin HEAD:main
