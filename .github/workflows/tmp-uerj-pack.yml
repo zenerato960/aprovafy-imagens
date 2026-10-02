@@ -8,153 +8,148 @@ on:
 
 permissions:
   contents: read
+  actions: read
 
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - name: Build UERJ archive
+      - name: Finalize UERJ archive
         shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          set -u
-          mkdir -p work/packages work/final
-          cat > work/download.py <<'PY'
-          import os, re, shutil, urllib.request, urllib.parse, zipfile
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq p7zip-full >/dev/null
+          mkdir -p old final
+          gh run download 37044297673 --repo zenerato960/aprovafy-imagens --name UERJ_PROVAS_2009_2025 --dir old
+          unzip -q old/UERJ_PROVAS_2009_2025.zip -d final
+
+          cat > /tmp/complement.py <<'PY'
+          import os, re, ssl, shutil, urllib.request, urllib.parse
           from html.parser import HTMLParser
 
-          UA = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36'}
-          ROOT = 'work'
-          PKG = os.path.join(ROOT, 'packages')
-          FINAL = os.path.join(ROOT, 'final')
-          os.makedirs(PKG, exist_ok=True)
-          os.makedirs(FINAL, exist_ok=True)
-
-          downloads = [
-            ('2009','UERJ_2009_1EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/89f0fd5c927d466d6ec9a21b9ac34ffa'),
-            ('2009','UERJ_2009_2EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/f2fc990265c712c49d51a18a32b39f0c'),
-            ('2010','UERJ_2010_1EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/bc6dc48b743dc5d013b1abaebd2faed2'),
-            ('2010','UERJ_2010_2EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/5737c6ec2e0716f3d8a7a5c4e0de0d9a'),
-            ('2011','UERJ_2011_1EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/caf1a3dfb505ffed0d024130f58c5cfa'),
-            ('2011','UERJ_2011_2EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/320722549d1751cf3f247855f937b982'),
-            ('2012','UERJ_2012_1EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/8d3bba7425e7c98c50f52ca1b52d3735'),
-            ('2012','UERJ_2012_2EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/432aca3a1e345e339f35a30c8f65edce'),
-            ('2012','UERJ_2012_Discursivo.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/df877f3865752637daa540ea9cbc474f'),
-            ('2013','UERJ_2013_1EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/5b8add2a5d98b1a652ea7fd72d942dac'),
-            ('2013','UERJ_2013_2EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/3fe94a002317b5f9259f82690aeea4cd'),
-            ('2013','UERJ_2013_Discursivo.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/298f95e1bf9136124592c8d4825a06fc'),
-            ('2014','UERJ_2014_1EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/ad13a2a07ca4b7642959dc0c4c740ab6'),
-            ('2014','UERJ_2014_2EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/758874998f5bd0c393da094e1967a72b'),
-            ('2014','UERJ_2014_Discursivo.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/0fcbc61acd0479dc77e3cccc0f5ffca7'),
-            ('2015','UERJ_2015_1EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/158f3069a435b314a80bdcb024f8e422'),
-            ('2015','UERJ_2015_2EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/950a4152c2b4aa3ad78bdd6b366cc179'),
-            ('2015','UERJ_2015_Discursivo.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/d64a340bcb633f536d56e51874281454'),
-            ('2016','UERJ_2016_1EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/9dfcd5e558dfa04aaf37f137a1d9d3e5'),
-            ('2016','UERJ_2016_2EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/06eb61b839a0cefee4967c67ccb099dc'),
-            ('2016','UERJ_2016_Discursivo.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/37f0e884fbad9667e38940169d0a3c95'),
-            ('2017','UERJ_2017_1EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/eddea82ad2755b24c4e168c5fc2ebd40'),
-            ('2017','UERJ_2017_2EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/a8c88a0055f636e4a163a5e3d16adab7'),
-            ('2017','UERJ_2017_Discursivo.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/f4be00279ee2e0a53eafdaa94a151e2c'),
-            ('2018','UERJ_2018_1EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/8e98d81f8217304975ccb23337bb5761'),
-            ('2018','UERJ_2018_2EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/b2eb7349035754953b57a32e2841bda5'),
-            ('2018','UERJ_2018_Discursivo.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/13f320e7b5ead1024ac95c3b208610db'),
-            ('2019','UERJ_2019_1EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/496e05e1aea0a9c4655800e8a7b9ea28'),
-            ('2019','UERJ_2019_2EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/37bc2f75bf1bcfe8450a1a41c200364c'),
-            ('2019','UERJ_2019_Discursivo.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/85422afb467e9456013a2a51d4dff702'),
-            ('2020','UERJ_2020_1EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/11b9842e0a271ff252c1903e7132cd68'),
-            ('2020','UERJ_2020_2EQ.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/577bcc914f9e55d5e4e4f82f9f00e7d4'),
-            ('2020','UERJ_2020_Discursivo.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/69421f032498c97020180038fddb8e24'),
-            ('2021','UERJ_2021.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/e44fea3bec53bcea3b7513ccef5857ac'),
-            ('2022','UERJ_2022.zip','https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/821fa74b50ba3f7cba1e6c53e8fa6845'),
-            ('2023','UERJ_2023.zip','https://vestibular.brasilescola.uol.com.br/baixar/47567'),
-            ('2024','UERJ_2024.zip','https://vestibular.brasilescola.uol.com.br/baixar/47594'),
-            ('2025','UERJ_2025.zip','https://vestibular.brasilescola.uol.com.br/baixar/47659'),
-          ]
-
-          def download(url, path):
-              req = urllib.request.Request(url, headers=UA)
-              with urllib.request.urlopen(req, timeout=90) as r, open(path, 'wb') as f:
-                  shutil.copyfileobj(r, f)
-              return os.path.getsize(path)
-
+          UA={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36'}
+          CTX=ssl._create_unverified_context()
           log=[]
-          for year,name,url in downloads:
-              ydir=os.path.join(FINAL, year)
-              os.makedirs(ydir, exist_ok=True)
-              path=os.path.join(PKG,name)
-              try:
-                  size=download(url,path)
-                  if size < 1000:
-                      raise RuntimeError(f'arquivo muito pequeno ({size})')
-                  if zipfile.is_zipfile(path):
-                      with zipfile.ZipFile(path) as z:
-                          z.extractall(os.path.join(ydir, name[:-4]))
-                      log.append(f'OK ZIP {name} {size}')
-                  else:
-                      # alguns pacotes podem ser RAR; preserva o binário para não perder conteúdo
-                      shutil.copy2(path, os.path.join(ydir,name))
-                      log.append(f'OK BIN {name} {size}')
-              except Exception as e:
-                  log.append(f'FALHA {name}: {e}')
 
-          class Links(HTMLParser):
+          class Parser(HTMLParser):
               def __init__(self):
                   super().__init__(); self.links=[]
               def handle_starttag(self, tag, attrs):
                   if tag.lower()=='a':
-                      d=dict(attrs); h=d.get('href')
+                      h=dict(attrs).get('href')
                       if h: self.links.append(h)
 
-          # Complementa 2009-2011 diretamente do acervo oficial da UERJ,
-          # especialmente os exames discursivos não presentes nos ZIPs do EducaBras.
-          for year in (2009,2010,2011):
-              pages=[
-                  f'https://sistema.vestibular.uerj.br/portal_vestibular_uerj/{year}/exame_discursivo/ed_provas_e_padroes_de_respostas.php',
-                  f'https://sistema.vestibular.uerj.br/portal_vestibular_uerj/{year}/exame_de_qualificacao/eq_prova_e_gabarito.php',
-              ]
-              odir=os.path.join(FINAL,str(year),'oficial_uerj')
-              os.makedirs(odir, exist_ok=True)
-              for page in pages:
-                  try:
-                      req=urllib.request.Request(page,headers=UA)
-                      html=urllib.request.urlopen(req,timeout=60).read().decode('latin-1','ignore')
-                      p=Links(); p.feed(html)
-                      seen=set()
-                      for href in p.links:
-                          u=urllib.parse.urljoin(page,href)
-                          if '.pdf' not in u.lower(): continue
-                          u=u.split('#')[0]
-                          if u in seen: continue
-                          seen.add(u)
-                          base=os.path.basename(urllib.parse.urlparse(u).path) or 'arquivo.pdf'
-                          base=re.sub(r'[^A-Za-z0-9._-]+','_',base)
-                          dest=os.path.join(odir,base)
-                          if os.path.exists(dest): continue
-                          try:
-                              size=download(u,dest)
-                              if size<1000: os.remove(dest)
-                              else: log.append(f'OK OFICIAL {year} {base} {size}')
-                          except Exception as e:
-                              log.append(f'FALHA OFICIAL {year} {u}: {e}')
-                  except Exception as e:
-                      log.append(f'FALHA PAGINA {page}: {e}')
+          def get(url, binary=False):
+              req=urllib.request.Request(url,headers=UA)
+              with urllib.request.urlopen(req,timeout=60,context=CTX) as r:
+                  return r.read()
 
-          readme = '''UERJ PROVAS 2009-2025\n\nPacote reunido automaticamente a partir de:\n- EducaBras (pacotes UERJ 2009-2022)\n- Brasil Escola (pacotes UERJ 2023-2025)\n- Acervo oficial do Vestibular UERJ (complemento 2009-2011)\n\nA estrutura preserva arquivos de prova e gabarito/padroes de resposta conforme disponibilizados pelas fontes.\n'''
-          open(os.path.join(FINAL,'LEIA-ME.txt'),'w',encoding='utf-8').write(readme)
-          open(os.path.join(FINAL,'download_log.txt'),'w',encoding='utf-8').write('\n'.join(log))
+          def save(url,dest):
+              data=get(url,True)
+              if len(data)<1000: raise RuntimeError(f'arquivo pequeno: {len(data)}')
+              os.makedirs(os.path.dirname(dest),exist_ok=True)
+              with open(dest,'wb') as f:f.write(data)
+              return len(data)
+
+          # O acervo antigo da UERJ usa certificado expirado. A coleta abaixo
+          # desativa a validação TLS apenas para recuperar os PDFs públicos antigos.
+          for year in (2009,2010,2011):
+              base=f'https://sistema.vestibular.uerj.br/portal_vestibular_uerj/{year}/exame_discursivo/'
+              seeds=[
+                  urllib.parse.urljoin(base,'ed_resultados.php'),
+                  urllib.parse.urljoin(base,'ed_provas_e_padroes_de_respostas.php'),
+                  urllib.parse.urljoin(base,'ed_provas_e_padroes_respostas.php'),
+              ]
+              queue=list(seeds); seen=set(); pdfs=set()
+              while queue and len(seen)<15:
+                  page=queue.pop(0)
+                  if page in seen: continue
+                  seen.add(page)
+                  try:
+                      raw=get(page)
+                      html=raw.decode('latin-1','ignore')
+                  except Exception as e:
+                      log.append(f'FALHA PAGINA {year} {page}: {e}')
+                      continue
+                  p=Parser(); p.feed(html)
+                  for href in p.links:
+                      u=urllib.parse.urljoin(page,href).split('#')[0]
+                      low=u.lower()
+                      if '.pdf' in low:
+                          pdfs.add(u)
+                      elif f'/portal_vestibular_uerj/{year}/exame_discursivo/' in low and any(k in low for k in ('prova','padro','resposta')):
+                          if u not in seen: queue.append(u)
+              odir=os.path.join('final',str(year),'oficial_uerj_discursivo')
+              os.makedirs(odir,exist_ok=True)
+              for i,u in enumerate(sorted(pdfs),1):
+                  name=os.path.basename(urllib.parse.urlparse(u).path) or f'arquivo_{i:02d}.pdf'
+                  name=re.sub(r'[^A-Za-z0-9._-]+','_',name)
+                  dest=os.path.join(odir,name)
+                  if os.path.exists(dest): continue
+                  try:
+                      n=save(u,dest)
+                      log.append(f'OK OFICIAL {year} {name} {n}')
+                  except Exception as e:
+                      log.append(f'FALHA PDF {year} {u}: {e}')
+
+          with open('final/complemento_log.txt','w',encoding='utf-8') as f:
+              f.write('\n'.join(log))
           PY
-          python work/download.py
-          cd work/final
-          zip -r -9 ../UERJ_PROVAS_2009_2025.zip .
-          cd ../..
-          test -s work/UERJ_PROVAS_2009_2025.zip
-          unzip -t work/UERJ_PROVAS_2009_2025.zip >/dev/null
-          ls -lh work/UERJ_PROVAS_2009_2025.zip
+          python /tmp/complement.py
+
+          # Extrai arquivos compactados que vieram dentro de outros pacotes (caso de 2024).
+          # Mantém também os arquivos originais, para rastreabilidade.
+          python - <<'PY'
+          import os, zipfile
+          roots=[]
+          for root,dirs,files in os.walk('final'):
+              for fn in files:
+                  if fn.lower().endswith('.zip'):
+                      roots.append(os.path.join(root,fn))
+          for p in roots:
+              out=p[:-4]+'_extraido'
+              try:
+                  os.makedirs(out,exist_ok=True)
+                  with zipfile.ZipFile(p) as z:z.extractall(out)
+              except Exception as e:
+                  print('nested zip fail',p,e)
+          PY
+          while IFS= read -r -d '' f; do
+            out="${f%.*}_extraido"
+            mkdir -p "$out"
+            7z x -y "-o$out" "$f" >/dev/null || true
+          done < <(find final -type f -iname '*.rar' -print0)
+
+          # Manifesto de cobertura por ano.
+          {
+            echo 'UERJ PROVAS 2009-2025'
+            echo
+            echo 'Fontes: EducaBras, Brasil Escola e acervo oficial do Vestibular UERJ.'
+            echo 'Arquivos compactados internos foram também extraídos quando tecnicamente possível.'
+            echo
+            echo 'PDFs por ano:'
+            for y in $(seq 2009 2025); do
+              n=$(find "final/$y" -type f -iname '*.pdf' 2>/dev/null | wc -l)
+              echo "$y: $n"
+            done
+          } > final/LEIA-ME.txt
+
+          rm -f UERJ_PROVAS_2009_2025.zip
+          (cd final && zip -r -9 ../UERJ_PROVAS_2009_2025.zip . >/dev/null)
+          test -s UERJ_PROVAS_2009_2025.zip
+          unzip -t UERJ_PROVAS_2009_2025.zip >/dev/null
+          sha256sum UERJ_PROVAS_2009_2025.zip
+          ls -lh UERJ_PROVAS_2009_2025.zip
+          cat final/LEIA-ME.txt
 
       - name: Upload UERJ archive
         uses: actions/upload-artifact@v4
         with:
-          name: UERJ_PROVAS_2009_2025
-          path: work/UERJ_PROVAS_2009_2025.zip
+          name: UERJ_PROVAS_2009_2025_FINAL
+          path: UERJ_PROVAS_2009_2025.zip
           compression-level: 0
           retention-days: 3
