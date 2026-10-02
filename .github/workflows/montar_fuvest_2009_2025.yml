@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'scripts/montar_fuvest_2009_2025.py'
+      - 'scripts/montar_fuvest_2009_2025_v2.py'
       - '.github/workflows/montar_fuvest_2009_2025.yml'
   workflow_dispatch:
 
@@ -29,7 +29,7 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Baixar acervo oficial FUVEST 2009-2025
-        run: python scripts/montar_fuvest_2009_2025.py
+        run: python scripts/montar_fuvest_2009_2025_v2.py
 
       - name: Mostrar tamanho final
         run: du -sh fuvest_pacote && find fuvest_pacote -type f -name '*.pdf' | wc -l
