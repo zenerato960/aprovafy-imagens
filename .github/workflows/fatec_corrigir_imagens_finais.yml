@@ -45,5 +45,6 @@ jobs:
             echo 'Sem mudanças'
           else
             git commit -m 'Corrigir imagens finais FATEC'
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
