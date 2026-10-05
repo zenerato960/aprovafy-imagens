@@ -29,5 +29,6 @@ jobs:
             echo 'Nenhuma imagem nova.'
           else
             git commit -m 'Adicionar imagens PUC-Rio 2009-2025 [skip ci]'
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
