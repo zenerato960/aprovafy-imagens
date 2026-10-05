@@ -1,0 +1,38 @@
+name: Recortar visuais FATEC
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/recortar_fatec_visuais.py'
+      - '.github/workflows/recortar_fatec_visuais.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  recortar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar dependências
+        run: pip install pymupdf pillow requests opencv-python-headless
+      - name: Gerar recortes precisos
+        run: python scripts/recortar_fatec_visuais.py
+      - name: Publicar recortes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add imagens/fatec
+          if git diff --cached --quiet; then
+            echo 'Nenhuma alteração para publicar.'
+            exit 0
+          fi
+          git commit -m 'Recortar imagens FATEC sem página inteira'
+          git pull --rebase origin main
+          git push origin HEAD:main
