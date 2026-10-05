@@ -1,0 +1,39 @@
+name: Recortes de exceções FATEC
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fatec_recortes_excecoes.py'
+      - '.github/workflows/fatec_recortes_excecoes.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  recortar-excecoes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar dependencias
+        run: pip install pymupdf requests
+      - name: Gerar recortes revisados
+        run: python scripts/fatec_recortes_excecoes.py
+      - name: Publicar recortes revisados
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add imagens/fatec
+          if git diff --cached --quiet; then
+            echo 'Nenhuma alteração.'
+          else
+            git commit -m 'Publicar recortes revisados das exceções FATEC'
+            git pull --rebase origin main
+            git push origin main
+          fi
