@@ -1,0 +1,39 @@
+name: Restaurar recortes manuais FATEC
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/restaurar_fatec_recortes_manuais.py'
+      - '.github/workflows/restaurar_fatec_recortes_manuais.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  restaurar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar dependencias
+        run: pip install pymupdf requests
+      - name: Restaurar recortes manuais compartilhados
+        run: python scripts/restaurar_fatec_recortes_manuais.py
+      - name: Publicar recortes manuais
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add imagens/fatec
+          if git diff --cached --quiet; then
+            echo 'Nenhuma alteracao para publicar.'
+          else
+            git commit -m 'Restaurar recortes manuais compartilhados FATEC'
+            git pull --rebase origin main
+            git push origin main
+          fi
