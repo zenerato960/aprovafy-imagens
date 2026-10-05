@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/recortar_fatec_visuais.py'
+      - 'scripts/recortar_fatec_visuais_v2.py'
       - '.github/workflows/recortar_fatec_visuais.yml'
 
 permissions:
@@ -21,7 +22,7 @@ jobs:
       - name: Instalar dependências
         run: pip install pymupdf pillow requests opencv-python-headless
       - name: Gerar recortes precisos
-        run: python scripts/recortar_fatec_visuais.py
+        run: python scripts/recortar_fatec_visuais_v2.py
       - name: Publicar recortes
         shell: bash
         run: |
