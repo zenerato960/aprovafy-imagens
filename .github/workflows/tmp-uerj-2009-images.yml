@@ -1,0 +1,55 @@
+name: Temporary UERJ 2009 images
+
+on:
+  push:
+    branches:
+      - tmp-uerj-extracao-2009
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Extract and publish UERJ 2009 visuals
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --quiet pymupdf
+          mkdir -p /tmp/uerj2009
+          curl -L --fail --retry 3 -A 'Mozilla/5.0' 'https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/89f0fd5c927d466d6ec9a21b9ac34ffa' -o /tmp/uerj2009/pkg.zip
+          unzip -q /tmp/uerj2009/pkg.zip -d /tmp/uerj2009/pkg
+          PDF=$(find /tmp/uerj2009/pkg -type f -iname '*Portugu*pdf' | head -n1)
+          export PDF
+          mkdir -p imagens/uerj/2009
+          python - <<'PY'
+          import fitz, os, shutil
+          pdf=os.environ['PDF']
+          doc=fitz.open(pdf)
+          page=doc[7]
+          imgs=page.get_images(full=True)
+          if not imgs:
+              raise SystemExit('Imagem do cartum não encontrada')
+          # maior imagem da página 8 = cartum usado nas questões 14 e 15
+          best=max(imgs, key=lambda x:x[2]*x[3])
+          data=doc.extract_image(best[0])
+          ext=data['ext'].lower()
+          src=f'/tmp/cartum.{ext}'
+          open(src,'wb').write(data['image'])
+          pix=fitz.Pixmap(src)
+          # normaliza como PNG real
+          pix.save('imagens/uerj/2009/questao_014.png')
+          shutil.copy2('imagens/uerj/2009/questao_014.png','imagens/uerj/2009/questao_015.png')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add imagens/uerj/2009/questao_014.png imagens/uerj/2009/questao_015.png
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Adicionar imagens UERJ 2009 questões 14 e 15'
+          git push origin main
