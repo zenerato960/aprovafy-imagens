@@ -1,0 +1,35 @@
+name: Resumo sem visual FATEC
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fatec_resumo_sem_visual.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  resumo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gerar lista compacta
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('auditorias/fatec_recortes_manifest.json')
+          data=json.loads(p.read_text(encoding='utf-8'))
+          rows=[f"{x['edicao']}:{x['questao']}:{x['path']}" for x in data if x['status']=='sem_visual_real']
+          Path('auditorias/fatec_sem_visual.txt').write_text('\n'.join(rows)+'\n',encoding='utf-8')
+          print('total',len(rows))
+          PY
+      - name: Publicar resumo
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add auditorias/fatec_sem_visual.txt
+          git commit -m 'Registrar candidatos FATEC sem visual real'
+          git pull --rebase origin main
+          git push origin main
