@@ -1,0 +1,39 @@
+name: Recortar elementos visuais FATEC
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/recortar_fatec_elementos.py'
+      - '.github/workflows/recortar_fatec_elementos.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  recortar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar dependencias
+        run: pip install pymupdf requests numpy opencv-python-headless
+      - name: Recortar somente os elementos visuais
+        run: python scripts/recortar_fatec_elementos.py
+      - name: Publicar recortes e auditoria
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add imagens/fatec auditorias/fatec_recortes_manifest.json
+          if git diff --cached --quiet; then
+            echo 'Nenhuma alteracao para publicar.'
+          else
+            git commit -m 'Recortar elementos visuais FATEC sem pagina inteira'
+            git pull --rebase origin main
+            git push origin main
+          fi
