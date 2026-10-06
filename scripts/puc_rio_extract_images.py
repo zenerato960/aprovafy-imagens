@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from pathlib import Path
-import urllib.request, zipfile, re, hashlib, shutil, sys
+import urllib.request, zipfile, re, hashlib, shutil, sys, json
 import fitz
 
 SOURCES = {
@@ -17,7 +17,7 @@ SOURCES = {
 '2018':'https://www.puc-rio.br/vestibular/repositorio/provas/2018/download/VEST2018PUCRio_PROVAS_GABARITOS_V7.zip',
 '2017-inverno':'https://www.puc-rio.br/vestibular/repositorio/provas/2017-2/download/VestibularPUC-RioINVERNO2017-2_provas_gabaritos.zip',
 '2017':'https://www.puc-rio.br/vestibular/repositorio/provas/2017/download/VEST2017PUCRio_PROVAS_GABARITOS_v4.zip',
-'2016-inverno':'https://www.puc-rio.br/vestibular/repositorio/provas/2016-2/download/VEST2016-2PUCRio-PROVAS_GABARITOS.zip',
+'2016-inverno':'https://www.puc-rio.br/vestibular/repositorio/provas/2016-2/download/VEST2016-2PUCRio_PROVAS_GABARITOS.zip',
 '2016':'https://www.puc-rio.br/vestibular/repositorio/provas/2016/download/VEST2016PUCRio_PROVAS_GABARITOS_V4.zip',
 '2015-inverno':'https://www.puc-rio.br/vestibular/repositorio/provas/2015-2/download/VestiblularPUC-RioINVERNO2015-2_provas_gabaritos.zip',
 '2015':'https://www.puc-rio.br/vestibular/repositorio/provas/2015/download/VEST2015PUCRio_PROVAS_GABARITOS_V3.zip',
@@ -72,31 +72,35 @@ def crop_for(pg,reg):
             if inter.is_empty or inter.get_area()<250: continue
             if r.get_area()>pg.rect.get_area()*0.55: continue
             rs.append(inter)
-    if not rs:
-        ds=[]
-        for d in pg.get_drawings():
-            r=fitz.Rect(d['rect']); inter=r & reg
-            if inter.is_empty or inter.width<4 or inter.height<4 or inter.get_area()<30: continue
-            if inter.get_area()>reg.get_area()*0.85: continue
-            ds.append(inter)
-        if ds:
-            ds=sorted(ds,key=lambda r:r.y0); clusters=[]
-            for r in ds:
-                if not clusters or r.y0-clusters[-1][-1].y1>30: clusters.append([r])
-                else: clusters[-1].append(r)
-            unions=[]
-            for cl in clusters:
-                u=cl[0]
-                for r in cl[1:]: u|=r
-                if u.width>25 and u.height>25: unions.append(u)
-            if unions: rs=[max(unions,key=lambda r:r.get_area())]
-    if not rs: return None
-    u=rs[0]
-    for r in rs[1:]: u|=r
-    return fitz.Rect(max(reg.x0,u.x0-10),max(reg.y0,u.y0-10),min(reg.x1,u.x1+10),min(reg.y1,u.y1+10))
+    if rs:
+        u=rs[0]
+        for r in rs[1:]: u|=r
+        return fitz.Rect(max(reg.x0,u.x0-10),max(reg.y0,u.y0-10),min(reg.x1,u.x1+10),min(reg.y1,u.y1+10)), 'raster'
+    ds=[]
+    for d in pg.get_drawings():
+        r=fitz.Rect(d['rect']); inter=r & reg
+        if inter.is_empty or inter.width<4 or inter.height<4 or inter.get_area()<30: continue
+        if inter.get_area()>reg.get_area()*0.85: continue
+        ds.append(inter)
+    if ds:
+        ds=sorted(ds,key=lambda r:r.y0); clusters=[]
+        for r in ds:
+            if not clusters or r.y0-clusters[-1][-1].y1>30: clusters.append([r])
+            else: clusters[-1].append(r)
+        unions=[]
+        for cl in clusters:
+            u=cl[0]
+            for r in cl[1:]: u|=r
+            if u.width>25 and u.height>25: unions.append(u)
+        if unions:
+            u=max(unions,key=lambda r:r.get_area())
+            return fitz.Rect(max(reg.x0,u.x0-14),max(reg.y0,u.y0-14),min(reg.x1,u.x1+14),min(reg.y1,u.y1+14)), 'vector'
+    # Fallback conservador: recorte apenas da região da questão, nunca da página inteira.
+    # Garante imagem funcional quando o PDF codifica o desenho como glifos/texto ou máscara.
+    return fitz.Rect(reg.x0,reg.y0,reg.x1,reg.y1), 'question-region'
 
 def question_texts(pg):
-    ms=markers(pg); mid=pg.rect.width/2; out=[]
+    ms=markers(pg); out=[]
     blocks=[(fitz.Rect(b[:4]),b[4]) for b in pg.get_text('blocks',sort=False) if b[4].strip()]
     for num,b in ms:
         reg=qregion(pg,num)
@@ -108,6 +112,7 @@ def question_texts(pg):
 def main():
     tmp=Path('/tmp/puc-rio-src'); tmp.mkdir(parents=True,exist_ok=True)
     outroot=Path('imagens/puc-rio'); outroot.mkdir(parents=True,exist_ok=True)
+    manifest=[]
     total=0
     for edition,url in SOURCES.items():
         z=tmp/f'{edition}.zip'; dest=tmp/edition
@@ -124,14 +129,23 @@ def main():
             for pi,pg in enumerate(d):
                 for num,txt,reg in question_texts(pg):
                     if not VPAT.search(txt): continue
-                    cr=crop_for(pg,reg)
+                    cr,kind=crop_for(pg,reg)
                     if not cr or cr.width<25 or cr.height<25: continue
                     folder=outroot/edition/sh; folder.mkdir(parents=True,exist_ok=True)
                     fn=folder/f'questao_{num:03d}_pagina_{pi+1:02d}.png'
                     pg.get_pixmap(matrix=fitz.Matrix(2,2),clip=cr,alpha=False).save(fn)
+                    manifest.append({
+                        'edition':edition,'source':rel,'hashdir':sh,'question':num,'page':pi+1,
+                        'path':fn.as_posix(),'crop_kind':kind,'text':txt.strip()[:6000]
+                    })
                     total+=1
+            d.close()
         shutil.rmtree(dest,ignore_errors=True)
         try:z.unlink()
         except:pass
-    print('TOTAL_IMAGES',total)
+    mdir=outroot/'_manifests'; mdir.mkdir(parents=True,exist_ok=True)
+    with open(mdir/'visual_manifest.json','w',encoding='utf-8') as f:
+        json.dump(manifest,f,ensure_ascii=False,indent=2)
+    print('TOTAL_IMAGES',total,'MANIFEST',len(manifest))
+
 if __name__=='__main__': main()
