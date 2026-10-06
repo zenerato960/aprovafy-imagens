@@ -1,0 +1,40 @@
+name: Baixar resolucoes FUVEST todas 1fase
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp_fuvest_all_1fase.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar PDFs auxiliares
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          for y in $(seq 2009 2025); do
+            ok=0
+            for host in www.curso-objetivo.br www2.curso-objetivo.br; do
+              for fn in fuvest${y}.pdf fuvest${y}_1fase.pdf FUVEST${y}.pdf; do
+                u="https://${host}/vestibular/resolucao-comentada/fuvest/${y}_1fase/${fn}"
+                echo "$u"
+                if curl -kfL --retry 1 --connect-timeout 10 --max-time 120 -o out/tmp.pdf "$u"; then
+                  if head -c 4 out/tmp.pdf | grep -q '%PDF'; then mv out/tmp.pdf "out/fuvest${y}.pdf"; ok=1; break 2; fi
+                fi
+              done
+            done
+            rm -f out/tmp.pdf
+            echo "${y}=${ok}"
+          done
+          ls -lh out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fuvest_all_1fase_aux
+          path: out/*.pdf
+          if-no-files-found: error
+          retention-days: 1
