@@ -51,7 +51,10 @@ with tempfile.TemporaryDirectory() as td:
         edir = td / edition
         edir.mkdir()
         print("download", edition, url)
-        subprocess.run(["curl","-L","--fail","--retry","3","--connect-timeout","30","--max-time","300","-o",str(zpath),url],check=True)
+        proc = subprocess.run(["curl","-L","--fail","--retry","3","--connect-timeout","30","--max-time","300","-o",str(zpath),url],check=False)
+        if proc.returncode != 0:
+            print("SKIP_DOWNLOAD_FAILED", edition, url)
+            continue
         with zipfile.ZipFile(zpath) as z:
             z.extractall(edir)
         all_files = [p for p in edir.rglob("*") if p.is_file()]
