@@ -1,0 +1,25 @@
+name: Exportar imagens FATEC para auditoria
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/export_fatec_images_audit.yml'
+permissions:
+  contents: read
+jobs:
+  exportar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Preparar pacote
+        run: |
+          set -euo pipefail
+          mkdir -p audit_export
+          cp -R imagens/fatec audit_export/fatec
+          find audit_export/fatec -type f -name '*.png' | sort > audit_export/arquivos.txt
+          echo "total=$(find audit_export/fatec -type f -name '*.png' | wc -l)" > audit_export/resumo.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fatec-imagens-auditoria
+          path: audit_export
+          retention-days: 7
