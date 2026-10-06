@@ -32,3 +32,5 @@ for si in range(math.ceil(len(paths)/per)):
     out = OUT / f"sheet_{si+1:02d}.jpg"
     sheet.save(out, quality=88, optimize=True)
 print("imagens", len(paths), "sheets", math.ceil(len(paths)/per))
+
+# trigger audit
