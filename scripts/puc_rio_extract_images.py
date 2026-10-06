@@ -35,7 +35,7 @@ SOURCES = {
 '2009':'https://www.puc-rio.br/vestibular/repositorio/provas/2009/download/VEST2009PUCRio_PROVAS_GABARITOS.zip',
 }
 VPAT=re.compile(r'(?i)\b(figura|gr[aá]fico|mapa|imagem|charge|tabela|esquema|diagrama|fotografia|tirinha|quadrinho|circuito|estrutura|representa(?:do|da)|mostra(?:do|da)|ilustra(?:do|da))\b')
-QRE=re.compile(r'(?is)^\s*(?:quest(?:ão|ao)\s*)?(\d{1,2})(?:\s*\([^\n]{0,50}\))?\s*(?:\n|(?=[A-ZÁÉÍÓÚÂÊÔÃÕ]))')
+QRE=re.compile(r'(?is)^\\s*(?:quest(?:ão|ao)\\s*(?:n[oº°]?\\s*)?)?(\\d{1,2})(?:\\s*\\([^\\n]{0,50}\\))?\\s*(?:\\n|(?=[A-ZÁÉÍÓÚÂÊÔÃÕ])|$)')
 
 def download(url,dst):
     req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
