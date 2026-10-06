@@ -159,3 +159,5 @@ for si in range((len(comparisons)+per-1)//per):
 Path("auditorias/fatec_clip_fixes.json").write_text(json.dumps(changes,ensure_ascii=False,indent=2),encoding="utf-8")
 print("ALTERADAS",len(changes))
 for c in changes: print(c["edicao"],c["questao"],c["reason"],c["old_rect"],"=>",c["new_rect"])
+
+# trigger clipping audit
