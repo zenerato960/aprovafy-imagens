@@ -37,3 +37,5 @@ for ed,q in targets:
     pix=page.get_pixmap(matrix=fitz.Matrix(1.55,1.55),alpha=False)
     fn=out/f'{ed}_q{q:03d}_p{pi+1:02d}.png'; pix.save(fn)
     print(ed,q,pi+1,fn)
+
+# trigger audit suspects
