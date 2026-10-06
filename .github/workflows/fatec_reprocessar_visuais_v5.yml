@@ -1,0 +1,30 @@
+name: Reprocessar visuais FATEC v5
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fatec_reprocessar_visuais_v5.py'
+
+permissions:
+  contents: write
+
+jobs:
+  recortar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pymupdf pillow requests
+      - name: Reprocessar visuais
+        run: python scripts/fatec_reprocessar_visuais_v5.py
+      - name: Publicar
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add imagens/fatec auditorias/fatec_recortes_v5.json
+          git commit -m 'Corrigir recortes FATEC por objetos gráficos do PDF' || exit 0
+          git pull --rebase origin main
+          git push origin main
