@@ -1,0 +1,36 @@
+name: Auditar suspeitos FATEC
+on:
+  push:
+    branches: [main]
+    paths: ['scripts/fatec_auditar_suspeitos.py']
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pymupdf pillow requests
+      - name: Restaurar correções que capturaram questão vizinha
+        run: |
+          git checkout 7b863d6a38b764675a702995f548812ad532d0c6 -- \
+            imagens/fatec/2015/1sem/questao_033.png \
+            imagens/fatec/2017/1sem/questao_022.png \
+            imagens/fatec/2020/1sem/questao_003.png \
+            imagens/fatec/2022/2sem/questao_016.png \
+            imagens/fatec/2023/2sem/questao_054.png
+      - name: Renderizar páginas suspeitas
+        run: python scripts/fatec_auditar_suspeitos.py
+      - name: Publicar revisão
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add imagens/fatec auditorias/fatec_suspeitos_paginas
+          git commit -m 'Reverter falsos recortes e renderizar suspeitos FATEC' || exit 0
+          git pull --rebase origin main
+          git push origin main
