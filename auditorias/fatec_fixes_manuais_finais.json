@@ -19,13 +19,13 @@
     "path": "imagens/fatec/2015/2sem/questao_039.png",
     "pagina": 14,
     "rect": [
-      392,
-      290,
-      565,
-      425
+      396,
+      295,
+      562,
+      422
     ],
-    "width": 519,
-    "height": 405
+    "width": 498,
+    "height": 381
   },
   {
     "edicao": "2016_2",
@@ -47,13 +47,13 @@
     "path": "imagens/fatec/2017/1sem/questao_022.png",
     "pagina": 10,
     "rect": [
-      96,
-      535,
-      255,
-      582
+      62,
+      285,
+      282,
+      324
     ],
-    "width": 477,
-    "height": 141
+    "width": 660,
+    "height": 117
   },
   {
     "edicao": "2020_1",
@@ -61,13 +61,13 @@
     "path": "imagens/fatec/2020/1sem/questao_003.png",
     "pagina": 3,
     "rect": [
-      34,
-      482,
-      300,
-      720
+      38,
+      486,
+      292,
+      715
     ],
-    "width": 798,
-    "height": 714
+    "width": 762,
+    "height": 687
   },
   {
     "edicao": "2020_1",
@@ -89,13 +89,13 @@
     "path": "imagens/fatec/2022/2sem/questao_016.png",
     "pagina": 7,
     "rect": [
-      27,
-      394,
-      342,
-      711
+      38,
+      404,
+      330,
+      696
     ],
-    "width": 945,
-    "height": 951
+    "width": 876,
+    "height": 876
   },
   {
     "edicao": "2022_2",
@@ -103,13 +103,13 @@
     "path": "imagens/fatec/2022/2sem/questao_017.png",
     "pagina": 7,
     "rect": [
-      27,
-      394,
-      342,
-      711
+      38,
+      404,
+      330,
+      696
     ],
-    "width": 945,
-    "height": 951
+    "width": 876,
+    "height": 876
   },
   {
     "edicao": "2023_1",
@@ -117,13 +117,13 @@
     "path": "imagens/fatec/2023/1sem/questao_038.png",
     "pagina": 16,
     "rect": [
-      383,
-      373,
-      564,
-      507
+      386,
+      377,
+      561,
+      503
     ],
-    "width": 543,
-    "height": 402
+    "width": 525,
+    "height": 378
   },
   {
     "edicao": "2023_1",
@@ -145,13 +145,13 @@
     "path": "imagens/fatec/2024/1sem/questao_007.png",
     "pagina": 4,
     "rect": [
-      34,
-      215,
-      547,
+      35,
+      200,
+      546,
       398
     ],
-    "width": 1539,
-    "height": 549
+    "width": 1533,
+    "height": 594
   },
   {
     "edicao": "2024_2",
