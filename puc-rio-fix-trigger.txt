@@ -1,1 +1,1 @@
-rerun 2026-10-06 checksum-fixed
+rerun 2026-10-06 skip-unavailable
