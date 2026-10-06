@@ -1,0 +1,53 @@
+name: Baixar fontes auxiliares FUVEST correcoes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp_fuvest_fontes_aux.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar PDFs auxiliares
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          trydl() {
+            out="$1"; shift
+            for u in "$@"; do
+              echo "Tentando $u"
+              if curl -kfL --retry 2 --connect-timeout 20 --max-time 180 -o "$out" "$u"; then
+                if head -c 4 "$out" | grep -q '%PDF'; then
+                  echo "OK $out"
+                  return 0
+                fi
+              fi
+            done
+            rm -f "$out"
+            echo "FALHOU $out"
+            return 0
+          }
+
+          trydl out/fuvest2012_1fase_objetivo.pdf             https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2012_1fase/fuvest2012_1fase.pdf             https://www2.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2012_1fase/fuvest2012_1fase.pdf
+          trydl out/fuvest2013_1fase_objetivo.pdf             https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2013_1fase/fuvest2013_1fase.pdf             https://www2.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2013_1fase/fuvest2013_1fase.pdf
+          trydl out/fuvest2014_1fase_objetivo.pdf             https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2014_1fase/fuvest2014_1fase.pdf             https://www2.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2014_1fase/fuvest2014_1fase.pdf
+          trydl out/fuvest2015_1fase_objetivo.pdf             https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2015_1fase/fuvest2015_1fase.pdf             https://www2.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2015_1fase/fuvest2015_1fase.pdf
+          trydl out/fuvest2018_1fase_objetivo.pdf             https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2018_1fase/fuvest2018_1fase.pdf             https://www2.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2018_1fase/fuvest2018_1fase.pdf
+          trydl out/fuvest2021_1fase_objetivo.pdf             https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2021_1fase/fuvest2021_1fase.pdf             https://www2.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2021_1fase/fuvest2021_1fase.pdf
+          trydl out/fuvest2022_2fase_1dia_objetivo.pdf             https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2022_2fase/1dia/fuvest2022_2fase_1dia.pdf
+          trydl out/fuvest2022_2fase_2dia_objetivo.pdf             https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2022_2fase/2dia/fuvest2022_2fase_2dia.pdf
+
+          ls -lh out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fuvest_fontes_aux_correcao
+          path: out/*.pdf
+          if-no-files-found: error
+          retention-days: 1
