@@ -1,0 +1,184 @@
+[
+  {
+    "edicao": "2015_2",
+    "questao": 8,
+    "path": "imagens/fatec/2015/2sem/questao_008.png",
+    "pagina": 4,
+    "rect": [
+      40,
+      250,
+      565,
+      498
+    ],
+    "width": 1575,
+    "height": 744
+  },
+  {
+    "edicao": "2015_2",
+    "questao": 39,
+    "path": "imagens/fatec/2015/2sem/questao_039.png",
+    "pagina": 14,
+    "rect": [
+      392,
+      290,
+      565,
+      425
+    ],
+    "width": 519,
+    "height": 405
+  },
+  {
+    "edicao": "2016_2",
+    "questao": 32,
+    "path": "imagens/fatec/2016/2sem/questao_032.png",
+    "pagina": 13,
+    "rect": [
+      96,
+      158,
+      490,
+      247
+    ],
+    "width": 1182,
+    "height": 267
+  },
+  {
+    "edicao": "2017_1",
+    "questao": 22,
+    "path": "imagens/fatec/2017/1sem/questao_022.png",
+    "pagina": 10,
+    "rect": [
+      96,
+      535,
+      255,
+      582
+    ],
+    "width": 477,
+    "height": 141
+  },
+  {
+    "edicao": "2020_1",
+    "questao": 3,
+    "path": "imagens/fatec/2020/1sem/questao_003.png",
+    "pagina": 3,
+    "rect": [
+      34,
+      482,
+      300,
+      720
+    ],
+    "width": 798,
+    "height": 714
+  },
+  {
+    "edicao": "2020_1",
+    "questao": 15,
+    "path": "imagens/fatec/2020/1sem/questao_015.png",
+    "pagina": 7,
+    "rect": [
+      296,
+      70,
+      565,
+      288
+    ],
+    "width": 807,
+    "height": 654
+  },
+  {
+    "edicao": "2022_2",
+    "questao": 16,
+    "path": "imagens/fatec/2022/2sem/questao_016.png",
+    "pagina": 7,
+    "rect": [
+      27,
+      394,
+      342,
+      711
+    ],
+    "width": 945,
+    "height": 951
+  },
+  {
+    "edicao": "2022_2",
+    "questao": 17,
+    "path": "imagens/fatec/2022/2sem/questao_017.png",
+    "pagina": 7,
+    "rect": [
+      27,
+      394,
+      342,
+      711
+    ],
+    "width": 945,
+    "height": 951
+  },
+  {
+    "edicao": "2023_1",
+    "questao": 38,
+    "path": "imagens/fatec/2023/1sem/questao_038.png",
+    "pagina": 16,
+    "rect": [
+      383,
+      373,
+      564,
+      507
+    ],
+    "width": 543,
+    "height": 402
+  },
+  {
+    "edicao": "2023_1",
+    "questao": 43,
+    "path": "imagens/fatec/2023/1sem/questao_043.png",
+    "pagina": 18,
+    "rect": [
+      355,
+      580,
+      556,
+      710
+    ],
+    "width": 603,
+    "height": 390
+  },
+  {
+    "edicao": "2024_1",
+    "questao": 7,
+    "path": "imagens/fatec/2024/1sem/questao_007.png",
+    "pagina": 4,
+    "rect": [
+      34,
+      215,
+      547,
+      398
+    ],
+    "width": 1539,
+    "height": 549
+  },
+  {
+    "edicao": "2024_2",
+    "questao": 15,
+    "path": "imagens/fatec/2024/2sem/questao_015.png",
+    "pagina": 7,
+    "rect": [
+      174,
+      267,
+      421,
+      483
+    ],
+    "width": 741,
+    "height": 648
+  },
+  {
+    "edicao": "2019_1",
+    "questao": 18,
+    "path": "imagens/fatec/2019/1sem/questao_018.png",
+    "pagina": 9,
+    "rect": [
+      36.49,
+      159.36,
+      551.29,
+      256.81
+    ],
+    "width": 1545,
+    "height": 293
+  }
+]
