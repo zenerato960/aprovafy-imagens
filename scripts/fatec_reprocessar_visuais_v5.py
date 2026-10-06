@@ -280,3 +280,5 @@ import json
 Path("auditorias").mkdir(exist_ok=True)
 Path("auditorias/fatec_recortes_v5.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
 print("TOTAL",len(report),"nao_recortado",sum(x["status"]!="recortado" for x in report))
+
+# trigger v5
