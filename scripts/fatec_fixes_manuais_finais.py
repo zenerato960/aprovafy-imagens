@@ -61,3 +61,5 @@ for s in FALSE_POSITIVES:
         print('REMOVE',s)
 
 Path('auditorias/fatec_fixes_manuais_finais.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+
+# trigger final manual fixes
