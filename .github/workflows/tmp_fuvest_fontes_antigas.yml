@@ -19,15 +19,27 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p out
-          curl -kfL --retry 2 -o out/fuvest2012.pdf https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2012_1fase/fuvest2012.pdf
-          curl -kfL --retry 2 -o out/fuvest2013.pdf https://www3.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2013_1fase/fuvest2013.pdf
-          curl -kfL --retry 2 -o out/fuvest2014.pdf https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2014_1fase/fuvest2014.pdf
-          curl -kfL --retry 2 -o out/fuvest2015.pdf https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2015_1fase/fuvest2015.pdf
-          curl -kfL --retry 2 -o out/fuvest2018.pdf https://www3.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2018_1fase/fuvest2018.pdf
-          for f in out/*.pdf; do head -c 4 "$f" | grep -q '%PDF' || { echo "nao pdf $f"; exit 1; }; done
+          trydl() {
+            out="$1"; shift
+            for u in "$@"; do
+              echo "Tentando $u"
+              if curl -kfL --retry 2 --connect-timeout 20 --max-time 180 -o "$out" "$u"; then
+                if head -c 4 "$out" | grep -q '%PDF'; then
+                  echo "OK $out"; return 0
+                fi
+              fi
+            done
+            rm -f "$out"; echo "FALHOU $out"; return 0
+          }
+          trydl out/fuvest2012.pdf             https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2012_1fase/fuvest2012.pdf             https://www2.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2012_1fase/fuvest2012.pdf
+          trydl out/fuvest2013.pdf             https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2013_1fase/fuvest2013.pdf             https://www2.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2013_1fase/fuvest2013.pdf
+          trydl out/fuvest2014.pdf             https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2014_1fase/fuvest2014.pdf             https://www2.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2014_1fase/fuvest2014.pdf
+          trydl out/fuvest2015.pdf             https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2015_1fase/fuvest2015.pdf             https://www2.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2015_1fase/fuvest2015.pdf
+          trydl out/fuvest2018.pdf             https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2018_1fase/fuvest2018.pdf             https://www2.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2018_1fase/fuvest2018.pdf
           ls -lh out
       - uses: actions/upload-artifact@v4
         with:
           name: fuvest_fontes_antigas
           path: out/*.pdf
+          if-no-files-found: error
           retention-days: 1
