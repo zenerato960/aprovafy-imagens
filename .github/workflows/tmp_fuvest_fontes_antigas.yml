@@ -1,0 +1,33 @@
+name: Baixar fontes auxiliares FUVEST antigas
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp_fuvest_fontes_antigas.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar PDFs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          curl -kfL --retry 2 -o out/fuvest2012.pdf https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2012_1fase/fuvest2012.pdf
+          curl -kfL --retry 2 -o out/fuvest2013.pdf https://www3.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2013_1fase/fuvest2013.pdf
+          curl -kfL --retry 2 -o out/fuvest2014.pdf https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2014_1fase/fuvest2014.pdf
+          curl -kfL --retry 2 -o out/fuvest2015.pdf https://www.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2015_1fase/fuvest2015.pdf
+          curl -kfL --retry 2 -o out/fuvest2018.pdf https://www3.curso-objetivo.br/vestibular/resolucao-comentada/fuvest/2018_1fase/fuvest2018.pdf
+          for f in out/*.pdf; do head -c 4 "$f" | grep -q '%PDF' || { echo "nao pdf $f"; exit 1; }; done
+          ls -lh out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fuvest_fontes_antigas
+          path: out/*.pdf
+          retention-days: 1
