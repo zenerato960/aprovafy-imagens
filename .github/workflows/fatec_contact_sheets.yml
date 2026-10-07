@@ -20,6 +20,12 @@ jobs:
       - run: pip install pillow
       - name: Gerar pranchas
         run: python scripts/fatec_contact_sheets.py
+      - name: Exportar pranchas para auditoria
+        uses: actions/upload-artifact@v4
+        with:
+          name: fatec-contact-sheets-current
+          path: auditorias/fatec_contact_sheets
+          retention-days: 3
       - name: Publicar pranchas
         run: |
           git config user.name 'github-actions[bot]'
