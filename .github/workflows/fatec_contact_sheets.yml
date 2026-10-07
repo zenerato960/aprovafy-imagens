@@ -1,16 +1,17 @@
-name: Auditoria visual FATEC
+name: FATEC contact sheets
 
 on:
   push:
     branches: [main]
     paths:
       - 'scripts/fatec_contact_sheets.py'
+      - '.github/workflows/fatec_contact_sheets.yml'
 
 permissions:
   contents: write
 
 jobs:
-  sheets:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,19 +19,14 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install pillow
-      - name: Gerar pranchas
-        run: python scripts/fatec_contact_sheets.py
-      - name: Exportar pranchas para auditoria
-        uses: actions/upload-artifact@v4
-        with:
-          name: fatec-contact-sheets-current
-          path: auditorias/fatec_contact_sheets
-          retention-days: 3
-      - name: Publicar pranchas
+      - run: python scripts/fatec_contact_sheets.py
+      - name: Commit sheets
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add auditorias/fatec_contact_sheets
-          git commit -m 'Gerar pranchas de auditoria visual FATEC' || exit 0
-          git pull --rebase origin main
-          git push origin main
+          if ! git diff --cached --quiet; then
+            git commit -m 'Gerar contact sheets de auditoria FATEC'
+            git pull --rebase origin main
+            git push
+          fi
