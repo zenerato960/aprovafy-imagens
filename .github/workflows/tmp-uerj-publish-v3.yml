@@ -1,0 +1,44 @@
+name: tmp UERJ publish v3
+on:
+  push:
+    branches: [tmp-uerj-fix-images]
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: tmp-uerj-fix-images
+          fetch-depth: 0
+      - name: Decode image package
+        run: |
+          mkdir -p /tmp/uerjimgs
+          base64 -d tmp/uerj_visuals.tar.gz.b64 | tar -xz -C /tmp/uerjimgs
+      - name: Switch to main and copy
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
+          python - <<'PY'
+          import json, pathlib, shutil
+          mapping=json.loads(r'''{"2009_questao_048.png":"imagens/uerj/2009/questao_048.png","2009_questao_119.png":"imagens/uerj/2009/questao_119.png","2009_questao_121.png":"imagens/uerj/2009/questao_121.png","2011_questao_041.png":"imagens/uerj/2011/questao_041.png","2011_questao_127.png":"imagens/uerj/2011/questao_127.png","2012_questao_042.png":"imagens/uerj/2012/questao_042.png","2012_questao_125.png":"imagens/uerj/2012/questao_125.png","2014_questao_043.png":"imagens/uerj/2014/questao_043.png","2014_questao_124.png":"imagens/uerj/2014/questao_124.png","2014_questao_134.png":"imagens/uerj/2014/questao_134.png","2016_questao_043.png":"imagens/uerj/2016/questao_043.png","2017_questao_129.png":"imagens/uerj/2017/questao_129.png","2018_questao_006.png":"imagens/uerj/2018/questao_006.png","2018_questao_062.png":"imagens/uerj/2018/questao_062.png","2019_questao_070.png":"imagens/uerj/2019/questao_070.png","2020_questao_138.png":"imagens/uerj/2020/questao_138.png","2021_questao_063.png":"imagens/uerj/2021/questao_063.png","2022_questao_055.png":"imagens/uerj/2022/questao_055.png","2023_questao_004.png":"imagens/uerj/2023/questao_004.png","2024_questao_004.png":"imagens/uerj/2024/questao_004.png","2024_questao_064.png":"imagens/uerj/2024/questao_064.png","2025_questao_052.png":"imagens/uerj/2025/questao_052.png","2025_questao_061.png":"imagens/uerj/2025/questao_061.png","2025_questao_138.png":"imagens/uerj/2025/questao_138.png"}''')
+          root=pathlib.Path.cwd()
+          src=pathlib.Path('/tmp/uerjimgs')
+          for name,dest in mapping.items():
+              p=src/name
+              if not p.exists(): raise FileNotFoundError(p)
+              out=root/dest
+              out.parent.mkdir(parents=True,exist_ok=True)
+              shutil.copy2(p,out)
+              print(dest)
+          PY
+      - name: Commit images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add imagens/uerj
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Publicar imagens corrigidas UERJ 2009-2025"
+          git pull --rebase origin main
+          git push origin main
