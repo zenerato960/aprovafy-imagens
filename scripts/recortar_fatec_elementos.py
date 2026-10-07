@@ -140,6 +140,44 @@ def question_region(doc, markers, q):
         y1 = min(candidates) - 3
     if y1 <= y0 + 12:
         y1 = page.rect.y1 - 28
+
+    # Segunda checagem: algumas questões ocupam visualmente as duas colunas,
+    # embora o marcador esteja só na coluna esquerda. Se um objeto gráfico
+    # nativo atravessa claramente o meio da página dentro da faixa vertical
+    # da questão, a região deve ser de largura total.
+    if col != 'full':
+        probe = fitz.Rect(x0, y0, x1, y1)
+        crosses = False
+        for info in page.get_image_info(xrefs=True):
+            fr = fitz.Rect(info['bbox'])
+            inter = fr & probe
+            if (not inter.is_empty and fr.x0 < mid - 18 and fr.x1 > mid + 18
+                    and fr.width < page.rect.width * 0.96
+                    and inter.get_area() >= fr.get_area() * 0.30):
+                crosses = True
+                break
+        if not crosses:
+            for d in page.get_drawings():
+                fr = fitz.Rect(d['rect'])
+                inter = fr & probe
+                if (not inter.is_empty and fr.x0 < mid - 18 and fr.x1 > mid + 18
+                        and fr.height >= 8 and fr.width >= page.rect.width * 0.45
+                        and inter.get_area() >= fr.get_area() * 0.30):
+                    crosses = True
+                    break
+        if crosses:
+            x0, x1, col = 20, page.rect.x1 - 20, 'full'
+            # Para região full-width, qualquer próxima questão abaixo limita y1.
+            candidates = []
+            for qq, mk in markers.items():
+                if qq == q or mk is None or mk[0] != pi:
+                    continue
+                r = mk[1]
+                if r.y0 > y0 + 8:
+                    candidates.append(r.y0)
+            if candidates:
+                y1 = min(candidates) - 3
+
     return pi, fitz.Rect(x0, y0, x1, y1)
 
 def union_rect(rects):
@@ -156,12 +194,16 @@ def image_crop(page, qrect):
         full = fitz.Rect(info['bbox'])
         if full.width > page.rect.width * 0.82 and full.height > page.rect.height * 0.82:
             continue
-        r = full & qrect
-        if r.is_empty or r.width < 18 or r.height < 18 or r.width * r.height < 650:
+        inter = full & qrect
+        if inter.is_empty or inter.width < 18 or inter.height < 18 or inter.width * inter.height < 650:
             continue
-        if r.width * r.height < full.width * full.height * 0.35:
+        # Nunca recortar um objeto raster nativo no limite artificial da coluna.
+        # Se uma parte relevante do objeto pertence à questão, preserva o bbox
+        # COMPLETO do objeto original. Isso corrige visuais de largura total que
+        # atravessam as duas colunas (ex.: FATEC 2019/1 Q18).
+        if inter.width * inter.height < full.width * full.height * 0.35:
             continue
-        rects.append(r)
+        rects.append(full)
     if not rects:
         return None
     rects.sort(key=lambda r: r.y0)
@@ -173,14 +215,20 @@ def image_crop(page, qrect):
 def drawing_crop(page, qrect):
     rects = []
     for d in page.get_drawings():
-        r = fitz.Rect(d['rect']) & qrect
-        if r.is_empty or r.width * r.height < 100:
+        full = fitz.Rect(d['rect'])
+        inter = full & qrect
+        if inter.is_empty or inter.width * inter.height < 100:
             continue
-        if r.height < 1.5 and r.width > 220:
+        if full.height < 1.5 and full.width > 220:
             continue
-        if r.width > qrect.width * 0.96 and r.height > qrect.height * 0.9:
+        # Assim como nas imagens raster, não truncar desenhos/tabelas na
+        # divisória de coluna. Exige sobreposição material para evitar captar
+        # elementos da questão vizinha.
+        if inter.width * inter.height < full.width * full.height * 0.30:
             continue
-        rects.append(r)
+        if full.width > page.rect.width * 0.98 and full.height > page.rect.height * 0.9:
+            continue
+        rects.append(full)
     if not rects:
         return None
     clusters = []
