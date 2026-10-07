@@ -1,0 +1,26 @@
+name: Propor recortes FATEC estritos
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fatec_strict_candidates.py'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pymupdf pillow requests
+      - run: python scripts/fatec_strict_candidates.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fatec-strict-candidates
+          path: |
+            auditorias/fatec_strict_candidates
+            auditorias/fatec_strict_candidates_sheets
+            auditorias/fatec_strict_candidates_manifest.json
+          retention-days: 3
