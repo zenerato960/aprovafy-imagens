@@ -1,0 +1,71 @@
+name: PUC-Rio imagens finais v3
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/puc-rio-fix-images-final-v3.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install --quiet pymupdf requests pillow
+      - shell: bash
+        run: |
+          cat >/tmp/run.py <<'PY'
+          import zipfile, requests, pymupdf
+          from pathlib import Path
+          from PIL import Image
+          URLS={
+          "2009":"https://www.puc-rio.br/vestibular/repositorio/provas/2009/download/VEST2009PUCRio_PROVAS_GABARITOS.zip",
+          "2011-inverno":"https://www.puc-rio.br/vestibular/repositorio/provas/2011-2/download/VEST2011PUCRio_PROVAS_GABARITOS.zip",
+          "2013":"https://www.puc-rio.br/vestibular/repositorio/provas/2013/download/VEST2013PUCRio_PROVAS_GABARITOS_v4.zip",
+          "2013-inverno":"https://www.puc-rio.br/vestibular/repositorio/provas/2013-2/download/VEST2013-2PUCRio_PROVAS_GABARITOS.zip",
+          "2014":"https://www.puc-rio.br/vestibular/repositorio/provas/2014/download/VEST2014PUCRio_PROVAS_GABARITOS_V5.zip",
+          "2015":"https://www.puc-rio.br/vestibular/repositorio/provas/2015/download/VEST2015PUCRio_PROVAS_GABARITOS_V3.zip",
+          "2017":"https://www.puc-rio.br/vestibular/repositorio/provas/2017/download/VEST2017PUCRio_PROVAS_GABARITOS_v4.zip",
+          "2018":"https://www.puc-rio.br/vestibular/repositorio/provas/2018/download/VEST2018PUCRio_PROVAS_GABARITOS_V7.zip",
+          "2019":"https://www.puc-rio.br/vestibular/repositorio/provas/2019/download/Vestibular2019_20181014_TodasProvasGabaritos.zip",
+          "2020":"https://www.puc-rio.br/vestibular/repositorio/provas/2020/download/Vestibular2020_provasegabaritos_completo.zip",
+          "2021":"https://www.puc-rio.br/vestibular/repositorio/provas/2021/download/GABARITO-VESTIBULAR2021_completo.zip",
+          "2022":"https://www.puc-rio.br/vestibular/repositorio/provas/2022/download/2022-Provas-e-Gabaritos-VESTIBULAR-2022-v2.zip",
+          "2023":"https://www.puc-rio.br/vestibular/repositorio/provas/2023/download/Vestibular2023_provasegabaritos_completo-19-10-2022.zip"
+          }
+          SPECS=[{"registro":4,"edition":"2009","source_basename":"VEST2009PUCRio_GRUPO3_24102008.pdf","page":2,"clip":[81.55799865722656,283.1199951171875,217.60499572753906,391.17901611328125]},{"registro":500,"edition":"2011-inverno","source_basename":"ciencias_biologicas_tarde.pdf","page":8,"clip":[200.39999389648438,196.61997985839844,425.70001220703125,276.29998779296875]},{"registro":508,"edition":"2011-inverno","source_basename":"informatica_tarde.pdf","page":5,"clip":[212.86000061035156,190.89999389648438,382.46002197265625,360.0199890136719]},{"registro":818,"edition":"2013","source_basename":"VEST2013PUCRio_GRUPO_3_15102012.pdf","page":8,"clip":[143.19400024414062,140.51400756835938,452.0660095214844,364.906005859375]},{"registro":927,"edition":"2013","source_basename":"VEST2013PUCRio_GRUPO_3_15102012.pdf","page":8,"clip":[143.19400024414062,140.51400756835938,452.0660095214844,364.906005859375]},{"registro":930,"edition":"2013","source_basename":"VEST2013PUCRio_GRUPO_3_15102012.pdf","page":8,"clip":[143.19400024414062,140.51400756835938,452.0660095214844,364.906005859375]},{"registro":956,"edition":"2013","source_basename":"VEST2013PUCRio_GRUPO_2_15102012.pdf","page":3,"clip":[95.7249984741211,454.8989562988281,250.19400024414062,547.1680297851562]},{"registro":970,"edition":"2013","source_basename":"VEST2013PUCRio_GRUPO_2_15102012.pdf","page":9,"clip":[115.9540023803711,116.51400756835938,479.3059997558594,368.7460021972656]},{"registro":1031,"edition":"2013-inverno","source_basename":"outros_cursos_tarde_2013.pdf","page":2,"clip":[105.04000091552734,441.760009765625,482.9599914550781,597.4400024414062]},{"registro":1050,"edition":"2014","source_basename":"VEST2014PUCRio_GRUPO_4_14102013_completo.pdf","page":14,"clip":[195.80099487304688,76.1994400024414,400.1449890136719,780.6060180664062]},{"registro":1283,"edition":"2015","source_basename":"VEST2015PUCRio_GRUPO_5_13102014_completo.pdf","page":11,"clip":[166.71200561523438,117.135009765625,384.4230041503906,279.0260009765625]},{"registro":1310,"edition":"2015","source_basename":"VEST2015PUCRio_GRUPO_4_13102014_completo.pdf","page":12,"clip":[209.57899475097656,169.93199157714844,397.57501220703125,441.0329895019531]},{"registro":1313,"edition":"2015","source_basename":"VEST2015PUCRio_GRUPO_4_13102014_completo.pdf","page":15,"clip":[169.74400329589844,129.40599060058594,425.9490051269531,353.00897216796875]},{"registro":1755,"edition":"2017","source_basename":"Vest2017_prova_G1_20161010.pdf","page":8,"clip":[16.34600067138672,784.281982421875,294.6099853515625,807.0]},{"registro":1842,"edition":"2017","source_basename":"Vest2017_prova_G1_3_4_20161009.pdf","page":2,"clip":[300.6099853515625,431.3340148925781,492.0260009765625,676.8460083007812]},{"registro":1873,"edition":"2017","source_basename":"Vest2017_prova_G4_20161010.pdf","page":16,"clip":[182.83599853515625,142.12799072265625,404.5260009765625,364.3550109863281]},{"registro":2065,"edition":"2018","source_basename":"Vest2018_prova_G5_20171015.pdf","page":19,"clip":[149.31399536132812,115.7340087890625,448.7659912109375,402.34600830078125]},{"registro":2069,"edition":"2018","source_basename":"Vest2018_prova_G4_20171015.pdf","page":17,"clip":[202.9709930419922,168.010986328125,356.3009948730469,256.0699768066406]},{"registro":2070,"edition":"2018","source_basename":"Vest2018_prova_G4_20171015.pdf","page":18,"clip":[206.88502502441406,153.9310302734375,388.3910217285156,290.5140380859375]},{"registro":2071,"edition":"2018","source_basename":"Vest2018_prova_G4_20171015.pdf","page":19,"clip":[214.3699951171875,134.218017578125,380.9049987792969,314.41302490234375]},{"registro":2107,"edition":"2018","source_basename":"Vest2018_prova_G2_20171015.pdf","page":13,"clip":[169.71400451660156,91.7340087890625,425.5460205078125,369.70599365234375]},{"registro":2323,"edition":"2019","source_basename":"Vestibular2019Manha_20181014_Diia02_provaG2.pdf","page":13,"clip":[130.23399353027344,231.2340087890625,465.0260009765625,495.406005859375]},{"registro":2463,"edition":"2020","source_basename":"PUC2020-2o DIA_TARDE_GRUPO1.pdf","page":2,"clip":[312.093994140625,79.73402404785156,566.666015625,335.8060302734375]},{"registro":2494,"edition":"2020","source_basename":"PUC2020-2oDIA_TARDE_GRUPO4.pdf","page":16,"clip":[205.7720184326172,133.2490234375,294.6099853515625,286.68304443359375]},{"registro":2514,"edition":"2020","source_basename":"PUC2020-2oDIA_ TARDE_GRUPO5.pdf","page":4,"clip":[46.59400177001953,495.593994140625,268.58599853515625,642.7059936523438]},{"registro":2682,"edition":"2023","source_basename":"2o DIA - TARDE - GRUPO 1.pdf","page":13,"clip":[114.13775634765625,82.33354187011719,481.13775634765625,332.33355712890625]},{"registro":3033,"edition":"2021","source_basename":"GABARITO-VESTIBULAR-2o-DIA-TARDE-GRUPO-1.pdf","page":9,"clip":[64.59400177001953,114.05403137207031,530.3660278320312,699.8259887695312]},{"registro":3041,"edition":"2022","source_basename":"2022-GABARITO-VESTIBULAR-2o-DIA-TARDE-GRUPOS-2-4-5.pdf","page":3,"clip":[217.42501831054688,144.6450958251953,377.875,303.17547607421875]},{"registro":3046,"edition":"2022","source_basename":"2022-GABARITO-VESTIBULAR-2o-DIA-TARDE-GRUPOS-1e3.pdf","page":5,"clip":[189.89991760253906,103.36064147949219,404.85565185546875,253.96063232421875]},{"registro":3056,"edition":"2022","source_basename":"2022-GABARITO-VESTIBULAR-2o-DIA-TARDE-GRUPOS-1e3.pdf","page":10,"clip":[85.5500717163086,91.86160278320312,509.7056579589844,301.2615966796875]},{"registro":3061,"edition":"2022","source_basename":"2022-GABARITO-VESTIBULAR-2o-DIA-TARDE-GRUPOS-1e3.pdf","page":12,"clip":[131.39990234375,158.356689453125,463.69989013671875,381.94354248046875]},{"registro":3064,"edition":"2022","source_basename":"2022-GABARITO-VESTIBULAR-2o-DIA-TARDE-GRUPOS-1e3.pdf","page":14,"clip":[143.14991760253906,423.38720703125,488.14990234375,603.5272827148438]},{"registro":3067,"edition":"2022","source_basename":"2022-GABARITO-VESTIBULAR-2o-DIA-TARDE-GRUPOS-1e3.pdf","page":16,"clip":[171.89990234375,107.39605712890625,423.079345703125,467.0460510253906]},{"registro":3069,"edition":"2022","source_basename":"2022-GABARITO-VESTIBULAR-2o-DIA-TARDE-GRUPOS-1e3.pdf","page":18,"clip":[176.39991760253906,112.36065673828125,418.44989013671875,455.91717529296875]},{"registro":3076,"edition":"2022","source_basename":"2022-GABARITO-VESTIBULAR-2o-DIA-TARDE-GRUPOS-1e3.pdf","page":2,"clip":[34.550079345703125,113.511962890625,560.7178955078125,444.4142761230469]}]
+          root=Path("/tmp/puc-v3"); root.mkdir(parents=True,exist_ok=True)
+          out=Path("imagens/puc-rio/correcoes-2026"); out.mkdir(parents=True,exist_ok=True)
+          cache={}
+          for s in SPECS:
+              ed=s["edition"]
+              if ed not in cache:
+                  z=root/(ed+".zip"); d=root/(ed+"-x"); d.mkdir()
+                  r=requests.get(URLS[ed],timeout=240); r.raise_for_status(); z.write_bytes(r.content)
+                  with zipfile.ZipFile(z) as a:a.extractall(d)
+                  cache[ed]=d
+              d=cache[ed]
+              hits=[p for p in d.rglob("*") if p.is_file() and p.name.casefold()==s["source_basename"].casefold()]
+              if not hits: raise FileNotFoundError(s["source_basename"])
+              doc=pymupdf.open(hits[0]); pg=doc[s["page"]]; rect=pymupdf.Rect(*s["clip"]) & pg.rect
+              if rect.is_empty: raise RuntimeError(f"empty clip {s['registro']}")
+              pix=pg.get_pixmap(matrix=pymupdf.Matrix(2.2,2.2),clip=rect,alpha=False)
+              dest=out/f"registro_{s['registro']:04d}.png"; pix.save(dest); doc.close()
+              im=Image.open(dest)
+              if im.width>1400:
+                  ratio=1400/im.width; im=im.resize((1400,max(1,int(im.height*ratio))),Image.Resampling.LANCZOS)
+              im.save(dest,optimize=True)
+              print("OK",s["registro"],flush=True)
+          PY
+          python /tmp/run.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add imagens/puc-rio/correcoes-2026/
+          git diff --cached --quiet && exit 0
+          git commit -m "Adicionar recortes validados PUC-Rio v3"
+          git pull --rebase origin main
+          git push origin HEAD:main
