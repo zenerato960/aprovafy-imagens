@@ -213,3 +213,5 @@ for si in range(math.ceil(len(report)/16)):
         dr.rectangle((x,y,x+CW-1,y+CH-1),outline='gray')
     sh.save(sdir/f'sheet_{si+1:02d}.jpg',quality=91)
 print('total',len(report),'propostos',sum(x['status']=='proposto' for x in report),'unresolved',sum(x['status']=='unresolved' for x in report))
+
+# trigger targeted repair audit
