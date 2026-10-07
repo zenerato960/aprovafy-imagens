@@ -85,3 +85,21 @@ for s in range(0,len(flagged),cols*rows):
         label=f'{p} | {r["width"]}x{r["height"]} | skew={r["skew_deg"]} | margins={r["margins"]}'
         d.text(((j%cols)*cell_w+8,(j//cols)*cell_h+8),label,fill="black",font=font)
     sheet.save(OUT/f"flagged_{s//(cols*rows)+1:02d}.jpg",quality=88)
+
+
+# Folhas de contato de TODAS as imagens, para revisão visual integral e não apenas
+# dos casos que a heurística marcou como suspeitos.
+for s0 in range(0,len(records),cols*rows):
+    subset=records[s0:s0+cols*rows]
+    sheet=Image.new("RGB",(cols*cell_w,rows*cell_h),"white")
+    d=ImageDraw.Draw(sheet)
+    for j,r in enumerate(subset):
+        p=Path(r["path"])
+        im=Image.open(p).convert("RGB")
+        thumb=ImageOps.contain(im,(cell_w-30,cell_h-80))
+        x=(j%cols)*cell_w+(cell_w-thumb.width)//2
+        y=(j//cols)*cell_h+50+(cell_h-80-thumb.height)//2
+        sheet.paste(thumb,(x,y))
+        label=f'{p} | {r["width"]}x{r["height"]} | skew={r["skew_deg"]}'
+        d.text(((j%cols)*cell_w+8,(j//cols)*cell_h+8),label,fill="black",font=font)
+    sheet.save(OUT/f"all_{s0//(cols*rows)+1:02d}.jpg",quality=88)
