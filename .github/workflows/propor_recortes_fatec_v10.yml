@@ -1,0 +1,24 @@
+name: Propor recortes FATEC v10 panels
+on:
+  push:
+    branches: [main]
+    paths: ['scripts/propor_recortes_fatec_v10.py','.github/workflows/propor_recortes_fatec_v10.yml']
+permissions: {contents: write}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install pillow opencv-python-headless numpy
+      - run: python scripts/propor_recortes_fatec_v10.py
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add auditorias/fatec_v10 auditorias/fatec_v10_sheets
+          if ! git diff --cached --quiet; then
+            git commit -m 'Gerar propostas FATEC v10 por painel visual'
+            git pull --rebase origin main
+            git push
+          fi
