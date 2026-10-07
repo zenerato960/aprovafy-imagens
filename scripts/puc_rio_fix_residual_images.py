@@ -4,6 +4,8 @@ import fitz
 from PIL import Image
 
 ITEMS = [
+{"edition":"2016-inverno","source":"VEST2016-2_PUCRioProva_G1_20160619.pdf","page":3,"q":3,"crop":[153.4,186.05,441.7,467.0]},
+{"edition":"2016-inverno","source":"VEST2016-2_PUCRioProva_G2_20160619.pdf","page":7,"q":18,"crop":[162.11,356.86,433.1,529.72]},
 {"edition":"2009","source":"VEST2009PUCRio_GRUPO2_24102008.pdf","page":10,"q":3,"crop":[79.5,84.2,504.8,413.5]},
 {"edition":"2012-inverno","source":"informatica_tarde.pdf","page":8,"q":1,"crop":[56.7,233.0,242.7,364.3]},
 {"edition":"2013","source":"VEST2013PUCRio_GRUPO_3_15102012.pdf","page":9,"q":3,"crop":[151.2,148.5,444.1,356.9]},
@@ -21,6 +23,7 @@ ITEMS = [
 {"edition":"2025","source":"2o DIA - MANH#U00c3 - GRUPO 2.pdf","page":5,"q":11,"crop":[72.4,137.7,522.9,292.7]},
 ]
 URLS={
+"2016-inverno":"https://www.puc-rio.br/vestibular/repositorio/provas/2016-2/download/VEST2016-2PUCRio_PROVAS_GABARITOS.zip",
 "2009":"https://www.puc-rio.br/vestibular/repositorio/provas/2009/download/VEST2009PUCRio_PROVAS_GABARITOS.zip",
 "2012-inverno":"https://www.puc-rio.br/vestibular/repositorio/provas/2012-2/download/VEST2012PUCRio_PROVAS_GABARITOS_v2.zip",
 "2013":"https://www.puc-rio.br/vestibular/repositorio/provas/2013/download/VEST2013PUCRio_PROVAS_GABARITOS_v4.zip",
@@ -32,7 +35,9 @@ URLS={
 "2024":"https://www.puc-rio.br/vestibular/repositorio/provas/2023-2/download/Vestibular2024-Provas-e-Gabaritos-v2.zip",
 "2025":"https://www.puc-rio.br/vestibular/repositorio/provas/2025/download/Vestibular2025_Download-Completo.zip",
 }
-def nn(s): return unicodedata.normalize("NFKC",s).casefold()
+def nn(s):
+ s=unicodedata.normalize("NFKC",s).casefold()
+ return s.replace("#u00c3","ã").replace("#u00e3","ã")
 with tempfile.TemporaryDirectory() as td:
  td=Path(td)
  for edition in sorted(set(x["edition"] for x in ITEMS)):
