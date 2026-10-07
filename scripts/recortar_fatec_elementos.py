@@ -375,7 +375,7 @@ def render_crop(page, rect, out):
     return pix.width, pix.height, rect
 
 session = requests.Session()
-session.headers['User-Agent'] = 'Mozilla/5.0 FATEC precise crop publisher'
+session.headers['User-Agent'] = 'Mozilla/5.0 FATEC precise crop publisher final-review'
 manifest = []
 
 for edicao, questions in CANDIDATES.items():
