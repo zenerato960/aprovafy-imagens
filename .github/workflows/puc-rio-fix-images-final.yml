@@ -1,0 +1,59 @@
+name: PUC-Rio corrigir imagens finais
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/puc-rio-fix-images-final.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet pymupdf requests
+      - name: Gerar recortes
+        shell: bash
+        run: |
+          cat > /tmp/puc_fix.py <<'PY'
+          import os, zipfile, requests, fitz
+          from pathlib import Path
+          SPECS = [{"registro":221,"edition":"2010","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2010/download/VEST2010PUCRio_PROVAS_GABARITOS.zip","source_basename":"VEST2010PUCRio_GRUPO3_23102009.pdf","page":13,"clip":[21.27001953125,69.08497619628906,424.5098876953125,782.260009765625]},{"registro":230,"edition":"2010","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2010/download/VEST2010PUCRio_PROVAS_GABARITOS.zip","source_basename":"VEST2010PUCRio_GRUPO3_23102009.pdf","page":13,"clip":[21.27001953125,69.08497619628906,424.5098876953125,782.260009765625]},{"registro":388,"edition":"2011","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2011/download/VEST2011PUCRio_PROVAS_GABARITOS_v4.zip","source_basename":"VEST2011PUCRio_GRUPO5_17102010.pdf","page":2,"clip":[35.63610076904297,321.51953125,267.9166259765625,517.4593505859375]},{"registro":392,"edition":"2011","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2011/download/VEST2011PUCRio_PROVAS_GABARITOS_v4.zip","source_basename":"VEST2011PUCRio_GRUPO5_17102010.pdf","page":3,"clip":[43.2,240,218.4,408]},{"registro":394,"edition":"2011","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2011/download/VEST2011PUCRio_PROVAS_GABARITOS_v4.zip","source_basename":"VEST2011PUCRio_GRUPO3_17102010.pdf","page":4,"clip":[22.371999740600586,96.55165100097656,314.010009765625,354.87164306640625]},{"registro":420,"edition":"2011","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2011/download/VEST2011PUCRio_PROVAS_GABARITOS_v4.zip","source_basename":"VEST2011PUCRio_GRUPO5_17102010.pdf","page":3,"clip":[43.2,240,218.4,408]},{"registro":445,"edition":"2011","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2011/download/VEST2011PUCRio_PROVAS_GABARITOS_v4.zip","source_basename":"VEST2011PUCRio_GRUPO4_17102010.pdf","page":4,"clip":[22.371999740600586,96.55165100097656,314.010009765625,354.87164306640625]},{"registro":515,"edition":"2011-inverno","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2011-2/download/VEST2011PUCRio_PROVAS_GABARITOS.zip","source_basename":"administracao_tarde.pdf","page":7,"clip":[203.83999633789062,425.77996826171875,327.37098388671876,531.4608764648438]},{"registro":551,"edition":"2011-inverno","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2011-2/download/VEST2011PUCRio_PROVAS_GABARITOS.zip","source_basename":"administracao_tarde.pdf","page":1,"clip":[58.69999694824219,301.03997802734375,497.67999267578125,456.51995849609375]},{"registro":933,"edition":"2013","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2013/download/VEST2013PUCRio_PROVAS_GABARITOS_v4.zip","source_basename":"VEST2013PUCRio_GRUPO_3_15102012.pdf","page":11,"clip":[21.555095672607422,137.8986053466797,327.37098388671876,775.6060180664062]},{"registro":984,"edition":"2013-inverno","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2013-2/download/VEST2013-2PUCRio_PROVAS_GABARITOS.zip","source_basename":"administracao_tarde_2013.pdf","page":12,"clip":[72.19999694824219,153.28761291503906,315.8800048828125,378.760009765625]},{"registro":994,"edition":"2013-inverno","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2013-2/download/VEST2013-2PUCRio_PROVAS_GABARITOS.zip","source_basename":"administracao_tarde_2013.pdf","page":12,"clip":[72.19999694824219,153.28761291503906,315.8800048828125,378.760009765625]},{"registro":1301,"edition":"2015","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2015/download/VEST2015PUCRio_PROVAS_GABARITOS_V3.zip","source_basename":"VEST2015PUCRio_GRUPO_1_13102014_completo.pdf","page":12,"clip":[187.541015625,186.88002014160156,327.37098388671876,402.52801513671875]},{"registro":1685,"edition":"2016-inverno","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2016-2/download/VEST2016-2PUCRio_PROVAS_GABARITOS.zip","source_basename":"VEST2016-2_PUCRioProva_G1_20160619.pdf","page":2,"clip":[49.63999938964844,166.6949920654297,444.39801025390625,467.9329833984375]},{"registro":1706,"edition":"2016-inverno","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2016-2/download/VEST2016-2PUCRio_PROVAS_GABARITOS.zip","source_basename":"VEST2016-2_PUCRioProva_G5_20160619.pdf","page":7,"clip":[49.63999938964844,177.4149627685547,435.2779846191406,382.4729919433594]},{"registro":1726,"edition":"2016-inverno","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2016-2/download/VEST2016-2PUCRio_PROVAS_GABARITOS.zip","source_basename":"VEST2016-2_PUCRioProva_G5_20160619.pdf","page":7,"clip":[49.63999938964844,177.4149627685547,435.2779846191406,382.4729919433594]},{"registro":2149,"edition":"2018-inverno","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2018-2/download/VestibularPUC-RioINVERNO2018-2_provas_gabaritos.zip","source_basename":"VEST2018-2_PUCRioProva_G1_20180708.pdf","page":1,"clip":[150.3000030517578,353.5999755859375,327.22801208496094,461.8499755859375]},{"registro":2383,"edition":"2019-inverno","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2019-2/download/VestibularInverno2019_provasegabaritos.zip","source_basename":"PROVAS_INV19_TARDE_G4.pdf","page":7,"clip":[203.2499237060547,378.29986572265625,327.22801208496094,556.0997314453125]},{"registro":2388,"edition":"2019-inverno","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2019-2/download/VestibularInverno2019_provasegabaritos.zip","source_basename":"PROVAS_INV19_TARDE_G4.pdf","page":9,"clip":[161.9199981689453,349.47998046875,327.22801208496094,603.3199462890625]},{"registro":2389,"edition":"2019-inverno","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2019-2/download/VestibularInverno2019_provasegabaritos.zip","source_basename":"PROVAS_INV19_TARDE_G4.pdf","page":10,"clip":[267.7320098876953,219.75027465820312,441.6400146484375,298.849853515625]},{"registro":2688,"edition":"2023","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2023/download/Vestibular2023_provasegabaritos_completo-19-10-2022.zip","source_basename":"GABARITO - 2o DIA - TARDE - GRUPO 5.pdf","page":16,"clip":[118.18482208251953,191.56997680664062,477.0906677246094,446.9326477050781]},{"registro":2690,"edition":"2023","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2023/download/Vestibular2023_provasegabaritos_completo-19-10-2022.zip","source_basename":"GABARITO - 2o DIA - TARDE - GRUPO 5.pdf","page":21,"clip":[20.341796875,90.6706771850586,574.9248657226562,459.06561279296875]},{"registro":2988,"edition":"2021","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2021/download/GABARITO-VESTIBULAR2021_completo.zip","source_basename":"GABARITO-VESTIBULAR-2o-DIA-TARDE-GRUPO-5-v2.pdf","page":4,"clip":[167.79998779296875,148.60003662109375,432,370.0000305175781]},{"registro":2989,"edition":"2021","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2021/download/GABARITO-VESTIBULAR2021_completo.zip","source_basename":"GABARITO-VESTIBULAR-2o-DIA-TARDE-GRUPO-5-v2.pdf","page":5,"clip":[82.20000457763672,144.59999084472656,506.4000244140625,406.9999694824219]},{"registro":3003,"edition":"2021","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2021/download/GABARITO-VESTIBULAR2021_completo.zip","source_basename":"GABARITO-VESTIBULAR-2o-DIA-TARDE-GRUPO-5-v2.pdf","page":12,"clip":[193.80001831054688,120.80000305175781,327.5799865722656,317]},{"registro":3025,"edition":"2021","package_url":"https://www.puc-rio.br/vestibular/repositorio/provas/2021/download/GABARITO-VESTIBULAR2021_completo.zip","source_basename":"GABARITO-VESTIBULAR-2o-DIA-TARDE-GRUPO-5-v2.pdf","page":7,"clip":[108.19999694824219,104.80012512207031,487.79998779296875,352.0001220703125]}]
+          cache={}
+          root=Path("/tmp/puc_pkgs"); root.mkdir(parents=True,exist_ok=True)
+          outdir=Path("imagens/puc-rio/correcoes-2026"); outdir.mkdir(parents=True,exist_ok=True)
+          def extract(url):
+              if url in cache: return cache[url]
+              n=len(cache); z=root/f"{n}.zip"; d=root/f"{n}_x"; d.mkdir()
+              r=requests.get(url,timeout=180); r.raise_for_status(); z.write_bytes(r.content)
+              with zipfile.ZipFile(z) as zz: zz.extractall(d)
+              cache[url]=d; return d
+          for s in SPECS:
+              d=extract(s["package_url"])
+              hits=[p for p in d.rglob("*") if p.is_file() and p.name.casefold()==s["source_basename"].casefold()]
+              if not hits: raise FileNotFoundError(s["source_basename"])
+              doc=fitz.open(hits[0]); page=doc[s["page"]]
+              rect=fitz.Rect(*s["clip"]) & page.rect
+              if rect.is_empty: raise RuntimeError(f"empty clip {s['registro']}")
+              pix=page.get_pixmap(matrix=fitz.Matrix(2.4,2.4),clip=rect,alpha=False)
+              dst=outdir/f"registro_{s['registro']:04d}.png"; pix.save(dst)
+              print("OK",s["registro"],pix.width,pix.height,flush=True)
+          files=list(outdir.glob("registro_*.png"))
+          if len(files)<26: raise RuntimeError(f"expected 26, got {len(files)}")
+          PY
+          python /tmp/puc_fix.py
+      - name: Commitar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add imagens/puc-rio/correcoes-2026/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Adicionar imagens faltantes PUC-Rio"
+          git pull --rebase origin main
+          git push origin HEAD:main
