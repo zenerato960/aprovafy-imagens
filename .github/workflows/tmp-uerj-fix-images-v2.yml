@@ -1,0 +1,124 @@
+name: tmp UERJ visual repairs v2
+on:
+  push:
+    branches: [tmp-uerj-fix-images]
+
+permissions:
+  contents: write
+
+jobs:
+  crop-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq p7zip-full
+          python -m pip install --quiet pymupdf
+      - name: Download public source packages
+        run: |
+          python - <<'PY'
+          import json, pathlib, subprocess, urllib.request, ssl, shutil
+          packages=json.loads(r'''{"2021":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/e44fea3bec53bcea3b7513ccef5857ac","2022":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/821fa74b50ba3f7cba1e6c53e8fa6845","2023":"https://vestibular.brasilescola.uol.com.br/baixar/47567","2024":"https://vestibular.brasilescola.uol.com.br/baixar/47594","2025":"https://vestibular.brasilescola.uol.com.br/baixar/47659","2009_1":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/89f0fd5c927d466d6ec9a21b9ac34ffa","2009_2":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/f2fc990265c712c49d51a18a32b39f0c","2011_1":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/caf1a3dfb505ffed0d024130f58c5cfa","2011_2":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/320722549d1751cf3f247855f937b982","2012_1":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/8d3bba7425e7c98c50f52ca1b52d3735","2012_2":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/432aca3a1e345e339f35a30c8f65edce","2014_1":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/ad13a2a07ca4b7642959dc0c4c740ab6","2014_2":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/758874998f5bd0c393da094e1967a72b","2016_1":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/9dfcd5e558dfa04aaf37f137a1d9d3e5","2017_2":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/a8c88a0055f636e4a163a5e3d16adab7","2018_1":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/8e98d81f8217304975ccb23337bb5761","2019_1":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/496e05e1aea0a9c4655800e8a7b9ea28","2020_2":"https://www.educabras.com/provas_de_vestibular/pdf/provas_uerj/577bcc914f9e55d5e4e4f82f9f00e7d4"}''')
+          root=pathlib.Path('/tmp/pkgs'); root.mkdir(parents=True,exist_ok=True)
+          ctx=ssl.create_default_context()
+          for key,url in packages.items():
+              d=root/key; d.mkdir(parents=True,exist_ok=True)
+              raw=d/'download'
+              print('DOWNLOAD',key,url,flush=True)
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
+              try:
+                  with urllib.request.urlopen(req,context=ctx,timeout=120) as r, open(raw,'wb') as f:
+                      shutil.copyfileobj(r,f)
+              except Exception:
+                  # Some old archive endpoints may have TLS issues.
+                  ctx2=ssl._create_unverified_context()
+                  with urllib.request.urlopen(req,context=ctx2,timeout=120) as r, open(raw,'wb') as f:
+                      shutil.copyfileobj(r,f)
+              print(key, raw.stat().st_size)
+          PY
+      - name: Extract packages recursively
+        run: |
+          python - <<'PY'
+          import pathlib, subprocess, shutil
+          root=pathlib.Path('/tmp/pkgs')
+          for d in [p for p in root.iterdir() if p.is_dir()]:
+              raw=d/'download'
+              sig=raw.read_bytes()[:5]
+              if sig.startswith(b'%PDF'):
+                  shutil.copy2(raw,d/'source.pdf')
+                  continue
+              out=d/'x0'; out.mkdir(exist_ok=True)
+              subprocess.run(['7z','x','-y',str(raw),f'-o{out}'],check=True)
+              # recursively extract nested archives, at most 3 levels
+              for depth in range(3):
+                  changed=False
+                  files=list(d.rglob('*'))
+                  for p in files:
+                      if not p.is_file() or p==raw: continue
+                      if p.suffix.lower() not in {'.zip','.rar','.7z'}: continue
+                      marker=p.with_name(p.name+'.extracted')
+                      if marker.exists(): continue
+                      target=p.parent/(p.stem+'_extraido'); target.mkdir(exist_ok=True)
+                      res=subprocess.run(['7z','x','-y',str(p),f'-o{target}'])
+                      marker.touch()
+                      changed=True
+                  if not changed: break
+          PY
+      - name: Select PDFs and crop
+        run: |
+          python - <<'PY'
+          import json, pathlib, re, unicodedata
+          import fitz
+          manifest=json.loads(r'''[["2009_1",7,[35,45,546.1,610.38],"imagens/uerj/2009/questao_048.png",["biologia","exatas"]],["2009_2",7,[35,45,560.28,796.89],"imagens/uerj/2009/questao_119.png",["biologia","exatas"]],["2009_2",8,[35,45,560.28,796.89],"imagens/uerj/2009/questao_121.png",["biologia","exatas"]],["2011_1",4,[35,45,546.1,734.53],"imagens/uerj/2011/questao_041.png",["natureza","matem"]],["2011_2",11,[35,45,546.1,734.53],"imagens/uerj/2011/questao_127.png",["natureza","matem"]],["2012_1",22,[35,45,546.1,734.53],"imagens/uerj/2012/questao_042.png",["prova"]],["2012_2",27,[35,45,546.1,734.53],"imagens/uerj/2012/questao_125.png",["prova"]],["2014_1",23,[35,45,546.1,513.93],"imagens/uerj/2014/questao_043.png",["prova"]],["2014_2",31,[35,45,546.1,734.53],"imagens/uerj/2014/questao_124.png",["prova"]],["2014_2",37,[35,45,546.1,734.53],"imagens/uerj/2014/questao_134.png",["prova"]],["2016_1",19,[35,45,546.1,521.13],"imagens/uerj/2016/questao_043.png",["prova"]],["2017_2",28,[35,45,546.1,734.53],"imagens/uerj/2017/questao_129.png",["prova"]],["2018_1",7,[35,45,546.1,463.83],"imagens/uerj/2018/questao_006.png",["prova"]],["2018_1",32,[35,45,546.1,734.53],"imagens/uerj/2018/questao_062.png",["prova"]],["2019_1",38,[35,45,546.1,734.53],"imagens/uerj/2019/questao_070.png",["prova"]],["2020_2",36,[35,45,546.1,734.53],"imagens/uerj/2020/questao_138.png",["prova"]],["2021",28,[35,45,546.1,734.53],"imagens/uerj/2021/questao_063.png",["prova"]],["2022",27,[35,45,546.1,558.55],"imagens/uerj/2022/questao_055.png",["prova"]],["2023",5,[35,45,546.1,734.53],"imagens/uerj/2023/questao_004.png",["prova"]],["2024",5,[35,45,546.1,518.83],"imagens/uerj/2024/questao_004.png",["1-exame","prova"]],["2024",32,[35,45,546.1,734.53],"imagens/uerj/2024/questao_064.png",["1-exame","prova"]],["2025",25,[35,58.47,546.1,734.53],"imagens/uerj/2025/questao_052.png",["2-exame","prova"]],["2025",29,[35,45,546.1,734.53],"imagens/uerj/2025/questao_061.png",["2-exame","prova"]],["2025",36,[35,45,546.1,734.53],"imagens/uerj/2025/questao_138.png",["1-exame","prova"]]]''')
+          root=pathlib.Path('/tmp/pkgs'); repo=pathlib.Path.cwd()
+          def norm(s):
+              return ''.join(c for c in unicodedata.normalize('NFKD',s.lower()) if not unicodedata.combining(c))
+          cache={}
+          def pick(pkg,hints,page):
+              key=(pkg,tuple(hints),page)
+              if key in cache:return cache[key]
+              pdfs=list((root/pkg).rglob('*.pdf'))
+              if not pdfs:
+                  raise RuntimeError(f'No PDFs in {pkg}')
+              scored=[]
+              for p in pdfs:
+                  n=norm(p.name)
+                  if any(x in n for x in ['gabarito','resposta','padrao','resultado','classificacao','reclassificacao']):
+                      penalty=-1000
+                  else: penalty=0
+                  try: pages=len(fitz.open(p))
+                  except: continue
+                  hs=sum(20 for h in hints if norm(h) in n)
+                  # require enough pages for requested page
+                  if pages < page: continue
+                  scored.append((penalty+hs+min(pages,100)/100,pages,p))
+              if not scored: raise RuntimeError(f'No usable PDF {pkg} {hints}')
+              scored.sort(reverse=True,key=lambda x:(x[0],x[1]))
+              p=scored[0][2]
+              print('PICK',pkg,p,'pages',scored[0][1],flush=True)
+              cache[key]=p; return p
+          for pkg,page,rect,dest,hints in manifest:
+              src=pick(pkg,hints,page)
+              doc=fitz.open(src); pg=doc[page-1]
+              clip=fitz.Rect(*rect)
+              # Clamp to actual page.
+              clip=clip & pg.rect
+              pix=pg.get_pixmap(matrix=fitz.Matrix(2.0,2.0),clip=clip,alpha=False)
+              out=repo/dest; out.parent.mkdir(parents=True,exist_ok=True)
+              pix.save(out); doc.close()
+              print('CROP',dest,flush=True)
+          PY
+      - name: Commit images to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add imagens/uerj
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Adicionar imagens corrigidas UERJ 2009-2025"
+          git pull --rebase origin main
+          git push origin main
