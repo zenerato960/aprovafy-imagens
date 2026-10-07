@@ -36,3 +36,5 @@ for idx,p in enumerate(files):
 
 Path("auditorias/fatec_contact_sheets_manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding="utf-8")
 print("imagens",len(manifest),"pranchas",math.ceil(len(manifest)/(cols*rows)))
+
+# trigger audit
