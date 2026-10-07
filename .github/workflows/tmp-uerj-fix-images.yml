@@ -1,0 +1,69 @@
+name: tmp UERJ visual repairs
+on:
+  push:
+    branches: [tmp-uerj-fix-images]
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  crop-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Install PyMuPDF
+        run: python -m pip install --quiet pymupdf
+
+      - name: Download source artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl -fL             -H "Authorization: Bearer $GH_TOKEN"             -H "Accept: application/vnd.github+json"             "https://api.github.com/repos/${{ github.repository }}/actions/artifacts/11242969828/zip"             -o /tmp/uerj_artifact.zip
+          mkdir -p /tmp/artifact /tmp/uerj
+          unzip -q /tmp/uerj_artifact.zip -d /tmp/artifact
+          unzip -q /tmp/artifact/UERJ_PROVAS_2009_2025.zip -d /tmp/uerj
+
+      - name: Crop visual questions
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          import fitz
+
+          manifest = json.loads(r'''[{"source":"2009/UERJ_2009_1EQ/UERJ 2009 - 1o exame/UERJ 2009 - 1o exame - Biologia e Exatas.pdf","page":7,"rect":[35,45,546.1,610.38],"dest":"imagens/uerj/2009/questao_048.png"},{"source":"2009/UERJ_2009_2EQ/UERJ 2009 - 2o exame/UERJ 2009 - 2o exame - Biologia e Exatas.pdf","page":7,"rect":[35,45,560.28,796.89],"dest":"imagens/uerj/2009/questao_119.png"},{"source":"2009/UERJ_2009_2EQ/UERJ 2009 - 2o exame/UERJ 2009 - 2o exame - Biologia e Exatas.pdf","page":8,"rect":[35,45,560.28,796.89],"dest":"imagens/uerj/2009/questao_121.png"},{"source":"2011/UERJ_2011_1EQ/UERJ 2011 - 1o exame/UERJ 2011 - 1o exame - Ci#U00eancias da Natureza e Matem#U00e1tica.pdf","page":4,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2011/questao_041.png"},{"source":"2011/UERJ_2011_2EQ/UERJ 2011 - 2o exame/UERJ 2011 - 2o exame - Ci#U00eancias da Natureza e Matem#U00e1tica.pdf","page":11,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2011/questao_127.png"},{"source":"2012/UERJ_2012_1EQ/UERJ 2012 - 1o exame/UERJ 2012 - 1o exame - prova.pdf","page":22,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2012/questao_042.png"},{"source":"2012/UERJ_2012_2EQ/UERJ 2012 - 2o exame/UERJ 2012 - 2o exame - prova.pdf","page":27,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2012/questao_125.png"},{"source":"2014/UERJ_2014_1EQ/UERJ 2014 - 1o exame/UERJ 2014 - 1o exame - prova.pdf","page":23,"rect":[35,45,546.1,513.93],"dest":"imagens/uerj/2014/questao_043.png"},{"source":"2014/UERJ_2014_2EQ/UERJ 2014 - 2o exame/UERJ 2014 - 2o exame - prova.pdf","page":31,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2014/questao_124.png"},{"source":"2014/UERJ_2014_2EQ/UERJ 2014 - 2o exame/UERJ 2014 - 2o exame - prova.pdf","page":37,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2014/questao_134.png"},{"source":"2016/UERJ_2016_1EQ/UERJ 2016 - 1o exame/UERJ 2016 - 1o exame - prova.pdf","page":19,"rect":[35,45,546.1,521.13],"dest":"imagens/uerj/2016/questao_043.png"},{"source":"2017/UERJ_2017_2EQ/UERJ 2017 - 2o exame/UERJ 2017 - 2o exame - prova.pdf","page":28,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2017/questao_129.png"},{"source":"2018/UERJ_2018_1EQ/UERJ 2018 - 1o exame/UERJ 2018 - 1o exame - prova.pdf","page":7,"rect":[35,45,546.1,463.83],"dest":"imagens/uerj/2018/questao_006.png"},{"source":"2018/UERJ_2018_1EQ/UERJ 2018 - 1o exame/UERJ 2018 - 1o exame - prova.pdf","page":32,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2018/questao_062.png"},{"source":"2019/UERJ_2019_1EQ/UERJ 2019 - 1o exame/UERJ 2019 - 1o exame - prova.pdf","page":38,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2019/questao_070.png"},{"source":"2020/UERJ_2020_2EQ/UERJ 2020 - 2o exame/UERJ 2020 - 2o exame - prova.pdf","page":36,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2020/questao_138.png"},{"source":"2021/UERJ_2021/UERJ 2021/UERJ 2021 - PROVA.pdf","page":28,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2021/questao_063.png"},{"source":"2022/UERJ_2022/UERJ 2022/UERJ 2022 - PROVA.pdf","page":27,"rect":[35,45,546.1,558.55],"dest":"imagens/uerj/2022/questao_055.png"},{"source":"2023/UERJ_2023/prova-uerj-2023.pdf","page":5,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2023/questao_004.png"},{"source":"2024/UERJ_2024/prova-e-gabarito-1-exame-de-qualificacao-uerj-2024_extraido/prova-gabarito-1-exame-de-qualificacao-uerj-2024/prova-1-exame-qualificacao-uerj-2024.pdf","page":5,"rect":[35,45,546.1,518.83],"dest":"imagens/uerj/2024/questao_004.png"},{"source":"2024/UERJ_2024/prova-e-gabarito-1-exame-de-qualificacao-uerj-2024_extraido/prova-gabarito-1-exame-de-qualificacao-uerj-2024/prova-1-exame-qualificacao-uerj-2024.pdf","page":32,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2024/questao_064.png"},{"source":"2025/UERJ_2025/provas-e-gabaritos-uerj-2025/prova-e-gabaritos-2-exame-qualifcacao-vestibular-2025-uerj/prova-2-exame-qualificacao-uerj-2025.pdf","page":25,"rect":[35,58.47,546.1,734.53],"dest":"imagens/uerj/2025/questao_052.png"},{"source":"2025/UERJ_2025/provas-e-gabaritos-uerj-2025/prova-e-gabaritos-2-exame-qualifcacao-vestibular-2025-uerj/prova-2-exame-qualificacao-uerj-2025.pdf","page":29,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2025/questao_061.png"},{"source":"2025/UERJ_2025/provas-e-gabaritos-uerj-2025/provas-e-gabaritos-1-exame-qualificacao-vestibular-uerj-2025/prova-1-exame-qualificacao-uerj-2025.pdf","page":36,"rect":[35,45,546.1,734.53],"dest":"imagens/uerj/2025/questao_138.png"}]''')
+          root = Path("/tmp/uerj")
+          repo = Path.cwd()
+
+          for item in manifest:
+              src = root / item["source"]
+              if not src.exists():
+                  raise FileNotFoundError(src)
+              doc = fitz.open(src)
+              page = doc[item["page"] - 1]
+              clip = fitz.Rect(*item["rect"])
+              pix = page.get_pixmap(matrix=fitz.Matrix(2.2, 2.2), clip=clip, alpha=False)
+              dest = repo / item["dest"]
+              dest.parent.mkdir(parents=True, exist_ok=True)
+              pix.save(dest)
+              doc.close()
+              print(item["dest"])
+          PY
+
+      - name: Commit images to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add imagens/uerj
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Adicionar imagens corrigidas UERJ 2009-2025"
+          git pull --rebase origin main
+          git push origin main
