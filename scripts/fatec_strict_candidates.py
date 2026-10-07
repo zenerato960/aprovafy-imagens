@@ -196,3 +196,5 @@ for si in range(math.ceil(len(cand)/16)):
         d.rectangle((c0*W,r0*(H+LH),(c0+1)*W-1,(r0+1)*(H+LH)-1),outline='black')
     sh.save(sheetdir/f'sheet_{si+1:02d}.jpg',quality=90)
 print('TOTAL',len(report),'CAND',len(cand),'PRESERVE',len(report)-len(cand))
+
+# run strict audit
