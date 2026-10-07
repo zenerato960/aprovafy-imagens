@@ -1,3 +1,4 @@
+# auditoria final pos-recortes 2026-10-07
 from pathlib import Path
 import json, math
 import cv2
