@@ -162,13 +162,13 @@
     "path": "imagens/fatec/2009/2sem/questao_003.png",
     "pagina": 3,
     "modo": "vetor_pdf",
-    "width": 1112,
-    "height": 1029,
+    "width": 1146,
+    "height": 1025,
     "rect": [
-      65.87,
-      55.24,
-      529.06,
-      483.74
+      67.94,
+      72.95,
+      545.06,
+      499.74
     ]
   },
   {
@@ -233,13 +233,13 @@
     "path": "imagens/fatec/2009/2sem/questao_030.png",
     "pagina": 11,
     "modo": "vetor_pdf",
-    "width": 576,
-    "height": 602,
+    "width": 469,
+    "height": 249,
     "rect": [
-      65.58,
-      376.49,
-      305.41,
-      626.94
+      87.51,
+      462.95,
+      282.5,
+      566.31
     ]
   },
   {
@@ -297,13 +297,13 @@
     "path": "imagens/fatec/2009/2sem/questao_047.png",
     "pagina": 19,
     "modo": "vetor_pdf",
-    "width": 581,
-    "height": 517,
+    "width": 381,
+    "height": 303,
     "rect": [
-      65.87,
-      123.06,
-      307.64,
-      338.19
+      54.83,
+      152.89,
+      213.05,
+      278.45
     ]
   },
   {
@@ -313,13 +313,13 @@
     "path": "imagens/fatec/2009/2sem/questao_048.png",
     "pagina": 19,
     "modo": "vetor_pdf",
-    "width": 693,
-    "height": 420,
+    "width": 748,
+    "height": 465,
     "rect": [
-      165.08,
-      421.55,
-      453.44,
-      596.09
+      153.36,
+      405.55,
+      464.65,
+      598.78
     ]
   },
   {
@@ -368,13 +368,13 @@
     "path": "imagens/fatec/2010/1sem/questao_019.png",
     "pagina": 9,
     "modo": "vetor_pdf",
-    "width": 575,
-    "height": 511,
+    "width": 284,
+    "height": 257,
     "rect": [
-      65.87,
-      332.16,
-      305.42,
-      544.64
+      108.77,
+      398.31,
+      226.76,
+      504.89
     ]
   },
   {
@@ -384,13 +384,13 @@
     "path": "imagens/fatec/2010/1sem/questao_023.png",
     "pagina": 10,
     "modo": "vetor_pdf",
-    "width": 577,
-    "height": 683,
+    "width": 410,
+    "height": 370,
     "rect": [
-      36.75,
-      55.24,
-      277.07,
-      339.55
+      23.05,
+      95.72,
+      193.62,
+      249.31
     ]
   },
   {
@@ -400,13 +400,13 @@
     "path": "imagens/fatec/2010/1sem/questao_024.png",
     "pagina": 10,
     "modo": "vetor_pdf",
-    "width": 576,
-    "height": 909,
+    "width": 311,
+    "height": 343,
     "rect": [
-      37.38,
-      333.69,
-      277.08,
-      711.71
+      101.09,
+      504.37,
+      230.11,
+      646.99
     ]
   },
   {
@@ -416,13 +416,13 @@
     "path": "imagens/fatec/2010/1sem/questao_029.png",
     "pagina": 11,
     "modo": "vetor_pdf",
-    "width": 576,
-    "height": 826,
+    "width": 616,
+    "height": 402,
     "rect": [
-      65.58,
-      272.09,
-      305.41,
-      616.07
+      51.3,
+      376.0,
+      307.64,
+      543.15
     ]
   },
   {
@@ -432,13 +432,13 @@
     "path": "imagens/fatec/2010/1sem/questao_030.png",
     "pagina": 11,
     "modo": "vetor_pdf",
-    "width": 483,
-    "height": 596,
+    "width": 465,
+    "height": 311,
     "rect": [
-      320.68,
-      174.67,
-      521.57,
-      422.78
+      344.47,
+      204.55,
+      537.57,
+      333.47
     ]
   },
   {
@@ -542,13 +542,13 @@
     "path": "imagens/fatec/2010/2sem/questao_025.png",
     "pagina": 9,
     "modo": "vetor_pdf",
-    "width": 576,
-    "height": 463,
+    "width": 632,
+    "height": 268,
     "rect": [
-      320.98,
-      208.29,
-      560.54,
-      400.58
+      306.29,
+      293.63,
+      569.24,
+      404.83
     ]
   },
   {
@@ -558,13 +558,13 @@
     "path": "imagens/fatec/2010/2sem/questao_026.png",
     "pagina": 10,
     "modo": "vetor_pdf",
-    "width": 199,
-    "height": 319,
+    "width": 238,
+    "height": 322,
     "rect": [
-      225.17,
-      106.45,
+      209.17,
+      90.45,
       307.64,
-      238.76
+      224.46
     ]
   },
   {
@@ -673,13 +673,13 @@
     "path": "imagens/fatec/2011/1sem/questao_025.png",
     "pagina": 9,
     "modo": "vetor_pdf",
-    "width": 1179,
-    "height": 375,
+    "width": 1256,
+    "height": 411,
     "rect": [
-      67.95,
-      116.82,
-      558.89,
-      272.76
+      51.95,
+      118.14,
+      574.89,
+      288.76
     ]
   },
   {
@@ -689,13 +689,13 @@
     "path": "imagens/fatec/2011/1sem/questao_026.png",
     "pagina": 9,
     "modo": "vetor_pdf",
-    "width": 581,
-    "height": 467,
+    "width": 390,
+    "height": 181,
     "rect": [
-      65.87,
-      438.03,
-      307.64,
-      632.22
+      129.17,
+      528.23,
+      291.33,
+      602.98
     ]
   },
   {
@@ -705,13 +705,13 @@
     "path": "imagens/fatec/2011/1sem/questao_029.png",
     "pagina": 10,
     "modo": "vetor_pdf",
-    "width": 649,
-    "height": 278,
+    "width": 331,
+    "height": 179,
     "rect": [
-      37.52,
-      539.96,
+      170.33,
+      558.46,
       307.64,
-      655.09
+      632.63
     ]
   },
   {
@@ -753,13 +753,13 @@
     "path": "imagens/fatec/2011/1sem/questao_038.png",
     "pagina": 14,
     "modo": "vetor_pdf",
-    "width": 328,
-    "height": 182,
+    "width": 341,
+    "height": 188,
     "rect": [
-      171.25,
-      160.0,
-      307.64,
-      235.11
+      155.25,
+      173.01,
+      296.69,
+      251.11
     ]
   },
   {
@@ -769,13 +769,13 @@
     "path": "imagens/fatec/2011/2sem/questao_009.png",
     "pagina": 4,
     "modo": "vetor_pdf",
-    "width": 615,
-    "height": 321,
+    "width": 209,
+    "height": 150,
     "rect": [
-      51.69,
-      457.65,
-      307.64,
-      591.09
+      139.07,
+      450.33,
+      225.48,
+      512.18
     ]
   },
   {
@@ -785,13 +785,13 @@
     "path": "imagens/fatec/2011/2sem/questao_016.png",
     "pagina": 6,
     "modo": "vetor_pdf",
-    "width": 615,
-    "height": 419,
+    "width": 191,
+    "height": 324,
     "rect": [
-      51.7,
-      73.73,
+      228.68,
+      118.67,
       307.64,
-      247.84
+      253.06
     ]
   },
   {
@@ -801,13 +801,13 @@
     "path": "imagens/fatec/2011/2sem/questao_018.png",
     "pagina": 6,
     "modo": "vetor_pdf",
-    "width": 116,
-    "height": 282,
+    "width": 154,
+    "height": 297,
     "rect": [
-      259.83,
-      510.02,
+      243.83,
+      520.18,
       307.64,
-      627.39
+      643.39
     ]
   },
   {
@@ -817,13 +817,13 @@
     "path": "imagens/fatec/2011/2sem/questao_019.png",
     "pagina": 7,
     "modo": "vetor_pdf",
-    "width": 629,
-    "height": 499,
+    "width": 209,
+    "height": 325,
     "rect": [
-      46.02,
-      72.11,
+      221.03,
+      96.41,
       307.64,
-      279.64
+      231.38
     ]
   },
   {
@@ -833,13 +833,13 @@
     "path": "imagens/fatec/2011/2sem/questao_021.png",
     "pagina": 8,
     "modo": "vetor_pdf",
-    "width": 588,
-    "height": 884,
+    "width": 596,
+    "height": 389,
     "rect": [
-      51.69,
-      72.89,
-      296.41,
-      440.75
+      41.71,
+      152.94,
+      289.59,
+      314.96
     ]
   },
   {
@@ -849,13 +849,13 @@
     "path": "imagens/fatec/2011/2sem/questao_023.png",
     "pagina": 8,
     "modo": "vetor_pdf",
-    "width": 587,
-    "height": 556,
+    "width": 632,
+    "height": 365,
     "rect": [
-      306.81,
-      149.48,
-      551.1,
-      380.68
+      291.49,
+      136.98,
+      554.55,
+      288.72
     ]
   },
   {
@@ -865,13 +865,13 @@
     "path": "imagens/fatec/2011/2sem/questao_025.png",
     "pagina": 9,
     "modo": "vetor_pdf",
-    "width": 1106,
-    "height": 815,
+    "width": 1183,
+    "height": 866,
     "rect": [
-      55.98,
-      113.65,
-      516.49,
-      452.89
+      39.98,
+      97.65,
+      532.49,
+      458.33
     ]
   },
   {
@@ -913,13 +913,13 @@
     "path": "imagens/fatec/2011/2sem/questao_037.png",
     "pagina": 13,
     "modo": "vetor_pdf",
-    "width": 629,
-    "height": 489,
+    "width": 362,
+    "height": 355,
     "rect": [
-      46.02,
-      323.25,
+      157.21,
+      351.36,
       307.64,
-      526.47
+      499.13
     ]
   },
   {
@@ -980,13 +980,13 @@
     "path": "imagens/fatec/2012/1sem/questao_004.png",
     "pagina": 3,
     "modo": "vetor_pdf",
-    "width": 565,
-    "height": 162,
+    "width": 324,
+    "height": 152,
     "rect": [
-      308.56,
-      161.65,
-      543.48,
-      228.47
+      424.76,
+      181.26,
+      559.48,
+      244.47
     ]
   },
   {
@@ -996,13 +996,13 @@
     "path": "imagens/fatec/2012/1sem/questao_008.png",
     "pagina": 5,
     "modo": "vetor_pdf",
-    "width": 244,
-    "height": 446,
+    "width": 322,
+    "height": 470,
     "rect": [
-      154.25,
-      201.27,
-      255.77,
-      386.98
+      138.25,
+      185.27,
+      271.77,
+      380.81
     ]
   },
   {
@@ -1012,13 +1012,13 @@
     "path": "imagens/fatec/2012/1sem/questao_009.png",
     "pagina": 6,
     "modo": "vetor_pdf",
-    "width": 1197,
-    "height": 1126,
+    "width": 1272,
+    "height": 1031,
     "rect": [
-      51.09,
-      72.41,
-      549.25,
-      541.12
+      35.69,
+      113.84,
+      565.25,
+      543.07
     ]
   },
   {
@@ -1028,13 +1028,13 @@
     "path": "imagens/fatec/2012/1sem/questao_013.png",
     "pagina": 8,
     "modo": "vetor_pdf",
-    "width": 603,
-    "height": 1617,
+    "width": 469,
+    "height": 1458,
     "rect": [
-      45.93,
-      52.16,
-      296.91,
-      725.42
+      54.14,
+      103.83,
+      249.15,
+      711.14
     ]
   },
   {
@@ -1060,13 +1060,13 @@
     "path": "imagens/fatec/2012/1sem/questao_030.png",
     "pagina": 12,
     "modo": "vetor_pdf",
-    "width": 521,
-    "height": 482,
+    "width": 332,
+    "height": 333,
     "rect": [
-      59.71,
-      222.62,
-      276.62,
-      423.22
+      95.02,
+      288.09,
+      233.16,
+      426.42
     ]
   },
   {
@@ -1076,13 +1076,13 @@
     "path": "imagens/fatec/2012/1sem/questao_034.png",
     "pagina": 13,
     "modo": "vetor_pdf",
-    "width": 589,
-    "height": 608,
+    "width": 506,
+    "height": 461,
     "rect": [
-      46.02,
-      243.93,
-      291.24,
-      496.88
+      59.33,
+      295.74,
+      269.99,
+      487.27
     ]
   },
   {
@@ -1092,30 +1092,21 @@
     "path": "imagens/fatec/2012/1sem/questao_037.png",
     "pagina": 14,
     "modo": "vetor_pdf",
-    "width": 615,
-    "height": 525,
+    "width": 406,
+    "height": 253,
     "rect": [
-      51.7,
-      69.41,
+      139.05,
+      97.62,
       307.64,
-      287.56
+      202.67
     ]
   },
   {
     "edicao": "2012_1",
     "questao": 40,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2012/1sem/questao_040.png",
-    "pagina": 15,
-    "modo": "raster_residual",
-    "width": 1115,
-    "height": 59,
-    "rect": [
-      80.16,
-      83.54,
-      544.35,
-      107.73
-    ]
+    "pagina": 15
   },
   {
     "edicao": "2012_1",
@@ -1188,13 +1179,13 @@
     "path": "imagens/fatec/2012/2sem/questao_002.png",
     "pagina": 2,
     "modo": "vetor_pdf",
-    "width": 539,
-    "height": 629,
+    "width": 239,
+    "height": 490,
     "rect": [
-      317.62,
-      284.76,
-      541.8,
-      546.57
+      450.58,
+      313.98,
+      549.98,
+      517.6
     ]
   },
   {
@@ -1220,13 +1211,13 @@
     "path": "imagens/fatec/2012/2sem/questao_031.png",
     "pagina": 10,
     "modo": "vetor_pdf",
-    "width": 589,
-    "height": 612,
+    "width": 397,
+    "height": 246,
     "rect": [
-      306.81,
-      51.64,
-      552.03,
-      305.92
+      341.82,
+      102.07,
+      506.79,
+      203.89
     ]
   },
   {
@@ -1236,13 +1227,13 @@
     "path": "imagens/fatec/2012/2sem/questao_034.png",
     "pagina": 11,
     "modo": "vetor_pdf",
-    "width": 820,
-    "height": 452,
+    "width": 382,
+    "height": 382,
     "rect": [
-      46.02,
-      194.26,
-      387.22,
-      382.34
+      208.13,
+      209.64,
+      367.06,
+      368.57
     ]
   },
   {
@@ -1510,13 +1501,13 @@
     "path": "imagens/fatec/2013/1sem/questao_041.png",
     "pagina": 17,
     "modo": "vetor_pdf",
-    "width": 1204,
-    "height": 263,
+    "width": 1279,
+    "height": 207,
     "rect": [
-      37.52,
-      332.29,
-      539.06,
-      441.5
+      22.58,
+      339.27,
+      555.06,
+      425.1
     ]
   },
   {
@@ -1693,13 +1684,13 @@
     "path": "imagens/fatec/2013/2sem/questao_034.png",
     "pagina": 12,
     "modo": "vetor_pdf",
-    "width": 1068,
-    "height": 350,
+    "width": 638,
+    "height": 325,
     "rect": [
-      51.69,
-      483.1,
-      496.56,
-      628.34
+      177.93,
+      467.1,
+      443.57,
+      602.1
     ]
   },
   {
@@ -1946,13 +1937,13 @@
     "path": "imagens/fatec/2014/1sem/questao_031.png",
     "pagina": 12,
     "modo": "vetor_pdf",
-    "width": 1229,
-    "height": 99,
+    "width": 1306,
+    "height": 177,
     "rect": [
-      46.4,
-      470.1,
-      558.13,
-      511.1
+      30.4,
+      454.1,
+      574.13,
+      527.1
     ]
   },
   {
@@ -2100,18 +2091,9 @@
   {
     "edicao": "2014_2",
     "questao": 24,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2014/2sem/questao_024.png",
-    "pagina": 9,
-    "modo": "raster_residual",
-    "width": 1231,
-    "height": 64,
-    "rect": [
-      36.94,
-      186.48,
-      549.52,
-      212.61
-    ]
+    "pagina": 9
   },
   {
     "edicao": "2014_2",
@@ -2262,13 +2244,13 @@
     "path": "imagens/fatec/2014/2sem/questao_040.png",
     "pagina": 14,
     "modo": "vetor_pdf",
-    "width": 605,
-    "height": 407,
+    "width": 667,
+    "height": 197,
     "rect": [
-      46.02,
-      453.38,
-      297.7,
-      622.72
+      30.32,
+      514.36,
+      307.64,
+      596.22
     ]
   },
   {
@@ -2294,13 +2276,13 @@
     "path": "imagens/fatec/2014/2sem/questao_042.png",
     "pagina": 15,
     "modo": "vetor_pdf",
-    "width": 602,
-    "height": 667,
+    "width": 676,
+    "height": 540,
     "rect": [
-      37.52,
-      427.16,
-      288.33,
-      704.65
+      22.02,
+      453.05,
+      303.05,
+      677.55
     ]
   },
   {
@@ -2649,13 +2631,13 @@
     "path": "imagens/fatec/2015/2sem/questao_011.png",
     "pagina": 5,
     "modo": "vetor_pdf",
-    "width": 480,
-    "height": 233,
+    "width": 557,
+    "height": 311,
     "rect": [
-      48.4,
-      275.88,
-      248.07,
-      372.8
+      32.4,
+      259.88,
+      264.07,
+      388.8
     ]
   },
   {
@@ -2665,13 +2647,13 @@
     "path": "imagens/fatec/2015/2sem/questao_014.png",
     "pagina": 6,
     "modo": "vetor_pdf",
-    "width": 1231,
-    "height": 734,
+    "width": 1308,
+    "height": 799,
     "rect": [
-      46.02,
-      152.26,
-      558.62,
-      457.59
+      30.38,
+      136.26,
+      574.62,
+      468.89
     ]
   },
   {
@@ -2830,13 +2812,13 @@
     "path": "imagens/fatec/2016/1sem/questao_009.png",
     "pagina": 4,
     "modo": "vetor_pdf",
-    "width": 605,
-    "height": 732,
+    "width": 478,
+    "height": 478,
     "rect": [
-      308.23,
-      284.72,
-      559.91,
-      589.5
+      334.45,
+      346.55,
+      532.95,
+      545.06
     ]
   },
   {
@@ -2846,13 +2828,13 @@
     "path": "imagens/fatec/2016/1sem/questao_011.png",
     "pagina": 5,
     "modo": "vetor_pdf",
-    "width": 605,
-    "height": 427,
+    "width": 381,
+    "height": 381,
     "rect": [
-      37.52,
-      416.91,
-      289.18,
-      594.4
+      86.01,
+      451.7,
+      244.29,
+      610.4
     ]
   },
   {
@@ -2956,13 +2938,13 @@
     "path": "imagens/fatec/2016/2sem/questao_010.png",
     "pagina": 5,
     "modo": "vetor_pdf",
-    "width": 604,
-    "height": 592,
+    "width": 575,
+    "height": 414,
     "rect": [
-      37.52,
-      66.45,
-      289.14,
-      312.55
+      41.58,
+      97.35,
+      280.57,
+      269.32
     ]
   },
   {
@@ -2971,14 +2953,14 @@
     "status": "recortado",
     "path": "imagens/fatec/2016/2sem/questao_011.png",
     "pagina": 5,
-    "modo": "vetor_pdf",
-    "width": 605,
-    "height": 429,
+    "modo": "raster_residual",
+    "width": 613,
+    "height": 958,
     "rect": [
-      299.72,
-      143.07,
-      551.63,
-      321.4
+      294.73,
+      69.55,
+      549.9,
+      467.94
     ]
   },
   {
@@ -3272,14 +3254,14 @@
     "status": "recortado",
     "path": "imagens/fatec/2017/1sem/questao_035.png",
     "pagina": 15,
-    "modo": "vetor_pdf",
-    "width": 885,
-    "height": 200,
+    "modo": "raster_residual",
+    "width": 1148,
+    "height": 335,
     "rect": [
-      119.91,
-      315.5,
-      488.12,
-      398.58
+      72.42,
+      254.51,
+      550.16,
+      393.54
     ]
   },
   {
@@ -3623,13 +3605,13 @@
     "path": "imagens/fatec/2018/1sem/questao_012.png",
     "pagina": 8,
     "modo": "vetor_pdf",
-    "width": 365,
-    "height": 202,
+    "width": 442,
+    "height": 279,
     "rect": [
-      225.97,
-      73.85,
-      377.72,
-      157.54
+      209.97,
+      57.85,
+      393.72,
+      173.54
     ]
   },
   {
@@ -3905,13 +3887,13 @@
     "path": "imagens/fatec/2018/2sem/questao_048.png",
     "pagina": 19,
     "modo": "vetor_pdf",
-    "width": 1228,
-    "height": 230,
+    "width": 1304,
+    "height": 306,
     "rect": [
-      37.75,
-      91.61,
-      548.93,
-      186.89
+      21.75,
+      75.61,
+      564.93,
+      202.89
     ]
   },
   {
@@ -4110,13 +4092,13 @@
     "path": "imagens/fatec/2019/2sem/questao_005.png",
     "pagina": 3,
     "modo": "vetor_pdf",
-    "width": 972,
-    "height": 227,
+    "width": 782,
+    "height": 213,
     "rect": [
-      37.52,
-      519.09,
-      442.49,
-      613.25
+      133.24,
+      503.09,
+      458.49,
+      591.59
     ]
   },
   {
@@ -4294,18 +4276,9 @@
   {
     "edicao": "2020_1",
     "questao": 3,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2020/1sem/questao_003.png",
-    "pagina": 3,
-    "modo": "raster_residual",
-    "width": 607,
-    "height": 59,
-    "rect": [
-      303.77,
-      119.8,
-      556.35,
-      144.0
-    ]
+    "pagina": 3
   },
   {
     "edicao": "2020_1",
@@ -4374,18 +4347,9 @@
   {
     "edicao": "2020_1",
     "questao": 15,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2020/1sem/questao_015.png",
-    "pagina": 7,
-    "modo": "raster_residual",
-    "width": 629,
-    "height": 59,
-    "rect": [
-      39.52,
-      52.98,
-      301.13,
-      77.17
-    ]
+    "pagina": 7
   },
   {
     "edicao": "2020_1",
@@ -4470,18 +4434,9 @@
   {
     "edicao": "2020_1",
     "questao": 42,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2020/1sem/questao_042.png",
-    "pagina": 16,
-    "modo": "raster_residual",
-    "width": 1239,
-    "height": 59,
-    "rect": [
-      39.52,
-      218.66,
-      555.32,
-      242.85
-    ]
+    "pagina": 16
   },
   {
     "edicao": "2020_1",
@@ -4669,34 +4624,16 @@
   {
     "edicao": "2022_2",
     "questao": 17,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2022/2sem/questao_017.png",
-    "pagina": 8,
-    "modo": "raster_residual",
-    "width": 1275,
-    "height": 59,
-    "rect": [
-      32.42,
-      19.88,
-      563.06,
-      44.08
-    ]
+    "pagina": 8
   },
   {
     "edicao": "2022_2",
     "questao": 28,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2022/2sem/questao_028.png",
-    "pagina": 11,
-    "modo": "raster_residual",
-    "width": 1275,
-    "height": 59,
-    "rect": [
-      32.42,
-      586.81,
-      563.06,
-      611.0
-    ]
+    "pagina": 11
   },
   {
     "edicao": "2022_2",
@@ -4775,13 +4712,13 @@
     "path": "imagens/fatec/2023/1sem/questao_004.png",
     "pagina": 3,
     "modo": "vetor_pdf",
-    "width": 643,
-    "height": 500,
+    "width": 606,
+    "height": 569,
     "rect": [
-      40.35,
-      501.82,
+      55.65,
+      489.58,
       307.64,
-      709.87
+      725.87
     ]
   },
   {
@@ -4890,18 +4827,9 @@
   {
     "edicao": "2023_1",
     "questao": 38,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2023/1sem/questao_038.png",
-    "pagina": 16,
-    "modo": "raster_residual",
-    "width": 629,
-    "height": 59,
-    "rect": [
-      39.52,
-      280.38,
-      301.13,
-      304.58
-    ]
+    "pagina": 16
   },
   {
     "edicao": "2023_1",
@@ -4954,18 +4882,9 @@
   {
     "edicao": "2023_1",
     "questao": 43,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2023/1sem/questao_043.png",
-    "pagina": 18,
-    "modo": "raster_residual",
-    "width": 629,
-    "height": 59,
-    "rect": [
-      39.52,
-      481.01,
-      301.13,
-      505.2
-    ]
+    "pagina": 18
   },
   {
     "edicao": "2023_1",
@@ -5002,18 +4921,9 @@
   {
     "edicao": "2023_2",
     "questao": 4,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2023/2sem/questao_004.png",
-    "pagina": 3,
-    "modo": "raster_residual",
-    "width": 629,
-    "height": 59,
-    "rect": [
-      39.52,
-      323.85,
-      301.13,
-      348.05
-    ]
+    "pagina": 3
   },
   {
     "edicao": "2023_2",
@@ -5066,34 +4976,16 @@
   {
     "edicao": "2023_2",
     "questao": 15,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2023/2sem/questao_015.png",
-    "pagina": 9,
-    "modo": "raster_residual",
-    "width": 608,
-    "height": 59,
-    "rect": [
-      39.52,
-      36.12,
-      292.1,
-      60.31
-    ]
+    "pagina": 9
   },
   {
     "edicao": "2023_2",
     "questao": 16,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2023/2sem/questao_016.png",
-    "pagina": 9,
-    "modo": "raster_residual",
-    "width": 608,
-    "height": 59,
-    "rect": [
-      39.52,
-      242.62,
-      292.1,
-      266.81
-    ]
+    "pagina": 9
   },
   {
     "edicao": "2023_2",
@@ -5114,18 +5006,9 @@
   {
     "edicao": "2023_2",
     "questao": 27,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2023/2sem/questao_027.png",
-    "pagina": 12,
-    "modo": "raster_residual",
-    "width": 607,
-    "height": 59,
-    "rect": [
-      303.77,
-      518.57,
-      556.35,
-      542.77
-    ]
+    "pagina": 12
   },
   {
     "edicao": "2023_2",
@@ -5247,18 +5130,9 @@
   {
     "edicao": "2024_1",
     "questao": 7,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2024/1sem/questao_007.png",
-    "pagina": 4,
-    "modo": "raster_residual",
-    "width": 629,
-    "height": 59,
-    "rect": [
-      32.42,
-      526.53,
-      294.03,
-      550.72
-    ]
+    "pagina": 4
   },
   {
     "edicao": "2024_1",
@@ -5306,13 +5180,13 @@
     "path": "imagens/fatec/2024/1sem/questao_028.png",
     "pagina": 12,
     "modo": "vetor_pdf",
-    "width": 617,
-    "height": 324,
+    "width": 677,
+    "height": 292,
     "rect": [
-      33.27,
-      133.47,
-      289.6,
-      268.22
+      18.8,
+      117.47,
+      300.55,
+      238.72
     ]
   },
   {
@@ -5370,13 +5244,13 @@
     "path": "imagens/fatec/2024/1sem/questao_032.png",
     "pagina": 13,
     "modo": "vetor_pdf",
-    "width": 431,
-    "height": 307,
+    "width": 236,
+    "height": 183,
     "rect": [
-      49.89,
-      591.57,
-      229.15,
-      719.16
+      111.5,
+      612.84,
+      209.56,
+      688.61
     ]
   },
   {
@@ -5386,13 +5260,13 @@
     "path": "imagens/fatec/2024/1sem/questao_042.png",
     "pagina": 17,
     "modo": "vetor_pdf",
-    "width": 648,
-    "height": 226,
+    "width": 637,
+    "height": 242,
     "rect": [
-      31.0,
-      597.9,
+      35.69,
+      596.24,
       300.55,
-      691.39
+      696.64
     ]
   },
   {
@@ -5414,18 +5288,9 @@
   {
     "edicao": "2024_1",
     "questao": 46,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2024/1sem/questao_046.png",
-    "pagina": 19,
-    "modo": "raster_residual",
-    "width": 629,
-    "height": 59,
-    "rect": [
-      32.42,
-      33.56,
-      294.03,
-      57.76
-    ]
+    "pagina": 19
   },
   {
     "edicao": "2024_1",
@@ -5434,13 +5299,13 @@
     "path": "imagens/fatec/2024/1sem/questao_047.png",
     "pagina": 19,
     "modo": "vetor_pdf",
-    "width": 645,
-    "height": 629,
+    "width": 589,
+    "height": 589,
     "rect": [
-      30.75,
-      389.39,
-      298.86,
-      650.97
+      44.43,
+      416.9,
+      289.25,
+      661.73
     ]
   },
   {
@@ -5485,34 +5350,16 @@
   {
     "edicao": "2024_2",
     "questao": 15,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2024/2sem/questao_015.png",
-    "pagina": 7,
-    "modo": "raster_residual",
-    "width": 613,
-    "height": 59,
-    "rect": [
-      38.87,
-      495.43,
-      294.03,
-      519.63
-    ]
+    "pagina": 7
   },
   {
     "edicao": "2024_2",
     "questao": 17,
-    "status": "recortado",
+    "status": "sem_visual_real",
     "path": "imagens/fatec/2024/2sem/questao_017.png",
-    "pagina": 8,
-    "modo": "raster_residual",
-    "width": 1239,
-    "height": 59,
-    "rect": [
-      25.32,
-      36.18,
-      541.13,
-      60.37
-    ]
+    "pagina": 8
   },
   {
     "edicao": "2024_2",
@@ -5537,13 +5384,13 @@
     "path": "imagens/fatec/2024/2sem/questao_023.png",
     "pagina": 10,
     "modo": "vetor_pdf",
-    "width": 1183,
-    "height": 566,
+    "width": 1094,
+    "height": 469,
     "rect": [
-      31.4,
-      95.49,
-      523.86,
-      331.03
+      60.05,
+      112.65,
+      515.65,
+      307.68
     ]
   },
   {
