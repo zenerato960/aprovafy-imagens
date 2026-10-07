@@ -1,25 +1,29 @@
-name: Auditoria visual FATEC
+name: Auditar visuais FATEC
+
 on:
   push:
     branches: [main]
     paths:
-      - 'scripts/gerar_fatec_contact_sheets.py'
+      - 'scripts/auditar_fatec_imagens.py'
+      - '.github/workflows/auditar_fatec_imagens.yml'
+
 permissions:
   contents: read
+
 jobs:
-  gerar:
+  auditar:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install pillow
-      - run: python scripts/gerar_fatec_contact_sheets.py
+      - name: Instalar dependencias
+        run: pip install pillow numpy opencv-python-headless
+      - name: Auditar imagens
+        run: python scripts/auditar_fatec_imagens.py
       - uses: actions/upload-artifact@v4
         with:
-          name: fatec-contact-sheets
-          path: |
-            auditorias/fatec_contact_sheets
-            auditorias/fatec_contact_sheets_manifest.json
-          retention-days: 3
+          name: auditoria-visual-fatec
+          path: auditoria_visual_fatec/
+          retention-days: 7
