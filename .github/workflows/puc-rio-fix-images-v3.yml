@@ -1,0 +1,46 @@
+name: PUC-Rio imagens complementares
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/puc-rio-fix-images-v3.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install --quiet pymupdf requests
+      - shell: bash
+        run: |
+          cat >/tmp/run.py <<'PY'
+          import zipfile,requests,pymupdf
+          from pathlib import Path
+          S=[{"registro":121,"url":"https://www.puc-rio.br/vestibular/repositorio/provas/2009/download/VEST2009PUCRio_PROVAS_GABARITOS.zip","pdf":"VEST2009PUCRio_GRUPO1_24102008.pdf","page":16,"clip":[205,135,410,305]},{"registro":438,"url":"https://www.puc-rio.br/vestibular/repositorio/provas/2011/download/VEST2011PUCRio_PROVAS_GABARITOS_v4.zip","pdf":"VEST2011PUCRio_GRUPOS_1_3_4_15102010.pdf","page":3,"clip":[45,330,275,620]},{"registro":1077,"url":"https://www.puc-rio.br/vestibular/repositorio/provas/2014/download/VEST2014PUCRio_PROVAS_GABARITOS_V5.zip","pdf":"VEST2014PUCRio_GRUPO_1_14102013_completo.pdf","page":11,"clip":[135,145,475,285]}]
+          cache={}; root=Path("/tmp/p"); root.mkdir(); out=Path("imagens/puc-rio/correcoes-2026"); out.mkdir(parents=True,exist_ok=True)
+          for s in S:
+              u=s["url"]
+              if u not in cache:
+                  n=len(cache); z=root/f"{n}.zip"; d=root/f"{n}x"; d.mkdir()
+                  r=requests.get(u,timeout=180); r.raise_for_status(); z.write_bytes(r.content)
+                  with zipfile.ZipFile(z) as a:a.extractall(d)
+                  cache[u]=d
+              hits=[p for p in cache[u].rglob("*") if p.is_file() and p.name.casefold()==s["pdf"].casefold()]
+              if not hits: raise FileNotFoundError(s["pdf"])
+              doc=pymupdf.open(hits[0]); pg=doc[s["page"]]; rect=pymupdf.Rect(*s["clip"]) & pg.rect
+              pix=pg.get_pixmap(matrix=pymupdf.Matrix(2.5,2.5),clip=rect,alpha=False)
+              dst=out/f"registro_{s['registro']:04d}.png"; pix.save(dst); print("OK",s["registro"],pix.width,pix.height,flush=True)
+          PY
+          python /tmp/run.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add imagens/puc-rio/correcoes-2026/
+          git diff --cached --quiet && exit 0
+          git commit -m "Adicionar imagens complementares PUC-Rio"
+          git pull --rebase origin main
+          git push origin HEAD:main
