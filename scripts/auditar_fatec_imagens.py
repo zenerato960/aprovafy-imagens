@@ -38,7 +38,8 @@ for p in sorted(ROOT.rglob("*.png")):
     lines=cv2.HoughLinesP(edges,1,np.pi/180,threshold=max(35,w//8),minLineLength=max(60,int(w*0.35)),maxLineGap=20)
     angles=[]
     if lines is not None:
-        for ln in lines[:,0,:]:
+        arr_lines = lines.reshape(-1, 4)
+        for ln in arr_lines:
             xA,yA,xB,yB=map(int,ln)
             dx=xB-xA; dy=yB-yA
             length=(dx*dx+dy*dy)**0.5
