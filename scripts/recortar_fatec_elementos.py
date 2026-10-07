@@ -252,19 +252,13 @@ def drawing_crop(page, qrect):
     scored.sort(reverse=True, key=lambda z: z[0])
     top = scored[0][0]
     u = union_rect([r for a, r in scored if a >= top * 0.15])
-    # add nearby short labels, axes and legends
-    grown = fitz.Rect(u)
-    for _ in range(2):
-        exp = fitz.Rect(grown.x0 - 24, grown.y0 - 18, grown.x1 + 24, grown.y1 + 18) & qrect
-        for b in page.get_text('blocks', clip=qrect):
-            br = fitz.Rect(b[:4])
-            txt = b[4].strip()
-            if not txt or not exp.intersects(br):
-                continue
-            if len(txt) > 130 and br.width > page.rect.width * 0.55:
-                continue
-            if len(txt) < 110 or br.width < page.rect.width * 0.42:
-                grown |= br
+    # O recorte deve nascer do desenho, não do texto ao redor da questão.
+    # Uma margem curta preserva rótulos/eixos próximos sem capturar parágrafos,
+    # alternativas ou cabeçalhos da prova.
+    if u.width > 150 and u.height < 28:
+        return None
+    pad_x, pad_y = 16, 16
+    grown = fitz.Rect(u.x0-pad_x, u.y0-pad_y, u.x1+pad_x, u.y1+pad_y)
     return grown & qrect
 
 def raster_crop(page, qrect):
@@ -322,6 +316,10 @@ def raster_crop(page, qrect):
     x1, y1 = min(pix.width, x1 - pad), min(pix.height, y1 - pad)
     r = fitz.Rect(qrect.x0 + x0 / scale, qrect.y0 + y0 / scale, qrect.x0 + x1 / scale, qrect.y0 + y1 / scale)
     if r.width < 22 or r.height < 14:
+        return None
+    # Barras/separadores horizontais do layout estavam sendo confundidos com
+    # elementos visuais. Recortes muito largos e rasos não são aceitos.
+    if r.width > 150 and r.height < 28:
         return None
     return r & qrect
 
