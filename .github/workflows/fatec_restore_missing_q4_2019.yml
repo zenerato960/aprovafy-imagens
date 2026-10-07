@@ -1,0 +1,52 @@
+name: Restaurar visual FATEC 2019-1 q4
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fatec_restore_missing_q4_2019.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pymupdf requests
+      - name: Gerar recorte fiel da questão 4
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import requests, fitz
+          url='https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2018/12/prova-vestibular-1sem-2019.pdf'
+          r=requests.get(url,timeout=120)
+          r.raise_for_status()
+          if not r.content.startswith(b'%PDF'):
+              raise RuntimeError('fonte nao PDF')
+          doc=fitz.open(stream=r.content,filetype='pdf')
+          page=doc[2]
+          rect=fitz.Rect(105,110,487,271)
+          out=Path('imagens/fatec/2019/1sem/questao_004.png')
+          out.parent.mkdir(parents=True,exist_ok=True)
+          pix=page.get_pixmap(matrix=fitz.Matrix(3,3),clip=rect,alpha=False)
+          pix.save(out)
+          print(out,pix.width,pix.height)
+          PY
+      - name: Publicar
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add imagens/fatec/2019/1sem/questao_004.png
+          if git diff --cached --quiet; then
+            echo 'sem alteracoes'
+          else
+            git commit -m 'Restaurar visual fiel FATEC 2019-1 q4'
+            git pull --rebase origin main
+            git push origin main
+          fi
