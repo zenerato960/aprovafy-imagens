@@ -1136,9 +1136,17 @@
   {
     "edicao": "2012_1",
     "questao": 40,
-    "status": "sem_visual_real",
+    "status": "manual_revisado",
     "path": "imagens/fatec/2012/1sem/questao_040.png",
-    "pagina": 15
+    "pagina": 15,
+    "width": 1185,
+    "height": 409,
+    "rect": [
+      64.4,
+      343.8,
+      519.9,
+      500.6
+    ]
   },
   {
     "edicao": "2012_1",
@@ -2161,9 +2169,17 @@
   {
     "edicao": "2014_2",
     "questao": 24,
-    "status": "sem_visual_real",
+    "status": "manual_revisado",
     "path": "imagens/fatec/2014/2sem/questao_024.png",
-    "pagina": 9
+    "pagina": 9,
+    "width": 622,
+    "height": 312,
+    "rect": [
+      42.0,
+      100.0,
+      281.0,
+      220.0
+    ]
   },
   {
     "edicao": "2014_2",
@@ -4597,9 +4613,17 @@
   {
     "edicao": "2020_1",
     "questao": 15,
-    "status": "sem_visual_real",
+    "status": "manual_revisado",
     "path": "imagens/fatec/2020/1sem/questao_015.png",
-    "pagina": 7
+    "pagina": 7,
+    "width": 610,
+    "height": 457,
+    "rect": [
+      312.8,
+      89.4,
+      547.0,
+      264.8
+    ]
   },
   {
     "edicao": "2020_1",
@@ -5093,9 +5117,17 @@
   {
     "edicao": "2023_1",
     "questao": 38,
-    "status": "sem_visual_real",
+    "status": "manual_revisado",
     "path": "imagens/fatec/2023/1sem/questao_038.png",
-    "pagina": 16
+    "pagina": 16,
+    "width": 448,
+    "height": 323,
+    "rect": [
+      387.5,
+      377.9,
+      559.3,
+      501.8
+    ]
   },
   {
     "edicao": "2023_1",
@@ -5148,9 +5180,17 @@
   {
     "edicao": "2023_1",
     "questao": 43,
-    "status": "sem_visual_real",
+    "status": "manual_revisado",
     "path": "imagens/fatec/2023/1sem/questao_043.png",
-    "pagina": 18
+    "pagina": 18,
+    "width": 533,
+    "height": 351,
+    "rect": [
+      350.0,
+      575.0,
+      555.0,
+      710.0
+    ]
   },
   {
     "edicao": "2023_1",
@@ -5444,9 +5484,17 @@
   {
     "edicao": "2024_1",
     "questao": 7,
-    "status": "sem_visual_real",
+    "status": "manual_revisado",
     "path": "imagens/fatec/2024/1sem/questao_007.png",
-    "pagina": 4
+    "pagina": 4,
+    "width": 1319,
+    "height": 520,
+    "rect": [
+      38.0,
+      200.0,
+      545.0,
+      400.0
+    ]
   },
   {
     "edicao": "2024_1",
@@ -5671,9 +5719,17 @@
   {
     "edicao": "2024_2",
     "questao": 15,
-    "status": "sem_visual_real",
+    "status": "manual_revisado",
     "path": "imagens/fatec/2024/2sem/questao_015.png",
-    "pagina": 7
+    "pagina": 7,
+    "width": 637,
+    "height": 559,
+    "rect": [
+      175.0,
+      270.0,
+      420.0,
+      485.0
+    ]
   },
   {
     "edicao": "2024_2",
