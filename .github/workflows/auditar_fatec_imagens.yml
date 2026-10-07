@@ -25,5 +25,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: auditoria-visual-fatec
-          path: auditoria_visual_fatec/
+          path: |
+            auditoria_visual_fatec/
+            imagens/fatec/
           retention-days: 7
