@@ -111,7 +111,7 @@ def add_near_text(page,r,reg,pad=15):
                         rr|=sr
     return rr&reg
 
-def detect(doc,ed,q,qm,hr):
+TABLE_CACHE={}\n\ndef detect(doc,ed,q,qm,hr):
     if (ed,q) in MANUAL:
         pg,bb=MANUAL[(ed,q)];return pg-1,fitz.Rect(*bb),'manual'
     if q not in qm:return None,None,'not_found'
