@@ -50,7 +50,8 @@ mf=Path('auditorias/fatec_recortes_manifest.json')
 if mf.exists(): old=json.loads(mf.read_text(encoding='utf-8'))
 oldmap={x.get('path'):(x) for x in old if x.get('path')}
 
-session=requests.Session();session.headers['User-Agent']='Mozilla/5.0 FATEC precision repair'\nTABLE_CACHE={}
+session=requests.Session();session.headers['User-Agent']='Mozilla/5.0 FATEC precision repair'
+TABLE_CACHE={}
 docs={}
 for ed in BAD:
     r=session.get(SOURCES[ed],timeout=120);r.raise_for_status();docs[ed]=fitz.open(stream=r.content,filetype='pdf')
