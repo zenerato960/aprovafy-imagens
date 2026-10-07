@@ -1,0 +1,25 @@
+name: Auditoria visual FATEC
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/gerar_fatec_contact_sheets.py'
+permissions:
+  contents: read
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: python scripts/gerar_fatec_contact_sheets.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fatec-contact-sheets
+          path: |
+            auditorias/fatec_contact_sheets
+            auditorias/fatec_contact_sheets_manifest.json
+          retention-days: 3
