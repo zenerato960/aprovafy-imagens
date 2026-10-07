@@ -34,7 +34,6 @@ for p in sorted(ROOT.rglob("*.png")):
     else:
         x0=y0=0; x1=w-1; y1=h-1
     margins={"left":x0,"right":w-1-x1,"top":y0,"bottom":h-1-y1}
-    # Global skew: only trust long, near-horizontal segments.
     edges=cv2.Canny(gray,60,160)
     lines=cv2.HoughLinesP(edges,1,np.pi/180,threshold=max(35,w//8),minLineLength=max(60,int(w*0.35)),maxLineGap=20)
     angles=[]
@@ -51,7 +50,6 @@ for p in sorted(ROOT.rglob("*.png")):
                 angles.append((ang,length))
     skew=weighted_median(angles)
     horiz_weight=sum(l for _,l in angles)
-    # Strong edge-clipping signal. It is only a flag for manual review.
     touches=[k for k,v in margins.items() if v<=2]
     clip_flag=(len(touches)>=1 and (margins["left"]<=2 or margins["right"]<=2) and w>120 and h>60)
     skew_flag=(abs(skew)>=0.65 and horiz_weight>=w*0.9)
@@ -69,7 +67,6 @@ flagged=[r for r in records if r["flagged"]]
 (OUT/"flagged.txt").write_text("\n".join(r["path"] for r in flagged),encoding="utf-8")
 print("total",len(records),"flagged",len(flagged))
 
-# Contact sheets only for suspicious files; 12 per sheet.
 font=ImageFont.load_default()
 cell_w,cell_h=760,480
 cols,rows=3,4
