@@ -1,0 +1,25 @@
+name: Reparos direcionados FATEC
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fatec_reparos_direcionados.py'
+permissions:
+  contents: read
+jobs:
+  reparar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install pymupdf pillow requests
+      - run: python scripts/fatec_reparos_direcionados.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fatec-reparos-direcionados
+          path: |
+            auditorias/fatec_reparos_direcionados
+            auditorias/fatec_reparos_direcionados_sheets
+            auditorias/fatec_reparos_direcionados_manifest.json
+          retention-days: 3
