@@ -1,0 +1,29 @@
+name: Propor recortes FATEC v9
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/propor_recortes_fatec_v9.py'
+      - '.github/workflows/propor_recortes_fatec_v9.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install pymupdf pillow requests opencv-python-headless numpy
+      - run: python scripts/propor_recortes_fatec_v9.py
+      - name: Publicar auditoria v9
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add auditorias/fatec_v9 auditorias/fatec_v9_sheets
+          if ! git diff --cached --quiet; then
+            git commit -m 'Gerar recortes FATEC v9 ignorando screenshots inteiros'
+            git pull --rebase origin main
+            git push
+          fi
