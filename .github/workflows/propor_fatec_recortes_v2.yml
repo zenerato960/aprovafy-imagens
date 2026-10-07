@@ -1,0 +1,25 @@
+name: Propor recortes FATEC v2
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/propor_fatec_recortes_v2.py'
+permissions:
+  contents: read
+jobs:
+  propor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install pymupdf pillow requests
+      - run: python scripts/propor_fatec_recortes_v2.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fatec-propostas-v2
+          path: |
+            auditorias/fatec_propostas_v2
+            auditorias/fatec_propostas_v2_sheets
+            auditorias/fatec_propostas_v2_manifest.json
+          retention-days: 3
