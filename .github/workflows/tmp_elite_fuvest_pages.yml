@@ -1,0 +1,47 @@
+name: Temporary Elite FUVEST pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp_elite_fuvest_pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar paginas Elite
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import requests, pathlib, time
+          from urllib.parse import urlencode
+          H={'User-Agent':'Mozilla/5.0'}
+          old={2010:10871,2011:10862,2015:11610,2016:17001,2017:357872,2018:361596,2019:367986,2020:375372}
+          modern={2022:62,2023:100,2024:135,2025:179}
+          out=pathlib.Path('out'); out.mkdir()
+          for y,pid in old.items():
+              for p in range(1,10):
+                  u='https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarProvaVestibularCompleta?'+urlencode({'ano':y,'fase':1,'pagina':p,'prova_vestibular_id':pid,'sem_layout':'','vestibular':'fuvest'})
+                  r=requests.get(u,headers=H,timeout=60)
+                  print(y,p,r.status_code,len(r.content))
+                  (out/f'{y}_{p}.html').write_bytes(r.content)
+                  time.sleep(.15)
+          for y,pid in modern.items():
+              for p in range(1,10):
+                  u='https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarProvaCompleta?'+urlencode({'ano':y,'dia':1,'pagina':p,'prova_id':pid,'sem_layout':'','vestibular':'fuvest'})
+                  r=requests.get(u,headers=H,timeout=60)
+                  print(y,p,r.status_code,len(r.content))
+                  (out/f'{y}_{p}.html').write_bytes(r.content)
+                  time.sleep(.15)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: elite_fuvest_pages
+          path: out/*.html
+          retention-days: 1
