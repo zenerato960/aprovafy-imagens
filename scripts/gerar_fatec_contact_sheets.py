@@ -1,40 +1,56 @@
 from pathlib import Path
-from PIL import Image, ImageOps, ImageDraw, ImageFont
-import math, json, re
+from PIL import Image, ImageDraw, ImageFont
+import re, math
 
-files=sorted(Path("imagens/fatec").glob("**/*.png"))
-thumb_w, thumb_h = 360, 260
-cols, rows = 4, 4
-cell_w, cell_h = 390, 310
-sheet_w, sheet_h = cols*cell_w, rows*cell_h
-outdir=Path("auditorias/fatec_contact_sheets")
-outdir.mkdir(parents=True, exist_ok=True)
+ROOT = Path("imagens/fatec")
+OUT = Path("auditorias/fatec_contact_sheets")
+OUT.mkdir(parents=True, exist_ok=True)
 
-manifest=[]
-for idx,p in enumerate(files):
-    try:
-        im=Image.open(p).convert("RGB")
-    except Exception:
-        continue
-    manifest.append({"index":idx,"path":str(p),"width":im.width,"height":im.height})
-    sheet_no=idx//(cols*rows)
-    pos=idx%(cols*rows)
-    sheet_path=outdir/f"sheet_{sheet_no+1:03d}.jpg"
-    if sheet_path.exists():
-        sheet=Image.open(sheet_path).convert("RGB")
-    else:
-        sheet=Image.new("RGB",(sheet_w,sheet_h),"white")
-    im.thumbnail((thumb_w,thumb_h))
-    x=(pos%cols)*cell_w+(cell_w-im.width)//2
-    y=(pos//cols)*cell_h+35+(thumb_h-im.height)//2
-    sheet.paste(im,(x,y))
-    d=ImageDraw.Draw(sheet)
-    label=str(p).replace("imagens/fatec/","")
-    d.text(((pos%cols)*cell_w+6,(pos//cols)*cell_h+6),label,fill="black")
-    d.rectangle(((pos%cols)*cell_w,(pos//cols)*cell_h,(pos%cols+1)*cell_w-1,(pos//cols+1)*cell_h-1),outline="gray")
-    sheet.save(sheet_path,quality=88)
+for old in OUT.glob("*.jpg"):
+    old.unlink()
 
-Path("auditorias/fatec_contact_sheets_manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding="utf-8")
-print("imagens",len(manifest),"pranchas",math.ceil(len(manifest)/(cols*rows)))
+files = sorted(ROOT.glob("**/questao_*.png"))
+by_year = {}
+for p in files:
+    m = re.search(r"imagens/fatec/(\d{4})/", str(p))
+    if m:
+        by_year.setdefault(m.group(1), []).append(p)
 
-# trigger audit
+CELL_W, CELL_H = 700, 520
+COLS, ROWS = 4, 4
+PER = COLS * ROWS
+
+try:
+    font = ImageFont.truetype("DejaVuSans.ttf", 23)
+    small = ImageFont.truetype("DejaVuSans.ttf", 18)
+except Exception:
+    font = ImageFont.load_default()
+    small = font
+
+for year, paths in sorted(by_year.items()):
+    for page_idx in range(math.ceil(len(paths)/PER)):
+        subset = paths[page_idx*PER:(page_idx+1)*PER]
+        sheet = Image.new("RGB", (CELL_W*COLS, CELL_H*ROWS), "white")
+        draw = ImageDraw.Draw(sheet)
+        for i,p in enumerate(subset):
+            r,c = divmod(i,COLS)
+            x0,y0 = c*CELL_W, r*CELL_H
+            draw.rectangle((x0+2,y0+2,x0+CELL_W-3,y0+CELL_H-3),outline="gray",width=2)
+            try:
+                im = Image.open(p).convert("RGB")
+                ow,oh = im.size
+                box_h = CELL_H-80
+                ratio = min((CELL_W-30)/ow, (box_h-20)/oh, 1.0)
+                nw,nh = max(1,int(ow*ratio)),max(1,int(oh*ratio))
+                thumb = im.resize((nw,nh), Image.Resampling.LANCZOS)
+                tx = x0+(CELL_W-nw)//2
+                ty = y0+48+(box_h-nh)//2
+                sheet.paste(thumb,(tx,ty))
+                label = str(p).replace("imagens/fatec/","")
+                draw.text((x0+10,y0+8),label,fill="black",font=font)
+                draw.text((x0+10,y0+CELL_H-28),f"{ow}x{oh}",fill="black",font=small)
+            except Exception as e:
+                draw.text((x0+10,y0+70),f"ERRO {e}",fill="black",font=font)
+        out=OUT/f"{year}_{page_idx+1:02d}.jpg"
+        sheet.save(out,quality=90,optimize=True)
+        print(out)
