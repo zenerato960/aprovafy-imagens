@@ -1,0 +1,36 @@
+name: Temporary FUVEST structured transcriptions
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp_fuvest_transcricoes.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar transcricoes estruturadas
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          python - <<'PY'
+          import requests, pathlib, time
+          headers={'User-Agent':'Mozilla/5.0'}
+          for y in range(2009,2026):
+              url=f'https://rachacuca.com.br/educacao/vestibular/fuvest/{y}/primeira-fase/'
+              r=requests.get(url,headers=headers,timeout=30)
+              print(y,r.status_code,len(r.content),r.url)
+              pathlib.Path(f'out/{y}.html').write_bytes(r.content)
+              time.sleep(.3)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fuvest_transcricoes_2009_2025
+          path: out/*.html
+          retention-days: 1
