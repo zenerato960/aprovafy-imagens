@@ -4,29 +4,30 @@ on:
   push:
     branches: [main]
     paths:
-      - 'scripts/fatec_contact_sheets.py'
+      - 'scripts/gerar_fatec_contact_sheets.py'
       - '.github/workflows/fatec_contact_sheets.yml'
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  sheets:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install pillow
-      - run: python scripts/fatec_contact_sheets.py
-      - name: Commit sheets
+      - name: Instalar Pillow
+        run: pip install pillow
+      - name: Gerar folhas de auditoria
+        run: python scripts/gerar_fatec_contact_sheets.py
+      - name: Publicar folhas
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add auditorias/fatec_contact_sheets
-          if ! git diff --cached --quiet; then
-            git commit -m 'Gerar contact sheets de auditoria FATEC'
-            git pull --rebase origin main
-            git push
-          fi
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Atualizar contact sheets da auditoria visual FATEC'
+          git pull --rebase origin main
+          git push origin main
