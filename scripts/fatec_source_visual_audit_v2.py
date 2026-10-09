@@ -283,3 +283,5 @@ for si in range(math.ceil(len(cand)/per)):
         dr.rectangle((X,Y,X+CW-1,Y+CH-1),outline="gray")
     sh.save(SHEETS/f"sheet_{si+1:02d}.jpg",quality=91,optimize=True)
 print("TOTAL",len(report),"CAND",len(cand),"NO_VISUAL",len(report)-len(cand))
+
+# trigger audit v2 2026-10-09
