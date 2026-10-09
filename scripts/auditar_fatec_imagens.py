@@ -104,3 +104,5 @@ for s0 in range(0,len(records),cols*rows):
         label=f'{p} | {r["width"]}x{r["height"]} | skew={r["skew_deg"]}'
         d.text(((j%cols)*cell_w+8,(j//cols)*cell_h+8),label,fill="black",font=font)
     sheet.save(OUT/f"all_{s0//(cols*rows)+1:02d}.jpg",quality=88)
+
+# reaudit 2026-10-09
