@@ -296,3 +296,5 @@ for si in range(math.ceil(len(cand)/per)):
     sh.save(SHEETS/f"sheet_{si+1:02d}.jpg",quality=91,optimize=True)
 print("TOTAL",len(report),"CAND",len(cand),"NO_VISUAL",len(report)-len(cand))
 # optimized heading cache 2026-10-09
+
+# trigger v3
