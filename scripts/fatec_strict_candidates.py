@@ -24,7 +24,7 @@ try:
         MANUAL[(r['edicao'],int(r['questao']))]=(int(r['pagina']),tuple(r['rect']))
 except Exception: pass
 # Caso explicitamente conferido na prova oficial.
-MANUAL[('2019_1',18)]=(9,(36.49,159.36,551.29,256.81))
+MANUAL[('2019_1',18)]=(9,(42.5192,163.7003,543.6272,247.5953))
 
 def parse_path(p):
     rel=p.relative_to('imagens/fatec'); y=rel.parts[0]; folder=rel.parts[1]
