@@ -42,7 +42,7 @@ for node in mm.body:
         MANUAL=ast.literal_eval(node.value)
 
 # Q18/2019-1 foi reportada pelo usuário e conferida diretamente na página oficial.
-MANUAL[("2019_1",18)]=(9,(36.49,159.36,551.29,256.81))
+MANUAL[("2019_1",18)]=(9,(42.5192,163.7003,543.6272,247.5953))
 
 byed={}
 for rec in manifest:
@@ -160,4 +160,4 @@ Path("auditorias/fatec_clip_fixes.json").write_text(json.dumps(changes,ensure_as
 print("ALTERADAS",len(changes))
 for c in changes: print(c["edicao"],c["questao"],c["reason"],c["old_rect"],"=>",c["new_rect"])
 
-# trigger clipping audit
+# trigger clipping audit 2026-10-09
