@@ -16,3 +16,5 @@ jobs:
           name: fatec-current-pngs
           path: imagens/fatec
           retention-days: 3
+
+# export 2026-10-13 reauditoria integral
