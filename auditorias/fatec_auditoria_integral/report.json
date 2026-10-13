@@ -35,16 +35,16 @@
   },
   {
     "path": "imagens/fatec/2009/1sem/questao_011.png",
-    "width": 570,
-    "height": 341,
+    "width": 624,
+    "height": 239,
     "margins": {
-      "left": 14,
-      "right": 11,
-      "top": 4,
-      "bottom": 14
+      "left": 25,
+      "right": 8,
+      "top": 26,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 22891.0,
+    "horiz_weight": 5722.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -52,16 +52,16 @@
   },
   {
     "path": "imagens/fatec/2009/1sem/questao_027.png",
-    "width": 571,
-    "height": 415,
+    "width": 712,
+    "height": 516,
     "margins": {
-      "left": 12,
+      "left": 15,
       "right": 0,
-      "top": 12,
-      "bottom": 19
+      "top": 15,
+      "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 4423.0,
+    "horiz_weight": 6536.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -69,16 +69,16 @@
   },
   {
     "path": "imagens/fatec/2009/1sem/questao_028.png",
-    "width": 437,
-    "height": 394,
+    "width": 544,
+    "height": 490,
     "margins": {
       "left": 0,
-      "right": 49,
-      "top": 12,
-      "bottom": 38
+      "right": 60,
+      "top": 15,
+      "bottom": 46
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1982.0,
+    "horiz_weight": 2473.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -86,16 +86,16 @@
   },
   {
     "path": "imagens/fatec/2009/1sem/questao_029.png",
-    "width": 1162,
-    "height": 458,
+    "width": 1450,
+    "height": 570,
     "margins": {
       "left": 0,
-      "right": 15,
-      "top": 14,
+      "right": 17,
+      "top": 19,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 16972.0,
+    "horiz_weight": 18377.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -103,16 +103,16 @@
   },
   {
     "path": "imagens/fatec/2009/1sem/questao_036.png",
-    "width": 1046,
-    "height": 1025,
+    "width": 1205,
+    "height": 1176,
     "margins": {
-      "left": 55,
-      "right": 56,
-      "top": 39,
-      "bottom": 104
+      "left": 62,
+      "right": 64,
+      "top": 42,
+      "bottom": 118
     },
     "skew_deg": 0.0,
-    "horiz_weight": 6844.3,
+    "horiz_weight": 7433.7,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -120,13 +120,13 @@
   },
   {
     "path": "imagens/fatec/2009/1sem/questao_038.png",
-    "width": 575,
-    "height": 438,
+    "width": 662,
+    "height": 500,
     "margins": {
-      "left": 14,
-      "right": 160,
-      "top": 0,
-      "bottom": 49
+      "left": 15,
+      "right": 184,
+      "top": 15,
+      "bottom": 55
     },
     "skew_deg": 0.0,
     "horiz_weight": 0,
@@ -137,13 +137,13 @@
   },
   {
     "path": "imagens/fatec/2009/1sem/questao_039.png",
-    "width": 1182,
-    "height": 740,
+    "width": 1477,
+    "height": 922,
     "margins": {
-      "left": 26,
-      "right": 143,
-      "top": 31,
-      "bottom": 42
+      "left": 33,
+      "right": 178,
+      "top": 40,
+      "bottom": 51
     },
     "skew_deg": 0.0,
     "horiz_weight": 0,
@@ -154,16 +154,16 @@
   },
   {
     "path": "imagens/fatec/2009/1sem/questao_040.png",
-    "width": 1187,
-    "height": 440,
+    "width": 1477,
+    "height": 543,
     "margins": {
-      "left": 27,
-      "right": 20,
+      "left": 30,
+      "right": 24,
       "top": 15,
-      "bottom": 42
+      "bottom": 50
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3557.0,
+    "horiz_weight": 6990.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -171,16 +171,16 @@
   },
   {
     "path": "imagens/fatec/2009/2sem/questao_003.png",
-    "width": 1146,
-    "height": 1025,
+    "width": 1337,
+    "height": 1186,
     "margins": {
-      "left": 49,
-      "right": 50,
-      "top": 25,
-      "bottom": 49
+      "left": 14,
+      "right": 14,
+      "top": 0,
+      "bottom": 14
     },
     "skew_deg": 0.0,
-    "horiz_weight": 20949.1,
+    "horiz_weight": 33304.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -188,16 +188,16 @@
   },
   {
     "path": "imagens/fatec/2009/2sem/questao_005.png",
-    "width": 630,
-    "height": 522,
+    "width": 787,
+    "height": 652,
     "margins": {
-      "left": 26,
-      "right": 17,
-      "top": 12,
-      "bottom": 14
+      "left": 33,
+      "right": 22,
+      "top": 15,
+      "bottom": 17
     },
-    "skew_deg": 0.0,
-    "horiz_weight": 226.0,
+    "skew_deg": 1.067,
+    "horiz_weight": 322.1,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -205,16 +205,16 @@
   },
   {
     "path": "imagens/fatec/2009/2sem/questao_007.png",
-    "width": 411,
-    "height": 353,
+    "width": 512,
+    "height": 439,
     "margins": {
       "left": 0,
       "right": 0,
-      "top": 13,
+      "top": 16,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 4636.0,
+    "horiz_weight": 2630.1,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -222,8 +222,8 @@
   },
   {
     "path": "imagens/fatec/2009/2sem/questao_029.png",
-    "width": 407,
-    "height": 295,
+    "width": 507,
+    "height": 366,
     "margins": {
       "left": 0,
       "right": 0,
@@ -231,7 +231,7 @@
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 2097.0,
+    "horiz_weight": 1599.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -239,16 +239,16 @@
   },
   {
     "path": "imagens/fatec/2009/2sem/questao_030.png",
-    "width": 469,
-    "height": 249,
+    "width": 514,
+    "height": 239,
     "margins": {
       "left": 0,
       "right": 0,
-      "top": 3,
-      "bottom": 5
+      "top": 26,
+      "bottom": 25
     },
     "skew_deg": 0.0,
-    "horiz_weight": 6074.0,
+    "horiz_weight": 392.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -256,11 +256,11 @@
   },
   {
     "path": "imagens/fatec/2009/2sem/questao_035.png",
-    "width": 560,
-    "height": 626,
+    "width": 700,
+    "height": 777,
     "margins": {
-      "left": 12,
-      "right": 21,
+      "left": 15,
+      "right": 26,
       "top": 0,
       "bottom": 0
     },
@@ -273,16 +273,16 @@
   },
   {
     "path": "imagens/fatec/2009/2sem/questao_037.png",
-    "width": 838,
-    "height": 294,
+    "width": 1046,
+    "height": 365,
     "margins": {
-      "left": 14,
-      "right": 20,
+      "left": 18,
+      "right": 24,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1888.0,
+    "horiz_weight": 1499.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -290,16 +290,16 @@
   },
   {
     "path": "imagens/fatec/2009/2sem/questao_041.png",
-    "width": 566,
-    "height": 286,
+    "width": 706,
+    "height": 355,
     "margins": {
-      "left": 62,
-      "right": 166,
-      "top": 36,
-      "bottom": 36
+      "left": 78,
+      "right": 207,
+      "top": 46,
+      "bottom": 44
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1510.8,
+    "horiz_weight": 630.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -307,33 +307,33 @@
   },
   {
     "path": "imagens/fatec/2009/2sem/questao_045.png",
-    "width": 210,
-    "height": 140,
+    "width": 405,
+    "height": 322,
     "margins": {
-      "left": 8,
-      "right": 25,
-      "top": 1,
-      "bottom": 4
+      "left": 0,
+      "right": 9,
+      "top": 0,
+      "bottom": 0
     },
-    "skew_deg": -0.818,
-    "horiz_weight": 272.1,
-    "clip_flag": false,
-    "skew_flag": true,
+    "skew_deg": 0.0,
+    "horiz_weight": 3862.0,
+    "clip_flag": true,
+    "skew_flag": false,
     "extreme_aspect": false,
     "flagged": true
   },
   {
     "path": "imagens/fatec/2009/2sem/questao_047.png",
-    "width": 381,
-    "height": 303,
+    "width": 380,
+    "height": 282,
     "margins": {
-      "left": 39,
+      "left": 3,
       "right": 0,
       "top": 0,
-      "bottom": 7
+      "bottom": 14
     },
     "skew_deg": 0.0,
-    "horiz_weight": 11939.2,
+    "horiz_weight": 1776.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -341,33 +341,33 @@
   },
   {
     "path": "imagens/fatec/2009/2sem/questao_048.png",
-    "width": 748,
-    "height": 465,
+    "width": 838,
+    "height": 485,
     "margins": {
-      "left": 0,
-      "right": 40,
-      "top": 0,
-      "bottom": 22
+      "left": 3,
+      "right": 13,
+      "top": 14,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 27414.0,
-    "clip_flag": true,
+    "horiz_weight": 25143.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2010/1sem/questao_004.png",
-    "width": 569,
-    "height": 405,
+    "width": 712,
+    "height": 506,
     "margins": {
-      "left": 12,
-      "right": 12,
+      "left": 15,
+      "right": 15,
       "top": 0,
-      "bottom": 12
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3457.6,
+    "horiz_weight": 1623.4,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -375,16 +375,16 @@
   },
   {
     "path": "imagens/fatec/2010/1sem/questao_005.png",
-    "width": 860,
-    "height": 627,
+    "width": 1075,
+    "height": 783,
     "margins": {
-      "left": 20,
-      "right": 12,
-      "top": 22,
-      "bottom": 19
+      "left": 25,
+      "right": 15,
+      "top": 27,
+      "bottom": 24
     },
     "skew_deg": 0.0,
-    "horiz_weight": 334.0,
+    "horiz_weight": 858.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -392,33 +392,33 @@
   },
   {
     "path": "imagens/fatec/2010/1sem/questao_019.png",
-    "width": 284,
-    "height": 257,
+    "width": 296,
+    "height": 279,
     "margins": {
-      "left": 0,
-      "right": 30,
-      "top": 0,
-      "bottom": 20
+      "left": 26,
+      "right": 7,
+      "top": 5,
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3510.0,
-    "clip_flag": true,
+    "horiz_weight": 343.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2010/1sem/questao_023.png",
-    "width": 410,
-    "height": 370,
+    "width": 443,
+    "height": 433,
     "margins": {
-      "left": 45,
-      "right": 0,
+      "left": 28,
+      "right": 2,
       "top": 0,
-      "bottom": 5
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7355.1,
+    "horiz_weight": 8814.1,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -426,16 +426,16 @@
   },
   {
     "path": "imagens/fatec/2010/1sem/questao_024.png",
-    "width": 311,
-    "height": 343,
+    "width": 341,
+    "height": 387,
     "margins": {
       "left": 0,
-      "right": 0,
+      "right": 27,
       "top": 0,
-      "bottom": 0
+      "bottom": 16
     },
     "skew_deg": 0.0,
-    "horiz_weight": 4858.0,
+    "horiz_weight": 2214.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -443,16 +443,16 @@
   },
   {
     "path": "imagens/fatec/2010/1sem/questao_029.png",
-    "width": 616,
-    "height": 402,
+    "width": 727,
+    "height": 431,
     "margins": {
-      "left": 47,
-      "right": 27,
-      "top": 0,
-      "bottom": 0
+      "left": 27,
+      "right": 26,
+      "top": 27,
+      "bottom": 27
     },
     "skew_deg": 0.0,
-    "horiz_weight": 8935.0,
+    "horiz_weight": 6986.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -460,30 +460,13 @@
   },
   {
     "path": "imagens/fatec/2010/1sem/questao_030.png",
-    "width": 465,
-    "height": 311,
+    "width": 513,
+    "height": 317,
     "margins": {
-      "left": 0,
-      "right": 50,
+      "left": 25,
+      "right": 26,
       "top": 0,
-      "bottom": 1
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 0,
-    "clip_flag": true,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": true
-  },
-  {
-    "path": "imagens/fatec/2010/1sem/questao_038.png",
-    "width": 665,
-    "height": 180,
-    "margins": {
-      "left": 16,
-      "right": 41,
-      "top": 2,
-      "bottom": 6
+      "bottom": 26
     },
     "skew_deg": 0.0,
     "horiz_weight": 0,
@@ -493,34 +476,51 @@
     "flagged": false
   },
   {
-    "path": "imagens/fatec/2010/1sem/questao_039.png",
-    "width": 555,
-    "height": 159,
+    "path": "imagens/fatec/2010/1sem/questao_038.png",
+    "width": 432,
+    "height": 128,
     "margins": {
-      "left": 13,
+      "left": 0,
       "right": 0,
-      "top": 14,
-      "bottom": 0
+      "top": 0,
+      "bottom": 25
     },
     "skew_deg": 0.0,
-    "horiz_weight": 5407.0,
+    "horiz_weight": 666.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
     "flagged": true
   },
   {
-    "path": "imagens/fatec/2010/1sem/questao_042.png",
-    "width": 412,
-    "height": 315,
+    "path": "imagens/fatec/2010/1sem/questao_039.png",
+    "width": 732,
+    "height": 561,
     "margins": {
-      "left": 12,
+      "left": 34,
+      "right": 29,
+      "top": 25,
+      "bottom": 30
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 5061.0,
+    "clip_flag": false,
+    "skew_flag": false,
+    "extreme_aspect": false,
+    "flagged": false
+  },
+  {
+    "path": "imagens/fatec/2010/1sem/questao_042.png",
+    "width": 516,
+    "height": 395,
+    "margins": {
+      "left": 15,
       "right": 0,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 221.0,
+    "horiz_weight": 276.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -528,33 +528,33 @@
   },
   {
     "path": "imagens/fatec/2010/1sem/questao_043.png",
-    "width": 530,
-    "height": 418,
+    "width": 1451,
+    "height": 539,
     "margins": {
-      "left": 15,
-      "right": 0,
-      "top": 13,
-      "bottom": 15
+      "left": 26,
+      "right": 26,
+      "top": 26,
+      "bottom": 26
     },
     "skew_deg": 0.0,
-    "horiz_weight": 15301.4,
-    "clip_flag": true,
+    "horiz_weight": 48425.2,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2010/1sem/questao_045.png",
-    "width": 422,
-    "height": 296,
+    "width": 527,
+    "height": 370,
     "margins": {
       "left": 0,
-      "right": 12,
-      "top": 12,
-      "bottom": 12
+      "right": 15,
+      "top": 15,
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1996.5,
+    "horiz_weight": 1921.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -579,84 +579,84 @@
   },
   {
     "path": "imagens/fatec/2010/2sem/questao_020.png",
-    "width": 276,
-    "height": 227,
+    "width": 1501,
+    "height": 159,
     "margins": {
-      "left": 7,
-      "right": 29,
-      "top": 7,
-      "bottom": 9
+      "left": 27,
+      "right": 27,
+      "top": 31,
+      "bottom": 27
     },
     "skew_deg": 0.0,
-    "horiz_weight": 434.0,
+    "horiz_weight": 5782.0,
+    "clip_flag": false,
+    "skew_flag": false,
+    "extreme_aspect": true,
+    "flagged": true
+  },
+  {
+    "path": "imagens/fatec/2010/2sem/questao_021.png",
+    "width": 1501,
+    "height": 159,
+    "margins": {
+      "left": 27,
+      "right": 27,
+      "top": 31,
+      "bottom": 27
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 5782.0,
+    "clip_flag": false,
+    "skew_flag": false,
+    "extreme_aspect": true,
+    "flagged": true
+  },
+  {
+    "path": "imagens/fatec/2010/2sem/questao_025.png",
+    "width": 718,
+    "height": 298,
+    "margins": {
+      "left": 27,
+      "right": 24,
+      "top": 27,
+      "bottom": 29
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 287.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
     "flagged": false
   },
   {
-    "path": "imagens/fatec/2010/2sem/questao_021.png",
-    "width": 507,
-    "height": 227,
-    "margins": {
-      "left": 0,
-      "right": 221,
-      "top": 0,
-      "bottom": 36
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 565.0,
-    "clip_flag": true,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": true
-  },
-  {
-    "path": "imagens/fatec/2010/2sem/questao_025.png",
-    "width": 632,
-    "height": 268,
-    "margins": {
-      "left": 12,
-      "right": 48,
-      "top": 0,
-      "bottom": 0
-    },
-    "skew_deg": -1.057,
-    "horiz_weight": 1473.4,
-    "clip_flag": false,
-    "skew_flag": true,
-    "extreme_aspect": false,
-    "flagged": true
-  },
-  {
     "path": "imagens/fatec/2010/2sem/questao_026.png",
-    "width": 238,
-    "height": 322,
+    "width": 280,
+    "height": 331,
     "margins": {
-      "left": 50,
-      "right": 0,
-      "top": 49,
+      "left": 26,
+      "right": 25,
+      "top": 26,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 259.0,
-    "clip_flag": true,
+    "horiz_weight": 325.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2010/2sem/questao_030.png",
-    "width": 504,
-    "height": 324,
+    "width": 1061,
+    "height": 644,
     "margins": {
       "left": 0,
-      "right": 0,
+      "right": 23,
       "top": 0,
-      "bottom": 0
+      "bottom": 37
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1003.0,
+    "horiz_weight": 3566.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -664,16 +664,16 @@
   },
   {
     "path": "imagens/fatec/2010/2sem/questao_033.png",
-    "width": 852,
-    "height": 451,
+    "width": 1064,
+    "height": 563,
     "margins": {
-      "left": 39,
-      "right": 27,
-      "top": 16,
-      "bottom": 22
+      "left": 48,
+      "right": 32,
+      "top": 21,
+      "bottom": 26
     },
     "skew_deg": 0.0,
-    "horiz_weight": 0,
+    "horiz_weight": 1782.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -681,18 +681,18 @@
   },
   {
     "path": "imagens/fatec/2010/2sem/questao_039.png",
-    "width": 705,
-    "height": 487,
+    "width": 881,
+    "height": 605,
     "margins": {
-      "left": 0,
+      "left": 38,
       "right": 0,
       "top": 0,
-      "bottom": 68
+      "bottom": 85
     },
-    "skew_deg": 5.064,
-    "horiz_weight": 1255.7,
+    "skew_deg": 0.0,
+    "horiz_weight": 0,
     "clip_flag": true,
-    "skew_flag": true,
+    "skew_flag": false,
     "extreme_aspect": false,
     "flagged": true
   },
@@ -732,13 +732,13 @@
   },
   {
     "path": "imagens/fatec/2010/2sem/questao_054.png",
-    "width": 763,
-    "height": 462,
+    "width": 954,
+    "height": 578,
     "margins": {
-      "left": 27,
-      "right": 24,
-      "top": 24,
-      "bottom": 35
+      "left": 33,
+      "right": 31,
+      "top": 30,
+      "bottom": 44
     },
     "skew_deg": 0.0,
     "horiz_weight": 0,
@@ -766,16 +766,16 @@
   },
   {
     "path": "imagens/fatec/2011/1sem/questao_023.png",
-    "width": 178,
-    "height": 316,
+    "width": 344,
+    "height": 813,
     "margins": {
       "left": 0,
       "right": 0,
-      "top": 14,
-      "bottom": 14
+      "top": 0,
+      "bottom": 32
     },
     "skew_deg": 0.0,
-    "horiz_weight": 613.0,
+    "horiz_weight": 2444.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -800,16 +800,16 @@
   },
   {
     "path": "imagens/fatec/2011/1sem/questao_025.png",
-    "width": 1256,
-    "height": 411,
+    "width": 1498,
+    "height": 449,
     "margins": {
-      "left": 51,
-      "right": 50,
-      "top": 16,
-      "bottom": 50
+      "left": 27,
+      "right": 27,
+      "top": 0,
+      "bottom": 26
     },
     "skew_deg": 0.0,
-    "horiz_weight": 5324.0,
+    "horiz_weight": 4775.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -817,50 +817,50 @@
   },
   {
     "path": "imagens/fatec/2011/1sem/questao_026.png",
-    "width": 390,
-    "height": 181,
+    "width": 415,
+    "height": 192,
     "margins": {
-      "left": 0,
-      "right": 50,
-      "top": 0,
-      "bottom": 22
+      "left": 26,
+      "right": 25,
+      "top": 26,
+      "bottom": 30
     },
-    "skew_deg": -1.909,
-    "horiz_weight": 1399.6,
-    "clip_flag": true,
-    "skew_flag": true,
+    "skew_deg": 0.0,
+    "horiz_weight": 2198.1,
+    "clip_flag": false,
+    "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2011/1sem/questao_029.png",
-    "width": 688,
-    "height": 367,
+    "width": 670,
+    "height": 364,
     "margins": {
-      "left": 0,
-      "right": 0,
+      "left": 27,
+      "right": 28,
       "top": 0,
-      "bottom": 0
+      "bottom": 2
     },
     "skew_deg": 0.0,
-    "horiz_weight": 5894.0,
-    "clip_flag": true,
+    "horiz_weight": 784.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2011/1sem/questao_036.png",
-    "width": 425,
-    "height": 418,
+    "width": 531,
+    "height": 523,
     "margins": {
-      "left": 10,
-      "right": 11,
-      "top": 11,
-      "bottom": 10
+      "left": 13,
+      "right": 13,
+      "top": 13,
+      "bottom": 14
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1601.0,
+    "horiz_weight": 2009.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -868,13 +868,13 @@
   },
   {
     "path": "imagens/fatec/2011/1sem/questao_037.png",
-    "width": 303,
-    "height": 297,
+    "width": 378,
+    "height": 370,
     "margins": {
-      "left": 20,
-      "right": 19,
-      "top": 16,
-      "bottom": 22
+      "left": 26,
+      "right": 23,
+      "top": 20,
+      "bottom": 26
     },
     "skew_deg": 0.0,
     "horiz_weight": 0,
@@ -885,10 +885,10 @@
   },
   {
     "path": "imagens/fatec/2011/1sem/questao_038.png",
-    "width": 772,
-    "height": 271,
+    "width": 758,
+    "height": 251,
     "margins": {
-      "left": 0,
+      "left": 1,
       "right": 0,
       "top": 0,
       "bottom": 0
@@ -902,20 +902,20 @@
   },
   {
     "path": "imagens/fatec/2011/2sem/questao_009.png",
-    "width": 209,
-    "height": 150,
+    "width": 444,
+    "height": 203,
     "margins": {
-      "left": 49,
-      "right": 0,
-      "top": 41,
-      "bottom": 50
+      "left": 14,
+      "right": 14,
+      "top": 14,
+      "bottom": 14
     },
     "skew_deg": 0.0,
-    "horiz_weight": 489.0,
-    "clip_flag": true,
+    "horiz_weight": 4138.1,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2011/2sem/questao_016.png",
@@ -970,33 +970,33 @@
   },
   {
     "path": "imagens/fatec/2011/2sem/questao_021.png",
-    "width": 596,
-    "height": 389,
+    "width": 697,
+    "height": 436,
     "margins": {
-      "left": 37,
-      "right": 2,
-      "top": 0,
+      "left": 12,
+      "right": 28,
+      "top": 42,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7704.1,
-    "clip_flag": true,
+    "horiz_weight": 1278.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2011/2sem/questao_023.png",
-    "width": 632,
-    "height": 365,
+    "width": 745,
+    "height": 395,
     "margins": {
-      "left": 20,
-      "right": 26,
-      "top": 0,
+      "left": 26,
+      "right": 25,
+      "top": 35,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 8616.0,
+    "horiz_weight": 2760.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1004,33 +1004,33 @@
   },
   {
     "path": "imagens/fatec/2011/2sem/questao_025.png",
-    "width": 1183,
-    "height": 866,
+    "width": 608,
+    "height": 342,
     "margins": {
-      "left": 28,
-      "right": 0,
-      "top": 5,
-      "bottom": 29
+      "left": 27,
+      "right": 27,
+      "top": 24,
+      "bottom": 16
     },
     "skew_deg": 0.0,
-    "horiz_weight": 15851.0,
-    "clip_flag": true,
+    "horiz_weight": 3766.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2011/2sem/questao_027.png",
-    "width": 473,
-    "height": 494,
+    "width": 590,
+    "height": 618,
     "margins": {
-      "left": 12,
-      "right": 13,
-      "top": 12,
-      "bottom": 12
+      "left": 15,
+      "right": 15,
+      "top": 15,
+      "bottom": 15
     },
-    "skew_deg": -5.194,
-    "horiz_weight": 165.7,
+    "skew_deg": 0.0,
+    "horiz_weight": 0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1038,13 +1038,13 @@
   },
   {
     "path": "imagens/fatec/2011/2sem/questao_030.png",
-    "width": 1013,
-    "height": 589,
+    "width": 1266,
+    "height": 736,
     "margins": {
-      "left": 14,
-      "right": 15,
-      "top": 27,
-      "bottom": 22
+      "left": 17,
+      "right": 19,
+      "top": 34,
+      "bottom": 27
     },
     "skew_deg": 0.0,
     "horiz_weight": 0,
@@ -1055,33 +1055,33 @@
   },
   {
     "path": "imagens/fatec/2011/2sem/questao_037.png",
-    "width": 955,
-    "height": 480,
+    "width": 951,
+    "height": 399,
     "margins": {
-      "left": 0,
-      "right": 18,
-      "top": 0,
-      "bottom": 2
+      "left": 29,
+      "right": 27,
+      "top": 7,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 26235.0,
-    "clip_flag": true,
+    "horiz_weight": 20665.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2011/2sem/questao_039.png",
-    "width": 1198,
-    "height": 386,
+    "width": 1516,
+    "height": 539,
     "margins": {
-      "left": 14,
-      "right": 13,
-      "top": 0,
-      "bottom": 14
+      "left": 26,
+      "right": 26,
+      "top": 35,
+      "bottom": 25
     },
     "skew_deg": 0.0,
-    "horiz_weight": 22582.0,
+    "horiz_weight": 24816.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1140,50 +1140,50 @@
   },
   {
     "path": "imagens/fatec/2012/1sem/questao_004.png",
-    "width": 324,
-    "height": 152,
+    "width": 1517,
+    "height": 176,
     "margins": {
-      "left": 0,
-      "right": 50,
-      "top": 0,
-      "bottom": 0
+      "left": 27,
+      "right": 27,
+      "top": 24,
+      "bottom": 27
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1088.0,
-    "clip_flag": true,
+    "horiz_weight": 7008.0,
+    "clip_flag": false,
     "skew_flag": false,
-    "extreme_aspect": false,
+    "extreme_aspect": true,
     "flagged": true
   },
   {
     "path": "imagens/fatec/2012/1sem/questao_008.png",
-    "width": 322,
-    "height": 470,
+    "width": 1517,
+    "height": 176,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 20,
-      "bottom": 4
+      "left": 27,
+      "right": 27,
+      "top": 24,
+      "bottom": 27
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1610.0,
-    "clip_flag": true,
+    "horiz_weight": 7008.0,
+    "clip_flag": false,
     "skew_flag": false,
-    "extreme_aspect": false,
+    "extreme_aspect": true,
     "flagged": true
   },
   {
     "path": "imagens/fatec/2012/1sem/questao_009.png",
-    "width": 1272,
-    "height": 1031,
+    "width": 785,
+    "height": 687,
     "margins": {
-      "left": 49,
-      "right": 50,
+      "left": 27,
+      "right": 26,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 99280.0,
+    "horiz_weight": 12082.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1191,19 +1191,19 @@
   },
   {
     "path": "imagens/fatec/2012/1sem/questao_013.png",
-    "width": 469,
-    "height": 1458,
+    "width": 1517,
+    "height": 176,
     "margins": {
-      "left": 7,
-      "right": 0,
-      "top": 0,
-      "bottom": 0
+      "left": 27,
+      "right": 27,
+      "top": 24,
+      "bottom": 27
     },
     "skew_deg": 0.0,
-    "horiz_weight": 11734.0,
-    "clip_flag": true,
+    "horiz_weight": 7008.0,
+    "clip_flag": false,
     "skew_flag": false,
-    "extreme_aspect": false,
+    "extreme_aspect": true,
     "flagged": true
   },
   {
@@ -1242,33 +1242,33 @@
   },
   {
     "path": "imagens/fatec/2012/1sem/questao_030.png",
-    "width": 332,
-    "height": 333,
+    "width": 319,
+    "height": 320,
     "margins": {
-      "left": 31,
-      "right": 27,
+      "left": 0,
+      "right": 0,
       "top": 0,
-      "bottom": 26
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 1071.0,
-    "clip_flag": false,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": false
-  },
-  {
-    "path": "imagens/fatec/2012/1sem/questao_034.png",
-    "width": 506,
-    "height": 461,
-    "margins": {
-      "left": 21,
-      "right": 9,
-      "top": 3,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1573.0,
+    "horiz_weight": 1255.0,
+    "clip_flag": true,
+    "skew_flag": false,
+    "extreme_aspect": false,
+    "flagged": true
+  },
+  {
+    "path": "imagens/fatec/2012/1sem/questao_034.png",
+    "width": 645,
+    "height": 661,
+    "margins": {
+      "left": 27,
+      "right": 23,
+      "top": 0,
+      "bottom": 27
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 2268.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1276,16 +1276,16 @@
   },
   {
     "path": "imagens/fatec/2012/1sem/questao_037.png",
-    "width": 933,
-    "height": 353,
+    "width": 1174,
+    "height": 293,
     "margins": {
       "left": 0,
-      "right": 0,
+      "right": 25,
       "top": 0,
-      "bottom": 0
+      "bottom": 28
     },
     "skew_deg": 0.0,
-    "horiz_weight": 25740.0,
+    "horiz_weight": 1631.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1293,33 +1293,33 @@
   },
   {
     "path": "imagens/fatec/2012/1sem/questao_040.png",
-    "width": 1185,
-    "height": 409,
+    "width": 1397,
+    "height": 501,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 2,
-      "bottom": 2
+      "left": 15,
+      "right": 15,
+      "top": 15,
+      "bottom": 17
     },
     "skew_deg": 0.0,
     "horiz_weight": 0,
-    "clip_flag": true,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2012/1sem/questao_041.png",
-    "width": 1118,
-    "height": 401,
+    "width": 1397,
+    "height": 501,
     "margins": {
-      "left": 13,
-      "right": 12,
-      "top": 13,
-      "bottom": 13
+      "left": 15,
+      "right": 15,
+      "top": 15,
+      "bottom": 17
     },
-    "skew_deg": 0.973,
-    "horiz_weight": 471.1,
+    "skew_deg": 0.0,
+    "horiz_weight": 0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1327,71 +1327,71 @@
   },
   {
     "path": "imagens/fatec/2012/1sem/questao_044.png",
-    "width": 583,
-    "height": 585,
+    "width": 728,
+    "height": 731,
     "margins": {
-      "left": 12,
-      "right": 40,
-      "top": 12,
-      "bottom": 35
+      "left": 15,
+      "right": 50,
+      "top": 15,
+      "bottom": 44
     },
-    "skew_deg": -1.023,
-    "horiz_weight": 5007.5,
+    "skew_deg": 0.0,
+    "horiz_weight": 5153.4,
     "clip_flag": false,
-    "skew_flag": true,
+    "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2012/1sem/questao_046.png",
-    "width": 615,
-    "height": 553,
+    "width": 1517,
+    "height": 706,
     "margins": {
-      "left": 14,
-      "right": 0,
-      "top": 13,
-      "bottom": 16
+      "left": 27,
+      "right": 25,
+      "top": 25,
+      "bottom": 26
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3599.0,
-    "clip_flag": true,
+    "horiz_weight": 8782.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2012/2sem/questao_001.png",
-    "width": 590,
-    "height": 1498,
+    "width": 718,
+    "height": 353,
     "margins": {
-      "left": 3,
-      "right": 0,
+      "left": 26,
+      "right": 26,
+      "top": 0,
+      "bottom": 23
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 15485.0,
+    "clip_flag": false,
+    "skew_flag": false,
+    "extreme_aspect": false,
+    "flagged": false
+  },
+  {
+    "path": "imagens/fatec/2012/2sem/questao_002.png",
+    "width": 706,
+    "height": 542,
+    "margins": {
+      "left": 27,
+      "right": 27,
       "top": 0,
       "bottom": 16
     },
     "skew_deg": 0.0,
-    "horiz_weight": 146569.7,
-    "clip_flag": true,
+    "horiz_weight": 1106.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
-  },
-  {
-    "path": "imagens/fatec/2012/2sem/questao_002.png",
-    "width": 239,
-    "height": 490,
-    "margins": {
-      "left": 0,
-      "right": 32,
-      "top": 17,
-      "bottom": 4
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 371.0,
-    "clip_flag": true,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2012/2sem/questao_010.png",
@@ -1412,64 +1412,64 @@
   },
   {
     "path": "imagens/fatec/2012/2sem/questao_031.png",
-    "width": 397,
-    "height": 246,
+    "width": 424,
+    "height": 235,
     "margins": {
-      "left": 0,
-      "right": 5,
-      "top": 0,
-      "bottom": 0
+      "left": 25,
+      "right": 26,
+      "top": 25,
+      "bottom": 26
     },
     "skew_deg": 0.0,
-    "horiz_weight": 2594.2,
-    "clip_flag": true,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": true
-  },
-  {
-    "path": "imagens/fatec/2012/2sem/questao_034.png",
-    "width": 382,
-    "height": 382,
-    "margins": {
-      "left": 10,
-      "right": 3,
-      "top": 0,
-      "bottom": 0
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 1016.0,
+    "horiz_weight": 1249.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
     "flagged": false
   },
   {
-    "path": "imagens/fatec/2012/2sem/questao_036.png",
-    "width": 1076,
-    "height": 513,
+    "path": "imagens/fatec/2012/2sem/questao_034.png",
+    "width": 409,
+    "height": 474,
     "margins": {
       "left": 0,
       "right": 0,
-      "top": 15,
-      "bottom": 12
+      "top": 0,
+      "bottom": 27
     },
     "skew_deg": 0.0,
-    "horiz_weight": 16295.0,
+    "horiz_weight": 6678.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
     "flagged": true
   },
   {
+    "path": "imagens/fatec/2012/2sem/questao_036.png",
+    "width": 1040,
+    "height": 310,
+    "margins": {
+      "left": 38,
+      "right": 15,
+      "top": 19,
+      "bottom": 15
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 2961.0,
+    "clip_flag": false,
+    "skew_flag": false,
+    "extreme_aspect": false,
+    "flagged": false
+  },
+  {
     "path": "imagens/fatec/2012/2sem/questao_039.png",
-    "width": 625,
-    "height": 554,
+    "width": 782,
+    "height": 692,
     "margins": {
       "left": 0,
-      "right": 9,
+      "right": 12,
       "top": 0,
-      "bottom": 26
+      "bottom": 32
     },
     "skew_deg": 0.0,
     "horiz_weight": 0,
@@ -1480,16 +1480,16 @@
   },
   {
     "path": "imagens/fatec/2012/2sem/questao_040.png",
-    "width": 1077,
-    "height": 598,
+    "width": 1345,
+    "height": 747,
     "margins": {
-      "left": 12,
-      "right": 13,
-      "top": 12,
-      "bottom": 12
+      "left": 15,
+      "right": 15,
+      "top": 15,
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 12571.0,
+    "horiz_weight": 24861.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1497,16 +1497,16 @@
   },
   {
     "path": "imagens/fatec/2012/2sem/questao_043.png",
-    "width": 1090,
-    "height": 442,
+    "width": 1361,
+    "height": 552,
     "margins": {
-      "left": 26,
-      "right": 24,
-      "top": 34,
-      "bottom": 33
+      "left": 32,
+      "right": 31,
+      "top": 43,
+      "bottom": 41
     },
     "skew_deg": 0.0,
-    "horiz_weight": 11419.0,
+    "horiz_weight": 14267.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1514,13 +1514,13 @@
   },
   {
     "path": "imagens/fatec/2012/2sem/questao_049.png",
-    "width": 582,
-    "height": 603,
+    "width": 728,
+    "height": 753,
     "margins": {
-      "left": 27,
-      "right": 16,
-      "top": 32,
-      "bottom": 25
+      "left": 36,
+      "right": 20,
+      "top": 41,
+      "bottom": 31
     },
     "skew_deg": 0.0,
     "horiz_weight": 0,
@@ -1599,16 +1599,16 @@
   },
   {
     "path": "imagens/fatec/2013/1sem/questao_011.png",
-    "width": 374,
-    "height": 270,
+    "width": 1449,
+    "height": 780,
     "margins": {
       "left": 0,
-      "right": 4,
+      "right": 19,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 4830.0,
+    "horiz_weight": 34866.6,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1650,16 +1650,16 @@
   },
   {
     "path": "imagens/fatec/2013/1sem/questao_020.png",
-    "width": 1248,
-    "height": 839,
+    "width": 1541,
+    "height": 457,
     "margins": {
-      "left": 20,
-      "right": 23,
+      "left": 22,
+      "right": 19,
       "top": 0,
-      "bottom": 14
+      "bottom": 5
     },
     "skew_deg": 0.0,
-    "horiz_weight": 121870.0,
+    "horiz_weight": 160649.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1667,16 +1667,16 @@
   },
   {
     "path": "imagens/fatec/2013/1sem/questao_022.png",
-    "width": 1295,
-    "height": 682,
+    "width": 1529,
+    "height": 1234,
     "margins": {
-      "left": 6,
-      "right": 9,
-      "top": 0,
+      "left": 26,
+      "right": 27,
+      "top": 26,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 64305.1,
+    "horiz_weight": 80619.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1684,16 +1684,16 @@
   },
   {
     "path": "imagens/fatec/2013/1sem/questao_023.png",
-    "width": 602,
-    "height": 196,
+    "width": 1605,
+    "height": 893,
     "margins": {
-      "left": 23,
-      "right": 24,
-      "top": 19,
+      "left": 22,
+      "right": 20,
+      "top": 21,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 2976.0,
+    "horiz_weight": 254561.1,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1701,16 +1701,16 @@
   },
   {
     "path": "imagens/fatec/2013/1sem/questao_031.png",
-    "width": 837,
-    "height": 688,
+    "width": 763,
+    "height": 474,
     "margins": {
-      "left": 17,
-      "right": 64,
-      "top": 0,
+      "left": 20,
+      "right": 20,
+      "top": 21,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 40227.0,
+    "horiz_weight": 27976.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1718,16 +1718,16 @@
   },
   {
     "path": "imagens/fatec/2013/1sem/questao_033.png",
-    "width": 560,
-    "height": 435,
+    "width": 1150,
+    "height": 1059,
     "margins": {
       "left": 0,
-      "right": 24,
+      "right": 19,
       "top": 0,
-      "bottom": 1
+      "bottom": 18
     },
     "skew_deg": 0.0,
-    "horiz_weight": 6041.0,
+    "horiz_weight": 29016.2,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1735,16 +1735,16 @@
   },
   {
     "path": "imagens/fatec/2013/1sem/questao_034.png",
-    "width": 1248,
-    "height": 760,
+    "width": 1568,
+    "height": 469,
     "margins": {
-      "left": 21,
-      "right": 24,
-      "top": 0,
+      "left": 34,
+      "right": 31,
+      "top": 28,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 110621.0,
+    "horiz_weight": 69926.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1769,16 +1769,16 @@
   },
   {
     "path": "imagens/fatec/2013/1sem/questao_041.png",
-    "width": 1279,
-    "height": 207,
+    "width": 1528,
+    "height": 544,
     "margins": {
-      "left": 48,
-      "right": 50,
-      "top": 0,
+      "left": 26,
+      "right": 27,
+      "top": 27,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7071.0,
+    "horiz_weight": 31401.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1786,16 +1786,16 @@
   },
   {
     "path": "imagens/fatec/2013/1sem/questao_042.png",
-    "width": 871,
-    "height": 523,
+    "width": 1074,
+    "height": 638,
     "margins": {
       "left": 0,
       "right": 0,
-      "top": 7,
+      "top": 3,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 11336.0,
+    "horiz_weight": 9115.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1803,16 +1803,16 @@
   },
   {
     "path": "imagens/fatec/2013/2sem/questao_009.png",
-    "width": 697,
-    "height": 536,
+    "width": 723,
+    "height": 657,
     "margins": {
       "left": 0,
-      "right": 74,
-      "top": 1,
-      "bottom": 22
+      "right": 19,
+      "top": 0,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7684.0,
+    "horiz_weight": 9885.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1820,16 +1820,16 @@
   },
   {
     "path": "imagens/fatec/2013/2sem/questao_010.png",
-    "width": 1176,
-    "height": 298,
+    "width": 1457,
+    "height": 358,
     "margins": {
       "left": 0,
-      "right": 21,
+      "right": 19,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 17553.0,
+    "horiz_weight": 11994.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1837,16 +1837,16 @@
   },
   {
     "path": "imagens/fatec/2013/2sem/questao_013.png",
-    "width": 628,
-    "height": 243,
+    "width": 794,
+    "height": 570,
     "margins": {
-      "left": 21,
-      "right": 5,
+      "left": 32,
+      "right": 9,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 25045.3,
+    "horiz_weight": 30760.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1854,16 +1854,16 @@
   },
   {
     "path": "imagens/fatec/2013/2sem/questao_018.png",
-    "width": 1257,
-    "height": 665,
+    "width": 1555,
+    "height": 815,
     "margins": {
       "left": 21,
-      "right": 23,
+      "right": 19,
       "top": 0,
-      "bottom": 7
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 20366.2,
+    "horiz_weight": 32837.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1871,50 +1871,50 @@
   },
   {
     "path": "imagens/fatec/2013/2sem/questao_020.png",
-    "width": 457,
-    "height": 447,
+    "width": 1579,
+    "height": 1994,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 21,
-      "bottom": 0
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 11959.4,
-    "clip_flag": true,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": true
-  },
-  {
-    "path": "imagens/fatec/2013/2sem/questao_021.png",
-    "width": 627,
-    "height": 485,
-    "margins": {
-      "left": 21,
-      "right": 6,
+      "left": 32,
+      "right": 31,
       "top": 0,
-      "bottom": 0
+      "bottom": 31
     },
     "skew_deg": 0.0,
-    "horiz_weight": 60092.2,
+    "horiz_weight": 121791.3,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
     "flagged": false
   },
   {
-    "path": "imagens/fatec/2013/2sem/questao_024.png",
-    "width": 628,
-    "height": 540,
+    "path": "imagens/fatec/2013/2sem/questao_021.png",
+    "width": 771,
+    "height": 593,
     "margins": {
-      "left": 21,
-      "right": 5,
+      "left": 20,
+      "right": 0,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 34463.0,
+    "horiz_weight": 82116.0,
+    "clip_flag": true,
+    "skew_flag": false,
+    "extreme_aspect": false,
+    "flagged": true
+  },
+  {
+    "path": "imagens/fatec/2013/2sem/questao_024.png",
+    "width": 1565,
+    "height": 1993,
+    "margins": {
+      "left": 33,
+      "right": 32,
+      "top": 26,
+      "bottom": 27
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 146877.1,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1922,16 +1922,16 @@
   },
   {
     "path": "imagens/fatec/2013/2sem/questao_030.png",
-    "width": 1063,
-    "height": 808,
+    "width": 1315,
+    "height": 994,
     "margins": {
       "left": 0,
-      "right": 22,
+      "right": 20,
       "top": 21,
-      "bottom": 22
+      "bottom": 18
     },
     "skew_deg": 0.0,
-    "horiz_weight": 31858.0,
+    "horiz_weight": 43614.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1939,50 +1939,50 @@
   },
   {
     "path": "imagens/fatec/2013/2sem/questao_031.png",
-    "width": 547,
-    "height": 394,
-    "margins": {
-      "left": 23,
-      "right": 24,
-      "top": 0,
-      "bottom": 0
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 1609.0,
-    "clip_flag": false,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": false
-  },
-  {
-    "path": "imagens/fatec/2013/2sem/questao_032.png",
-    "width": 390,
-    "height": 312,
+    "width": 1315,
+    "height": 994,
     "margins": {
       "left": 0,
-      "right": 23,
-      "top": 19,
-      "bottom": 33
+      "right": 20,
+      "top": 21,
+      "bottom": 18
     },
     "skew_deg": 0.0,
-    "horiz_weight": 622.0,
+    "horiz_weight": 43614.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
     "flagged": true
   },
   {
-    "path": "imagens/fatec/2013/2sem/questao_034.png",
-    "width": 638,
-    "height": 325,
+    "path": "imagens/fatec/2013/2sem/questao_032.png",
+    "width": 427,
+    "height": 340,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 0,
-      "bottom": 6
+      "left": 20,
+      "right": 19,
+      "top": 21,
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 12644.0,
+    "horiz_weight": 715.0,
+    "clip_flag": false,
+    "skew_flag": false,
+    "extreme_aspect": false,
+    "flagged": false
+  },
+  {
+    "path": "imagens/fatec/2013/2sem/questao_034.png",
+    "width": 726,
+    "height": 334,
+    "margins": {
+      "left": 0,
+      "right": 25,
+      "top": 0,
+      "bottom": 25
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 2022.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -1990,16 +1990,16 @@
   },
   {
     "path": "imagens/fatec/2013/2sem/questao_039.png",
-    "width": 1245,
-    "height": 1615,
+    "width": 1542,
+    "height": 2004,
     "margins": {
-      "left": 21,
-      "right": 22,
+      "left": 22,
+      "right": 19,
       "top": 0,
-      "bottom": 23
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 189776.7,
+    "horiz_weight": 270000.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2007,16 +2007,16 @@
   },
   {
     "path": "imagens/fatec/2013/2sem/questao_040.png",
-    "width": 827,
-    "height": 645,
+    "width": 1550,
+    "height": 949,
     "margins": {
-      "left": 21,
-      "right": 23,
-      "top": 21,
-      "bottom": 22
+      "left": 27,
+      "right": 31,
+      "top": 27,
+      "bottom": 31
     },
     "skew_deg": 0.0,
-    "horiz_weight": 15210.0,
+    "horiz_weight": 17890.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2024,16 +2024,16 @@
   },
   {
     "path": "imagens/fatec/2013/2sem/questao_043.png",
-    "width": 683,
-    "height": 658,
+    "width": 839,
+    "height": 810,
     "margins": {
-      "left": 0,
-      "right": 22,
+      "left": 1,
+      "right": 18,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7497.2,
+    "horiz_weight": 8770.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2041,16 +2041,16 @@
   },
   {
     "path": "imagens/fatec/2013/2sem/questao_045.png",
-    "width": 931,
-    "height": 631,
+    "width": 1147,
+    "height": 774,
     "margins": {
       "left": 21,
-      "right": 23,
+      "right": 19,
       "top": 21,
-      "bottom": 22
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1723.0,
+    "horiz_weight": 2156.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2058,16 +2058,16 @@
   },
   {
     "path": "imagens/fatec/2013/2sem/questao_047.png",
-    "width": 1269,
-    "height": 561,
+    "width": 1572,
+    "height": 687,
     "margins": {
-      "left": 21,
-      "right": 22,
-      "top": 20,
+      "left": 20,
+      "right": 18,
+      "top": 21,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1124.0,
+    "horiz_weight": 1472.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2075,16 +2075,16 @@
   },
   {
     "path": "imagens/fatec/2013/2sem/questao_053.png",
-    "width": 1245,
-    "height": 433,
+    "width": 1543,
+    "height": 526,
     "margins": {
-      "left": 21,
-      "right": 21,
+      "left": 22,
+      "right": 18,
       "top": 21,
-      "bottom": 22
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 2938.1,
+    "horiz_weight": 2946.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2177,16 +2177,16 @@
   },
   {
     "path": "imagens/fatec/2014/1sem/questao_008.png",
-    "width": 640,
-    "height": 492,
+    "width": 786,
+    "height": 601,
     "margins": {
-      "left": 21,
-      "right": 22,
-      "top": 0,
-      "bottom": 21
+      "left": 19,
+      "right": 21,
+      "top": 19,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3654.0,
+    "horiz_weight": 3902.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2211,50 +2211,50 @@
   },
   {
     "path": "imagens/fatec/2014/1sem/questao_012.png",
-    "width": 1124,
-    "height": 357,
+    "width": 1389,
+    "height": 431,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 0,
+      "left": 6,
+      "right": 20,
+      "top": 21,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7104.0,
-    "clip_flag": true,
+    "horiz_weight": 2647.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2014/1sem/questao_019.png",
-    "width": 1306,
-    "height": 1062,
+    "width": 1589,
+    "height": 604,
     "margins": {
-      "left": 96,
-      "right": 0,
-      "top": 62,
-      "bottom": 0
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 57786.2,
-    "clip_flag": true,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": true
-  },
-  {
-    "path": "imagens/fatec/2014/1sem/questao_022.png",
-    "width": 640,
-    "height": 829,
-    "margins": {
-      "left": 21,
-      "right": 5,
+      "left": 32,
+      "right": 32,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 8248.1,
+    "horiz_weight": 64787.0,
+    "clip_flag": false,
+    "skew_flag": false,
+    "extreme_aspect": false,
+    "flagged": false
+  },
+  {
+    "path": "imagens/fatec/2014/1sem/questao_022.png",
+    "width": 1545,
+    "height": 979,
+    "margins": {
+      "left": 19,
+      "right": 9,
+      "top": 0,
+      "bottom": 0
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 47999.2,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2262,16 +2262,16 @@
   },
   {
     "path": "imagens/fatec/2014/1sem/questao_031.png",
-    "width": 1306,
-    "height": 177,
+    "width": 1581,
+    "height": 678,
     "margins": {
-      "left": 50,
-      "right": 49,
+      "left": 27,
+      "right": 31,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 23194.0,
+    "horiz_weight": 66793.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2296,16 +2296,16 @@
   },
   {
     "path": "imagens/fatec/2014/1sem/questao_039.png",
-    "width": 572,
-    "height": 1158,
+    "width": 663,
+    "height": 1335,
     "margins": {
-      "left": 15,
-      "right": 17,
+      "left": 20,
+      "right": 21,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 72462.3,
+    "horiz_weight": 82216.2,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2313,37 +2313,37 @@
   },
   {
     "path": "imagens/fatec/2014/1sem/questao_040.png",
-    "width": 541,
-    "height": 1080,
+    "width": 663,
+    "height": 1335,
     "margins": {
-      "left": 22,
-      "right": 1,
+      "left": 20,
+      "right": 21,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 64098.0,
-    "clip_flag": true,
+    "horiz_weight": 82216.2,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2014/1sem/questao_046.png",
-    "width": 1060,
-    "height": 663,
+    "width": 1310,
+    "height": 522,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 0,
-      "bottom": 0
+      "left": 20,
+      "right": 20,
+      "top": 20,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 36757.0,
-    "clip_flag": true,
+    "horiz_weight": 3713.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_006.png",
@@ -2364,16 +2364,16 @@
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_010.png",
-    "width": 437,
-    "height": 236,
+    "width": 531,
+    "height": 281,
     "margins": {
-      "left": 21,
-      "right": 23,
-      "top": 21,
-      "bottom": 21
+      "left": 19,
+      "right": 21,
+      "top": 19,
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1891.0,
+    "horiz_weight": 2340.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2381,16 +2381,16 @@
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_011.png",
-    "width": 521,
-    "height": 301,
+    "width": 637,
+    "height": 363,
     "margins": {
       "left": 20,
-      "right": 22,
-      "top": 21,
-      "bottom": 22
+      "right": 20,
+      "top": 19,
+      "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 2587.0,
+    "horiz_weight": 3239.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2398,16 +2398,16 @@
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_015.png",
-    "width": 792,
-    "height": 644,
+    "width": 990,
+    "height": 805,
     "margins": {
-      "left": 12,
-      "right": 12,
-      "top": 12,
-      "bottom": 12
+      "left": 15,
+      "right": 15,
+      "top": 15,
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 36746.2,
+    "horiz_weight": 16027.5,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2415,33 +2415,33 @@
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_017.png",
-    "width": 615,
-    "height": 763,
+    "width": 990,
+    "height": 805,
     "margins": {
-      "left": 0,
+      "left": 15,
       "right": 15,
-      "top": 3,
-      "bottom": 14
+      "top": 15,
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 97158.0,
-    "clip_flag": true,
+    "horiz_weight": 16027.5,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_021.png",
-    "width": 633,
-    "height": 547,
+    "width": 1572,
+    "height": 489,
     "margins": {
-      "left": 12,
-      "right": 14,
-      "top": 3,
-      "bottom": 16
+      "left": 19,
+      "right": 20,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 36442.0,
+    "horiz_weight": 43194.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2449,16 +2449,16 @@
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_023.png",
-    "width": 662,
-    "height": 305,
+    "width": 1573,
+    "height": 662,
     "margins": {
-      "left": 12,
-      "right": 25,
+      "left": 21,
+      "right": 21,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 27193.1,
+    "horiz_weight": 42804.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2466,101 +2466,101 @@
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_024.png",
-    "width": 622,
-    "height": 312,
+    "width": 1573,
+    "height": 662,
     "margins": {
-      "left": 1,
-      "right": 0,
-      "top": 9,
-      "bottom": 6
+      "left": 21,
+      "right": 21,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 32740.0,
-    "clip_flag": true,
+    "horiz_weight": 42804.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_025.png",
-    "width": 1295,
-    "height": 442,
+    "width": 1573,
+    "height": 662,
     "margins": {
-      "left": 0,
-      "right": 13,
+      "left": 21,
+      "right": 21,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7794.0,
-    "clip_flag": true,
+    "horiz_weight": 42804.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_026.png",
-    "width": 1295,
-    "height": 442,
+    "width": 1573,
+    "height": 662,
     "margins": {
-      "left": 0,
-      "right": 13,
+      "left": 21,
+      "right": 21,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7794.0,
-    "clip_flag": true,
+    "horiz_weight": 42804.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_027.png",
-    "width": 1295,
-    "height": 442,
+    "width": 1573,
+    "height": 662,
     "margins": {
-      "left": 0,
-      "right": 13,
+      "left": 21,
+      "right": 21,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7794.0,
-    "clip_flag": true,
+    "horiz_weight": 42804.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_028.png",
-    "width": 1295,
-    "height": 442,
+    "width": 1573,
+    "height": 662,
     "margins": {
-      "left": 0,
-      "right": 13,
+      "left": 21,
+      "right": 21,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7794.0,
-    "clip_flag": true,
+    "horiz_weight": 42804.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_031.png",
-    "width": 636,
-    "height": 384,
+    "width": 1570,
+    "height": 725,
     "margins": {
-      "left": 21,
-      "right": 5,
+      "left": 19,
+      "right": 19,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 14158.6,
+    "horiz_weight": 54313.2,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2568,33 +2568,33 @@
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_032.png",
-    "width": 430,
-    "height": 256,
+    "width": 1570,
+    "height": 725,
     "margins": {
-      "left": 0,
-      "right": 0,
+      "left": 19,
+      "right": 19,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 6928.0,
-    "clip_flag": true,
+    "horiz_weight": 54313.2,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_034.png",
-    "width": 896,
-    "height": 495,
+    "width": 1107,
+    "height": 603,
     "margins": {
       "left": 0,
-      "right": 22,
-      "top": 7,
-      "bottom": 12
+      "right": 21,
+      "top": 2,
+      "bottom": 6
     },
     "skew_deg": 0.0,
-    "horiz_weight": 19245.1,
+    "horiz_weight": 27043.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2602,50 +2602,50 @@
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_035.png",
-    "width": 487,
-    "height": 334,
+    "width": 1107,
+    "height": 603,
     "margins": {
-      "left": 16,
-      "right": 16,
-      "top": 24,
-      "bottom": 0
+      "left": 0,
+      "right": 21,
+      "top": 2,
+      "bottom": 6
     },
     "skew_deg": 0.0,
-    "horiz_weight": 4704.0,
-    "clip_flag": false,
+    "horiz_weight": 27043.0,
+    "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_036.png",
-    "width": 468,
-    "height": 333,
+    "width": 653,
+    "height": 492,
     "margins": {
-      "left": 21,
-      "right": 22,
+      "left": 27,
+      "right": 0,
       "top": 0,
-      "bottom": 23
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1868.0,
-    "clip_flag": false,
+    "horiz_weight": 4502.0,
+    "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_039.png",
-    "width": 868,
-    "height": 561,
+    "width": 1017,
+    "height": 624,
     "margins": {
       "left": 0,
       "right": 0,
-      "top": 0,
-      "bottom": 11
+      "top": 19,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 39662.0,
+    "horiz_weight": 16408.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2653,33 +2653,33 @@
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_040.png",
-    "width": 667,
-    "height": 197,
+    "width": 1017,
+    "height": 624,
     "margins": {
-      "left": 50,
-      "right": 14,
-      "top": 0,
+      "left": 0,
+      "right": 0,
+      "top": 19,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 4597.0,
-    "clip_flag": false,
+    "horiz_weight": 16408.0,
+    "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_041.png",
-    "width": 643,
-    "height": 699,
+    "width": 1572,
+    "height": 937,
     "margins": {
-      "left": 21,
-      "right": 7,
+      "left": 20,
+      "right": 20,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 31073.0,
+    "horiz_weight": 66741.2,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2687,16 +2687,16 @@
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_042.png",
-    "width": 676,
-    "height": 540,
+    "width": 1572,
+    "height": 937,
     "margins": {
-      "left": 50,
-      "right": 18,
-      "top": 5,
+      "left": 20,
+      "right": 20,
+      "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 26020.4,
+    "horiz_weight": 66741.2,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2704,33 +2704,33 @@
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_044.png",
-    "width": 979,
-    "height": 575,
+    "width": 1208,
+    "height": 704,
     "margins": {
-      "left": 3,
-      "right": 23,
-      "top": 0,
+      "left": 1,
+      "right": 20,
+      "top": 20,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 11128.0,
-    "clip_flag": false,
+    "horiz_weight": 10254.0,
+    "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_046.png",
-    "width": 828,
-    "height": 657,
+    "width": 1035,
+    "height": 822,
     "margins": {
-      "left": 12,
-      "right": 12,
-      "top": 12,
+      "left": 15,
+      "right": 15,
+      "top": 15,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1758.3,
+    "horiz_weight": 1433.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2738,20 +2738,20 @@
   },
   {
     "path": "imagens/fatec/2014/2sem/questao_048.png",
-    "width": 528,
-    "height": 299,
+    "width": 1043,
+    "height": 1069,
     "margins": {
-      "left": 0,
-      "right": 24,
-      "top": 26,
+      "left": 21,
+      "right": 19,
+      "top": 21,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 27903.8,
-    "clip_flag": true,
+    "horiz_weight": 7913.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2014_1/questao_010.png",
@@ -2823,16 +2823,16 @@
   },
   {
     "path": "imagens/fatec/2015/1sem/questao_008.png",
-    "width": 1041,
-    "height": 450,
+    "width": 1288,
+    "height": 549,
     "margins": {
       "left": 0,
       "right": 0,
-      "top": 0,
+      "top": 21,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 14372.0,
+    "horiz_weight": 12701.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2840,13 +2840,13 @@
   },
   {
     "path": "imagens/fatec/2015/1sem/questao_010.png",
-    "width": 1270,
-    "height": 509,
+    "width": 1572,
+    "height": 621,
     "margins": {
-      "left": 21,
-      "right": 22,
+      "left": 20,
+      "right": 19,
       "top": 0,
-      "bottom": 23
+      "bottom": 21
     },
     "skew_deg": 0.0,
     "horiz_weight": 0,
@@ -2857,16 +2857,16 @@
   },
   {
     "path": "imagens/fatec/2015/1sem/questao_012.png",
-    "width": 1048,
-    "height": 1540,
+    "width": 1151,
+    "height": 1452,
     "margins": {
       "left": 0,
-      "right": 6,
-      "top": 21,
-      "bottom": 31
+      "right": 20,
+      "top": 20,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 12514.0,
+    "horiz_weight": 16758.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2874,16 +2874,16 @@
   },
   {
     "path": "imagens/fatec/2015/1sem/questao_020.png",
-    "width": 641,
-    "height": 512,
+    "width": 1572,
+    "height": 760,
     "margins": {
-      "left": 6,
-      "right": 21,
+      "left": 20,
+      "right": 19,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 81072.0,
+    "horiz_weight": 70351.4,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2891,33 +2891,33 @@
   },
   {
     "path": "imagens/fatec/2015/1sem/questao_022.png",
-    "width": 415,
-    "height": 413,
+    "width": 1575,
+    "height": 1775,
     "margins": {
-      "left": 0,
-      "right": 22,
-      "top": 0,
+      "left": 19,
+      "right": 20,
+      "top": 19,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 11523.6,
-    "clip_flag": true,
+    "horiz_weight": 49638.7,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2015/1sem/questao_031.png",
-    "width": 1269,
-    "height": 650,
+    "width": 1480,
+    "height": 760,
     "margins": {
-      "left": 9,
-      "right": 12,
-      "top": 17,
-      "bottom": 8
+      "left": 21,
+      "right": 20,
+      "top": 20,
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 26478.0,
+    "horiz_weight": 27986.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2925,16 +2925,16 @@
   },
   {
     "path": "imagens/fatec/2015/1sem/questao_033.png",
-    "width": 1582,
-    "height": 1218,
+    "width": 1570,
+    "height": 298,
     "margins": {
-      "left": 35,
-      "right": 24,
-      "top": 22,
-      "bottom": 36
+      "left": 21,
+      "right": 20,
+      "top": 20,
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 73942.6,
+    "horiz_weight": 62737.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2942,16 +2942,16 @@
   },
   {
     "path": "imagens/fatec/2015/1sem/questao_036.png",
-    "width": 943,
-    "height": 671,
+    "width": 1164,
+    "height": 824,
     "margins": {
       "left": 21,
-      "right": 22,
-      "top": 21,
-      "bottom": 3
+      "right": 19,
+      "top": 20,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 6787.5,
+    "horiz_weight": 7144.2,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2959,8 +2959,8 @@
   },
   {
     "path": "imagens/fatec/2015/1sem/questao_038.png",
-    "width": 1104,
-    "height": 283,
+    "width": 1366,
+    "height": 339,
     "margins": {
       "left": 0,
       "right": 0,
@@ -2968,7 +2968,7 @@
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 19178.0,
+    "horiz_weight": 15596.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2976,16 +2976,16 @@
   },
   {
     "path": "imagens/fatec/2015/1sem/questao_047.png",
-    "width": 412,
-    "height": 545,
+    "width": 500,
+    "height": 666,
     "margins": {
-      "left": 21,
-      "right": 22,
-      "top": 20,
-      "bottom": 4
+      "left": 19,
+      "right": 20,
+      "top": 19,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3488.0,
+    "horiz_weight": 3421.2,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -2993,16 +2993,16 @@
   },
   {
     "path": "imagens/fatec/2015/1sem/questao_048.png",
-    "width": 1269,
-    "height": 505,
+    "width": 1573,
+    "height": 619,
     "margins": {
-      "left": 21,
-      "right": 22,
+      "left": 20,
+      "right": 21,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 13481.0,
+    "horiz_weight": 11106.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3010,50 +3010,50 @@
   },
   {
     "path": "imagens/fatec/2015/1sem/questao_049.png",
-    "width": 752,
-    "height": 306,
+    "width": 1573,
+    "height": 619,
     "margins": {
       "left": 20,
-      "right": 0,
-      "top": 20,
+      "right": 21,
+      "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 2007.0,
-    "clip_flag": true,
+    "horiz_weight": 11106.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_004.png",
-    "width": 702,
-    "height": 1688,
+    "width": 1562,
+    "height": 976,
     "margins": {
-      "left": 57,
-      "right": 0,
-      "top": 78,
+      "left": 27,
+      "right": 29,
+      "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 94147.3,
-    "clip_flag": true,
+    "horiz_weight": 7088.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_005.png",
-    "width": 669,
-    "height": 689,
+    "width": 1562,
+    "height": 877,
     "margins": {
-      "left": 9,
-      "right": 15,
-      "top": 22,
-      "bottom": 11
+      "left": 27,
+      "right": 29,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 32534.1,
+    "horiz_weight": 7088.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3061,16 +3061,16 @@
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_006.png",
-    "width": 669,
-    "height": 689,
+    "width": 1562,
+    "height": 877,
     "margins": {
-      "left": 9,
-      "right": 15,
-      "top": 22,
-      "bottom": 11
+      "left": 27,
+      "right": 29,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 32534.1,
+    "horiz_weight": 7088.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3078,16 +3078,16 @@
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_008.png",
-    "width": 787,
-    "height": 696,
+    "width": 1562,
+    "height": 829,
     "margins": {
-      "left": 18,
-      "right": 8,
-      "top": 22,
-      "bottom": 38
+      "left": 27,
+      "right": 29,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 62658.0,
+    "horiz_weight": 7088.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3095,16 +3095,16 @@
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_009.png",
-    "width": 636,
-    "height": 528,
+    "width": 1562,
+    "height": 664,
     "margins": {
-      "left": 11,
-      "right": 14,
-      "top": 3,
-      "bottom": 16
+      "left": 27,
+      "right": 29,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 47245.3,
+    "horiz_weight": 7088.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3112,33 +3112,33 @@
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_010.png",
-    "width": 632,
-    "height": 185,
+    "width": 1562,
+    "height": 664,
     "margins": {
-      "left": 7,
-      "right": 1,
-      "top": 11,
-      "bottom": 21
+      "left": 27,
+      "right": 29,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 6233.0,
-    "clip_flag": true,
+    "horiz_weight": 7088.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_011.png",
-    "width": 557,
-    "height": 311,
+    "width": 1562,
+    "height": 664,
     "margins": {
-      "left": 28,
-      "right": 50,
+      "left": 27,
+      "right": 29,
       "top": 0,
-      "bottom": 50
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3505.0,
+    "horiz_weight": 7088.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3146,16 +3146,16 @@
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_014.png",
-    "width": 1308,
-    "height": 799,
+    "width": 1562,
+    "height": 1025,
     "margins": {
-      "left": 50,
-      "right": 53,
-      "top": 9,
+      "left": 27,
+      "right": 29,
+      "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 16748.0,
+    "horiz_weight": 7088.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3163,16 +3163,16 @@
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_020.png",
-    "width": 1054,
-    "height": 487,
+    "width": 1201,
+    "height": 546,
     "margins": {
       "left": 0,
-      "right": 24,
+      "right": 20,
       "top": 0,
-      "bottom": 7
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 64304.2,
+    "horiz_weight": 54575.7,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3180,16 +3180,16 @@
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_021.png",
-    "width": 1054,
-    "height": 487,
+    "width": 1201,
+    "height": 546,
     "margins": {
       "left": 0,
-      "right": 24,
+      "right": 20,
       "top": 0,
-      "bottom": 7
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 64304.2,
+    "horiz_weight": 54575.7,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3197,16 +3197,16 @@
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_023.png",
-    "width": 1630,
-    "height": 1203,
+    "width": 1603,
+    "height": 1683,
     "margins": {
-      "left": 45,
-      "right": 24,
+      "left": 21,
+      "right": 21,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 84411.4,
+    "horiz_weight": 108300.6,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3214,50 +3214,50 @@
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_030.png",
-    "width": 695,
-    "height": 471,
+    "width": 786,
+    "height": 529,
     "margins": {
-      "left": 1,
-      "right": 25,
+      "left": 19,
+      "right": 21,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 33968.0,
-    "clip_flag": true,
+    "horiz_weight": 36881.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_031.png",
-    "width": 615,
-    "height": 486,
+    "width": 786,
+    "height": 529,
     "margins": {
-      "left": 0,
-      "right": 15,
-      "top": 3,
-      "bottom": 15
+      "left": 19,
+      "right": 21,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 38128.0,
-    "clip_flag": true,
+    "horiz_weight": 36881.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_034.png",
-    "width": 517,
-    "height": 412,
+    "width": 632,
+    "height": 500,
     "margins": {
-      "left": 20,
-      "right": 21,
-      "top": 20,
-      "bottom": 22
+      "left": 19,
+      "right": 20,
+      "top": 19,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 898.0,
+    "horiz_weight": 1131.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3265,16 +3265,16 @@
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_035.png",
-    "width": 1058,
-    "height": 166,
+    "width": 1340,
+    "height": 224,
     "margins": {
-      "left": 14,
-      "right": 14,
-      "top": 13,
-      "bottom": 15
+      "left": 27,
+      "right": 26,
+      "top": 26,
+      "bottom": 26
     },
     "skew_deg": 0.0,
-    "horiz_weight": 10284.0,
+    "horiz_weight": 11581.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3282,33 +3282,33 @@
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_039.png",
-    "width": 419,
-    "height": 326,
+    "width": 1594,
+    "height": 1114,
     "margins": {
-      "left": 0,
-      "right": 21,
+      "left": 31,
+      "right": 32,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 6169.0,
-    "clip_flag": true,
+    "horiz_weight": 123976.6,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_041.png",
-    "width": 634,
-    "height": 669,
+    "width": 1594,
+    "height": 1114,
     "margins": {
-      "left": 14,
-      "right": 15,
-      "top": 3,
-      "bottom": 7
+      "left": 31,
+      "right": 32,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 69292.1,
+    "horiz_weight": 123976.6,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3316,16 +3316,16 @@
   },
   {
     "path": "imagens/fatec/2015/2sem/questao_046.png",
-    "width": 530,
-    "height": 465,
+    "width": 1574,
+    "height": 567,
     "margins": {
-      "left": 21,
-      "right": 23,
+      "left": 19,
+      "right": 21,
       "top": 0,
-      "bottom": 8
+      "bottom": 2
     },
     "skew_deg": 0.0,
-    "horiz_weight": 5547.0,
+    "horiz_weight": 37701.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3350,50 +3350,50 @@
   },
   {
     "path": "imagens/fatec/2016/1sem/questao_004.png",
-    "width": 598,
-    "height": 689,
+    "width": 670,
+    "height": 712,
     "margins": {
-      "left": 0,
+      "left": 15,
       "right": 15,
-      "top": 16,
-      "bottom": 0
+      "top": 15,
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1429.0,
-    "clip_flag": true,
+    "horiz_weight": 303.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2016/1sem/questao_009.png",
-    "width": 478,
-    "height": 478,
+    "width": 787,
+    "height": 979,
     "margins": {
-      "left": 0,
-      "right": 0,
+      "left": 20,
+      "right": 3,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 11388.0,
-    "clip_flag": true,
+    "horiz_weight": 136786.2,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2016/1sem/questao_011.png",
-    "width": 381,
-    "height": 381,
+    "width": 483,
+    "height": 481,
     "margins": {
-      "left": 18,
-      "right": 20,
-      "top": 18,
-      "bottom": 21
+      "left": 28,
+      "right": 27,
+      "top": 27,
+      "bottom": 27
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1125.0,
+    "horiz_weight": 1415.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3401,16 +3401,16 @@
   },
   {
     "path": "imagens/fatec/2016/1sem/questao_016.png",
-    "width": 799,
-    "height": 809,
+    "width": 984,
+    "height": 999,
     "margins": {
-      "left": 21,
-      "right": 22,
+      "left": 19,
+      "right": 20,
       "top": 20,
-      "bottom": 7
+      "bottom": 3
     },
     "skew_deg": 0.0,
-    "horiz_weight": 2429.1,
+    "horiz_weight": 4646.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3418,16 +3418,16 @@
   },
   {
     "path": "imagens/fatec/2016/1sem/questao_030.png",
-    "width": 812,
-    "height": 962,
+    "width": 937,
+    "height": 1116,
     "margins": {
-      "left": 22,
-      "right": 12,
-      "top": 20,
+      "left": 20,
+      "right": 21,
+      "top": 21,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 19400.0,
+    "horiz_weight": 21721.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3452,16 +3452,16 @@
   },
   {
     "path": "imagens/fatec/2016/1sem/questao_032.png",
-    "width": 812,
-    "height": 962,
+    "width": 937,
+    "height": 1116,
     "margins": {
-      "left": 22,
-      "right": 12,
-      "top": 20,
+      "left": 20,
+      "right": 21,
+      "top": 21,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 19400.0,
+    "horiz_weight": 21721.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3469,16 +3469,16 @@
   },
   {
     "path": "imagens/fatec/2016/1sem/questao_044.png",
-    "width": 1269,
-    "height": 1031,
+    "width": 1572,
+    "height": 1275,
     "margins": {
-      "left": 21,
-      "right": 22,
+      "left": 20,
+      "right": 20,
       "top": 0,
-      "bottom": 2
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 17207.0,
+    "horiz_weight": 18825.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3486,16 +3486,16 @@
   },
   {
     "path": "imagens/fatec/2016/1sem/questao_045.png",
-    "width": 1271,
-    "height": 1167,
+    "width": 1574,
+    "height": 399,
     "margins": {
       "left": 21,
-      "right": 21,
-      "top": 21,
-      "bottom": 0
+      "right": 18,
+      "top": 20,
+      "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 20313.0,
+    "horiz_weight": 7311.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3503,16 +3503,16 @@
   },
   {
     "path": "imagens/fatec/2016/1sem/questao_048.png",
-    "width": 726,
-    "height": 349,
+    "width": 856,
+    "height": 417,
     "margins": {
-      "left": 17,
-      "right": 13,
-      "top": 18,
-      "bottom": 15
+      "left": 27,
+      "right": 26,
+      "top": 26,
+      "bottom": 26
     },
     "skew_deg": 0.0,
-    "horiz_weight": 16105.0,
+    "horiz_weight": 8985.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3520,16 +3520,16 @@
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_002.png",
-    "width": 635,
-    "height": 612,
+    "width": 1574,
+    "height": 1171,
     "margins": {
-      "left": 11,
-      "right": 15,
-      "top": 3,
-      "bottom": 16
+      "left": 21,
+      "right": 20,
+      "top": 0,
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 35268.0,
+    "horiz_weight": 301118.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3537,33 +3537,33 @@
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_010.png",
-    "width": 575,
-    "height": 414,
+    "width": 948,
+    "height": 1945,
     "margins": {
-      "left": 3,
-      "right": 50,
-      "top": 5,
-      "bottom": 0
+      "left": 0,
+      "right": 99,
+      "top": 22,
+      "bottom": 26
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7598.0,
-    "clip_flag": false,
+    "horiz_weight": 109476.0,
+    "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_011.png",
-    "width": 613,
-    "height": 958,
+    "width": 948,
+    "height": 1945,
     "margins": {
       "left": 0,
-      "right": 14,
-      "top": 4,
-      "bottom": 115
+      "right": 99,
+      "top": 22,
+      "bottom": 26
     },
     "skew_deg": 0.0,
-    "horiz_weight": 75804.2,
+    "horiz_weight": 109476.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3571,20 +3571,20 @@
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_013.png",
-    "width": 528,
-    "height": 255,
+    "width": 1528,
+    "height": 299,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 0,
+      "left": 20,
+      "right": 20,
+      "top": 19,
       "bottom": 20
     },
-    "skew_deg": 1.901,
-    "horiz_weight": 469.2,
-    "clip_flag": true,
+    "skew_deg": 0.0,
+    "horiz_weight": 2919.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_014.png",
@@ -3605,71 +3605,71 @@
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_025.png",
-    "width": 1274,
-    "height": 416,
+    "width": 1572,
+    "height": 584,
     "margins": {
-      "left": 0,
-      "right": 0,
+      "left": 21,
+      "right": 20,
       "top": 0,
-      "bottom": 9
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1811.0,
-    "clip_flag": true,
+    "horiz_weight": 13713.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_026.png",
-    "width": 1274,
-    "height": 416,
+    "width": 1572,
+    "height": 584,
     "margins": {
-      "left": 0,
-      "right": 0,
+      "left": 21,
+      "right": 20,
       "top": 0,
-      "bottom": 9
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1811.0,
-    "clip_flag": true,
+    "horiz_weight": 13713.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_027.png",
-    "width": 1274,
-    "height": 416,
+    "width": 1572,
+    "height": 584,
     "margins": {
-      "left": 0,
-      "right": 0,
+      "left": 21,
+      "right": 20,
       "top": 0,
-      "bottom": 9
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1811.0,
-    "clip_flag": true,
+    "horiz_weight": 13713.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_028.png",
-    "width": 1274,
-    "height": 416,
+    "width": 1572,
+    "height": 584,
     "margins": {
-      "left": 0,
-      "right": 0,
+      "left": 21,
+      "right": 20,
       "top": 0,
-      "bottom": 9
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1811.0,
-    "clip_flag": true,
+    "horiz_weight": 13713.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_029.png",
@@ -3690,33 +3690,33 @@
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_032.png",
-    "width": 813,
-    "height": 661,
+    "width": 1598,
+    "height": 706,
     "margins": {
-      "left": 18,
-      "right": 0,
-      "top": 22,
-      "bottom": 0
+      "left": 32,
+      "right": 33,
+      "top": 32,
+      "bottom": 26
     },
     "skew_deg": 0.0,
-    "horiz_weight": 61672.0,
-    "clip_flag": true,
+    "horiz_weight": 124729.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_034.png",
-    "width": 639,
-    "height": 414,
+    "width": 786,
+    "height": 502,
     "margins": {
-      "left": 21,
+      "left": 20,
       "right": 0,
       "top": 0,
-      "bottom": 22
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 6475.1,
+    "horiz_weight": 4401.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3724,16 +3724,16 @@
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_035.png",
-    "width": 893,
-    "height": 629,
+    "width": 1102,
+    "height": 772,
     "margins": {
       "left": 0,
-      "right": 23,
-      "top": 21,
-      "bottom": 23
+      "right": 20,
+      "top": 20,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 29964.0,
+    "horiz_weight": 29139.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3741,16 +3741,16 @@
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_039.png",
-    "width": 579,
-    "height": 1323,
+    "width": 710,
+    "height": 1641,
     "margins": {
       "left": 0,
-      "right": 22,
-      "top": 21,
-      "bottom": 21
+      "right": 20,
+      "top": 20,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 32099.0,
+    "horiz_weight": 38297.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3758,16 +3758,16 @@
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_045.png",
-    "width": 691,
-    "height": 530,
+    "width": 864,
+    "height": 663,
     "margins": {
-      "left": 12,
-      "right": 12,
-      "top": 12,
-      "bottom": 12
+      "left": 15,
+      "right": 15,
+      "top": 15,
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 12252.0,
+    "horiz_weight": 10147.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3775,16 +3775,16 @@
   },
   {
     "path": "imagens/fatec/2016/2sem/questao_049.png",
-    "width": 1270,
-    "height": 645,
+    "width": 1598,
+    "height": 916,
     "margins": {
-      "left": 21,
-      "right": 22,
+      "left": 32,
+      "right": 32,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 174687.0,
+    "horiz_weight": 233541.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3792,50 +3792,50 @@
   },
   {
     "path": "imagens/fatec/2017/1sem/questao_003.png",
-    "width": 905,
-    "height": 437,
-    "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 0,
-      "bottom": 21
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 20813.4,
-    "clip_flag": true,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": true
-  },
-  {
-    "path": "imagens/fatec/2017/1sem/questao_004.png",
-    "width": 905,
-    "height": 437,
-    "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 0,
-      "bottom": 21
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 20813.4,
-    "clip_flag": true,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": true
-  },
-  {
-    "path": "imagens/fatec/2017/1sem/questao_005.png",
-    "width": 790,
-    "height": 779,
+    "width": 1573,
+    "height": 611,
     "margins": {
       "left": 21,
-      "right": 22,
-      "top": 21,
+      "right": 21,
+      "top": 20,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 18666.0,
+    "horiz_weight": 51881.0,
+    "clip_flag": false,
+    "skew_flag": false,
+    "extreme_aspect": false,
+    "flagged": false
+  },
+  {
+    "path": "imagens/fatec/2017/1sem/questao_004.png",
+    "width": 1573,
+    "height": 611,
+    "margins": {
+      "left": 21,
+      "right": 21,
+      "top": 20,
+      "bottom": 0
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 51881.0,
+    "clip_flag": false,
+    "skew_flag": false,
+    "extreme_aspect": false,
+    "flagged": false
+  },
+  {
+    "path": "imagens/fatec/2017/1sem/questao_005.png",
+    "width": 973,
+    "height": 958,
+    "margins": {
+      "left": 19,
+      "right": 20,
+      "top": 19,
+      "bottom": 0
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 24600.1,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3843,16 +3843,16 @@
   },
   {
     "path": "imagens/fatec/2017/1sem/questao_008.png",
-    "width": 1094,
-    "height": 488,
+    "width": 1353,
+    "height": 595,
     "margins": {
       "left": 0,
-      "right": 21,
+      "right": 20,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 119986.0,
+    "horiz_weight": 153861.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3860,16 +3860,16 @@
   },
   {
     "path": "imagens/fatec/2017/1sem/questao_009.png",
-    "width": 1097,
-    "height": 564,
+    "width": 1355,
+    "height": 690,
     "margins": {
       "left": 0,
-      "right": 23,
-      "top": 21,
+      "right": 20,
+      "top": 20,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 145312.0,
+    "horiz_weight": 150721.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3877,16 +3877,16 @@
   },
   {
     "path": "imagens/fatec/2017/1sem/questao_011.png",
-    "width": 615,
-    "height": 897,
+    "width": 1429,
+    "height": 401,
     "margins": {
-      "left": 14,
-      "right": 0,
-      "top": 3,
-      "bottom": 16
+      "left": 0,
+      "right": 19,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 114224.2,
+    "horiz_weight": 18156.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3894,67 +3894,67 @@
   },
   {
     "path": "imagens/fatec/2017/1sem/questao_012.png",
-    "width": 1171,
-    "height": 525,
+    "width": 939,
+    "height": 266,
     "margins": {
-      "left": 0,
-      "right": 4,
-      "top": 0,
-      "bottom": 13
+      "left": 19,
+      "right": 21,
+      "top": 19,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 21416.0,
-    "clip_flag": true,
+    "horiz_weight": 14966.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2017/1sem/questao_020.png",
-    "width": 604,
-    "height": 271,
+    "width": 1573,
+    "height": 1256,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 0,
-      "bottom": 13
+      "left": 19,
+      "right": 20,
+      "top": 20,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 584.0,
-    "clip_flag": true,
+    "horiz_weight": 61742.5,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2017/1sem/questao_021.png",
-    "width": 501,
-    "height": 379,
+    "width": 1573,
+    "height": 1256,
     "margins": {
-      "left": 2,
-      "right": 6,
-      "top": 0,
+      "left": 19,
+      "right": 20,
+      "top": 20,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 11649.4,
-    "clip_flag": true,
+    "horiz_weight": 61742.5,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2017/1sem/questao_022.png",
-    "width": 1577,
-    "height": 897,
+    "width": 1573,
+    "height": 1256,
     "margins": {
-      "left": 22,
-      "right": 21,
-      "top": 23,
+      "left": 19,
+      "right": 20,
+      "top": 20,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 47489.7,
+    "horiz_weight": 61742.5,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3962,33 +3962,33 @@
   },
   {
     "path": "imagens/fatec/2017/1sem/questao_035.png",
-    "width": 1148,
-    "height": 335,
+    "width": 1116,
+    "height": 274,
     "margins": {
-      "left": 0,
-      "right": 15,
-      "top": 3,
-      "bottom": 15
+      "left": 27,
+      "right": 13,
+      "top": 26,
+      "bottom": 5
     },
     "skew_deg": 0.0,
-    "horiz_weight": 37925.0,
-    "clip_flag": true,
+    "horiz_weight": 15450.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2017/1sem/questao_037.png",
-    "width": 665,
-    "height": 420,
+    "width": 815,
+    "height": 510,
     "margins": {
       "left": 0,
-      "right": 0,
+      "right": 2,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 22537.0,
+    "horiz_weight": 24911.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -3996,33 +3996,33 @@
   },
   {
     "path": "imagens/fatec/2017/1sem/questao_039.png",
-    "width": 643,
-    "height": 541,
+    "width": 789,
+    "height": 663,
     "margins": {
       "left": 20,
-      "right": 8,
+      "right": 2,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 6147.0,
-    "clip_flag": false,
+    "horiz_weight": 5084.0,
+    "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2017/1sem/questao_041.png",
-    "width": 615,
-    "height": 794,
+    "width": 789,
+    "height": 663,
     "margins": {
-      "left": 0,
-      "right": 15,
-      "top": 3,
-      "bottom": 13
+      "left": 20,
+      "right": 2,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 81811.0,
+    "horiz_weight": 5084.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4047,33 +4047,33 @@
   },
   {
     "path": "imagens/fatec/2017/2sem/questao_011.png",
-    "width": 346,
-    "height": 343,
+    "width": 1577,
+    "height": 322,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 0,
+      "left": 21,
+      "right": 20,
+      "top": 20,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1792.0,
-    "clip_flag": true,
+    "horiz_weight": 52603.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2017/2sem/questao_017.png",
-    "width": 595,
-    "height": 793,
+    "width": 730,
+    "height": 978,
     "margins": {
-      "left": 14,
-      "right": 21,
-      "top": 21,
-      "bottom": 0
+      "left": 19,
+      "right": 19,
+      "top": 19,
+      "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7761.9,
+    "horiz_weight": 7258.1,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4081,16 +4081,16 @@
   },
   {
     "path": "imagens/fatec/2017/2sem/questao_018.png",
-    "width": 1269,
-    "height": 711,
+    "width": 1572,
+    "height": 872,
     "margins": {
-      "left": 21,
-      "right": 22,
+      "left": 20,
+      "right": 20,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 42267.0,
+    "horiz_weight": 52498.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4098,33 +4098,33 @@
   },
   {
     "path": "imagens/fatec/2017/2sem/questao_023.png",
-    "width": 537,
-    "height": 523,
+    "width": 656,
+    "height": 640,
     "margins": {
-      "left": 1,
-      "right": 0,
-      "top": 0,
+      "left": 20,
+      "right": 21,
+      "top": 19,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7128.0,
-    "clip_flag": true,
+    "horiz_weight": 6009.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2017/2sem/questao_024.png",
-    "width": 1198,
-    "height": 1373,
+    "width": 1483,
+    "height": 1703,
     "margins": {
       "left": 0,
-      "right": 19,
-      "top": 0,
-      "bottom": 8
+      "right": 15,
+      "top": 21,
+      "bottom": 2
     },
     "skew_deg": 0.0,
-    "horiz_weight": 38028.0,
+    "horiz_weight": 37026.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4132,16 +4132,16 @@
   },
   {
     "path": "imagens/fatec/2017/2sem/questao_030.png",
-    "width": 1365,
-    "height": 780,
+    "width": 1572,
+    "height": 1033,
     "margins": {
-      "left": 19,
-      "right": 18,
-      "top": 0,
-      "bottom": 17
+      "left": 20,
+      "right": 20,
+      "top": 20,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 66147.0,
+    "horiz_weight": 85106.1,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4149,16 +4149,16 @@
   },
   {
     "path": "imagens/fatec/2017/2sem/questao_031.png",
-    "width": 1365,
-    "height": 780,
+    "width": 1572,
+    "height": 1033,
     "margins": {
-      "left": 19,
-      "right": 18,
-      "top": 0,
-      "bottom": 17
+      "left": 20,
+      "right": 20,
+      "top": 20,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 66147.0,
+    "horiz_weight": 85106.1,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4166,16 +4166,16 @@
   },
   {
     "path": "imagens/fatec/2017/2sem/questao_032.png",
-    "width": 1365,
-    "height": 780,
+    "width": 1572,
+    "height": 1033,
     "margins": {
-      "left": 19,
-      "right": 18,
-      "top": 0,
-      "bottom": 17
+      "left": 20,
+      "right": 20,
+      "top": 20,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 66147.0,
+    "horiz_weight": 85106.1,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4183,16 +4183,16 @@
   },
   {
     "path": "imagens/fatec/2017/2sem/questao_034.png",
-    "width": 564,
-    "height": 499,
+    "width": 691,
+    "height": 608,
     "margins": {
-      "left": 21,
-      "right": 22,
-      "top": 21,
-      "bottom": 23
+      "left": 20,
+      "right": 20,
+      "top": 20,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 4155.0,
+    "horiz_weight": 4764.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4200,16 +4200,16 @@
   },
   {
     "path": "imagens/fatec/2017/2sem/questao_035.png",
-    "width": 1017,
-    "height": 1253,
+    "width": 1394,
+    "height": 1577,
     "margins": {
       "left": 0,
-      "right": 21,
+      "right": 32,
       "top": 0,
-      "bottom": 22
+      "bottom": 32
     },
     "skew_deg": 0.0,
-    "horiz_weight": 12685.0,
+    "horiz_weight": 21287.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4217,16 +4217,16 @@
   },
   {
     "path": "imagens/fatec/2017/2sem/questao_036.png",
-    "width": 811,
-    "height": 575,
+    "width": 980,
+    "height": 705,
     "margins": {
       "left": 0,
-      "right": 18,
-      "top": 0,
-      "bottom": 22
+      "right": 15,
+      "top": 20,
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 5529.0,
+    "horiz_weight": 7271.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4234,16 +4234,16 @@
   },
   {
     "path": "imagens/fatec/2017/2sem/questao_037.png",
-    "width": 1269,
-    "height": 548,
+    "width": 1572,
+    "height": 670,
     "margins": {
-      "left": 21,
-      "right": 22,
+      "left": 19,
+      "right": 20,
       "top": 21,
-      "bottom": 0
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 11333.0,
+    "horiz_weight": 14163.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4251,16 +4251,16 @@
   },
   {
     "path": "imagens/fatec/2017/2sem/questao_038.png",
-    "width": 751,
-    "height": 444,
+    "width": 926,
+    "height": 541,
     "margins": {
       "left": 0,
-      "right": 0,
-      "top": 3,
+      "right": 4,
+      "top": 1,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 16979.0,
+    "horiz_weight": 16879.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4268,33 +4268,33 @@
   },
   {
     "path": "imagens/fatec/2017/2sem/questao_039.png",
-    "width": 540,
-    "height": 218,
+    "width": 926,
+    "height": 541,
     "margins": {
-      "left": 21,
-      "right": 22,
-      "top": 21,
-      "bottom": 23
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 2081.0,
-    "clip_flag": false,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": false
-  },
-  {
-    "path": "imagens/fatec/2017/2sem/questao_040.png",
-    "width": 1218,
-    "height": 1034,
-    "margins": {
-      "left": 3,
-      "right": 21,
-      "top": 0,
+      "left": 0,
+      "right": 4,
+      "top": 1,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 44238.0,
+    "horiz_weight": 16879.0,
+    "clip_flag": true,
+    "skew_flag": false,
+    "extreme_aspect": false,
+    "flagged": true
+  },
+  {
+    "path": "imagens/fatec/2017/2sem/questao_040.png",
+    "width": 1510,
+    "height": 1277,
+    "margins": {
+      "left": 21,
+      "right": 21,
+      "top": 0,
+      "bottom": 20
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 55959.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4302,16 +4302,16 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_002.png",
-    "width": 1269,
-    "height": 475,
+    "width": 1572,
+    "height": 579,
     "margins": {
       "left": 21,
-      "right": 22,
-      "top": 0,
-      "bottom": 5
+      "right": 20,
+      "top": 21,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3560.0,
+    "horiz_weight": 4451.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4319,16 +4319,16 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_005.png",
-    "width": 1055,
-    "height": 1433,
+    "width": 1304,
+    "height": 1967,
     "margins": {
       "left": 0,
-      "right": 22,
+      "right": 20,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 65691.0,
+    "horiz_weight": 73252.3,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4336,8 +4336,8 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_010.png",
-    "width": 812,
-    "height": 594,
+    "width": 1000,
+    "height": 727,
     "margins": {
       "left": 0,
       "right": 0,
@@ -4345,7 +4345,7 @@
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 22021.7,
+    "horiz_weight": 25730.2,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4353,16 +4353,16 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_011.png",
-    "width": 650,
-    "height": 443,
+    "width": 799,
+    "height": 539,
     "margins": {
       "left": 0,
-      "right": 0,
+      "right": 2,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 10120.0,
+    "horiz_weight": 10879.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4370,16 +4370,16 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_012.png",
-    "width": 442,
-    "height": 279,
+    "width": 1491,
+    "height": 489,
     "margins": {
       "left": 0,
-      "right": 1,
+      "right": 19,
       "top": 0,
-      "bottom": 1
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 10631.2,
+    "horiz_weight": 87206.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4387,16 +4387,16 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_018.png",
-    "width": 575,
-    "height": 685,
+    "width": 703,
+    "height": 844,
     "margins": {
-      "left": 21,
-      "right": 23,
-      "top": 21,
-      "bottom": 0
+      "left": 20,
+      "right": 20,
+      "top": 20,
+      "bottom": 3
     },
     "skew_deg": 0.0,
-    "horiz_weight": 16563.0,
+    "horiz_weight": 23938.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4404,16 +4404,16 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_024.png",
-    "width": 592,
-    "height": 765,
+    "width": 827,
+    "height": 2089,
     "margins": {
-      "left": 12,
-      "right": 5,
-      "top": 24,
-      "bottom": 23
+      "left": 31,
+      "right": 23,
+      "top": 27,
+      "bottom": 33
     },
     "skew_deg": 0.0,
-    "horiz_weight": 35432.0,
+    "horiz_weight": 114931.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4421,16 +4421,16 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_030.png",
-    "width": 1265,
-    "height": 547,
+    "width": 1568,
+    "height": 668,
     "margins": {
       "left": 21,
-      "right": 21,
+      "right": 19,
       "top": 0,
-      "bottom": 9
+      "bottom": 2
     },
     "skew_deg": 0.0,
-    "horiz_weight": 6285.0,
+    "horiz_weight": 7079.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4438,16 +4438,16 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_032.png",
-    "width": 598,
-    "height": 611,
+    "width": 786,
+    "height": 906,
     "margins": {
-      "left": 0,
-      "right": 30,
+      "left": 20,
+      "right": 0,
       "top": 0,
-      "bottom": 28
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 16158.2,
+    "horiz_weight": 37421.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4455,16 +4455,16 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_033.png",
-    "width": 598,
-    "height": 611,
+    "width": 786,
+    "height": 906,
     "margins": {
-      "left": 0,
-      "right": 30,
+      "left": 20,
+      "right": 0,
       "top": 0,
-      "bottom": 28
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 16158.2,
+    "horiz_weight": 37421.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4472,16 +4472,16 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_034.png",
-    "width": 598,
-    "height": 611,
+    "width": 786,
+    "height": 906,
     "margins": {
-      "left": 0,
-      "right": 30,
+      "left": 20,
+      "right": 0,
       "top": 0,
-      "bottom": 28
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 16158.2,
+    "horiz_weight": 37421.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4489,16 +4489,16 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_035.png",
-    "width": 536,
-    "height": 338,
+    "width": 607,
+    "height": 377,
     "margins": {
-      "left": 0,
+      "left": 5,
       "right": 0,
-      "top": 22,
+      "top": 20,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 9361.0,
+    "horiz_weight": 7073.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4506,16 +4506,16 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_036.png",
-    "width": 557,
-    "height": 215,
+    "width": 681,
+    "height": 251,
     "margins": {
       "left": 0,
-      "right": 23,
+      "right": 20,
       "top": 0,
-      "bottom": 1
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 9611.1,
+    "horiz_weight": 7637.1,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4523,16 +4523,16 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_038.png",
-    "width": 568,
-    "height": 425,
+    "width": 1528,
+    "height": 1243,
     "margins": {
       "left": 0,
-      "right": 22,
+      "right": 20,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 2284.0,
+    "horiz_weight": 59913.7,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4540,16 +4540,16 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_042.png",
-    "width": 1269,
-    "height": 1070,
+    "width": 1573,
+    "height": 1323,
     "margins": {
       "left": 21,
-      "right": 22,
-      "top": 0,
-      "bottom": 6
+      "right": 21,
+      "top": 21,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 41676.0,
+    "horiz_weight": 50570.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4557,30 +4557,30 @@
   },
   {
     "path": "imagens/fatec/2018/1sem/questao_049.png",
-    "width": 695,
-    "height": 504,
+    "width": 853,
+    "height": 615,
     "margins": {
-      "left": 0,
-      "right": 23,
-      "top": 0,
-      "bottom": 5
+      "left": 20,
+      "right": 19,
+      "top": 19,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 16680.1,
-    "clip_flag": true,
+    "horiz_weight": 9846.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2018/2sem/questao_002.png",
-    "width": 1231,
-    "height": 711,
+    "width": 1525,
+    "height": 875,
     "margins": {
       "left": 0,
-      "right": 22,
+      "right": 20,
       "top": 0,
-      "bottom": 0
+      "bottom": 20
     },
     "skew_deg": 0.0,
     "horiz_weight": 0,
@@ -4591,16 +4591,16 @@
   },
   {
     "path": "imagens/fatec/2018/2sem/questao_005.png",
-    "width": 1269,
-    "height": 232,
+    "width": 1573,
+    "height": 272,
     "margins": {
       "left": 21,
-      "right": 22,
+      "right": 20,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 72275.0,
+    "horiz_weight": 87906.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4625,16 +4625,16 @@
   },
   {
     "path": "imagens/fatec/2018/2sem/questao_008.png",
-    "width": 785,
-    "height": 791,
+    "width": 967,
+    "height": 967,
     "margins": {
       "left": 20,
-      "right": 22,
-      "top": 26,
-      "bottom": 0
+      "right": 20,
+      "top": 20,
+      "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3419.1,
+    "horiz_weight": 5468.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4642,16 +4642,16 @@
   },
   {
     "path": "imagens/fatec/2018/2sem/questao_011.png",
-    "width": 328,
-    "height": 329,
+    "width": 1575,
+    "height": 235,
     "margins": {
-      "left": 15,
-      "right": 15,
-      "top": 17,
-      "bottom": 17
+      "left": 21,
+      "right": 21,
+      "top": 0,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1179.0,
+    "horiz_weight": 0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4659,16 +4659,16 @@
   },
   {
     "path": "imagens/fatec/2018/2sem/questao_043.png",
-    "width": 668,
-    "height": 619,
+    "width": 823,
+    "height": 760,
     "margins": {
       "left": 20,
-      "right": 21,
+      "right": 20,
       "top": 20,
-      "bottom": 22
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 8613.0,
+    "horiz_weight": 9697.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4676,16 +4676,16 @@
   },
   {
     "path": "imagens/fatec/2018/2sem/questao_048.png",
-    "width": 1304,
-    "height": 306,
+    "width": 1558,
+    "height": 311,
     "margins": {
-      "left": 50,
-      "right": 50,
+      "left": 26,
+      "right": 26,
       "top": 0,
-      "bottom": 11
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 50254.0,
+    "horiz_weight": 49807.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4693,16 +4693,16 @@
   },
   {
     "path": "imagens/fatec/2018/2sem/questao_052.png",
-    "width": 644,
-    "height": 464,
+    "width": 1577,
+    "height": 1299,
     "margins": {
-      "left": 21,
-      "right": 6,
+      "left": 20,
+      "right": 21,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 6823.0,
+    "horiz_weight": 94873.6,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4710,20 +4710,20 @@
   },
   {
     "path": "imagens/fatec/2019/1sem/questao_002.png",
-    "width": 761,
-    "height": 713,
+    "width": 949,
+    "height": 825,
     "margins": {
-      "left": 17,
-      "right": 0,
-      "top": 17,
-      "bottom": 0
+      "left": 20,
+      "right": 20,
+      "top": 20,
+      "bottom": 3
     },
     "skew_deg": 0.0,
-    "horiz_weight": 19020.1,
-    "clip_flag": true,
+    "horiz_weight": 22894.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2019/1sem/questao_004.png",
@@ -4744,16 +4744,16 @@
   },
   {
     "path": "imagens/fatec/2019/1sem/questao_006.png",
-    "width": 1261,
-    "height": 466,
+    "width": 1574,
+    "height": 579,
     "margins": {
-      "left": 17,
-      "right": 18,
-      "top": 17,
-      "bottom": 17
+      "left": 20,
+      "right": 20,
+      "top": 20,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 12257.0,
+    "horiz_weight": 15134.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4761,20 +4761,20 @@
   },
   {
     "path": "imagens/fatec/2019/1sem/questao_007.png",
-    "width": 687,
-    "height": 739,
+    "width": 750,
+    "height": 802,
     "margins": {
-      "left": 62,
-      "right": 59,
-      "top": 0,
-      "bottom": 27
+      "left": 20,
+      "right": 22,
+      "top": 15,
+      "bottom": 0
     },
-    "skew_deg": -1.096,
-    "horiz_weight": 2228.4,
+    "skew_deg": 0.0,
+    "horiz_weight": 0,
     "clip_flag": false,
-    "skew_flag": true,
+    "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2019/1sem/questao_012.png",
@@ -4795,16 +4795,16 @@
   },
   {
     "path": "imagens/fatec/2019/1sem/questao_013.png",
-    "width": 494,
-    "height": 422,
+    "width": 616,
+    "height": 527,
     "margins": {
-      "left": 16,
-      "right": 16,
+      "left": 21,
+      "right": 20,
       "top": 0,
-      "bottom": 16
+      "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3022.0,
+    "horiz_weight": 3719.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4829,33 +4829,33 @@
   },
   {
     "path": "imagens/fatec/2019/1sem/questao_019.png",
-    "width": 1540,
-    "height": 922,
+    "width": 903,
+    "height": 797,
     "margins": {
-      "left": 18,
-      "right": 2,
-      "top": 22,
-      "bottom": 0
+      "left": 20,
+      "right": 21,
+      "top": 19,
+      "bottom": 5
     },
     "skew_deg": 0.0,
-    "horiz_weight": 150889.3,
-    "clip_flag": true,
+    "horiz_weight": 21919.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2019/1sem/questao_038.png",
-    "width": 350,
-    "height": 501,
+    "width": 436,
+    "height": 625,
     "margins": {
-      "left": 16,
+      "left": 20,
       "right": 0,
-      "top": 16,
+      "top": 21,
       "bottom": 4
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3751.0,
+    "horiz_weight": 5315.1,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4863,33 +4863,33 @@
   },
   {
     "path": "imagens/fatec/2019/1sem/questao_041.png",
-    "width": 787,
-    "height": 1170,
-    "margins": {
-      "left": 18,
-      "right": 6,
-      "top": 22,
-      "bottom": 0
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 112692.0,
-    "clip_flag": false,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": false
-  },
-  {
-    "path": "imagens/fatec/2019/1sem/questao_049.png",
-    "width": 990,
-    "height": 702,
+    "width": 789,
+    "height": 796,
     "margins": {
       "left": 0,
-      "right": 17,
+      "right": 21,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 12566.0,
+    "horiz_weight": 74068.1,
+    "clip_flag": true,
+    "skew_flag": false,
+    "extreme_aspect": false,
+    "flagged": true
+  },
+  {
+    "path": "imagens/fatec/2019/1sem/questao_049.png",
+    "width": 1234,
+    "height": 875,
+    "margins": {
+      "left": 0,
+      "right": 19,
+      "top": 0,
+      "bottom": 0
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 13337.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4897,16 +4897,16 @@
   },
   {
     "path": "imagens/fatec/2019/2sem/questao_004.png",
-    "width": 1318,
-    "height": 676,
+    "width": 1635,
+    "height": 830,
     "margins": {
-      "left": 21,
-      "right": 22,
-      "top": 0,
-      "bottom": 11
+      "left": 20,
+      "right": 21,
+      "top": 21,
+      "bottom": 5
     },
     "skew_deg": 0.0,
-    "horiz_weight": 5462.1,
+    "horiz_weight": 3131.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4914,33 +4914,33 @@
   },
   {
     "path": "imagens/fatec/2019/2sem/questao_005.png",
-    "width": 782,
-    "height": 213,
+    "width": 1635,
+    "height": 830,
     "margins": {
-      "left": 0,
-      "right": 50,
-      "top": 0,
-      "bottom": 50
+      "left": 20,
+      "right": 21,
+      "top": 21,
+      "bottom": 5
     },
     "skew_deg": 0.0,
-    "horiz_weight": 13942.0,
-    "clip_flag": true,
+    "horiz_weight": 3131.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2019/2sem/questao_006.png",
-    "width": 839,
-    "height": 781,
+    "width": 1013,
+    "height": 947,
     "margins": {
-      "left": 30,
+      "left": 20,
       "right": 0,
-      "top": 0,
-      "bottom": 12
+      "top": 19,
+      "bottom": 3
     },
     "skew_deg": 0.0,
-    "horiz_weight": 18637.3,
+    "horiz_weight": 19112.4,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4948,33 +4948,33 @@
   },
   {
     "path": "imagens/fatec/2019/2sem/questao_008.png",
-    "width": 1098,
-    "height": 599,
+    "width": 1573,
+    "height": 1185,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 0,
-      "bottom": 10
+      "left": 21,
+      "right": 21,
+      "top": 20,
+      "bottom": 5
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7650.1,
-    "clip_flag": true,
+    "horiz_weight": 139963.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2019/2sem/questao_012.png",
-    "width": 595,
-    "height": 163,
+    "width": 730,
+    "height": 189,
     "margins": {
-      "left": 21,
-      "right": 22,
-      "top": 21,
-      "bottom": 23
+      "left": 19,
+      "right": 21,
+      "top": 19,
+      "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 4232.0,
+    "horiz_weight": 4627.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4982,16 +4982,16 @@
   },
   {
     "path": "imagens/fatec/2019/2sem/questao_014.png",
-    "width": 641,
-    "height": 554,
+    "width": 1582,
+    "height": 902,
     "margins": {
-      "left": 21,
-      "right": 21,
-      "top": 20,
-      "bottom": 7
+      "left": 27,
+      "right": 32,
+      "top": 27,
+      "bottom": 27
     },
     "skew_deg": 0.0,
-    "horiz_weight": 13250.3,
+    "horiz_weight": 29293.2,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -4999,50 +4999,50 @@
   },
   {
     "path": "imagens/fatec/2019/2sem/questao_022.png",
-    "width": 640,
-    "height": 357,
+    "width": 1573,
+    "height": 563,
     "margins": {
-      "left": 1,
-      "right": 22,
+      "left": 20,
+      "right": 21,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 9341.0,
-    "clip_flag": true,
+    "horiz_weight": 35821.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2019/2sem/questao_033.png",
-    "width": 495,
-    "height": 388,
+    "width": 605,
+    "height": 471,
     "margins": {
-      "left": 0,
-      "right": 22,
-      "top": 21,
-      "bottom": 22
+      "left": 20,
+      "right": 21,
+      "top": 19,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1961.0,
-    "clip_flag": true,
+    "horiz_weight": 2451.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2019/2sem/questao_034.png",
-    "width": 1166,
-    "height": 329,
+    "width": 1442,
+    "height": 398,
     "margins": {
       "left": 0,
-      "right": 23,
+      "right": 21,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 6623.0,
+    "horiz_weight": 4255.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5050,16 +5050,16 @@
   },
   {
     "path": "imagens/fatec/2019/2sem/questao_038.png",
-    "width": 820,
-    "height": 658,
+    "width": 1009,
+    "height": 810,
     "margins": {
-      "left": 21,
-      "right": 23,
-      "top": 21,
+      "left": 19,
+      "right": 20,
+      "top": 20,
       "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1502.0,
+    "horiz_weight": 1878.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5084,16 +5084,16 @@
   },
   {
     "path": "imagens/fatec/2019/2sem/questao_050.png",
-    "width": 1269,
-    "height": 1304,
+    "width": 1572,
+    "height": 1615,
     "margins": {
-      "left": 21,
-      "right": 22,
+      "left": 20,
+      "right": 20,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 202326.5,
+    "horiz_weight": 252878.1,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5118,33 +5118,33 @@
   },
   {
     "path": "imagens/fatec/2020/1sem/questao_001.png",
-    "width": 875,
-    "height": 672,
+    "width": 1079,
+    "height": 826,
     "margins": {
-      "left": 0,
-      "right": 22,
-      "top": 5,
-      "bottom": 9
+      "left": 20,
+      "right": 20,
+      "top": 21,
+      "bottom": 4
     },
     "skew_deg": 0.0,
-    "horiz_weight": 4821.0,
-    "clip_flag": true,
+    "horiz_weight": 7164.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2020/1sem/questao_008.png",
-    "width": 642,
-    "height": 409,
+    "width": 788,
+    "height": 499,
     "margins": {
-      "left": 20,
-      "right": 22,
+      "left": 19,
+      "right": 20,
       "top": 0,
       "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1417.0,
+    "horiz_weight": 1439.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5152,16 +5152,16 @@
   },
   {
     "path": "imagens/fatec/2020/1sem/questao_009.png",
-    "width": 1100,
-    "height": 353,
+    "width": 1359,
+    "height": 427,
     "margins": {
-      "left": 6,
-      "right": 0,
+      "left": 1,
+      "right": 11,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 18696.0,
+    "horiz_weight": 15770.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5169,16 +5169,16 @@
   },
   {
     "path": "imagens/fatec/2020/1sem/questao_011.png",
-    "width": 644,
-    "height": 246,
+    "width": 790,
+    "height": 293,
     "margins": {
-      "left": 15,
-      "right": 22,
+      "left": 14,
+      "right": 20,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3468.0,
+    "horiz_weight": 4332.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5186,16 +5186,16 @@
   },
   {
     "path": "imagens/fatec/2020/1sem/questao_014.png",
-    "width": 419,
-    "height": 222,
+    "width": 884,
+    "height": 433,
     "margins": {
-      "left": 2,
-      "right": 0,
+      "left": 0,
+      "right": 21,
       "top": 0,
-      "bottom": 10
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 10038.3,
+    "horiz_weight": 1634.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5203,16 +5203,16 @@
   },
   {
     "path": "imagens/fatec/2020/1sem/questao_015.png",
-    "width": 610,
-    "height": 457,
+    "width": 1594,
+    "height": 804,
     "margins": {
-      "left": 26,
-      "right": 22,
-      "top": 17,
-      "bottom": 15
+      "left": 27,
+      "right": 32,
+      "top": 27,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 16635.0,
+    "horiz_weight": 62718.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5220,16 +5220,16 @@
   },
   {
     "path": "imagens/fatec/2020/1sem/questao_017.png",
-    "width": 643,
-    "height": 578,
+    "width": 1579,
+    "height": 758,
     "margins": {
-      "left": 20,
-      "right": 4,
+      "left": 19,
+      "right": 20,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 86875.1,
+    "horiz_weight": 60716.6,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5237,67 +5237,67 @@
   },
   {
     "path": "imagens/fatec/2020/1sem/questao_034.png",
-    "width": 934,
-    "height": 529,
+    "width": 1581,
+    "height": 648,
     "margins": {
-      "left": 21,
-      "right": 0,
-      "top": 21,
+      "left": 20,
+      "right": 20,
+      "top": 19,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 15726.0,
-    "clip_flag": true,
+    "horiz_weight": 7846.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2020/1sem/questao_035.png",
-    "width": 589,
-    "height": 317,
+    "width": 722,
+    "height": 382,
     "margins": {
-      "left": 0,
-      "right": 3,
-      "top": 0,
+      "left": 20,
+      "right": 19,
+      "top": 20,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3813.0,
-    "clip_flag": true,
+    "horiz_weight": 2415.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2020/1sem/questao_036.png",
-    "width": 901,
-    "height": 704,
+    "width": 675,
+    "height": 462,
     "margins": {
-      "left": 0,
-      "right": 23,
-      "top": 0,
-      "bottom": 21
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 36655.0,
-    "clip_flag": true,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": true
-  },
-  {
-    "path": "imagens/fatec/2020/1sem/questao_037.png",
-    "width": 643,
-    "height": 310,
-    "margins": {
-      "left": 20,
-      "right": 4,
+      "left": 19,
+      "right": 19,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 50458.0,
+    "horiz_weight": 3040.0,
+    "clip_flag": false,
+    "skew_flag": false,
+    "extreme_aspect": false,
+    "flagged": false
+  },
+  {
+    "path": "imagens/fatec/2020/1sem/questao_037.png",
+    "width": 1582,
+    "height": 1191,
+    "margins": {
+      "left": 19,
+      "right": 20,
+      "top": 0,
+      "bottom": 0
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 103622.8,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5305,16 +5305,16 @@
   },
   {
     "path": "imagens/fatec/2020/1sem/questao_047.png",
-    "width": 1233,
-    "height": 819,
+    "width": 1526,
+    "height": 1009,
     "margins": {
-      "left": 21,
-      "right": 23,
+      "left": 19,
+      "right": 19,
       "top": 21,
-      "bottom": 22
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 141173.0,
+    "horiz_weight": 184927.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5322,16 +5322,16 @@
   },
   {
     "path": "imagens/fatec/2020/1sem/questao_048.png",
-    "width": 621,
-    "height": 339,
+    "width": 1526,
+    "height": 1009,
     "margins": {
-      "left": 21,
-      "right": 21,
-      "top": 20,
-      "bottom": 22
+      "left": 19,
+      "right": 19,
+      "top": 21,
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1986.0,
+    "horiz_weight": 184927.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5339,16 +5339,16 @@
   },
   {
     "path": "imagens/fatec/2020/1sem/questao_050.png",
-    "width": 848,
-    "height": 571,
+    "width": 1047,
+    "height": 699,
     "margins": {
       "left": 21,
-      "right": 21,
-      "top": 21,
-      "bottom": 3
+      "right": 19,
+      "top": 20,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 5718.0,
+    "horiz_weight": 6760.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5356,16 +5356,16 @@
   },
   {
     "path": "imagens/fatec/2022/2sem/questao_002.png",
-    "width": 1296,
-    "height": 441,
+    "width": 826,
+    "height": 205,
     "margins": {
-      "left": 13,
-      "right": 24,
-      "top": 16,
+      "left": 28,
+      "right": 27,
+      "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7283.1,
+    "horiz_weight": 38439.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5373,152 +5373,152 @@
   },
   {
     "path": "imagens/fatec/2022/2sem/questao_003.png",
-    "width": 657,
-    "height": 498,
+    "width": 537,
+    "height": 226,
     "margins": {
-      "left": 21,
-      "right": 21,
-      "top": 21,
+      "left": 0,
+      "right": 0,
+      "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 16092.7,
-    "clip_flag": false,
+    "horiz_weight": 2266.0,
+    "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2022/2sem/questao_006.png",
-    "width": 1104,
-    "height": 433,
+    "width": 537,
+    "height": 226,
     "margins": {
-      "left": 21,
-      "right": 22,
-      "top": 21,
-      "bottom": 22
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 125162.0,
-    "clip_flag": false,
+    "horiz_weight": 2266.0,
+    "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2022/2sem/questao_009.png",
-    "width": 641,
+    "width": 537,
     "height": 226,
     "margins": {
-      "left": 20,
-      "right": 23,
-      "top": 21,
-      "bottom": 23
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1144.0,
-    "clip_flag": false,
+    "horiz_weight": 2266.0,
+    "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2022/2sem/questao_011.png",
-    "width": 655,
-    "height": 630,
+    "width": 751,
+    "height": 137,
     "margins": {
-      "left": 21,
-      "right": 22,
-      "top": 21,
-      "bottom": 9
+      "left": 1,
+      "right": 27,
+      "top": 0,
+      "bottom": 1
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3483.4,
-    "clip_flag": false,
+    "horiz_weight": 24617.0,
+    "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2022/2sem/questao_014.png",
-    "width": 660,
-    "height": 413,
+    "width": 789,
+    "height": 158,
     "margins": {
-      "left": 20,
-      "right": 22,
-      "top": 21,
+      "left": 2,
+      "right": 27,
+      "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 2585.0,
-    "clip_flag": false,
+    "horiz_weight": 13902.4,
+    "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2022/2sem/questao_015.png",
-    "width": 1312,
-    "height": 842,
+    "width": 789,
+    "height": 157,
     "margins": {
-      "left": 20,
-      "right": 21,
+      "left": 2,
+      "right": 27,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 19951.3,
-    "clip_flag": false,
+    "horiz_weight": 39042.0,
+    "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2022/2sem/questao_016.png",
-    "width": 1624,
-    "height": 959,
+    "width": 537,
+    "height": 226,
     "margins": {
-      "left": 23,
-      "right": 35,
-      "top": 0,
-      "bottom": 11
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 3007.0,
-    "clip_flag": false,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": false
-  },
-  {
-    "path": "imagens/fatec/2022/2sem/questao_017.png",
-    "width": 1405,
-    "height": 325,
-    "margins": {
-      "left": 18,
-      "right": 17,
+      "left": 0,
+      "right": 0,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 87578.0,
-    "clip_flag": false,
+    "horiz_weight": 2266.0,
+    "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
+  },
+  {
+    "path": "imagens/fatec/2022/2sem/questao_017.png",
+    "width": 781,
+    "height": 130,
+    "margins": {
+      "left": 2,
+      "right": 27,
+      "top": 0,
+      "bottom": 0
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 43259.0,
+    "clip_flag": true,
+    "skew_flag": false,
+    "extreme_aspect": false,
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2022/2sem/questao_040.png",
-    "width": 751,
-    "height": 910,
+    "width": 923,
+    "height": 1121,
     "margins": {
       "left": 21,
-      "right": 23,
-      "top": 21,
-      "bottom": 7
+      "right": 20,
+      "top": 20,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 12735.0,
+    "horiz_weight": 16323.1,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5543,16 +5543,16 @@
   },
   {
     "path": "imagens/fatec/2022/2sem/questao_045.png",
-    "width": 1308,
-    "height": 767,
+    "width": 1621,
+    "height": 944,
     "margins": {
-      "left": 21,
-      "right": 21,
-      "top": 0,
-      "bottom": 5
+      "left": 19,
+      "right": 20,
+      "top": 19,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 81298.2,
+    "horiz_weight": 96767.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5560,16 +5560,16 @@
   },
   {
     "path": "imagens/fatec/2022/2sem/questao_046.png",
-    "width": 179,
-    "height": 256,
+    "width": 1014,
+    "height": 228,
     "margins": {
-      "left": 12,
-      "right": 12,
-      "top": 12,
-      "bottom": 12
+      "left": 20,
+      "right": 20,
+      "top": 20,
+      "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 2593.2,
+    "horiz_weight": 22733.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5594,16 +5594,16 @@
   },
   {
     "path": "imagens/fatec/2023/1sem/questao_001.png",
-    "width": 876,
-    "height": 574,
+    "width": 1080,
+    "height": 702,
     "margins": {
       "left": 0,
       "right": 0,
-      "top": 4,
-      "bottom": 13
+      "top": 0,
+      "bottom": 7
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7354.6,
+    "horiz_weight": 7671.2,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5611,33 +5611,33 @@
   },
   {
     "path": "imagens/fatec/2023/1sem/questao_004.png",
-    "width": 914,
-    "height": 746,
+    "width": 1632,
+    "height": 455,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 76,
+      "left": 20,
+      "right": 20,
+      "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 0,
-    "clip_flag": true,
+    "horiz_weight": 101392.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2023/1sem/questao_011.png",
-    "width": 1276,
-    "height": 761,
+    "width": 1582,
+    "height": 936,
     "margins": {
-      "left": 29,
-      "right": 34,
-      "top": 15,
+      "left": 30,
+      "right": 36,
+      "top": 12,
       "bottom": 32
     },
     "skew_deg": 0.0,
-    "horiz_weight": 5170.0,
+    "horiz_weight": 5833.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5645,16 +5645,16 @@
   },
   {
     "path": "imagens/fatec/2023/1sem/questao_020.png",
-    "width": 1353,
-    "height": 471,
+    "width": 1591,
+    "height": 1078,
     "margins": {
-      "left": 10,
-      "right": 8,
-      "top": 26,
-      "bottom": 21
+      "left": 20,
+      "right": 21,
+      "top": 21,
+      "bottom": 22
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1313.0,
+    "horiz_weight": 112876.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5662,16 +5662,16 @@
   },
   {
     "path": "imagens/fatec/2023/1sem/questao_022.png",
-    "width": 654,
-    "height": 726,
+    "width": 803,
+    "height": 893,
     "margins": {
-      "left": 23,
-      "right": 23,
-      "top": 0,
-      "bottom": 13
+      "left": 22,
+      "right": 22,
+      "top": 23,
+      "bottom": 8
     },
     "skew_deg": 0.0,
-    "horiz_weight": 13648.1,
+    "horiz_weight": 18589.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5679,16 +5679,16 @@
   },
   {
     "path": "imagens/fatec/2023/1sem/questao_027.png",
-    "width": 662,
-    "height": 1326,
+    "width": 814,
+    "height": 455,
     "margins": {
-      "left": 20,
-      "right": 14,
-      "top": 0,
-      "bottom": 23
+      "left": 19,
+      "right": 11,
+      "top": 3,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 87668.1,
+    "horiz_weight": 36391.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5696,33 +5696,33 @@
   },
   {
     "path": "imagens/fatec/2023/1sem/questao_030.png",
-    "width": 1045,
-    "height": 506,
+    "width": 1618,
+    "height": 1087,
     "margins": {
-      "left": 0,
-      "right": 24,
-      "top": 23,
-      "bottom": 11
+      "left": 33,
+      "right": 33,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 21517.1,
-    "clip_flag": true,
+    "horiz_weight": 114628.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2023/1sem/questao_031.png",
-    "width": 1594,
-    "height": 1411,
+    "width": 1618,
+    "height": 1087,
     "margins": {
-      "left": 21,
-      "right": 21,
-      "top": 21,
-      "bottom": 22
+      "left": 33,
+      "right": 33,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 248194.0,
+    "horiz_weight": 114628.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5730,50 +5730,50 @@
   },
   {
     "path": "imagens/fatec/2023/1sem/questao_035.png",
-    "width": 479,
-    "height": 168,
+    "width": 788,
+    "height": 458,
     "margins": {
-      "left": 18,
-      "right": 16,
-      "top": 13,
+      "left": 20,
+      "right": 0,
+      "top": 3,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 8820.4,
-    "clip_flag": false,
-    "skew_flag": false,
-    "extreme_aspect": false,
-    "flagged": false
-  },
-  {
-    "path": "imagens/fatec/2023/1sem/questao_038.png",
-    "width": 448,
-    "height": 323,
-    "margins": {
-      "left": 0,
-      "right": 12,
-      "top": 12,
-      "bottom": 0
-    },
-    "skew_deg": 0.0,
-    "horiz_weight": 2025.0,
+    "horiz_weight": 34721.3,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
     "flagged": true
   },
   {
-    "path": "imagens/fatec/2023/1sem/questao_039.png",
-    "width": 1294,
-    "height": 471,
+    "path": "imagens/fatec/2023/1sem/questao_038.png",
+    "width": 1602,
+    "height": 1020,
     "margins": {
-      "left": 21,
-      "right": 22,
+      "left": 20,
+      "right": 20,
       "top": 0,
-      "bottom": 21
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 120218.0,
+    "horiz_weight": 136059.0,
+    "clip_flag": false,
+    "skew_flag": false,
+    "extreme_aspect": false,
+    "flagged": false
+  },
+  {
+    "path": "imagens/fatec/2023/1sem/questao_039.png",
+    "width": 1602,
+    "height": 574,
+    "margins": {
+      "left": 20,
+      "right": 20,
+      "top": 0,
+      "bottom": 20
+    },
+    "skew_deg": 0.0,
+    "horiz_weight": 129428.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5781,50 +5781,50 @@
   },
   {
     "path": "imagens/fatec/2023/1sem/questao_040.png",
-    "width": 393,
-    "height": 518,
+    "width": 788,
+    "height": 1157,
     "margins": {
-      "left": 1,
-      "right": 1,
-      "top": 12,
-      "bottom": 0
+      "left": 20,
+      "right": 21,
+      "top": 20,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 3027.1,
-    "clip_flag": true,
+    "horiz_weight": 86905.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2023/1sem/questao_042.png",
-    "width": 910,
-    "height": 447,
+    "width": 1122,
+    "height": 541,
     "margins": {
-      "left": 0,
-      "right": 25,
+      "left": 21,
+      "right": 23,
       "top": 0,
-      "bottom": 15
+      "bottom": 7
     },
     "skew_deg": 0.0,
-    "horiz_weight": 22256.0,
-    "clip_flag": true,
+    "horiz_weight": 26059.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2023/1sem/questao_043.png",
-    "width": 533,
-    "height": 351,
+    "width": 1122,
+    "height": 541,
     "margins": {
-      "left": 29,
-      "right": 12,
-      "top": 26,
-      "bottom": 12
+      "left": 21,
+      "right": 23,
+      "top": 0,
+      "bottom": 7
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1631.0,
+    "horiz_weight": 26059.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5832,50 +5832,50 @@
   },
   {
     "path": "imagens/fatec/2023/1sem/questao_047.png",
-    "width": 1044,
-    "height": 783,
+    "width": 1156,
+    "height": 528,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 13,
-      "bottom": 0
+      "left": 27,
+      "right": 23,
+      "top": 25,
+      "bottom": 27
     },
     "skew_deg": 0.0,
-    "horiz_weight": 92475.0,
-    "clip_flag": true,
+    "horiz_weight": 75741.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2023/1sem/questao_050.png",
-    "width": 858,
-    "height": 118,
+    "width": 1624,
+    "height": 498,
     "margins": {
-      "left": 17,
-      "right": 0,
-      "top": 16,
-      "bottom": 18
+      "left": 20,
+      "right": 21,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 13049.1,
-    "clip_flag": true,
+    "horiz_weight": 83889.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2023/2sem/questao_012.png",
-    "width": 1290,
-    "height": 706,
+    "width": 1580,
+    "height": 614,
     "margins": {
-      "left": 19,
-      "right": 40,
-      "top": 3,
-      "bottom": 105
+      "left": 23,
+      "right": 22,
+      "top": 23,
+      "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 17254.0,
+    "horiz_weight": 3021.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5883,16 +5883,16 @@
   },
   {
     "path": "imagens/fatec/2023/2sem/questao_013.png",
-    "width": 988,
-    "height": 495,
+    "width": 1223,
+    "height": 605,
     "margins": {
-      "left": 22,
+      "left": 23,
       "right": 22,
       "top": 22,
-      "bottom": 23
+      "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 18468.0,
+    "horiz_weight": 19494.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5900,16 +5900,16 @@
   },
   {
     "path": "imagens/fatec/2023/2sem/questao_014.png",
-    "width": 1272,
-    "height": 1563,
+    "width": 1112,
+    "height": 592,
     "margins": {
-      "left": 21,
+      "left": 23,
       "right": 21,
-      "top": 3,
-      "bottom": 11
+      "top": 22,
+      "bottom": 6
     },
     "skew_deg": 0.0,
-    "horiz_weight": 207469.0,
+    "horiz_weight": 18115.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5917,16 +5917,16 @@
   },
   {
     "path": "imagens/fatec/2023/2sem/questao_015.png",
-    "width": 723,
-    "height": 402,
+    "width": 822,
+    "height": 436,
     "margins": {
-      "left": 15,
-      "right": 19,
-      "top": 0,
+      "left": 8,
+      "right": 20,
+      "top": 4,
       "bottom": 3
     },
     "skew_deg": 0.0,
-    "horiz_weight": 16586.2,
+    "horiz_weight": 11800.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5934,16 +5934,16 @@
   },
   {
     "path": "imagens/fatec/2023/2sem/questao_016.png",
-    "width": 723,
-    "height": 402,
+    "width": 822,
+    "height": 436,
     "margins": {
-      "left": 15,
-      "right": 19,
-      "top": 0,
+      "left": 8,
+      "right": 20,
+      "top": 4,
       "bottom": 3
     },
     "skew_deg": 0.0,
-    "horiz_weight": 16586.2,
+    "horiz_weight": 11800.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -5968,33 +5968,33 @@
   },
   {
     "path": "imagens/fatec/2023/2sem/questao_024.png",
-    "width": 623,
-    "height": 424,
+    "width": 736,
+    "height": 476,
     "margins": {
-      "left": 35,
-      "right": 34,
-      "top": 22,
-      "bottom": 10
+      "left": 22,
+      "right": 21,
+      "top": 0,
+      "bottom": 7
     },
-    "skew_deg": 0.0,
-    "horiz_weight": 5079.3,
+    "skew_deg": 0.992,
+    "horiz_weight": 3529.4,
     "clip_flag": false,
-    "skew_flag": false,
+    "skew_flag": true,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2023/2sem/questao_027.png",
-    "width": 1417,
-    "height": 710,
+    "width": 1633,
+    "height": 1437,
     "margins": {
-      "left": 26,
-      "right": 30,
-      "top": 0,
-      "bottom": 29
+      "left": 28,
+      "right": 19,
+      "top": 19,
+      "bottom": 26
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7365.0,
+    "horiz_weight": 161982.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6002,16 +6002,16 @@
   },
   {
     "path": "imagens/fatec/2023/2sem/questao_032.png",
-    "width": 695,
-    "height": 458,
+    "width": 1580,
+    "height": 695,
     "margins": {
       "left": 23,
       "right": 23,
-      "top": 24,
-      "bottom": 22
+      "top": 23,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 11789.3,
+    "horiz_weight": 13369.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6019,16 +6019,16 @@
   },
   {
     "path": "imagens/fatec/2023/2sem/questao_036.png",
-    "width": 657,
-    "height": 561,
+    "width": 831,
+    "height": 712,
     "margins": {
-      "left": 23,
-      "right": 9,
+      "left": 34,
+      "right": 16,
       "top": 0,
-      "bottom": 0
+      "bottom": 4
     },
     "skew_deg": 0.0,
-    "horiz_weight": 24446.0,
+    "horiz_weight": 37252.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6036,33 +6036,33 @@
   },
   {
     "path": "imagens/fatec/2023/2sem/questao_037.png",
-    "width": 604,
-    "height": 403,
+    "width": 777,
+    "height": 551,
     "margins": {
-      "left": 5,
-      "right": 0,
-      "top": 0,
-      "bottom": 0
+      "left": 22,
+      "right": 21,
+      "top": 22,
+      "bottom": 22
     },
     "skew_deg": 0.0,
-    "horiz_weight": 13728.1,
-    "clip_flag": true,
+    "horiz_weight": 16338.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2023/2sem/questao_039.png",
-    "width": 661,
-    "height": 1044,
+    "width": 795,
+    "height": 1368,
     "margins": {
-      "left": 21,
-      "right": 25,
-      "top": 0,
-      "bottom": 11
+      "left": 19,
+      "right": 3,
+      "top": 20,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 44227.3,
+    "horiz_weight": 67992.2,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6070,33 +6070,33 @@
   },
   {
     "path": "imagens/fatec/2023/2sem/questao_040.png",
-    "width": 507,
-    "height": 1281,
+    "width": 795,
+    "height": 1368,
     "margins": {
-      "left": 0,
-      "right": 13,
-      "top": 23,
-      "bottom": 2
+      "left": 19,
+      "right": 3,
+      "top": 20,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 70570.9,
-    "clip_flag": true,
+    "horiz_weight": 67992.2,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2023/2sem/questao_044.png",
-    "width": 951,
-    "height": 393,
+    "width": 1188,
+    "height": 491,
     "margins": {
       "left": 2,
       "right": 0,
       "top": 0,
-      "bottom": 16
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 8995.0,
+    "horiz_weight": 11716.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6121,16 +6121,16 @@
   },
   {
     "path": "imagens/fatec/2023/2sem/questao_054.png",
-    "width": 1660,
-    "height": 1164,
+    "width": 1639,
+    "height": 1137,
     "margins": {
-      "left": 22,
-      "right": 35,
-      "top": 1,
+      "left": 19,
+      "right": 17,
+      "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 11492.0,
+    "horiz_weight": 10322.2,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6138,16 +6138,16 @@
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_002.png",
-    "width": 1276,
-    "height": 284,
+    "width": 1580,
+    "height": 341,
     "margins": {
-      "left": 21,
-      "right": 22,
+      "left": 20,
+      "right": 20,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 89752.0,
+    "horiz_weight": 112418.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6155,16 +6155,16 @@
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_005.png",
-    "width": 1276,
-    "height": 386,
+    "width": 1580,
+    "height": 468,
     "margins": {
-      "left": 21,
-      "right": 22,
-      "top": 0,
-      "bottom": 22
+      "left": 20,
+      "right": 20,
+      "top": 20,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 73048.0,
+    "horiz_weight": 60514.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6172,16 +6172,16 @@
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_007.png",
-    "width": 1319,
-    "height": 520,
+    "width": 1538,
+    "height": 546,
     "margins": {
-      "left": 3,
-      "right": 9,
-      "top": 20,
+      "left": 15,
+      "right": 15,
+      "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 15716.0,
+    "horiz_weight": 1963.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6189,20 +6189,20 @@
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_018.png",
-    "width": 718,
-    "height": 1009,
+    "width": 1578,
+    "height": 1258,
     "margins": {
-      "left": 10,
-      "right": 0,
+      "left": 20,
+      "right": 20,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 9076.2,
-    "clip_flag": true,
+    "horiz_weight": 10224.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_019.png",
@@ -6223,16 +6223,16 @@
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_026.png",
-    "width": 271,
-    "height": 271,
+    "width": 1580,
+    "height": 530,
     "margins": {
-      "left": 3,
-      "right": 12,
+      "left": 20,
+      "right": 20,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 213.0,
+    "horiz_weight": 95865.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6240,16 +6240,16 @@
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_028.png",
-    "width": 677,
-    "height": 292,
+    "width": 615,
+    "height": 837,
     "margins": {
-      "left": 48,
-      "right": 38,
-      "top": 0,
-      "bottom": 11
+      "left": 15,
+      "right": 15,
+      "top": 15,
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 7602.0,
+    "horiz_weight": 14722.7,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6257,16 +6257,16 @@
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_029.png",
-    "width": 492,
-    "height": 670,
+    "width": 615,
+    "height": 837,
     "margins": {
-      "left": 12,
-      "right": 12,
-      "top": 12,
-      "bottom": 12
+      "left": 15,
+      "right": 15,
+      "top": 15,
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 21387.5,
+    "horiz_weight": 14722.7,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6274,16 +6274,16 @@
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_030.png",
-    "width": 1276,
-    "height": 240,
+    "width": 1605,
+    "height": 370,
     "margins": {
-      "left": 21,
-      "right": 22,
-      "top": 0,
-      "bottom": 0
+      "left": 32,
+      "right": 33,
+      "top": 28,
+      "bottom": 3
     },
     "skew_deg": 0.0,
-    "horiz_weight": 78209.0,
+    "horiz_weight": 88666.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6291,16 +6291,16 @@
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_031.png",
-    "width": 770,
-    "height": 442,
+    "width": 949,
+    "height": 539,
     "margins": {
       "left": 0,
       "right": 21,
       "top": 0,
-      "bottom": 4
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 57863.1,
+    "horiz_weight": 76693.1,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6308,16 +6308,16 @@
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_032.png",
-    "width": 236,
-    "height": 183,
+    "width": 949,
+    "height": 539,
     "margins": {
       "left": 0,
-      "right": 0,
-      "top": 18,
+      "right": 21,
+      "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 2585.0,
+    "horiz_weight": 76693.1,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6325,16 +6325,16 @@
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_042.png",
-    "width": 939,
-    "height": 338,
+    "width": 1581,
+    "height": 971,
     "margins": {
-      "left": 20,
-      "right": 15,
-      "top": 48,
-      "bottom": 51
+      "left": 19,
+      "right": 21,
+      "top": 20,
+      "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 0,
+    "horiz_weight": 225657.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6342,16 +6342,16 @@
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_044.png",
-    "width": 411,
-    "height": 329,
+    "width": 513,
+    "height": 412,
     "margins": {
-      "left": 12,
-      "right": 13,
-      "top": 12,
-      "bottom": 12
+      "left": 15,
+      "right": 15,
+      "top": 15,
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 6454.2,
+    "horiz_weight": 6696.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6359,33 +6359,33 @@
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_047.png",
-    "width": 589,
-    "height": 589,
+    "width": 975,
+    "height": 870,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 0,
-      "bottom": 0
+      "left": 27,
+      "right": 27,
+      "top": 27,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 11799.0,
-    "clip_flag": true,
+    "horiz_weight": 20678.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2024/1sem/questao_054.png",
-    "width": 1276,
-    "height": 1131,
+    "width": 1545,
+    "height": 489,
     "margins": {
-      "left": 21,
-      "right": 22,
-      "top": 12,
-      "bottom": 21
+      "left": 15,
+      "right": 17,
+      "top": 15,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 137645.0,
+    "horiz_weight": 3293.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6393,16 +6393,16 @@
   },
   {
     "path": "imagens/fatec/2024/2sem/questao_001.png",
-    "width": 1282,
-    "height": 1547,
+    "width": 1543,
+    "height": 831,
     "margins": {
-      "left": 21,
-      "right": 24,
-      "top": 0,
-      "bottom": 0
+      "left": 15,
+      "right": 15,
+      "top": 15,
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 193705.0,
+    "horiz_weight": 10544.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6410,16 +6410,16 @@
   },
   {
     "path": "imagens/fatec/2024/2sem/questao_011.png",
-    "width": 862,
-    "height": 549,
+    "width": 1024,
+    "height": 667,
     "margins": {
-      "left": 13,
-      "right": 9,
-      "top": 9,
-      "bottom": 8
+      "left": 27,
+      "right": 20,
+      "top": 0,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 4419.0,
+    "horiz_weight": 12274.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6427,16 +6427,16 @@
   },
   {
     "path": "imagens/fatec/2024/2sem/questao_015.png",
-    "width": 637,
-    "height": 559,
+    "width": 742,
+    "height": 659,
     "margins": {
-      "left": 11,
-      "right": 10,
-      "top": 3,
-      "bottom": 12
+      "left": 15,
+      "right": 16,
+      "top": 0,
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 9023.1,
+    "horiz_weight": 7235.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6444,16 +6444,16 @@
   },
   {
     "path": "imagens/fatec/2024/2sem/questao_017.png",
-    "width": 1378,
-    "height": 429,
+    "width": 1580,
+    "height": 477,
     "margins": {
       "left": 20,
-      "right": 22,
-      "top": 0,
-      "bottom": 0
+      "right": 20,
+      "top": 21,
+      "bottom": 20
     },
     "skew_deg": 0.0,
-    "horiz_weight": 158838.0,
+    "horiz_weight": 173174.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6461,33 +6461,33 @@
   },
   {
     "path": "imagens/fatec/2024/2sem/questao_021.png",
-    "width": 1276,
-    "height": 170,
+    "width": 1605,
+    "height": 418,
     "margins": {
-      "left": 21,
-      "right": 22,
+      "left": 33,
+      "right": 33,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 52068.0,
+    "horiz_weight": 84198.0,
     "clip_flag": false,
     "skew_flag": false,
-    "extreme_aspect": true,
-    "flagged": true
+    "extreme_aspect": false,
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2024/2sem/questao_023.png",
-    "width": 1094,
-    "height": 469,
+    "width": 1328,
+    "height": 552,
     "margins": {
-      "left": 0,
+      "left": 1,
       "right": 0,
-      "top": 0,
-      "bottom": 0
+      "top": 18,
+      "bottom": 5
     },
     "skew_deg": 0.0,
-    "horiz_weight": 14380.0,
+    "horiz_weight": 14327.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6495,16 +6495,16 @@
   },
   {
     "path": "imagens/fatec/2024/2sem/questao_034.png",
-    "width": 1056,
-    "height": 723,
+    "width": 1587,
+    "height": 943,
     "margins": {
-      "left": 21,
-      "right": 19,
-      "top": 18,
-      "bottom": 16
+      "left": 20,
+      "right": 20,
+      "top": 21,
+      "bottom": 19
     },
     "skew_deg": 0.0,
-    "horiz_weight": 5276.0,
+    "horiz_weight": 6750.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6529,16 +6529,16 @@
   },
   {
     "path": "imagens/fatec/2024/2sem/questao_052.png",
-    "width": 1276,
-    "height": 457,
+    "width": 1581,
+    "height": 554,
     "margins": {
       "left": 21,
-      "right": 22,
+      "right": 20,
       "top": 0,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 117170.0,
+    "horiz_weight": 127330.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6563,33 +6563,33 @@
   },
   {
     "path": "imagens/fatec/2025/1sem_A/questao_039.png",
-    "width": 565,
-    "height": 932,
+    "width": 665,
+    "height": 100,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 12,
-      "bottom": 17
+      "left": 18,
+      "right": 17,
+      "top": 22,
+      "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 114525.2,
-    "clip_flag": true,
+    "horiz_weight": 0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2025/1sem_A/questao_052.png",
-    "width": 322,
-    "height": 103,
+    "width": 402,
+    "height": 128,
     "margins": {
       "left": 0,
       "right": 0,
-      "top": 12,
+      "top": 15,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 914.0,
+    "horiz_weight": 854.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6614,33 +6614,33 @@
   },
   {
     "path": "imagens/fatec/2025/1sem_B/questao_039.png",
-    "width": 565,
-    "height": 932,
+    "width": 665,
+    "height": 100,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 12,
-      "bottom": 17
+      "left": 18,
+      "right": 17,
+      "top": 22,
+      "bottom": 21
     },
     "skew_deg": 0.0,
-    "horiz_weight": 114525.2,
-    "clip_flag": true,
+    "horiz_weight": 0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2025/1sem_B/questao_052.png",
-    "width": 322,
-    "height": 103,
+    "width": 402,
+    "height": 128,
     "margins": {
       "left": 0,
       "right": 0,
-      "top": 12,
+      "top": 15,
       "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 914.0,
+    "horiz_weight": 854.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6648,33 +6648,33 @@
   },
   {
     "path": "imagens/fatec/2025/2sem/questao_010.png",
-    "width": 358,
-    "height": 232,
+    "width": 1603,
+    "height": 326,
     "margins": {
-      "left": 0,
-      "right": 0,
-      "top": 1,
-      "bottom": 13
+      "left": 15,
+      "right": 14,
+      "top": 0,
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 2151.1,
-    "clip_flag": true,
+    "horiz_weight": 63129.0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2025/2sem/questao_020.png",
-    "width": 297,
-    "height": 305,
+    "width": 371,
+    "height": 381,
     "margins": {
       "left": 0,
       "right": 0,
       "top": 0,
-      "bottom": 12
+      "bottom": 15
     },
     "skew_deg": 0.0,
-    "horiz_weight": 2757.0,
+    "horiz_weight": 3393.1,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6682,33 +6682,33 @@
   },
   {
     "path": "imagens/fatec/2025/2sem/questao_027.png",
-    "width": 637,
-    "height": 755,
+    "width": 797,
+    "height": 944,
     "margins": {
-      "left": 13,
-      "right": 12,
-      "top": 13,
-      "bottom": 12
+      "left": 16,
+      "right": 15,
+      "top": 17,
+      "bottom": 15
     },
-    "skew_deg": 0.0,
-    "horiz_weight": 5957.4,
+    "skew_deg": -2.024,
+    "horiz_weight": 8924.0,
     "clip_flag": false,
-    "skew_flag": false,
+    "skew_flag": true,
     "extreme_aspect": false,
-    "flagged": false
+    "flagged": true
   },
   {
     "path": "imagens/fatec/2025/2sem/questao_032.png",
-    "width": 1231,
-    "height": 354,
+    "width": 1603,
+    "height": 666,
     "margins": {
-      "left": 10,
-      "right": 12,
-      "top": 0,
-      "bottom": 12
+      "left": 15,
+      "right": 14,
+      "top": 14,
+      "bottom": 14
     },
     "skew_deg": 0.0,
-    "horiz_weight": 4794.0,
+    "horiz_weight": 75938.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6716,16 +6716,16 @@
   },
   {
     "path": "imagens/fatec/2025/2sem/questao_033.png",
-    "width": 325,
-    "height": 171,
+    "width": 808,
+    "height": 414,
     "margins": {
-      "left": 0,
+      "left": 15,
       "right": 0,
       "top": 0,
-      "bottom": 0
+      "bottom": 14
     },
     "skew_deg": 0.0,
-    "horiz_weight": 2501.1,
+    "horiz_weight": 20146.3,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6733,16 +6733,16 @@
   },
   {
     "path": "imagens/fatec/2025/2sem/questao_040.png",
-    "width": 1260,
-    "height": 311,
+    "width": 1434,
+    "height": 353,
     "margins": {
-      "left": 24,
-      "right": 23,
-      "top": 12,
-      "bottom": 24
+      "left": 17,
+      "right": 18,
+      "top": 20,
+      "bottom": 16
     },
     "skew_deg": 0.0,
-    "horiz_weight": 17771.0,
+    "horiz_weight": 21804.0,
     "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6750,33 +6750,33 @@
   },
   {
     "path": "imagens/fatec/2025/2sem/questao_041.png",
-    "width": 401,
-    "height": 337,
+    "width": 1594,
+    "height": 856,
     "margins": {
-      "left": 1,
-      "right": 48,
-      "top": 0,
-      "bottom": 8
+      "left": 6,
+      "right": 15,
+      "top": 4,
+      "bottom": 0
     },
     "skew_deg": 0.0,
-    "horiz_weight": 1415.0,
-    "clip_flag": true,
+    "horiz_weight": 0,
+    "clip_flag": false,
     "skew_flag": false,
     "extreme_aspect": false,
-    "flagged": true
+    "flagged": false
   },
   {
     "path": "imagens/fatec/2025/2sem/questao_044.png",
-    "width": 1033,
-    "height": 253,
+    "width": 1262,
+    "height": 311,
     "margins": {
       "left": 0,
-      "right": 16,
+      "right": 26,
       "top": 0,
-      "bottom": 17
+      "bottom": 27
     },
     "skew_deg": 0.0,
-    "horiz_weight": 13944.0,
+    "horiz_weight": 19198.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
@@ -6784,16 +6784,16 @@
   },
   {
     "path": "imagens/fatec/2025/2sem/questao_063.png",
-    "width": 742,
-    "height": 890,
+    "width": 853,
+    "height": 1020,
     "margins": {
       "left": 0,
       "right": 0,
-      "top": 45,
-      "bottom": 26
+      "top": 47,
+      "bottom": 29
     },
     "skew_deg": 0.0,
-    "horiz_weight": 26420.0,
+    "horiz_weight": 29950.0,
     "clip_flag": true,
     "skew_flag": false,
     "extreme_aspect": false,
