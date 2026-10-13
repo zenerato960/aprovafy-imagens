@@ -52,7 +52,9 @@ jobs:
                   with zipfile.ZipFile(z) as zz: zz.extractall(d)
                   cache[ed]=d
               d=cache[ed]
-              import unicodedata\n              def nn(s): return unicodedata.normalize("NFKC",s).casefold().replace("#u00c3","ã").replace("#u00e3","ã")\n              hits=[p for p in d.rglob("*") if p.is_file() and nn(p.name)==nn(it["basename"])]
+              import unicodedata
+              def nn(s): return unicodedata.normalize("NFKC",s).casefold().replace("#u00c3","ã").replace("#u00e3","ã")
+              hits=[p for p in d.rglob("*") if p.is_file() and nn(p.name)==nn(it["basename"])]
               if not hits: raise FileNotFoundError(it["basename"])
               doc=pymupdf.open(hits[0]); pg=doc[it["page"]-1]; rect=pymupdf.Rect(*it["crop"]) & pg.rect
               if rect.is_empty: raise RuntimeError("empty crop "+str(it["registro"]))
