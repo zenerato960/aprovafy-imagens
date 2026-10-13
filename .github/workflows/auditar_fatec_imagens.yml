@@ -8,7 +8,7 @@ on:
       - '.github/workflows/auditar_fatec_imagens.yml'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   auditar:
@@ -22,10 +22,19 @@ jobs:
         run: pip install pillow numpy opencv-python-headless
       - name: Auditar imagens
         run: python scripts/auditar_fatec_imagens.py
-      - uses: actions/upload-artifact@v4
-        with:
-          name: auditoria-visual-fatec
-          path: |
-            auditoria_visual_fatec/
-            imagens/fatec/
-          retention-days: 7
+      - name: Publicar auditoria temporaria
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          rm -rf auditorias/fatec_auditoria_integral
+          mkdir -p auditorias/fatec_auditoria_integral
+          cp auditoria_visual_fatec/report.json auditorias/fatec_auditoria_integral/
+          cp auditoria_visual_fatec/flagged.txt auditorias/fatec_auditoria_integral/
+          cp auditoria_visual_fatec/flagged_*.jpg auditorias/fatec_auditoria_integral/ 2>/dev/null || true
+          cp auditoria_visual_fatec/all_*.jpg auditorias/fatec_auditoria_integral/
+          git add auditorias/fatec_auditoria_integral
+          git commit -m 'Auditar integralmente imagens FATEC' || exit 0
+          git pull --rebase origin main
+          git push origin main
