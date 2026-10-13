@@ -1,0 +1,76 @@
+name: PUC-Rio imagens import-ready finais
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/puc-rio-import-ready-images.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install --quiet pymupdf requests pillow
+      - shell: bash
+        run: |
+          cat >/tmp/run.py <<'PY'
+          import base64,gzip,json,zipfile,requests,pymupdf
+          from pathlib import Path
+          from PIL import Image
+          CFG="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"
+          items=json.loads(gzip.decompress(base64.b64decode(CFG)))
+          URLS={
+          "2009":"https://www.puc-rio.br/vestibular/repositorio/provas/2009/download/VEST2009PUCRio_PROVAS_GABARITOS.zip",
+          "2010":"https://www.puc-rio.br/vestibular/repositorio/provas/2010/download/VEST2010PUCRio_PROVAS_GABARITOS.zip",
+          "2011":"https://www.puc-rio.br/vestibular/repositorio/provas/2011/download/VEST2011PUCRio_PROVAS_GABARITOS_v4.zip",
+          "2012-inverno":"https://www.puc-rio.br/vestibular/repositorio/provas/2012-2/download/VEST2012PUCRio_PROVAS_GABARITOS_v2.zip",
+          "2013":"https://www.puc-rio.br/vestibular/repositorio/provas/2013/download/VEST2013PUCRio_PROVAS_GABARITOS_v4.zip",
+          "2014":"https://www.puc-rio.br/vestibular/repositorio/provas/2014/download/VEST2014PUCRio_PROVAS_GABARITOS_V5.zip",
+          "2015-inverno":"https://www.puc-rio.br/vestibular/repositorio/provas/2015-2/download/VestiblularPUC-RioINVERNO2015-2_provas_gabaritos.zip",
+          "2017":"https://www.puc-rio.br/vestibular/repositorio/provas/2017/download/VEST2017PUCRio_PROVAS_GABARITOS_v4.zip",
+          "2017-inverno":"https://www.puc-rio.br/vestibular/repositorio/provas/2017-2/download/VestibularPUC-RioINVERNO2017-2_provas_gabaritos.zip",
+          "2018":"https://www.puc-rio.br/vestibular/repositorio/provas/2018/download/VEST2018PUCRio_PROVAS_GABARITOS_V7.zip",
+          "2018-inverno":"https://www.puc-rio.br/vestibular/repositorio/provas/2018-2/download/VestibularPUC-RioINVERNO2018-2_provas_gabaritos.zip",
+          "2019-inverno":"https://www.puc-rio.br/vestibular/repositorio/provas/2019-2/download/VestibularInverno2019_provasegabaritos.zip",
+          "2020":"https://www.puc-rio.br/vestibular/repositorio/provas/2020/download/Vestibular2020_provasegabaritos_completo.zip",
+          "2022":"https://www.puc-rio.br/vestibular/repositorio/provas/2022/download/2022-Provas-e-Gabaritos-VESTIBULAR-2022-v2.zip",
+          "2023":"https://www.puc-rio.br/vestibular/repositorio/provas/2023/download/Vestibular2023_provasegabaritos_completo-19-10-2022.zip",
+          "2024":"https://www.puc-rio.br/vestibular/repositorio/provas/2023-2/download/Vestibular2024-Provas-e-Gabaritos-v2.zip",
+          "2025":"https://www.puc-rio.br/vestibular/repositorio/provas/2025/download/Vestibular2025_Download-Completo.zip"}
+          root=Path("/tmp/puc-final"); root.mkdir()
+          out=Path("imagens/puc-rio/import-ready-2026"); out.mkdir(parents=True,exist_ok=True)
+          cache={}
+          for it in items:
+              ed=it["edition"]
+              if ed not in cache:
+                  z=root/(ed+".zip"); d=root/(ed+"-x"); d.mkdir()
+                  r=requests.get(URLS[ed],timeout=240); r.raise_for_status(); z.write_bytes(r.content)
+                  with zipfile.ZipFile(z) as zz: zz.extractall(d)
+                  cache[ed]=d
+              d=cache[ed]
+              hits=[p for p in d.rglob("*") if p.is_file() and p.name.casefold()==it["basename"].casefold()]
+              if not hits: raise FileNotFoundError(it["basename"])
+              doc=pymupdf.open(hits[0]); pg=doc[it["page"]-1]; rect=pymupdf.Rect(*it["crop"]) & pg.rect
+              if rect.is_empty: raise RuntimeError("empty crop "+str(it["registro"]))
+              pix=pg.get_pixmap(matrix=pymupdf.Matrix(2.2,2.2),clip=rect,alpha=False)
+              dst=out/f"registro_{it['registro']:04d}.png"; pix.save(dst); doc.close()
+              im=Image.open(dst)
+              if im.width>1400:
+                  ratio=1400/im.width; im=im.resize((1400,max(1,int(im.height*ratio))),Image.Resampling.LANCZOS)
+              im.save(dst,optimize=True)
+              print("OK",it["registro"],flush=True)
+          assert len(list(out.glob("registro_*.png"))) == len(items)
+          PY
+          python /tmp/run.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add imagens/puc-rio/import-ready-2026/
+          git diff --cached --quiet && exit 0
+          git commit -m "Publicar imagens finais PUC-Rio import-ready"
+          git pull --rebase origin main
+          git push origin HEAD:main
