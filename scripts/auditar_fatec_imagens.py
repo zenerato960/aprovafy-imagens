@@ -106,3 +106,5 @@ for s0 in range(0,len(records),cols*rows):
     sheet.save(OUT/f"all_{s0//(cols*rows)+1:02d}.jpg",quality=88)
 
 # reaudit 2026-10-09
+
+# reaudit pos-v6 2026-10-13
