@@ -6,6 +6,7 @@ on:
     paths:
       - 'scripts/auditar_fatec_imagens.py'
       - '.github/workflows/auditar_fatec_imagens.yml'
+      - 'imagens/fatec/**/*.png'
 
 permissions:
   contents: write
