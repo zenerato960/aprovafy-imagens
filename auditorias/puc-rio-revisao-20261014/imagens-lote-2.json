@@ -1,0 +1,200 @@
+{
+  "status": "13_crops_visually_verified_not_full_dataset_certification",
+  "images": [
+    {
+      "row": 2666,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2023_registro_2666_figura_oficial.webp",
+      "sha256": "8d319ae4ecb954d7ad6098c3ba78c7b0a6e68d6b8511f21d90d4894bee0d8315",
+      "bytes": 10476,
+      "page": 7,
+      "question": 22,
+      "bbox_points": [
+        25,
+        144,
+        290,
+        268
+      ],
+      "source_sha256": "df4d410f222f2bc603509a6a718b0ceebdfff40fef0d0509cd8236eeba47c46c"
+    },
+    {
+      "row": 2680,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2023_registro_2680_figura_oficial.webp",
+      "sha256": "03eba58b04eb72638f5b08416b7c9d315e2283f67cf8c96f7b073a50085ff15e",
+      "bytes": 643942,
+      "page": 13,
+      "question": 42,
+      "bbox_points": [
+        170,
+        102,
+        426,
+        463
+      ],
+      "source_sha256": "df4d410f222f2bc603509a6a718b0ceebdfff40fef0d0509cd8236eeba47c46c"
+    },
+    {
+      "row": 2691,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2023_registro_2691_figura_oficial.webp",
+      "sha256": "bffbebd797c5728debff66c41bd1959fc9d8dbb23e27802d9944e99000512723",
+      "bytes": 163592,
+      "page": 3,
+      "question": 1,
+      "bbox_points": [
+        132,
+        145,
+        462,
+        370
+      ],
+      "source_sha256": "c28d357e52d3772bb0c7c6e576bdbae417f64f521767dcbad54508020856b804"
+    },
+    {
+      "row": 2712,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2023_registro_2712_figura_oficial.webp",
+      "sha256": "d7358e9dc7438d920bb2169bc8f9998602006b17154323561e11cbd21f52889a",
+      "bytes": 194686,
+      "page": 3,
+      "question": 1,
+      "bbox_points": [
+        74,
+        133,
+        525,
+        389
+      ],
+      "source_sha256": "d98f7651b6c8a811d7c5d5c8925676f56d48c6d41f100163b2693fb3c87e163f"
+    },
+    {
+      "row": 2783,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2024_registro_2783_figura_oficial.webp",
+      "sha256": "bd777321c29d9ffe62d4e72c04198dfd7ffe3c3138675ea6468d08fa0680b69a",
+      "bytes": 130472,
+      "page": 9,
+      "question": 29,
+      "bbox_points": [
+        147,
+        447,
+        447,
+        679
+      ],
+      "source_sha256": "5b28355a3d4ab0c2fe72bbf8fce8b6694145789d2676beeda46d1ce28f151785"
+    },
+    {
+      "row": 2786,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2024_registro_2786_figura_oficial.webp",
+      "sha256": "1de33d913085497180372a62760ee391c0b9ade5b52d198d2e32d0e05888081a",
+      "bytes": 411972,
+      "page": 11,
+      "question": 32,
+      "bbox_points": [
+        37,
+        109,
+        544,
+        479
+      ],
+      "source_sha256": "5b28355a3d4ab0c2fe72bbf8fce8b6694145789d2676beeda46d1ce28f151785"
+    },
+    {
+      "row": 2847,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2024_registro_2847_figura_oficial.webp",
+      "sha256": "a8658523adbb3b2d72b672083b03879215345f031125f762f1c6dcb5d0a4aa1b",
+      "bytes": 73534,
+      "page": 7,
+      "question": 18,
+      "bbox_points": [
+        132,
+        352,
+        462,
+        587
+      ],
+      "source_sha256": "f7a00af6fed2e23b57d40649b6d3be46828c268a931ef4be663371fdd884a8f6"
+    },
+    {
+      "row": 2868,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2025_registro_2868_figura_oficial.webp",
+      "sha256": "dd25f5572a73f5c895be1e7673f0936774282abc23c766114343f37ed8ca6057",
+      "bytes": 93934,
+      "page": 5,
+      "question": 12,
+      "bbox_points": [
+        133,
+        434,
+        454,
+        627
+      ],
+      "source_sha256": "4116080e48e0aabb16d844b70bf3b54fdcf8e1dd52e61008604a5a4c39013be0"
+    },
+    {
+      "row": 2932,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2025_registro_2932_figura_oficial.webp",
+      "sha256": "fa2a25741ff4baab36e461208cc13a769bac47843b2a5093292881fc83337624",
+      "bytes": 201156,
+      "page": 15,
+      "question": 49,
+      "bbox_points": [
+        122,
+        355,
+        475,
+        636
+      ],
+      "source_sha256": "e94bbeeaf19195e8df9dac28b79785ccb3aade6c8139713a21a5c6027b022ea9"
+    },
+    {
+      "row": 73,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2009_registro_73_figura_oficial.webp",
+      "sha256": "afbfccd92806273553f6cdbe290c7a4c55f233ee6239d36777c36a100dcfcd25",
+      "bytes": 7782,
+      "page": 3,
+      "question": 10,
+      "bbox_points": [
+        340,
+        381,
+        516,
+        509
+      ],
+      "source_sha256": "51afa7e74ca01b06b5e37f17d33bf1c032448d280322d8c9ce1aac0b91a5a620"
+    },
+    {
+      "row": 74,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2009_registro_74_figura_oficial.webp",
+      "sha256": "c27cad28d42477908f6464a0c3809ac37b0426980834ce7d4a2a5ec86285671a",
+      "bytes": 17584,
+      "page": 3,
+      "question": 8,
+      "bbox_points": [
+        27,
+        400,
+        292,
+        553
+      ],
+      "source_sha256": "51afa7e74ca01b06b5e37f17d33bf1c032448d280322d8c9ce1aac0b91a5a620"
+    },
+    {
+      "row": 2548,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2020_registro_2548_figura_oficial.webp",
+      "sha256": "8653efc3d3b47ff38c53cefc0ea4855214548871f616ec25a07ed72c5d0d6578",
+      "bytes": 106180,
+      "page": 5,
+      "question": 15,
+      "bbox_points": [
+        174,
+        102,
+        421,
+        212
+      ],
+      "source_sha256": "312aaf3013ddc6319137945686ba949d18a4ad4a35e9cd6aed8591212141d280"
+    },
+    {
+      "row": 370,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2011_registro_370_figura_oficial.webp",
+      "sha256": "14b340b8eb4f250fc11bc3ea2146356de198055644816bfecdeb70c9280917a1",
+      "bytes": 10082,
+      "page": 5,
+      "question": 10,
+      "bbox_points": [
+        69,
+        389,
+        226,
+        546
+      ],
+      "source_sha256": "2962fd8f86e076b949ec491edaa087df748db5bc6ee253c6ab05e0ba3a3c577a"
+    }
+  ]
+}
