@@ -1,0 +1,90 @@
+{
+  "status": "five_image_crops_verified_not_full_dataset_certification",
+  "images": [
+    {
+      "row": 2467,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2020_registro_2467_figura_oficial.webp",
+      "sha256": "95c208689cb3a3b91566427411f23ae37f4f38c79fa222ce904eeec0962deca9",
+      "bytes": 7512,
+      "page": 4,
+      "question": 14,
+      "bbox_points": [
+        79,
+        416,
+        232,
+        529
+      ],
+      "source_sha256": "8018b50fcb041729dd97d4359e11c5aeb3f1d4b150b47c7e2b834e0b22536ebc",
+      "width": 459,
+      "height": 339
+    },
+    {
+      "row": 2612,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2023_registro_2612_figura_oficial.webp",
+      "sha256": "419ee42cb1c3b50286e868ef624694ae0af830de3c618bbdd6d507f2625ba7e7",
+      "bytes": 28464,
+      "page": 4,
+      "question": 10,
+      "bbox_points": [
+        148,
+        100,
+        452,
+        296
+      ],
+      "source_sha256": "26fefa46fbe3c3385475e481f94f3401726cf01842b6a620149f0976d4a78386",
+      "width": 912,
+      "height": 588
+    },
+    {
+      "row": 2613,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2023_registro_2613_figura_oficial.webp",
+      "sha256": "f69a836a55c9cc50abf681d1a05a3a37d813bd87fe71cae6ec94dc8341bbdc21",
+      "bytes": 349846,
+      "page": 5,
+      "question": 11,
+      "bbox_points": [
+        72,
+        159,
+        526,
+        420
+      ],
+      "source_sha256": "26fefa46fbe3c3385475e481f94f3401726cf01842b6a620149f0976d4a78386",
+      "width": 1362,
+      "height": 783
+    },
+    {
+      "row": 2629,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2023_registro_2629_figura_oficial.webp",
+      "sha256": "45bab3a4e64779ef964470a1011d802397914fbb0a7c182ca65e2af3f57b1678",
+      "bytes": 11164,
+      "page": 10,
+      "question": 28,
+      "bbox_points": [
+        101,
+        137,
+        226,
+        263
+      ],
+      "source_sha256": "26fefa46fbe3c3385475e481f94f3401726cf01842b6a620149f0976d4a78386",
+      "width": 375,
+      "height": 378
+    },
+    {
+      "row": 3033,
+      "path": "imagens/puc-rio/revisao-20261014/puc_rio_2021_registro_3033_figura_oficial.webp",
+      "sha256": "451c6bfe261283b8254a869c9515955868bf3c35256fe972b6de72716929c105",
+      "bytes": 193120,
+      "page": 10,
+      "question": 1,
+      "bbox_points": [
+        195,
+        120,
+        400,
+        320
+      ],
+      "source_sha256": "4768be5ca45ca736c7d5d1b30f5704ee1b27d395f4957151a4e395eae29d0a0d",
+      "width": 615,
+      "height": 600
+    }
+  ]
+}
