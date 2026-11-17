@@ -1,0 +1,7 @@
+{
+  "name": "unicamp-pipeline",
+  "private": true,
+  "description": "Pipeline de extração, recorte e auditoria de questões UNICAMP para o Aprovafy",
+  "type": "module",
+  "dependencies": { "pdfjs-dist": "4.4.168", "@napi-rs/canvas": "1.1.0" }
+}

@@ -1,0 +1,737 @@
+[
+ {
+  "num": 1,
+  "arquivo": "unicamp_2020_qx_questao_001.png",
+  "largura": 420,
+  "altura": 255,
+  "bytes": 130516,
+  "sha256": "ed9c5a29beddac8810af66c7671ed71b09f5ecc8adc129948fd2f0f920d8d22f",
+  "caixas": [
+   [
+    3,
+    28,
+    101,
+    168,
+    186
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 2,
+  "arquivo": "unicamp_2020_qx_questao_002.png",
+  "largura": 552,
+  "altura": 696,
+  "bytes": 208274,
+  "sha256": "54979b0c5ea480de69a42cce26eb472bb581998a356551899646bc55ec778273",
+  "caixas": [
+   [
+    3,
+    62,
+    434,
+    246,
+    666
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 3,
+  "arquivo": "unicamp_2020_qx_questao_003.png",
+  "largura": 777,
+  "altura": 468,
+  "bytes": 68197,
+  "sha256": "b853af37e7c27005ff014257d7e7ab0b55482e9d54606f9e25d57bc12278a558",
+  "caixas": [
+   [
+    3,
+    313,
+    165,
+    572,
+    321
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 4,
+  "arquivo": "unicamp_2020_qx_questao_004.png",
+  "largura": 168,
+  "altura": 165,
+  "bytes": 17384,
+  "sha256": "e9f8b4291bae3367541d18548877da82af6aca0e0e1a0fe6bf1018450afbc5ff",
+  "caixas": [
+   [
+    3,
+    413,
+    518,
+    469,
+    573
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 5,
+  "arquivo": "unicamp_2020_qx_questao_005.png",
+  "largura": 768,
+  "altura": 768,
+  "bytes": 301521,
+  "sha256": "b32fa15cf0a61f68230c614de90e6813b2324f56e03bf295ad7ed4462b715491",
+  "caixas": [
+   [
+    4,
+    26,
+    341,
+    282,
+    597
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 6,
+  "arquivo": "unicamp_2020_qx_questao_006.png",
+  "largura": 378,
+  "altura": 255,
+  "bytes": 47896,
+  "sha256": "2f0b413027f7c8e584bb9e572c8de208e67609ea65db00aebd14d48a9bdb67f6",
+  "caixas": [
+   [
+    4,
+    314,
+    105,
+    440,
+    190
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 8,
+  "arquivo": "unicamp_2020_qx_questao_008.png",
+  "largura": 693,
+  "altura": 900,
+  "bytes": 252380,
+  "sha256": "c13097e87002c54c9034a9b5ea0c5df978009d11883e7ffab96221a5576afc8b",
+  "caixas": [
+   [
+    5,
+    39,
+    308,
+    270,
+    608
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 12,
+  "arquivo": "unicamp_2020_qx_questao_012.png",
+  "largura": 768,
+  "altura": 240,
+  "bytes": 68178,
+  "sha256": "bbd647e955aa2ac6c24817bd525e26892c078eb3e8acdfd94403ca6c5cb02c00",
+  "caixas": [
+   [
+    6,
+    26,
+    682,
+    282,
+    762
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 14,
+  "arquivo": "unicamp_2020_qx_questao_014.png",
+  "largura": 606,
+  "altura": 393,
+  "bytes": 43056,
+  "sha256": "cc1d17b2ce2602992dfc45686ce384365631d8cb9209216cb7f3b4034254b041",
+  "caixas": [
+   [
+    6,
+    340,
+    667,
+    542,
+    798
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 16,
+  "arquivo": "unicamp_2020_qx_questao_016.png",
+  "largura": 747,
+  "altura": 1236,
+  "bytes": 280247,
+  "sha256": "e5afd05f144aca31180d532fd5ac0af237e344986fcda1401389293317b55a65",
+  "caixas": [
+   [
+    7,
+    317,
+    197,
+    566,
+    411
+   ],
+   [
+    7,
+    321,
+    450,
+    561,
+    642
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 19,
+  "arquivo": "unicamp_2020_qx_questao_019.png",
+  "largura": 792,
+  "altura": 432,
+  "bytes": 69130,
+  "sha256": "9912441e758a33f210389252db19862d5dd4bbece02484fff7af5aa465ab3122",
+  "caixas": [
+   [
+    8,
+    313,
+    247,
+    577,
+    391
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 25,
+  "arquivo": "unicamp_2020_qx_questao_025.png",
+  "largura": 660,
+  "altura": 504,
+  "bytes": 177888,
+  "sha256": "ba5a5e163ca386ea8d386a3f2846b4a0dcf438aa4dca754f6ef12fe43a540b2d",
+  "caixas": [
+   [
+    10,
+    48,
+    525,
+    268,
+    693
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 26,
+  "arquivo": "unicamp_2020_qx_questao_026.png",
+  "largura": 774,
+  "altura": 477,
+  "bytes": 145828,
+  "sha256": "88514ebe53f2b52fd2318b240a0601b40efe896f6e2519bd865e62e8e91c4bbd",
+  "caixas": [
+   [
+    10,
+    313,
+    311,
+    571,
+    470
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 28,
+  "arquivo": "unicamp_2020_qx_questao_028.png",
+  "largura": 744,
+  "altura": 843,
+  "bytes": 200430,
+  "sha256": "aac049ff67a6422063b990a65e73c26dcf5e99c76940f40c915dabe0c1e1a84a",
+  "caixas": [
+   [
+    11,
+    30,
+    405,
+    278,
+    686
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 40,
+  "arquivo": "unicamp_2020_qx_questao_040.png",
+  "largura": 306,
+  "altura": 354,
+  "bytes": 25135,
+  "sha256": "509faed21dc3c8286fe5ef47e9766cc8978a1327fa2caeeb4cb5117da51eafca",
+  "caixas": [
+   [
+    13,
+    144,
+    480,
+    246,
+    598
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 41,
+  "arquivo": "unicamp_2020_qx_questao_041.png",
+  "largura": 435,
+  "altura": 270,
+  "bytes": 18870,
+  "sha256": "4358e6b68885e7adab6daabbd818f51399f61b38ff3ce644b4fbdab29b984271",
+  "caixas": [
+   [
+    13,
+    120,
+    677,
+    265,
+    767
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 42,
+  "arquivo": "unicamp_2020_qx_questao_042.png",
+  "largura": 678,
+  "altura": 384,
+  "bytes": 40147,
+  "sha256": "2b3b2ca1b935feb90f1a59b30fbd422e0b71b0ceeab4d38f56ef852e22e9c071",
+  "caixas": [
+   [
+    13,
+    328,
+    166,
+    554,
+    294
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 45,
+  "arquivo": "unicamp_2020_qx_questao_045.png",
+  "largura": 1194,
+  "altura": 678,
+  "bytes": 51843,
+  "sha256": "c1eb6250a1271ad40c844524be76183db81037c2270685b242dfee91fe0faaa0",
+  "caixas": [
+   [
+    14,
+    26,
+    244,
+    222,
+    355
+   ],
+   [
+    14,
+    26,
+    386,
+    222,
+    494
+   ],
+   [
+    14,
+    26,
+    527,
+    222,
+    636
+   ],
+   [
+    14,
+    26,
+    668,
+    222,
+    776
+   ]
+  ],
+  "layout": "grid"
+ },
+ {
+  "num": 46,
+  "arquivo": "unicamp_2020_qx_questao_046.png",
+  "largura": 663,
+  "altura": 912,
+  "bytes": 170687,
+  "sha256": "23810cc62ad902696ac891f8d01711d3abae228cf7abe40db4cb10a66daedc0c",
+  "caixas": [
+   [
+    14,
+    368,
+    238,
+    520,
+    390
+   ],
+   [
+    14,
+    331,
+    393,
+    552,
+    539
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 47,
+  "arquivo": "unicamp_2020_qx_questao_047.png",
+  "largura": 759,
+  "altura": 489,
+  "bytes": 89487,
+  "sha256": "2609ae2533ba52901d0b7865f5caa3ed60074160735da95eecd5c0eba9cd8457",
+  "caixas": [
+   [
+    15,
+    31,
+    163,
+    284,
+    326
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 48,
+  "arquivo": "unicamp_2020_qx_questao_048.png",
+  "largura": 771,
+  "altura": 654,
+  "bytes": 77310,
+  "sha256": "bd4791bba045d47bd22e3d3aa6249a8c40fdf7ab88164e30fd7976ab37028040",
+  "caixas": [
+   [
+    15,
+    313,
+    79,
+    570,
+    297
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 51,
+  "arquivo": "unicamp_2020_qx_questao_051.png",
+  "largura": 1308,
+  "altura": 852,
+  "bytes": 121260,
+  "sha256": "9e5719947bfbd8dee2e090b4c123a5479737871db72e899a50f53648529b9199",
+  "caixas": [
+   [
+    16,
+    26,
+    418,
+    240,
+    555
+   ],
+   [
+    16,
+    26,
+    598,
+    240,
+    737
+   ],
+   [
+    16,
+    313,
+    82,
+    528,
+    221
+   ],
+   [
+    16,
+    313,
+    254,
+    528,
+    393
+   ]
+  ],
+  "layout": "grid"
+ },
+ {
+  "num": 52,
+  "arquivo": "unicamp_2020_qx_questao_052.png",
+  "largura": 738,
+  "altura": 528,
+  "bytes": 57452,
+  "sha256": "ab3c8c4067176955cf50b905ae9fd336c72c7ccf566de2f9dd06283f4de3c57c",
+  "caixas": [
+   [
+    16,
+    316,
+    616,
+    562,
+    792
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 54,
+  "arquivo": "unicamp_2020_qx_questao_054.png",
+  "largura": 768,
+  "altura": 222,
+  "bytes": 48377,
+  "sha256": "b8f001d7b89f7c43dae81c6fe1d16f7970be3c07bbb3b95be26d2ee7fcbf38e2",
+  "caixas": [
+   [
+    17,
+    313,
+    79,
+    569,
+    153
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 59,
+  "arquivo": "unicamp_2020_qx_questao_059.png",
+  "largura": 657,
+  "altura": 1089,
+  "bytes": 693963,
+  "sha256": "a7abfd154664ae0d7a04665e66641f7e2e299bde3d5de12dfc4146ce117ee4fb",
+  "caixas": [
+   [
+    18,
+    335,
+    390,
+    554,
+    753
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 64,
+  "arquivo": "unicamp_2020_qx_questao_064.png",
+  "largura": 795,
+  "altura": 285,
+  "bytes": 312923,
+  "sha256": "8d7b3c13a8f9a73a514dddfaef64d3b3a0b5bbe517306c8e1f590a6a175863f7",
+  "caixas": [
+   [
+    20,
+    26,
+    464,
+    291,
+    559
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 67,
+  "arquivo": "unicamp_2020_qx_questao_067.png",
+  "largura": 789,
+  "altura": 297,
+  "bytes": 174760,
+  "sha256": "6b87c7fa8eb7891c9c6314385bfa928008d18958a22b1b6e6734ae1be4b66efa",
+  "caixas": [
+   [
+    20,
+    313,
+    698,
+    576,
+    797
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 69,
+  "arquivo": "unicamp_2020_qx_questao_069.png",
+  "largura": 657,
+  "altura": 462,
+  "bytes": 322664,
+  "sha256": "6c06c40eded61aba43d6cac5641598fc07f038f94f976a1d2e056544789d8306",
+  "caixas": [
+   [
+    21,
+    335,
+    455,
+    554,
+    609
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 70,
+  "arquivo": "unicamp_2020_qx_questao_070.png",
+  "largura": 1230,
+  "altura": 789,
+  "bytes": 131215,
+  "sha256": "8fe855e05682a1da5c3360d8304d91ae179a21814417c467d617ed4edb1bf3f7",
+  "caixas": [
+   [
+    22,
+    26,
+    274,
+    228,
+    402
+   ],
+   [
+    22,
+    26,
+    415,
+    228,
+    543
+   ],
+   [
+    22,
+    26,
+    559,
+    228,
+    688
+   ],
+   [
+    22,
+    26,
+    693,
+    228,
+    822
+   ]
+  ],
+  "layout": "grid"
+ },
+ {
+  "num": 74,
+  "arquivo": "unicamp_2020_qx_questao_074.png",
+  "largura": 573,
+  "altura": 414,
+  "bytes": 38940,
+  "sha256": "9976c598001375a886d8fd0d0bf78b39d266acd5f09af534d1b29f4719fd6c03",
+  "caixas": [
+   [
+    23,
+    56,
+    211,
+    247,
+    349
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 76,
+  "arquivo": "unicamp_2020_qx_questao_076.png",
+  "largura": 396,
+  "altura": 216,
+  "bytes": 14981,
+  "sha256": "bd756131927ff72bb3f4b0a30ea782966d82d84635ad1cb3416cd8293fc07be0",
+  "caixas": [
+   [
+    23,
+    376,
+    226,
+    508,
+    298
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 78,
+  "arquivo": "unicamp_2020_qx_questao_078.png",
+  "largura": 1206,
+  "altura": 840,
+  "bytes": 136830,
+  "sha256": "0f4635bf7b70e0c0ba9f34c9aee57ac293c5334993c879a91ccfcc5a401cf9cf",
+  "caixas": [
+   [
+    24,
+    26,
+    224,
+    212,
+    340
+   ],
+   [
+    24,
+    26,
+    360,
+    214,
+    499
+   ],
+   [
+    24,
+    26,
+    508,
+    230,
+    643
+   ],
+   [
+    24,
+    26,
+    661,
+    218,
+    796
+   ]
+  ],
+  "layout": "grid"
+ },
+ {
+  "num": 79,
+  "arquivo": "unicamp_2020_qx_questao_079.png",
+  "largura": 714,
+  "altura": 426,
+  "bytes": 64440,
+  "sha256": "e46654b57216616f49d847bd9e51efa812521ffe779a5ca0f4fc6cc1331aac66",
+  "caixas": [
+   [
+    24,
+    353,
+    209,
+    529,
+    273
+   ],
+   [
+    24,
+    322,
+    300,
+    560,
+    372
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 81,
+  "arquivo": "unicamp_2020_qx_questao_081.png",
+  "largura": 342,
+  "altura": 450,
+  "bytes": 174484,
+  "sha256": "7ecb92b255eab64b4fecba40a39b5e2ba39e3afca8b131dd8ef5d743fb106908",
+  "caixas": [
+   [
+    25,
+    27,
+    251,
+    141,
+    401
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
+  "num": 86,
+  "arquivo": "unicamp_2020_qx_questao_086.png",
+  "largura": 783,
+  "altura": 504,
+  "bytes": 615893,
+  "sha256": "f42d82ccf2f3fed91327beeee9645beeb9642f401efa46da6736277d650dbb3c",
+  "caixas": [
+   [
+    26,
+    312,
+    96,
+    573,
+    264
+   ]
+  ],
+  "layout": "stack"
+ }
+]

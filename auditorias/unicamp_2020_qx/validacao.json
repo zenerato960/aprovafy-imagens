@@ -1,0 +1,697 @@
+{
+ "arquivo": "unicamp_2020_1fase_qx_90_questoes.json",
+ "total": 90,
+ "errosGlobais": [],
+ "online": true,
+ "questoes": [
+  {
+   "num": 1,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 130516,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 2,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 208274,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 3,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 68197,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 4,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 17384,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 5,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 301521,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 6,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 47896,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 7,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 8,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 252380,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 9,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 10,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 11,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 12,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 68178,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 13,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 14,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 43056,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 15,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 16,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 280247,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 17,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 18,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 19,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 69130,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 20,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 21,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 22,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 23,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 24,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 25,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 177888,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 26,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 145828,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 27,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 28,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 200430,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 29,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 30,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 31,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 32,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 33,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 34,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 35,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 36,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 37,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 38,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 39,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 40,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 25135,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 41,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 18870,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 42,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 40147,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 43,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 44,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 45,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 51843,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 46,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 170687,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 47,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 89487,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 48,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 77310,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 49,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 50,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 51,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 121260,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 52,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 57452,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 53,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 54,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 48377,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 55,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 56,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 57,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 58,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 59,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 693963,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 60,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 61,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 62,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 63,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 64,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 312923,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 65,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 66,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 67,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 174760,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 68,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 69,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 322664,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 70,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 131215,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 71,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 72,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 73,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 74,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 38940,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 75,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 76,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 14981,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 77,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 78,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 136830,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 79,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 64440,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 80,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 81,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 174484,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 82,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 83,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 84,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 85,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 86,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 615893,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 87,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 88,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 89,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 90,
+   "erros": [],
+   "avisos": []
+  }
+ ],
+ "resumo": {
+  "com_erro": [],
+  "com_aviso": [
+   24,
+   30,
+   31,
+   62,
+   77,
+   85,
+   87,
+   89
+  ]
+ }
+}

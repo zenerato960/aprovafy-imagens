@@ -1,0 +1,3173 @@
+[
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 1,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_001.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_001.png",
+   "caixas_pt": [
+    [
+     3,
+     28,
+     101,
+     168,
+     186
+    ]
+   ],
+   "layout": "stack",
+   "largura": 420,
+   "altura": 255,
+   "sha256": "ed9c5a29beddac8810af66c7671ed71b09f5ecc8adc129948fd2f0f920d8d22f",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_001.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada fácil, com um índice de discriminação bom",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 2,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_002.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_002.png",
+   "caixas_pt": [
+    [
+     3,
+     62,
+     434,
+     246,
+     666
+    ]
+   ],
+   "layout": "stack",
+   "largura": 552,
+   "altura": 696,
+   "sha256": "54979b0c5ea480de69a42cce26eb472bb581998a356551899646bc55ec778273",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_002.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "questão foi classificada como fácil, seguindo as expectativas da Banca Elaboradora",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 3,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_003.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_003.png",
+   "caixas_pt": [
+    [
+     3,
+     313,
+     165,
+     572,
+     321
+    ]
+   ],
+   "layout": "stack",
+   "largura": 777,
+   "altura": 468,
+   "sha256": "b853af37e7c27005ff014257d7e7ab0b55482e9d54606f9e25d57bc12278a558",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_003.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "as estatísticas apontam que a questão foi 'muito fácil'",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 4,
+  "paginas_pdf": [
+   3,
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_004.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_004.png",
+   "caixas_pt": [
+    [
+     3,
+     413,
+     518,
+     469,
+     573
+    ]
+   ],
+   "layout": "stack",
+   "largura": 168,
+   "altura": 165,
+   "sha256": "e9f8b4291bae3367541d18548877da82af6aca0e0e1a0fe6bf1018450afbc5ff",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_004.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "as estatísticas apontaram para um nível 'muito fácil'",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 5,
+  "paginas_pdf": [
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_005.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_005.png",
+   "caixas_pt": [
+    [
+     4,
+     26,
+     341,
+     282,
+     597
+    ]
+   ],
+   "layout": "stack",
+   "largura": 768,
+   "altura": 768,
+   "sha256": "b32fa15cf0a61f68230c614de90e6813b2324f56e03bf295ad7ed4462b715491",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_005.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.988,
+   "ausentes": [
+    "publicado"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A Banca Elaboradora considerou a questão fácil, o que se confirmou",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 6,
+  "paginas_pdf": [
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_006.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_006.png",
+   "caixas_pt": [
+    [
+     4,
+     314,
+     105,
+     440,
+     190
+    ]
+   ],
+   "layout": "stack",
+   "largura": 378,
+   "altura": 255,
+   "sha256": "2f0b413027f7c8e584bb9e572c8de208e67609ea65db00aebd14d48a9bdb67f6",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_006.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "foi considerada 'muito fácil', contrariando as expectativas da Banca Elaboradora",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 7,
+  "paginas_pdf": [
+   4,
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "se mostrou de dificuldade média, destoando das demais, que se mostraram fáceis ou muito fáceis",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 8,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_008.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_008.png",
+   "caixas_pt": [
+    [
+     5,
+     39,
+     308,
+     270,
+     608
+    ]
+   ],
+   "layout": "stack",
+   "largura": 693,
+   "altura": 900,
+   "sha256": "c13097e87002c54c9034a9b5ea0c5df978009d11883e7ffab96221a5576afc8b",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_008.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o nível de dificuldade da questão foi médio, enquanto o índice de discriminação foi bom",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 9,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi classificada como fácil, com um índice de acertos elevado (63,56%)",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 10,
+  "paginas_pdf": [
+   5,
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada de dificuldade média, com índice de facilidade de 0,555",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 11,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Dado o índice de acerto (29,53%), ela foi considerada DIFÍCIL",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 12,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_012.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_012.png",
+   "caixas_pt": [
+    [
+     6,
+     26,
+     682,
+     282,
+     762
+    ]
+   ],
+   "layout": "stack",
+   "largura": 768,
+   "altura": 240,
+   "sha256": "bbd647e955aa2ac6c24817bd525e26892c078eb3e8acdfd94403ca6c5cb02c00",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_012.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Dado o índice de acerto (64,47%), ela foi considerada FÁCIL e com BOA capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 13,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Com um índice de acerto de 39,99%, a questão foi considerada DÍFÍCIL",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 14,
+  "paginas_pdf": [
+   6,
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_014.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_014.png",
+   "caixas_pt": [
+    [
+     6,
+     340,
+     667,
+     542,
+     798
+    ]
+   ],
+   "layout": "stack",
+   "largura": 606,
+   "altura": 393,
+   "sha256": "cc1d17b2ce2602992dfc45686ce384365631d8cb9209216cb7f3b4034254b041",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_014.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Dado o índice de acerto (53,45%), ela foi considerada MÉDIA e com BOA capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 15,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Dado o índice de acerto constatado (43,16%), a questão foi considerada MÉDIA",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 16,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_016.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_016.png",
+   "caixas_pt": [
+    [
+     7,
+     317,
+     197,
+     566,
+     411
+    ],
+    [
+     7,
+     321,
+     450,
+     561,
+     642
+    ]
+   ],
+   "layout": "stack",
+   "largura": 747,
+   "altura": 1236,
+   "sha256": "e5afd05f144aca31180d532fd5ac0af237e344986fcda1401389293317b55a65",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_016.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Constatado o índice de acerto de 77,02%, a questão foi considerada FÁCIL",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 17,
+  "paginas_pdf": [
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Constatado o índice de acerto de 46,48%, a questão foi considerada MÉDIA",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 18,
+  "paginas_pdf": [
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Dado o índice de acerto constatado (61,90%), a questão foi considerada FÁCIL",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 19,
+  "paginas_pdf": [
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_019.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_019.png",
+   "caixas_pt": [
+    [
+     8,
+     313,
+     247,
+     577,
+     391
+    ]
+   ],
+   "layout": "stack",
+   "largura": 792,
+   "altura": 432,
+   "sha256": "9912441e758a33f210389252db19862d5dd4bbece02484fff7af5aa465ab3122",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_019.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Dado o índice de acerto atestado, 49,79%, a questão foi considerada MÉDIA",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 20,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.991,
+   "ausentes": [
+    "99259930"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Dado o índice de acerto atestado, 37,37%, a questão foi considerada DIFÍCIL",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 21,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Essa foi, portanto, uma questão muito fácil para os candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 22,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a banca elaboradora ... considerado tratar-se de uma questão difícil da prova (acerto de ~27%)",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 23,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.993,
+   "ausentes": [
+    "torno"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A banca elaboradora considerou que esta seria uma questão difícil ... acerto de aproximadamente 38%",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 24,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "foi considerada difícil pela banca elaboradora ... percentual de acerto de aproximadamente 26%",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 25,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_025.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_025.png",
+   "caixas_pt": [
+    [
+     10,
+     48,
+     525,
+     268,
+     693
+    ]
+   ],
+   "layout": "stack",
+   "largura": 660,
+   "altura": 504,
+   "sha256": "ba5a5e163ca386ea8d386a3f2846b4a0dcf438aa4dca754f6ef12fe43a540b2d",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_025.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o que indica que a questão foi fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 26,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_026.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_026.png",
+   "caixas_pt": [
+    [
+     10,
+     313,
+     311,
+     571,
+     470
+    ]
+   ],
+   "layout": "stack",
+   "largura": 774,
+   "altura": 477,
+   "sha256": "88514ebe53f2b52fd2318b240a0601b40efe896f6e2519bd865e62e8e91c4bbd",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_026.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o que indica que a questão foi fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 27,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o que indica um grau médio de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 28,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_028.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_028.png",
+   "caixas_pt": [
+    [
+     11,
+     30,
+     405,
+     278,
+     686
+    ]
+   ],
+   "layout": "stack",
+   "largura": 744,
+   "altura": 843,
+   "sha256": "aac049ff67a6422063b990a65e73c26dcf5e99c76940f40c915dabe0c1e1a84a",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_028.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão se revelou de média dificuldade para os candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 29,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "indicando uma questão de dificuldade média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 30,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "os dados estatísticos mostram que a questão foi de nível fácil para o conjunto dos candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 31,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "percentual de acerto de aproximadamente 33%; portanto, a questão foi difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 32,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "levando-a a ser classificada como fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 33,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 34,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como difícil: apenas cerca de 30% acertaram",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 35,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi fácil, como evidencia o alto índice de acertos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 36,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 37,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "foi considerada fácil, com mais de 60% de respostas corretas",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 38,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.941,
+   "ausentes": [
+    "abx"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi fácil, tendo obtido a segunda maior porcentagem de respostas corretas",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 39,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "Matriz 2×2 escrita em linha: [p 2; 0 p] = 1ª linha (p, 2), 2ª linha (0, p). Barras de módulo grafadas com ∣ (U+2223) porque | é o separador de alternativas.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão revelou-se de média dificuldade, tendo obtido cerca de 45% de respostas corretas",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 40,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_040.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_040.png",
+   "caixas_pt": [
+    [
+     13,
+     144,
+     480,
+     246,
+     598
+    ]
+   ],
+   "layout": "stack",
+   "largura": 306,
+   "altura": 354,
+   "sha256": "509faed21dc3c8286fe5ef47e9766cc8978a1327fa2caeeb4cb5117da51eafca",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_040.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "contrariando a expectativa da banca, revelou-se uma questão difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 41,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_041.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_041.png",
+   "caixas_pt": [
+    [
+     13,
+     120,
+     677,
+     265,
+     767
+    ]
+   ],
+   "layout": "stack",
+   "largura": 435,
+   "altura": 270,
+   "sha256": "4358e6b68885e7adab6daabbd818f51399f61b38ff3ce644b4fbdab29b984271",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_041.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi considerada de dificuldade média, tendo registrado 41% de respostas corretas",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 42,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_042.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_042.png",
+   "caixas_pt": [
+    [
+     13,
+     328,
+     166,
+     554,
+     294
+    ]
+   ],
+   "layout": "stack",
+   "largura": 678,
+   "altura": 384,
+   "sha256": "2b3b2ca1b935feb90f1a59b30fbd422e0b71b0ceeab4d38f56ef852e22e9c071",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_042.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como de média dificuldade ... acertos próxima de 42%",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 43,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 44,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "O grau de dificuldade atribuído a essa questão foi médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 45,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_045.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_045.png",
+   "caixas_pt": [
+    [
+     14,
+     26,
+     244,
+     222,
+     355
+    ],
+    [
+     14,
+     26,
+     386,
+     222,
+     494
+    ],
+    [
+     14,
+     26,
+     527,
+     222,
+     636
+    ],
+    [
+     14,
+     26,
+     668,
+     222,
+     776
+    ]
+   ],
+   "layout": "grid",
+   "largura": 1194,
+   "altura": 678,
+   "sha256": "c1eb6250a1271ad40c844524be76183db81037c2270685b242dfee91fe0faaa0",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_045.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Alternativas compostas por gráfico + texto: os quatro gráficos (com as letras a–d) estão na imagem; o texto de cada alternativa remete ao gráfico de mesma letra.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Esta questão teve um índice de facilidade de 0,47, sendo, portanto, considerada de nível médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 46,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_046.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_046.png",
+   "caixas_pt": [
+    [
+     14,
+     368,
+     238,
+     520,
+     390
+    ],
+    [
+     14,
+     331,
+     393,
+     552,
+     539
+    ]
+   ],
+   "layout": "stack",
+   "largura": 663,
+   "altura": 912,
+   "sha256": "23810cc62ad902696ac891f8d01711d3abae228cf7abe40db4cb10a66daedc0c",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_046.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "índice de facilidade igual a 0,73, a questão foi considerada fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 47,
+  "paginas_pdf": [
+   14,
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_047.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_047.png",
+   "caixas_pt": [
+    [
+     15,
+     31,
+     163,
+     284,
+     326
+    ]
+   ],
+   "layout": "stack",
+   "largura": 759,
+   "altura": 489,
+   "sha256": "2609ae2533ba52901d0b7865f5caa3ed60074160735da95eecd5c0eba9cd8457",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_047.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "índice de facilidade igual a 0,44, ... considerada de nível médio de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 48,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_048.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_048.png",
+   "caixas_pt": [
+    [
+     15,
+     313,
+     79,
+     570,
+     297
+    ]
+   ],
+   "layout": "stack",
+   "largura": 771,
+   "altura": 654,
+   "sha256": "bd4791bba045d47bd22e3d3aa6249a8c40fdf7ab88164e30fd7976ab37028040",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_048.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "índice de facilidade igual a 0,32, a questão foi considerada difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 49,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "índice de facilidade igual a 0,84, sendo, portanto, muito fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 50,
+  "paginas_pdf": [
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "índice de facilidade igual a 0,77, sendo, portanto, fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 51,
+  "paginas_pdf": [
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_051.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_051.png",
+   "caixas_pt": [
+    [
+     16,
+     26,
+     418,
+     240,
+     555
+    ],
+    [
+     16,
+     26,
+     598,
+     240,
+     737
+    ],
+    [
+     16,
+     313,
+     82,
+     528,
+     221
+    ],
+    [
+     16,
+     313,
+     254,
+     528,
+     393
+    ]
+   ],
+   "layout": "grid",
+   "largura": 1308,
+   "altura": 852,
+   "sha256": "9e5719947bfbd8dee2e090b4c123a5479737871db72e899a50f53648529b9199",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_051.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Alternativas compostas por gráfico (concentração de CO₂ e pH × ano) + texto: os quatro gráficos com as letras a–d estão na imagem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "índice de facilidade igual a 0,27, a questão foi considerada difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 52,
+  "paginas_pdf": [
+   16,
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_052.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_052.png",
+   "caixas_pt": [
+    [
+     16,
+     316,
+     616,
+     562,
+     792
+    ]
+   ],
+   "layout": "stack",
+   "largura": 738,
+   "altura": 528,
+   "sha256": "ab3c8c4067176955cf50b905ae9fd336c72c7ccf566de2f9dd06283f4de3c57c",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_052.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "índice de facilidade igual a 0,63, sendo, portanto, fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 53,
+  "paginas_pdf": [
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "índice de facilidade igual a 0,37, sendo, portanto, difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 54,
+  "paginas_pdf": [
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_054.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_054.png",
+   "caixas_pt": [
+    [
+     17,
+     313,
+     79,
+     569,
+     153
+    ]
+   ],
+   "layout": "stack",
+   "largura": 768,
+   "altura": 222,
+   "sha256": "b8f001d7b89f7c43dae81c6fe1d16f7970be3c07bbb3b95be26d2ee7fcbf38e2",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_054.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "índice de facilidade ... 0,26, a questão foi difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 55,
+  "paginas_pdf": [
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "índice de acerto de 87,75% ... a questão pode ser avaliada como fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 56,
+  "paginas_pdf": [
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "Equação de combustão do propano reproduzida como no original (sem coeficiente estequiométrico no O₂).",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "baixo (0,37), sendo considerada difícil e de boa discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 57,
+  "paginas_pdf": [
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A Banca Elaboradora estimou que a questão seria de nível médio de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 58,
+  "paginas_pdf": [
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "indicam um nível médio de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 59,
+  "paginas_pdf": [
+   18,
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_059.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_059.png",
+   "caixas_pt": [
+    [
+     18,
+     335,
+     390,
+     554,
+     753
+    ]
+   ],
+   "layout": "stack",
+   "largura": 657,
+   "altura": 1089,
+   "sha256": "a7abfd154664ae0d7a04665e66641f7e2e299bde3d5de12dfc4146ce117ee4fb",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_059.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão mostrou-se de nível difícil e confirmou a expectativa da Banca",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 60,
+  "paginas_pdf": [
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "consideraram que a questão seria de nível fácil, o que, de fato, se confirmou",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 61,
+  "paginas_pdf": [
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "consideraram a questão de nível médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 62,
+  "paginas_pdf": [
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "considerou que a questão tinha um nível médio de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 63,
+  "paginas_pdf": [
+   19,
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada de dificuldade média, com 48,70% de acertos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 64,
+  "paginas_pdf": [
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_064.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_064.png",
+   "caixas_pt": [
+    [
+     20,
+     26,
+     464,
+     291,
+     559
+    ]
+   ],
+   "layout": "stack",
+   "largura": 795,
+   "altura": 285,
+   "sha256": "8d7b3c13a8f9a73a514dddfaef64d3b3a0b5bbe517306c8e1f590a6a175863f7",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_064.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada fácil, tendo 76,67% de acertos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 65,
+  "paginas_pdf": [
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão revelou-se fácil, com índice de 72,94% de acertos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 66,
+  "paginas_pdf": [
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.543,
+   "ausentes": [
+    "telejornalismo",
+    "principais",
+    "produtos",
+    "televisivos",
+    "sejam",
+    "boas",
+    "garantir",
+    "experiência",
+    "esteticamente",
+    "agradável",
+    "suma",
+    "atrair",
+    "prestígio",
+    "anunciante",
+    "rentabilidade",
+    "porém",
+    "atmosfera",
+    "pesada",
+    "baixou",
+    "nos",
+    "telejornais",
+    "brumadinho",
+    "jovens",
+    "atletas",
+    "mortos"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi classificada como de dificuldade média, confirmando a expectativa da Banca",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 67,
+  "paginas_pdf": [
+   20,
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_067.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_067.png",
+   "caixas_pt": [
+    [
+     20,
+     313,
+     698,
+     576,
+     797
+    ]
+   ],
+   "layout": "stack",
+   "largura": 789,
+   "altura": 297,
+   "sha256": "6b87c7fa8eb7891c9c6314385bfa928008d18958a22b1b6e6734ae1be4b66efa",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_067.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.992,
+   "ausentes": [
+    "chuteirasemlogoecomsimbolodeigualdadedegenerofoimaisumgolacodemarta"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "consideraram fácil também pelos candidatos, tendo 66,43% de acertos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 68,
+  "paginas_pdf": [
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "as estatísticas mostraram que ela foi uma questão de média dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 69,
+  "paginas_pdf": [
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_069.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_069.png",
+   "caixas_pt": [
+    [
+     21,
+     335,
+     455,
+     554,
+     609
+    ]
+   ],
+   "layout": "stack",
+   "largura": 657,
+   "altura": 462,
+   "sha256": "6c06c40eded61aba43d6cac5641598fc07f038f94f976a1d2e056544789d8306",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_069.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "as estatísticas mostraram que foi uma questão com índice médio de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 70,
+  "paginas_pdf": [
+   22
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_070.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_070.png",
+   "caixas_pt": [
+    [
+     22,
+     26,
+     274,
+     228,
+     402
+    ],
+    [
+     22,
+     26,
+     415,
+     228,
+     543
+    ],
+    [
+     22,
+     26,
+     559,
+     228,
+     688
+    ],
+    [
+     22,
+     26,
+     693,
+     228,
+     822
+    ]
+   ],
+   "layout": "grid",
+   "largura": 1230,
+   "altura": 789,
+   "sha256": "8fe855e05682a1da5c3360d8304d91ae179a21814417c467d617ed4edb1bf3f7",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_070.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Alternativas exclusivamente gráficas (velocidade × tempo): os quatro gráficos com as letras a–d estão na imagem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "reavaliada como muito fácil e com baixo índice de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 71,
+  "paginas_pdf": [
+   22
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.929,
+   "ausentes": [
+    "aproxime",
+    "sempre",
+    "103",
+    "106",
+    "109"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão teve um grau médio de dificuldade, e uma excelente capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 72,
+  "paginas_pdf": [
+   22
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.748,
+   "ausentes": [
+    "aproxime",
+    "sempre",
+    "texto",
+    "comum",
+    "agências",
+    "espaciais",
+    "norteamericana",
+    "europeia",
+    "desenvolvem",
+    "projeto",
+    "desviar",
+    "trajetória",
+    "através",
+    "especialmente",
+    "enviada",
+    "esse",
+    "fim",
+    "inglês",
+    "teste",
+    "redirecionamento",
+    "duplos",
+    "lançada",
+    "finalidade",
+    "chocar",
+    "2022"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o índice de acertos observado foi menor que o esperado; a questão se revelou como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 73,
+  "paginas_pdf": [
+   22
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.63,
+   "ausentes": [
+    "questões",
+    "aproxime",
+    "sempre",
+    "texto",
+    "comum",
+    "agências",
+    "espaciais",
+    "norteamericana",
+    "europeia",
+    "desenvolvem",
+    "projeto",
+    "desviar",
+    "trajetória",
+    "através",
+    "especialmente",
+    "enviada",
+    "fim",
+    "inglês",
+    "teste",
+    "redirecionamento",
+    "duplos",
+    "será",
+    "lançada",
+    "finalidade",
+    "chocar"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "índice de acertos moderado, indicando que a questão, na verdade, foi difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 74,
+  "paginas_pdf": [
+   23
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_074.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_074.png",
+   "caixas_pt": [
+    [
+     23,
+     56,
+     211,
+     247,
+     349
+    ]
+   ],
+   "layout": "stack",
+   "largura": 573,
+   "altura": 414,
+   "sha256": "9976c598001375a886d8fd0d0bf78b39d266acd5f09af534d1b29f4719fd6c03",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_074.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.959,
+   "ausentes": [
+    "questões",
+    "aproxime",
+    "sempre"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "prevista como de dificuldade média ... O desempenho dos candidatos confirmou o grau de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 75,
+  "paginas_pdf": [
+   23
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.962,
+   "ausentes": [
+    "questões",
+    "aproxime",
+    "sempre"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "O desempenho dos candidatos mostrou que a questão foi difícil, com boa capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 76,
+  "paginas_pdf": [
+   23
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_076.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_076.png",
+   "caixas_pt": [
+    [
+     23,
+     376,
+     226,
+     508,
+     298
+    ]
+   ],
+   "layout": "stack",
+   "largura": 396,
+   "altura": 216,
+   "sha256": "bd756131927ff72bb3f4b0a30ea782966d82d84635ad1cb3416cd8293fc07be0",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_076.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.961,
+   "ausentes": [
+    "questões",
+    "aproxime",
+    "sempre",
+    "necessário"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi efetivamente difícil, mas teve baixo índice de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 77,
+  "paginas_pdf": [
+   23
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.946,
+   "ausentes": [
+    "questões",
+    "aproxime",
+    "sempre",
+    "necessário"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "apresentou, efetivamente, um grau médio de dificuldade e teve um ótimo índice de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 78,
+  "paginas_pdf": [
+   24
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_078.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_078.png",
+   "caixas_pt": [
+    [
+     24,
+     26,
+     224,
+     212,
+     340
+    ],
+    [
+     24,
+     26,
+     360,
+     214,
+     499
+    ],
+    [
+     24,
+     26,
+     508,
+     230,
+     643
+    ],
+    [
+     24,
+     26,
+     661,
+     218,
+     796
+    ]
+   ],
+   "layout": "grid",
+   "largura": 1206,
+   "altura": 840,
+   "sha256": "0f4635bf7b70e0c0ba9f34c9aee57ac293c5334993c879a91ccfcc5a401cf9cf",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_078.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Alternativas exclusivamente gráficas (traçado de raios na lupa): as quatro figuras com as letras a–d estão na imagem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.952,
+   "ausentes": [
+    "questões",
+    "aproxime",
+    "sempre"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "De acordo com o desempenho dos candidatos, a questão foi fácil, com ótimo índice de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 79,
+  "paginas_pdf": [
+   24
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_079.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_079.png",
+   "caixas_pt": [
+    [
+     24,
+     353,
+     209,
+     529,
+     273
+    ],
+    [
+     24,
+     322,
+     300,
+     560,
+     372
+    ]
+   ],
+   "layout": "stack",
+   "largura": 714,
+   "altura": 426,
+   "sha256": "e46654b57216616f49d847bd9e51efa812521ffe779a5ca0f4fc6cc1331aac66",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_079.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.972,
+   "ausentes": [
+    "questões",
+    "aproxime",
+    "sempre"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada DIFÍCIL e com BOA capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 80,
+  "paginas_pdf": [
+   24,
+   25
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": null,
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Na previsão da banca elaboradora, a questão seria fácil. O índice de acertos dos candidatos confirmou a expectativa.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 81,
+  "paginas_pdf": [
+   25
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_081.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_081.png",
+   "caixas_pt": [
+    [
+     25,
+     27,
+     251,
+     141,
+     401
+    ]
+   ],
+   "layout": "stack",
+   "largura": 342,
+   "altura": 450,
+   "sha256": "7ecb92b255eab64b4fecba40a39b5e2ba39e3afca8b131dd8ef5d743fb106908",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_081.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "O desempenho dos candidatos apresentou uma questão de nível fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 82,
+  "paginas_pdf": [
+   25
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 83,
+  "paginas_pdf": [
+   25
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "podemos avaliar que foi considerada fácil pelos candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 84,
+  "paginas_pdf": [
+   26
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi idealizada para configurar um nível de dificuldade mediano",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 85,
+  "paginas_pdf": [
+   26
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A alta porcentagem de acerto (73,10%) indica a facilidade com que a questão foi resolvida",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 86,
+  "paginas_pdf": [
+   26
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2020_qx_questao_086.png",
+   "arquivo_repo": "imagens/unicamp/2020/qx/questao_086.png",
+   "caixas_pt": [
+    [
+     26,
+     312,
+     96,
+     573,
+     264
+    ]
+   ],
+   "layout": "stack",
+   "largura": 783,
+   "altura": 504,
+   "sha256": "f42d82ccf2f3fed91327beeee9645beeb9642f401efa46da6736277d650dbb3c",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/2523f9fd9b53184603acc7b67996398226e0d87f/imagens/unicamp/2020/qx/questao_086.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "O alto índice de acerto da questão (81.26%) indica a facilidade com que foi resolvida",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 87,
+  "paginas_pdf": [
+   26,
+   27
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi elaborada para configurar um nível médio de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 88,
+  "paginas_pdf": [
+   27
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi arquitetada para configurar um nível baixo de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 89,
+  "paginas_pdf": [
+   27
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "61,25% ... escolheram a alternativa correta, o que indica a facilidade da questão",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2020,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 90,
+  "paginas_pdf": [
+   27
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "grau de dificuldade média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ }
+]

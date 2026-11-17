@@ -1,0 +1,568 @@
+{
+ "pareadas": 90,
+ "divergencias": [
+  "Q16: V11=B(=>A) oficial=B",
+  "Q31: V11=C(=>B) oficial=C",
+  "Q32: V11=C(=>A) oficial=C",
+  "Q33: V11=B(=>A) oficial=B",
+  "Q34: V11=C(=>A) oficial=C",
+  "Q36: V11=D(=>A) oficial=D",
+  "Q37: V11=C(=>A) oficial=C",
+  "Q39: V11=B(=>A) oficial=B",
+  "Q41: V11=B(=>A) oficial=B",
+  "Q42: V11=C(=>A) oficial=C",
+  "Q43: V11=D(=>A) oficial=D",
+  "Q44: V11=C(=>A) oficial=C",
+  "Q45: V11=D(=>A) oficial=D",
+  "Q51: V11=C(=>A) oficial=C",
+  "Q56: V11=D(=>A) oficial=D",
+  "Q71: V11=D(=>A) oficial=D",
+  "Q72: V11=B(=>A) oficial=B",
+  "Q73: V11=B(=>A) oficial=B",
+  "Q75: V11=D(=>A) oficial=D",
+  "Q77: V11=C(=>A) oficial=C",
+  "Q79: V11=B(=>A) oficial=B"
+ ],
+ "mapa": [
+  {
+   "num": 1,
+   "sim": 0.98,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 2,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": "imagens/unicamp_2020_QZ_q02.jpg"
+  },
+  {
+   "num": 3,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": ""
+  },
+  {
+   "num": 4,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 5,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": "imagens/unicamp_2020_QZ_q05.jpg"
+  },
+  {
+   "num": 6,
+   "sim": 0.98,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 7,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 8,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": "imagens/unicamp_2020_QZ_q08_v6.png"
+  },
+  {
+   "num": 9,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 10,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 11,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": ""
+  },
+  {
+   "num": 12,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": "imagens/unicamp_2020_QZ_q12_v6.png"
+  },
+  {
+   "num": 13,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 14,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": "imagens/unicamp_2020_QZ_q14_v6.png"
+  },
+  {
+   "num": 15,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 16,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": "imagens/unicamp_2020_QZ_q16.jpg"
+  },
+  {
+   "num": 17,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 18,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": ""
+  },
+  {
+   "num": 19,
+   "sim": 0.99,
+   "v11_resp": "C",
+   "v11_img": "imagens/unicamp_2020_QZ_q19_v6.png"
+  },
+  {
+   "num": 20,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": ""
+  },
+  {
+   "num": 21,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 22,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 23,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": ""
+  },
+  {
+   "num": 24,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 25,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": "imagens/unicamp_2020_QZ_q25_v6.png"
+  },
+  {
+   "num": 26,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": "imagens/unicamp_2020_QZ_q26_v6.png"
+  },
+  {
+   "num": 27,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 28,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": "imagens/unicamp_2020_QZ_q28_v6.png"
+  },
+  {
+   "num": 29,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 30,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 31,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 32,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 33,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 34,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 35,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": ""
+  },
+  {
+   "num": 36,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 37,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 38,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": ""
+  },
+  {
+   "num": 39,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 40,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": "imagens/unicamp_2020_QZ_q40_v6.png"
+  },
+  {
+   "num": 41,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": "imagens/unicamp_2020_QZ_q41_v6.png"
+  },
+  {
+   "num": 42,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": "imagens/unicamp_2020_QZ_q42_v6.png"
+  },
+  {
+   "num": 43,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 44,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 45,
+   "sim": 0.92,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 46,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": "imagens/unicamp_2020_QZ_q46_v8_source.png"
+  },
+  {
+   "num": 47,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": "imagens/unicamp_2020_QZ_q47.jpg"
+  },
+  {
+   "num": 48,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": "imagens/unicamp_2020_QZ_q48_v6.png"
+  },
+  {
+   "num": 49,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 50,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": ""
+  },
+  {
+   "num": 51,
+   "sim": 0.85,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 52,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": "imagens/unicamp_2020_QZ_q52_v6.png"
+  },
+  {
+   "num": 53,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 54,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": "imagens/unicamp_2020_QZ_q54_v6.png"
+  },
+  {
+   "num": 55,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 56,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 57,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 58,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 59,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 60,
+   "sim": 0.98,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 61,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 62,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 63,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 64,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": "imagens/unicamp_2020_QZ_q64_v6.png"
+  },
+  {
+   "num": 65,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": ""
+  },
+  {
+   "num": 66,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 67,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": "imagens/unicamp_2020_QZ_q67_v6.png"
+  },
+  {
+   "num": 68,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 69,
+   "sim": 0.98,
+   "v11_resp": "A",
+   "v11_img": "imagens/unicamp_2020_QZ_q69.jpg"
+  },
+  {
+   "num": 70,
+   "sim": 0.89,
+   "v11_resp": "A",
+   "v11_img": "imagens/unicamp_2020_QZ_q70_v6.png"
+  },
+  {
+   "num": 71,
+   "sim": 0.96,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 72,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 73,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 74,
+   "sim": 0.98,
+   "v11_resp": "A",
+   "v11_img": "imagens/unicamp_2020_QZ_q74_v6.png"
+  },
+  {
+   "num": 75,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 76,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 77,
+   "sim": 0.9,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 78,
+   "sim": 0.91,
+   "v11_resp": "A",
+   "v11_img": "imagens/unicamp_2020_QZ_q78_v6.png"
+  },
+  {
+   "num": 79,
+   "sim": 0.96,
+   "v11_resp": "B",
+   "v11_img": "imagens/unicamp_2020_QZ_q79_v6.png"
+  },
+  {
+   "num": 80,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 81,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": ""
+  },
+  {
+   "num": 82,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 83,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 84,
+   "sim": 1,
+   "v11_resp": "B",
+   "v11_img": ""
+  },
+  {
+   "num": 85,
+   "sim": 1,
+   "v11_resp": "A",
+   "v11_img": ""
+  },
+  {
+   "num": 86,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": "imagens/unicamp_2020_QZ_q86_v6.png"
+  },
+  {
+   "num": 87,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 88,
+   "sim": 1,
+   "v11_resp": "C",
+   "v11_img": ""
+  },
+  {
+   "num": 89,
+   "sim": 1,
+   "v11_resp": "D",
+   "v11_img": ""
+  },
+  {
+   "num": 90,
+   "sim": 0.99,
+   "v11_resp": "B",
+   "v11_img": ""
+  }
+ ]
+}

@@ -1,0 +1,662 @@
+[
+ {
+  "num": 1,
+  "palavras": 95,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 2,
+  "palavras": 37,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 3,
+  "palavras": 78,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 4,
+  "palavras": 185,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 5,
+  "palavras": 82,
+  "cobertura": 0.988,
+  "ausentes": [
+   "publicado"
+  ]
+ },
+ {
+  "num": 6,
+  "palavras": 167,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 7,
+  "palavras": 241,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 8,
+  "palavras": 139,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 9,
+  "palavras": 119,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 10,
+  "palavras": 159,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 11,
+  "palavras": 115,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 12,
+  "palavras": 110,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 13,
+  "palavras": 76,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 14,
+  "palavras": 76,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 15,
+  "palavras": 107,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 16,
+  "palavras": 156,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 17,
+  "palavras": 140,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 18,
+  "palavras": 130,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 19,
+  "palavras": 133,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 20,
+  "palavras": 110,
+  "cobertura": 0.991,
+  "ausentes": [
+   "99259930"
+  ]
+ },
+ {
+  "num": 21,
+  "palavras": 87,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 22,
+  "palavras": 127,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 23,
+  "palavras": 139,
+  "cobertura": 0.993,
+  "ausentes": [
+   "torno"
+  ]
+ },
+ {
+  "num": 24,
+  "palavras": 124,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 25,
+  "palavras": 116,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 26,
+  "palavras": 114,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 27,
+  "palavras": 91,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 28,
+  "palavras": 113,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 29,
+  "palavras": 87,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 30,
+  "palavras": 116,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 31,
+  "palavras": 100,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 32,
+  "palavras": 25,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 33,
+  "palavras": 30,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 34,
+  "palavras": 31,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 35,
+  "palavras": 12,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 36,
+  "palavras": 19,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 37,
+  "palavras": 18,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 38,
+  "palavras": 17,
+  "cobertura": 0.941,
+  "ausentes": [
+   "abx"
+  ]
+ },
+ {
+  "num": 39,
+  "palavras": 12,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 40,
+  "palavras": 16,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 41,
+  "palavras": 9,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 42,
+  "palavras": 25,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 43,
+  "palavras": 20,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 44,
+  "palavras": 18,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 45,
+  "palavras": 104,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 46,
+  "palavras": 129,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 47,
+  "palavras": 141,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 48,
+  "palavras": 93,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 49,
+  "palavras": 155,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 50,
+  "palavras": 64,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 51,
+  "palavras": 77,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 52,
+  "palavras": 151,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 53,
+  "palavras": 120,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 54,
+  "palavras": 69,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 55,
+  "palavras": 189,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 56,
+  "palavras": 86,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 57,
+  "palavras": 95,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 58,
+  "palavras": 124,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 59,
+  "palavras": 160,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 60,
+  "palavras": 83,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 61,
+  "palavras": 102,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 62,
+  "palavras": 134,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 63,
+  "palavras": 99,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 64,
+  "palavras": 153,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 65,
+  "palavras": 168,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 66,
+  "palavras": 164,
+  "cobertura": 0.543,
+  "ausentes": [
+   "telejornalismo",
+   "principais",
+   "produtos",
+   "televisivos",
+   "sejam",
+   "boas",
+   "garantir",
+   "experiência",
+   "esteticamente",
+   "agradável",
+   "suma",
+   "atrair",
+   "prestígio",
+   "anunciante",
+   "rentabilidade",
+   "porém",
+   "atmosfera",
+   "pesada",
+   "baixou",
+   "nos",
+   "telejornais",
+   "brumadinho",
+   "jovens",
+   "atletas",
+   "mortos"
+  ]
+ },
+ {
+  "num": 67,
+  "palavras": 125,
+  "cobertura": 0.992,
+  "ausentes": [
+   "chuteirasemlogoecomsimbolodeigualdadedegenerofoimaisumgolacodemarta"
+  ]
+ },
+ {
+  "num": 68,
+  "palavras": 211,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 69,
+  "palavras": 159,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 70,
+  "palavras": 79,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 71,
+  "palavras": 84,
+  "cobertura": 0.929,
+  "ausentes": [
+   "aproxime",
+   "sempre",
+   "103",
+   "106",
+   "109"
+  ]
+ },
+ {
+  "num": 72,
+  "palavras": 111,
+  "cobertura": 0.748,
+  "ausentes": [
+   "aproxime",
+   "sempre",
+   "texto",
+   "comum",
+   "agências",
+   "espaciais",
+   "norteamericana",
+   "europeia",
+   "desenvolvem",
+   "projeto",
+   "desviar",
+   "trajetória",
+   "através",
+   "especialmente",
+   "enviada",
+   "esse",
+   "fim",
+   "inglês",
+   "teste",
+   "redirecionamento",
+   "duplos",
+   "lançada",
+   "finalidade",
+   "chocar",
+   "2022"
+  ]
+ },
+ {
+  "num": 73,
+  "palavras": 81,
+  "cobertura": 0.63,
+  "ausentes": [
+   "questões",
+   "aproxime",
+   "sempre",
+   "texto",
+   "comum",
+   "agências",
+   "espaciais",
+   "norteamericana",
+   "europeia",
+   "desenvolvem",
+   "projeto",
+   "desviar",
+   "trajetória",
+   "através",
+   "especialmente",
+   "enviada",
+   "fim",
+   "inglês",
+   "teste",
+   "redirecionamento",
+   "duplos",
+   "será",
+   "lançada",
+   "finalidade",
+   "chocar"
+  ]
+ },
+ {
+  "num": 74,
+  "palavras": 74,
+  "cobertura": 0.959,
+  "ausentes": [
+   "questões",
+   "aproxime",
+   "sempre"
+  ]
+ },
+ {
+  "num": 75,
+  "palavras": 78,
+  "cobertura": 0.962,
+  "ausentes": [
+   "questões",
+   "aproxime",
+   "sempre"
+  ]
+ },
+ {
+  "num": 76,
+  "palavras": 102,
+  "cobertura": 0.961,
+  "ausentes": [
+   "questões",
+   "aproxime",
+   "sempre",
+   "necessário"
+  ]
+ },
+ {
+  "num": 77,
+  "palavras": 74,
+  "cobertura": 0.946,
+  "ausentes": [
+   "questões",
+   "aproxime",
+   "sempre",
+   "necessário"
+  ]
+ },
+ {
+  "num": 78,
+  "palavras": 62,
+  "cobertura": 0.952,
+  "ausentes": [
+   "questões",
+   "aproxime",
+   "sempre"
+  ]
+ },
+ {
+  "num": 79,
+  "palavras": 108,
+  "cobertura": 0.972,
+  "ausentes": [
+   "questões",
+   "aproxime",
+   "sempre"
+  ]
+ },
+ {
+  "num": 80,
+  "palavras": 115,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 81,
+  "palavras": 151,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 82,
+  "palavras": 172,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 83,
+  "palavras": 198,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 84,
+  "palavras": 148,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 85,
+  "palavras": 154,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 86,
+  "palavras": 131,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 87,
+  "palavras": 170,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 88,
+  "palavras": 142,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 89,
+  "palavras": 178,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 90,
+  "palavras": 184,
+  "cobertura": 1,
+  "ausentes": []
+ }
+]

@@ -1,0 +1,70 @@
+{
+ "pdf": "../src/oficial/2020/f12020Q_X.pdf",
+ "outDir": "../out/2020",
+ "firstPage": 3,
+ "top": 78,
+ "bottom": 805,
+ "colX": [
+  28,
+  315
+ ],
+ "colRight": [
+  282,
+  569
+ ],
+ "dehyphen": [
+  "Aces-sado",
+  "Acessa-do"
+ ],
+ "mathMap": {
+  "": "−",
+  "": "=",
+  "": "+",
+  "": "Δ",
+  "": "π",
+  "": "θ",
+  "": "ρ",
+  "": "λ",
+  "": "→",
+  "": "×",
+  "": "⋅",
+  "": "→",
+  "ሺ": "(",
+  "ሻ": ")",
+  "ൌ": "=",
+  "൅": "+",
+  "െ": "−",
+  "൫": "(",
+  "൯": ")",
+  "ଶ": "2",
+  "ଷ": "3",
+  "௫": "x",
+  "்": "T",
+  "ర": "4",
+  "്": "≠",
+  "ඥ": "√",
+  "൤": "[",
+  "൨": "]",
+  "ത": ""
+ },
+ "review": "review2020.mjs",
+ "imgPrefix": "unicamp_2020_qx",
+ "cropScale": 3,
+ "vestibular": "UNICAMP",
+ "ano": 2020,
+ "fase": "1ª fase (Conhecimentos Gerais)",
+ "caderno": "Provas Q e X",
+ "numAlternativas": 4,
+ "totalQuestoes": 90,
+ "pdfUrl": "https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf",
+ "gabaritoUrl": "https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X)",
+ "comentadaUrl": "https://www.comvest.unicamp.br/wp-content/uploads/2020/10/prova_comentada_F1_2020.pdf",
+ "explicFiles": [
+  "explic_1_45.json",
+  "explic_46_90.json"
+ ],
+ "finalName": "unicamp_2020_1fase_qx_90_questoes.json",
+ "repoDir": "imagens/unicamp/2020/qx",
+ "repoFilePrefix": "questao_",
+ "explicOverrides": "explic_overrides.json"
+}
