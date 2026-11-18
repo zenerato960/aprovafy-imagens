@@ -7,6 +7,6 @@ const { items } = await pageItems(doc, +pg);
 const lines = toLines(items, 2.5);
 const head = lines.slice(0, 3).map(l => l.text).join(' | ');
 const ans = {};
-for (const l of lines) for (const m of l.text.matchAll(/\b(\d{2})\s+([A-D]|\*|ANULADA|Anulada)/g)) ans[+m[1]] = m[2].length === 1 ? m[2] : 'Anulado';
+for (const l of lines) for (const m of l.text.matchAll(/\b(\d{2})\s+([A-D]|\*|ANULADA|Anulada)/g)) ans[+m[1]] = /^[A-D]$/.test(m[2]) ? m[2] : 'Anulado'; // '*' = questão anulada (legenda do gabarito Comvest)
 fs.writeFileSync(out, JSON.stringify({ fonte: file.split('/').pop(), pagina: +pg, cabecalho: head, respostas: ans }, null, 1));
 console.log(head, '| total', Object.keys(ans).length);

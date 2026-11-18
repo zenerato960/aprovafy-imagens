@@ -1,0 +1,469 @@
+[
+ {
+  "num": 1,
+  "palavras": 199,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 2,
+  "palavras": 78,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 3,
+  "palavras": 143,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 4,
+  "palavras": 74,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 5,
+  "palavras": 109,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 6,
+  "palavras": 116,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 7,
+  "palavras": 240,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 8,
+  "palavras": 35,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 9,
+  "palavras": 97,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 10,
+  "palavras": 261,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 11,
+  "palavras": 42,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 12,
+  "palavras": 87,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 13,
+  "palavras": 35,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 14,
+  "palavras": 69,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 15,
+  "palavras": 177,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 16,
+  "palavras": 163,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 17,
+  "palavras": 200,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 18,
+  "palavras": 63,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 19,
+  "palavras": 194,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 20,
+  "palavras": 94,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 21,
+  "palavras": 9,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 22,
+  "palavras": 7,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 23,
+  "palavras": 16,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 24,
+  "palavras": 87,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 25,
+  "palavras": 93,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 26,
+  "palavras": 4,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 27,
+  "palavras": 21,
+  "cobertura": 0.952,
+  "ausentes": [
+   "b22"
+  ]
+ },
+ {
+  "num": 28,
+  "palavras": 13,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 29,
+  "palavras": 18,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 30,
+  "palavras": 26,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 31,
+  "palavras": 20,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 32,
+  "palavras": 52,
+  "cobertura": 0.981,
+  "ausentes": [
+   "cm3"
+  ]
+ },
+ {
+  "num": 33,
+  "palavras": 33,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 34,
+  "palavras": 94,
+  "cobertura": 0.989,
+  "ausentes": [
+   "sempre"
+  ]
+ },
+ {
+  "num": 35,
+  "palavras": 44,
+  "cobertura": 0.932,
+  "ausentes": [
+   "questões",
+   "sempre",
+   "use"
+  ]
+ },
+ {
+  "num": 36,
+  "palavras": 32,
+  "cobertura": 0.906,
+  "ausentes": [
+   "questões",
+   "sempre",
+   "necessário"
+  ]
+ },
+ {
+  "num": 37,
+  "palavras": 61,
+  "cobertura": 0.951,
+  "ausentes": [
+   "questões",
+   "sempre",
+   "necessário"
+  ]
+ },
+ {
+  "num": 38,
+  "palavras": 52,
+  "cobertura": 0.942,
+  "ausentes": [
+   "questões",
+   "sempre",
+   "necessário"
+  ]
+ },
+ {
+  "num": 39,
+  "palavras": 54,
+  "cobertura": 0.944,
+  "ausentes": [
+   "questões",
+   "sempre",
+   "necessário"
+  ]
+ },
+ {
+  "num": 40,
+  "palavras": 76,
+  "cobertura": 0.961,
+  "ausentes": [
+   "questões",
+   "sempre",
+   "necessário"
+  ]
+ },
+ {
+  "num": 41,
+  "palavras": 74,
+  "cobertura": 0.892,
+  "ausentes": [
+   "conjunto",
+   "triângulos"
+  ]
+ },
+ {
+  "num": 42,
+  "palavras": 60,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 43,
+  "palavras": 78,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 44,
+  "palavras": 106,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 45,
+  "palavras": 90,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 46,
+  "palavras": 140,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 47,
+  "palavras": 95,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 48,
+  "palavras": 166,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 49,
+  "palavras": 61,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 50,
+  "palavras": 71,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 51,
+  "palavras": 177,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 52,
+  "palavras": 131,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 53,
+  "palavras": 140,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 54,
+  "palavras": 51,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 55,
+  "palavras": 147,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 56,
+  "palavras": 112,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 57,
+  "palavras": 120,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 58,
+  "palavras": 161,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 59,
+  "palavras": 227,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 60,
+  "palavras": 160,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 61,
+  "palavras": 130,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 62,
+  "palavras": 148,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 63,
+  "palavras": 161,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 64,
+  "palavras": 110,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 65,
+  "palavras": 142,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 66,
+  "palavras": 124,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 67,
+  "palavras": 123,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 68,
+  "palavras": 56,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 69,
+  "palavras": 175,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 70,
+  "palavras": 138,
+  "cobertura": 0.993,
+  "ausentes": [
+   "ambientaisde"
+  ]
+ },
+ {
+  "num": 71,
+  "palavras": 160,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 72,
+  "palavras": 126,
+  "cobertura": 1,
+  "ausentes": []
+ }
+]

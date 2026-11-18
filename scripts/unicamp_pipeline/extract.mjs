@@ -13,8 +13,8 @@ const doc = await openPdf(cfg.pdf);
 const TOP = cfg.top ?? 78, BOTTOM = cfg.bottom ?? 805;
 const MATH = cfg.mathMap || {};
 const QHEAD = /^QUESTÃO\s+(\d+)$/;
-const SHARED = /^(Texto comum às questões|Textos? comuns? às questões|Leia o texto a seguir e responda às questões|Leia os textos a seguir e responda às questões)/i;
-const NOTE = /^Obs\.?:/i;
+const SHARED = /^(Textos? comu(m|ns) (às|para|para as) questões|Leia os? textos? a seguir e responda às questões|O texto abaixo será utilizado nas questões|Os textos abaixo serão utilizados nas questões)/i;
+const NOTE = /^(Obs\.?:|Nas questões de \d+ a \d+)/i;
 
 // Letras matemáticas (𝑎, ℎ, 𝜃...) viram letras comuns; símbolos de fonte Symbol via mapa da prova.
 const mapChars = s => [...s].map(c => {
@@ -105,7 +105,9 @@ function paragraphs(lines) {
     const colRight = cfg.colRight[ln.col];
     const shortPrev = prev && !small && prev.x1 < cfg.colRight[prev.col] - 45;          // linha anterior curta = fim de parágrafo/verso
     const colJump = prev && gap === null && /[.:?!”"]$/.test(prev.text);               // mudança de coluna após fim de frase
-    const starts = /^([–—-]\s|\[\d+\]|Texto [IVX]+\b)/.test(ln.text) || /^Texto [IVX]+$/.test(prev?.text || '');
+    // travessão inicia parágrafo (fala de diálogo) só se a linha anterior terminou a frase
+    const dashStart = /^[–—-]\s/.test(ln.text) && (!prev || /[.:?!”"…]$/.test(prev.text));
+    const starts = dashStart || /^(\[\d+\]|Texto [IVX]+\b)/.test(ln.text) || /^Texto [IVX]+$/.test(prev?.text || '');
     const newPara = !p || (gap !== null && gap > Math.max(prev.h, ln.h) * 1.55) || (prev && (prev.h < 7.5) !== small) || shortPrev || colJump || starts;
     if (newPara) { p = { lines: [ln], small }; paras.push(p); } else p.lines.push(ln);
     prev = ln;
@@ -163,12 +165,35 @@ for (const b of blocks.filter(b => b.type === 'Q')) {
   const colX = c => cfg.colX[c];
   const stem = [], alts = { a: [], b: [], c: [], d: [] };
   let curAlt = null;
-  for (const ln of b.lines) {
+  const used = new Set(), markers = [];
+  // alternativas em grade (a c / b d): divide linhas como "a) 1,25. c) 3,20." em duas
+  const lines = b.lines.flatMap(ln => {
+    if (!ALT.test(ln.text)) return [ln];
+    const parts = ln.text.split(/\s+(?=[b-d]\)\s)/);
+    if (parts.length === 1) return [ln];
+    const w = (ln.x1 - ln.x0) / ln.text.length;
+    let off = 0;
+    return parts.map(t => { const x0 = ln.x0 + off * w; off += t.length + 1; return { ...ln, text: t, x0 }; });
+  });
+  for (const ln of lines) {
     const m = ln.text.match(ALT);
-    if (m && Math.abs(ln.x0 - colX(ln.col)) < 6 && (curAlt ? m[1].charCodeAt(0) === curAlt.charCodeAt(0) + 1 : m[1] === 'a')) {
-      curAlt = m[1]; alts[curAlt].push({ ...ln, text: m[2] }); continue;
+    const atMargin = Math.abs(ln.x0 - colX(ln.col)) < 6;
+    const ok = m && !used.has(m[1]) && (m[1] === 'a' ? atMargin : used.size > 0);
+    if (ok) {
+      curAlt = m[1]; used.add(curAlt); markers.push({ k: curAlt, x0: ln.x0, pn: ln.pn, col: ln.col });
+      alts[curAlt].push({ ...ln, text: m[2] }); continue;
     }
-    if (curAlt) alts[curAlt].push(ln); else stem.push(ln);
+    if (curAlt) {
+      // continuação: alternativa cujo marcador está mais próximo à esquerda na mesma coluna
+      // Grade (a c / b d) só quando há marcadores lado a lado (x distantes > 80 pt) na mesma coluna;
+      // nesse caso a continuação vai para o marcador mais próximo à esquerda. Caso contrário, alternativas
+      // empilhadas: vale a mais recente (mesmo que o rótulo esteja recuado, como "  a)").
+      const same = markers.filter(mk => mk.pn === ln.pn && mk.col === ln.col);
+      const grid = same.some(p => same.some(q => Math.abs(p.x0 - q.x0) > 80));
+      let cand = null;
+      if (grid) for (const mk of same) if (mk.x0 <= ln.x0 + 25 && (!cand || mk.x0 >= cand.x0 - 2)) cand = mk;
+      alts[cand ? cand.k : curAlt].push(ln);
+    } else stem.push(ln);
   }
   const sh = blocks.find(s => s.type === 'S' && s.qs.includes(b.num));
   const regs = regionsOf(b);

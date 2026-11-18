@@ -1,0 +1,2427 @@
+[
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 1,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_001.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_001.png",
+   "caixas_pt": [
+    [
+     3,
+     88.38,
+     279.18000000000006,
+     220.01999999999998,
+     486.42
+    ]
+   ],
+   "layout": "stack",
+   "largura": 395,
+   "altura": 622,
+   "sha256": "91cc81e45a9b91da5a284a7ea25e50bf644b83bae67a3e410b833904e5e35dbc",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_001.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão mostrou-se muito fácil para os candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 2,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "previa que a questão teria um nível médio de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 3,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o índice de acerto aponta um nível médio de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 4,
+  "paginas_pdf": [
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Entretanto, a questão foi muito difícil.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 5,
+  "paginas_pdf": [
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "foi considerada difícil pela banca elaboradora",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 6,
+  "paginas_pdf": [
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi difícil para a maioria dos candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 7,
+  "paginas_pdf": [
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo considerada fácil, segundo os dados estatísticos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 8,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "revelou-se muito fácil no desempenho dos candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 9,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_009.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_009.png",
+   "caixas_pt": [
+    [
+     5,
+     27.96,
+     322.79999999999995,
+     290.03999999999996,
+     593.22
+    ]
+   ],
+   "layout": "stack",
+   "largura": 787,
+   "altura": 812,
+   "sha256": "dd777e9b5310b5ef9fe84692283325c2f5523fc825a60b7ecbb00510b59b955f",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_009.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi considerada fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 10,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi muito difícil, com apenas 9.18% de acertos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 11,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi difícil, com 33,72% de acertos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 12,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_012.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_012.png",
+   "caixas_pt": [
+    [
+     6,
+     27.96,
+     133.55999999999995,
+     285.59999999999997,
+     568.44
+    ]
+   ],
+   "layout": "stack",
+   "largura": 773,
+   "altura": 1305,
+   "sha256": "651396b76d4b381d5fb635b769aa6bf08bcb567f54b56d022564ae326a43e235",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_012.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "foi considerada média, confirmando a expectativa das bancas elaboradora e revisora",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 13,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_013.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_013.png",
+   "caixas_pt": [
+    [
+     6,
+     313.56,
+     86.75999999999999,
+     565.3199999999999,
+     262.62
+    ]
+   ],
+   "layout": "stack",
+   "largura": 756,
+   "altura": 528,
+   "sha256": "611eb43260e7a6ac8cba0f7404b75f6ace6d7874f34f7ca5ab779b1b2c47d6c8",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_013.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão se mostrou fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 14,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_014.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_014.png",
+   "caixas_pt": [
+    [
+     6,
+     373.98,
+     468,
+     508.44000000000005,
+     594
+    ]
+   ],
+   "layout": "stack",
+   "largura": 404,
+   "altura": 378,
+   "sha256": "eb81d4cf8888cbdc6875df12f3f30d7c0ab64faa1a5fba772d14166c9ff0f699",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_014.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "tendo a questão se revelado fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 15,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_015.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_015.png",
+   "caixas_pt": [
+    [
+     7,
+     27.96,
+     125.57999999999993,
+     101.22,
+     238.79999999999995
+    ]
+   ],
+   "layout": "stack",
+   "largura": 220,
+   "altura": 340,
+   "sha256": "aed087a320a5ba74bbb182f9344c02e2c04e5b5daec5ffeb5b5fb669e47be7d5",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_015.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi considerada difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 16,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão se revelou de dificuldade média para os candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 17,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão se revelou fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 18,
+  "paginas_pdf": [
+   7,
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão 18 revelou-se muito fácil para os candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 19,
+  "paginas_pdf": [
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão se revelou fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 20,
+  "paginas_pdf": [
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_020.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_020.png",
+   "caixas_pt": [
+    [
+     8,
+     313,
+     145,
+     588,
+     294
+    ],
+    [
+     8,
+     313,
+     309,
+     588,
+     460
+    ],
+    [
+     8,
+     313,
+     476,
+     588,
+     625
+    ],
+    [
+     8,
+     313,
+     646,
+     588,
+     795
+    ]
+   ],
+   "layout": "grid",
+   "largura": 1668,
+   "altura": 918,
+   "sha256": "a80d4836bc32c2266ba70cdcb83c095398ea2d4b05b6626e6da902d192c5b76a",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_020.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Alternativas exclusivamente gráficas: as quatro ilustrações, com as letras a–d, estão na imagem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão se mostrou fácil para os candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 21,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada de dificuldade média pela COMVEST",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 22,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "Fração composta escrita em linha: numerador (1/2 + 1/3), denominador (x/4 + 1/x).",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como média pela COMVEST",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 23,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_023.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_023.png",
+   "caixas_pt": [
+    [
+     9,
+     28,
+     407,
+     140,
+     500
+    ],
+    [
+     9,
+     28,
+     503,
+     140,
+     597
+    ],
+    [
+     9,
+     28,
+     601,
+     140,
+     695
+    ],
+    [
+     9,
+     28,
+     695,
+     140,
+     790
+    ]
+   ],
+   "layout": "grid",
+   "largura": 690,
+   "altura": 585,
+   "sha256": "f2d1eaaae59c88d3a2d8efb1f4b20a8262f27bca1ac69a81d9e45f3063b50726",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_023.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Alternativas exclusivamente gráficas: os quatro gráficos, com as letras a–d, estão na imagem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada pela banca elaboradora e pela COMVEST como média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 24,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A COMVEST classificou a questão como difícil.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 25,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada difícil pela COMVEST",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 26,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "tendo a questão sido classificada como média pela COMVEST",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 27,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.952,
+   "ausentes": [
+    "b22"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi avaliada como difícil pela banca elaboradora e pela COMVEST",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 28,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_028.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_028.png",
+   "caixas_pt": [
+    [
+     10,
+     82.38,
+     106.80000000000007,
+     225.24,
+     217.20000000000005
+    ]
+   ],
+   "layout": "stack",
+   "largura": 429,
+   "altura": 332,
+   "sha256": "e56db74d75d52ce597253e37c73fd1cd44fae0dbfad28b8813ec72f22e59dbc8",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_028.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi avaliada como difícil pela banca elaboradora e pela COMVEST",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 29,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "Matriz 2×2 escrita em linha: [a b; c d] = 1ª linha (a, b), 2ª linha (c, d). A alternativa a) não tem ponto final no original.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo considerada de dificuldade média pela banca elaboradora e pela COMVEST",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 30,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi considerada difícil pela COMVEST.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 31,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi considerada como difícil pela COMVEST.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 32,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.981,
+   "ausentes": [
+    "cm3"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como média pela COMVEST",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 33,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão acabou sendo classificada como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 34,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_034.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_034.png",
+   "caixas_pt": [
+    [
+     10,
+     358,
+     640,
+     548,
+     768
+    ]
+   ],
+   "layout": "stack",
+   "largura": 570,
+   "altura": 384,
+   "sha256": "93dd84661010a33b5e59f76841ddef2ae52d0172140d65bd21c1a0c90e700e15",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_034.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.989,
+   "ausentes": [
+    "sempre"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "O desempenho dos candidatos confirmou o grau médio de dificuldade da questão",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 35,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.932,
+   "ausentes": [
+    "questões",
+    "sempre",
+    "use"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Entretanto, o desempenho dos candidatos mostrou que a questão foi difícil.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 36,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.906,
+   "ausentes": [
+    "questões",
+    "sempre",
+    "necessário"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi efetivamente fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 37,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.951,
+   "ausentes": [
+    "questões",
+    "sempre",
+    "necessário"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi classificada como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 38,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.942,
+   "ausentes": [
+    "questões",
+    "sempre",
+    "necessário"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi classificada como de dificuldade média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 39,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_039.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_039.png",
+   "caixas_pt": [
+    [
+     11,
+     324,
+     228,
+     558,
+     372
+    ]
+   ],
+   "layout": "stack",
+   "largura": 702,
+   "altura": 432,
+   "sha256": "99dcf192c7313b85d189bb602e32248ec6c890787f1ae8d3b18db707628bc79d",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_039.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.944,
+   "ausentes": [
+    "questões",
+    "sempre",
+    "necessário"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "O desempenho dos candidatos mostrou que a questão foi de dificuldade média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 40,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_040.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_040.png",
+   "caixas_pt": [
+    [
+     11,
+     322,
+     603,
+     564,
+     706
+    ]
+   ],
+   "layout": "stack",
+   "largura": 726,
+   "altura": 309,
+   "sha256": "6ccc0ce73ddd772335d6a8a331981185365ef1aeccb7d077576fa952c5339d8f",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_040.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.961,
+   "ausentes": [
+    "questões",
+    "sempre",
+    "necessário"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão acabou sendo classificada como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 41,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_041.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_041.png",
+   "caixas_pt": [
+    [
+     12,
+     66,
+     144,
+     258,
+     368
+    ],
+    [
+     12,
+     26,
+     444,
+     272,
+     808
+    ]
+   ],
+   "layout": "stack",
+   "largura": 738,
+   "altura": 1782,
+   "sha256": "b0dd5f75b8ac75db11037b454c5c8aea7e0ce3284d58e4d41dd754cfdd95042c",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_041.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Alternativas gráficas: cada alternativa é uma sequência de três triângulos do fogo (ações A, B e C), na imagem com as letras a–d.",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.892,
+   "ausentes": [
+    "conjunto",
+    "triângulos"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo, portanto, de nível médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 42,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "índice de facilidade de 0,34, sendo, portanto, difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 43,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_043.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_043.png",
+   "caixas_pt": [
+    [
+     12,
+     341.58,
+     464.76,
+     540.8399999999999,
+     637.62
+    ]
+   ],
+   "layout": "stack",
+   "largura": 598,
+   "altura": 519,
+   "sha256": "dd784ffb6d6573a3ef6e855e4939a52f4a51a053c23810b943e7c4e71ad83001",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_043.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo, portanto, de nível médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 44,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo, portanto, difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 45,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_045.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_045.png",
+   "caixas_pt": [
+    [
+     13,
+     40.8,
+     463.98,
+     267.24,
+     633.6
+    ]
+   ],
+   "layout": "stack",
+   "largura": 680,
+   "altura": 509,
+   "sha256": "229e7675c23584a589b37998e8e8643e5ca68b6b3dfd2a2d27289fbb08ad65c1",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_045.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "classificaram esta questão como de dificuldade média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 46,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo, portanto, difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 47,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo, portanto, difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 48,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_048.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_048.png",
+   "caixas_pt": [
+    [
+     14,
+     27.96,
+     220.79999999999995,
+     283.2,
+     424.8
+    ]
+   ],
+   "layout": "stack",
+   "largura": 766,
+   "altura": 613,
+   "sha256": "1f4f710eed38ac6ce4e0c7b3b41a1adf51d4eb037869d1aafef5e6d7be808e99",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_048.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "e difícil, com IF de 0,32",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 49,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_049.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_049.png",
+   "caixas_pt": [
+    [
+     14,
+     320.76,
+     66,
+     561.6,
+     219.24
+    ]
+   ],
+   "layout": "stack",
+   "largura": 723,
+   "altura": 460,
+   "sha256": "436c5a422883932f2f02e68f92290aded669940764991424ac2012b0613ebde8",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_049.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada MÉDIA",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 50,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada DIFÍCIL",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 51,
+  "paginas_pdf": [
+   14,
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada MÉDIA",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 52,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada MUITO FÁCIL",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 53,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_053.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_053.png",
+   "caixas_pt": [
+    [
+     15,
+     302.4,
+     254.76,
+     566.4,
+     388.44
+    ]
+   ],
+   "layout": "stack",
+   "largura": 792,
+   "altura": 402,
+   "sha256": "02ef6d5bea8bdc71a123d93f323af6bc2dc452f1d689e7839d8218b3908a3f4d",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_053.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada MÉDIA",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 54,
+  "paginas_pdf": [
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada MÉDIA",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 55,
+  "paginas_pdf": [
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_055.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_055.png",
+   "caixas_pt": [
+    [
+     16,
+     66.78,
+     526.38,
+     241.62,
+     698.8199999999999
+    ],
+    [
+     16,
+     27.96,
+     708.78,
+     264.42,
+     792.42
+    ]
+   ],
+   "layout": "stack",
+   "largura": 710,
+   "altura": 787,
+   "sha256": "b2ba9601c41284106c17c0c6a81e16891fb0e2d39e355dc167e23226cb848fef",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_055.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada DIFÍCIL",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 56,
+  "paginas_pdf": [
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada DIFÍCIL",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 57,
+  "paginas_pdf": [
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "que se revelou Fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 58,
+  "paginas_pdf": [
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o que a identifica como Média em termos de índice de facilidade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 59,
+  "paginas_pdf": [
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "indicando que ela foi Muito Fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 60,
+  "paginas_pdf": [
+   17,
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi, na verdade, de nível Médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 61,
+  "paginas_pdf": [
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_061.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_061.png",
+   "caixas_pt": [
+    [
+     18,
+     47.65,
+     168.89999999999998,
+     260.59999999999997,
+     319.94999999999993
+    ]
+   ],
+   "layout": "stack",
+   "largura": 639,
+   "altura": 454,
+   "sha256": "ad1080507a4befbf6520ff398a10e38a950389d0736d52a8873a41a47988365f",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_061.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A banca revisora classificou a questão como fácil, o que foi confirmado pelo desempenho dos candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 62,
+  "paginas_pdf": [
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "O desempenho dos candidatos mostrou que ela foi Muito Fácil.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 63,
+  "paginas_pdf": [
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o IF ficou em 0,955 (Muito Fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 64,
+  "paginas_pdf": [
+   18,
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_064.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_064.png",
+   "caixas_pt": [
+    [
+     18,
+     336,
+     644,
+     577,
+     781
+    ]
+   ],
+   "layout": "stack",
+   "largura": 723,
+   "altura": 411,
+   "sha256": "d92f76af4a137337e0e3e6a123d3c4637db7b4fefdb7f7d7e4825306975810b1",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_064.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "indicando que a questão foi Muito Fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 65,
+  "paginas_pdf": [
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_065.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_065.png",
+   "caixas_pt": [
+    [
+     19,
+     31.9,
+     324.7199999999999,
+     274.68,
+     586.72
+    ]
+   ],
+   "layout": "stack",
+   "largura": 729,
+   "altura": 787,
+   "sha256": "d406a49d531d827bebddf56f7c16457cc1d2cfcb6519747688946ffc5ca31df5",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_065.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A banca elaboradora e a banca revisora consideraram a questão fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 66,
+  "paginas_pdf": [
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_066.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_066.png",
+   "caixas_pt": [
+    [
+     19,
+     318.12,
+     188.39999999999998,
+     562.9200000000001,
+     345.94999999999993
+    ]
+   ],
+   "layout": "stack",
+   "largura": 735,
+   "altura": 473,
+   "sha256": "20b45b5a5f7b59506dbf0e4c7bfbb5c99b64fa67f1abc2b1d242e5472c3ac033",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_066.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi considerada muito fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 67,
+  "paginas_pdf": [
+   19,
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A banca elaboradora e a banca revisora consideraram a questão fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 68,
+  "paginas_pdf": [
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_068.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_068.png",
+   "caixas_pt": [
+    [
+     20,
+     28,
+     256,
+     300,
+     815
+    ]
+   ],
+   "layout": "stack",
+   "largura": 816,
+   "altura": 1677,
+   "sha256": "9067fbc3f1e1465ca0f775078b43a3802c7c560e9f318ed03e656f64dfb347c1",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_068.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão apresentou um elevado grau de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 69,
+  "paginas_pdf": [
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão apresentou um grau de dificuldade médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 70,
+  "paginas_pdf": [
+   20,
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_070.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_070.png",
+   "caixas_pt": [
+    [
+     21,
+     10,
+     16,
+     296,
+     216
+    ]
+   ],
+   "layout": "stack",
+   "largura": 858,
+   "altura": 600,
+   "sha256": "2434cea2ecaed7727cdc2b5c03264c03d810a8c745989c5f68c79db7bc4dc5dc",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_070.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.993,
+   "ausentes": [
+    "ambientaisde"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Esta foi a questão mais dificil da prova",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 71,
+  "paginas_pdf": [
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_071.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_071.png",
+   "caixas_pt": [
+    [
+     21,
+     24,
+     604,
+     292,
+     824
+    ],
+    [
+     21,
+     303,
+     16,
+     515,
+     62
+    ],
+    [
+     21,
+     303,
+     62,
+     594,
+     238
+    ]
+   ],
+   "layout": "stack",
+   "largura": 873,
+   "altura": 1326,
+   "sha256": "21bc67995676155cebfea521edfd5cb14ea16fa8f0bd213aab9a8cb8bb339e2b",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_071.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Imagem com o Mapa 1 seguido do Mapa 2. O topo do Mapa 2 foi recortado separadamente para excluir a logomarca do cabeçalho, sem perda de conteúdo.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi considerada fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas E e G (dia 1: Ciências Humanas/Artes e Exatas/Tecnológicas)",
+  "numero_original": 72,
+  "paginas_pdf": [
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021E_G.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA1_gabarito_2021.pdf (pág. 1, PROVAS E e G)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi considerada fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ }
+]

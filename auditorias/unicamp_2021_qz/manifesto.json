@@ -1,0 +1,2384 @@
+[
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 1,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada de nível médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 2,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "teria um nível médio de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 3,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Critério: sem nível declarado na comentada; soneto de leitura direta nos tercetos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 4,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão se mostrou de nível médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 5,
+  "paginas_pdf": [
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "seria de nível médio, o que se confirmou nos dados estatísticos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 6,
+  "paginas_pdf": [
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "previa um grau médio de dificuldade, expectativa que se confirmou",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 7,
+  "paginas_pdf": [
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi considerada difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 8,
+  "paginas_pdf": [
+   4,
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 9,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Os dados estatísticos mostraram que a questão foi fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 10,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi de dificuldade média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 11,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "mas as estatísticas mostram que seu nível de dificuldade foi médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 12,
+  "paginas_pdf": [
+   5,
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 13,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_013.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_013.png",
+   "caixas_pt": [
+    [
+     6,
+     59.7,
+     312.7800000000001,
+     248.10000000000002,
+     561.84
+    ]
+   ],
+   "layout": "stack",
+   "largura": 566,
+   "altura": 748,
+   "sha256": "0f33e002f10782f229be922afe500a17b13b0337a466cd0961f5d4b20ccddead",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_013.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi avaliada estatisticamente como fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 14,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_014.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_014.png",
+   "caixas_pt": [
+    [
+     6,
+     330.36,
+     66,
+     552,
+     394.44
+    ]
+   ],
+   "layout": "stack",
+   "largura": 665,
+   "altura": 986,
+   "sha256": "c454263280294ae98cbf40358dd8d2526304ab603457afeb1e5cfe88ed9ddfac",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_014.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "essa questão foi classificada como fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 15,
+  "paginas_pdf": [
+   6,
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "classificada estatisticamente como média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 16,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a dificuldade da questão foi, de fato, média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 17,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_017.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_017.png",
+   "caixas_pt": [
+    [
+     7,
+     313.2,
+     71.15999999999997,
+     427.62,
+     134.03999999999996
+    ]
+   ],
+   "layout": "stack",
+   "largura": 344,
+   "altura": 189,
+   "sha256": "03e77ec78d9f1ecce58874ef6d1e9420c4b0dd7fbc2347e5e3636d512b322ea7",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_017.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "avaliação estatística da questão como muito fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 18,
+  "paginas_pdf": [
+   7,
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_018.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_018.png",
+   "caixas_pt": [
+    [
+     7,
+     314.76,
+     531.96,
+     576,
+     793.2
+    ]
+   ],
+   "layout": "stack",
+   "largura": 784,
+   "altura": 784,
+   "sha256": "2993ff0fc9b102b360f5cc53dd8ab02dc67c1b6604e6e45e3c12416109865df8",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_018.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 19,
+  "paginas_pdf": [
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a partir dos dados estatísticos, como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 20,
+  "paginas_pdf": [
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_020.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_020.png",
+   "caixas_pt": [
+    [
+     8,
+     319.98,
+     62.39999999999998,
+     464.82000000000005,
+     280.02
+    ]
+   ],
+   "layout": "stack",
+   "largura": 435,
+   "altura": 653,
+   "sha256": "11d3f23c2354e0fd0c740a23c2c6c36a1ba444006bb7ab3f6721a2c64e0d55c1",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_020.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a proposta foi fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 21,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_021.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_021.png",
+   "caixas_pt": [
+    [
+     9,
+     47.16,
+     220.79999999999995,
+     261.24,
+     362.82
+    ]
+   ],
+   "layout": "stack",
+   "largura": 643,
+   "altura": 427,
+   "sha256": "f14a11d277717642639f3bfdc8374beed7f2fa0b39192de2217d18636bb3283e",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_021.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada DIFÍCIL",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 22,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada MÉDIA",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 23,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_023.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_023.png",
+   "caixas_pt": [
+    [
+     9,
+     334.38,
+     252.77999999999997,
+     547.62,
+     431.64
+    ]
+   ],
+   "layout": "stack",
+   "largura": 640,
+   "altura": 537,
+   "sha256": "56ff2b359528c0cccf17329aaec777495ee1d4d88a1a63bc0ed5f9fcdbba59b6",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_023.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada FÁCIL",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 24,
+  "paginas_pdf": [
+   9,
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada DIFÍCIL",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 25,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_025.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_025.png",
+   "caixas_pt": [
+    [
+     10,
+     36,
+     362.76,
+     272.03999999999996,
+     707.64
+    ]
+   ],
+   "layout": "stack",
+   "largura": 709,
+   "altura": 1035,
+   "sha256": "9f1e26a3b45b065b0b9453ab24e103e8af45dc1b385b83eeb1c2a815b99c004f",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_025.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada MÉDIA",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 26,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada MÉDIA",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 27,
+  "paginas_pdf": [
+   10,
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_027.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_027.png",
+   "caixas_pt": [
+    [
+     10,
+     316,
+     768,
+     567,
+     806
+    ],
+    [
+     11,
+     28,
+     97,
+     292,
+     250
+    ]
+   ],
+   "layout": "stack",
+   "largura": 792,
+   "altura": 591,
+   "sha256": "aa6baae1a145d29f01e3d621935393b54a1ca6b4f3ff6fdbedb371d739f82001",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_027.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada MUITO DIFÍCIL",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 28,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada FÁCIL",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 29,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_029.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_029.png",
+   "caixas_pt": [
+    [
+     11,
+     313,
+     160,
+     572,
+     345
+    ]
+   ],
+   "layout": "stack",
+   "largura": 777,
+   "altura": 555,
+   "sha256": "f3cc930df5e27648f42d50df68a2b402bd990a82f0bf232d736431cbfa19de39",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_029.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo, portanto, difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 30,
+  "paginas_pdf": [
+   11,
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_030.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_030.png",
+   "caixas_pt": [
+    [
+     11,
+     340.74,
+     658.5,
+     541.62004,
+     704.22
+    ]
+   ],
+   "layout": "stack",
+   "largura": 603,
+   "altura": 138,
+   "sha256": "267e3145988d1c5c718d5326844dc04ef21b70faa2644d607edb4c98157c0f1b",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_030.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo, portanto, fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 31,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_031.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_031.png",
+   "caixas_pt": [
+    [
+     12,
+     28,
+     362,
+     281,
+     494
+    ],
+    [
+     12,
+     28,
+     500,
+     281,
+     632
+    ]
+   ],
+   "layout": "stack",
+   "largura": 759,
+   "altura": 810,
+   "sha256": "037aa0a0efde402e0ad89501fbda17234eacbcbaef7720e747fea42935c29274",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_031.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo, portanto, fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 32,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_032.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_032.png",
+   "caixas_pt": [
+    [
+     12,
+     315.6,
+     151.98000000000002,
+     439.62,
+     219.60000000000002
+    ]
+   ],
+   "layout": "stack",
+   "largura": 373,
+   "altura": 203,
+   "sha256": "77d10403fead85b8f35e91dbc2f4f65a77a617bd90db4064d666a0c0391e4786",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_032.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo, portanto, de nível médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 33,
+  "paginas_pdf": [
+   12,
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_033.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_033.png",
+   "caixas_pt": [
+    [
+     12,
+     341.16,
+     675.96,
+     540.4200000000001,
+     801.24
+    ]
+   ],
+   "layout": "stack",
+   "largura": 598,
+   "altura": 376,
+   "sha256": "8374cfa0aa379144cb02c9754bfa788950182122644594895bcbcf2e237cb1ca",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_033.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão como de dificuldade média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 34,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_034.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_034.png",
+   "caixas_pt": [
+    [
+     13,
+     65.46,
+     354.96002,
+     242.88,
+     423.48
+    ]
+   ],
+   "layout": "stack",
+   "largura": 533,
+   "altura": 206,
+   "sha256": "e6afb25a642e6a2e19b18cfdfc93f7b277b1a21b3871a1e6493be998320280cf",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_034.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "indicando uma questão de nível médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 35,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_035.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_035.png",
+   "caixas_pt": [
+    [
+     13,
+     314.76,
+     66,
+     554.4,
+     262.79999999999995
+    ]
+   ],
+   "layout": "stack",
+   "largura": 719,
+   "altura": 591,
+   "sha256": "5cb509d87c8301ce9cede7a7c185c2d195236e467ad0b03f580aafb974526a70",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_035.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "O resultado mostrou uma questão de nível médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 36,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "indica uma questão de facilidade média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 37,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a COMVEST considerou a questão difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 38,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_038.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_038.png",
+   "caixas_pt": [
+    [
+     14,
+     27,
+     342,
+     155,
+     432
+    ],
+    [
+     14,
+     27,
+     434,
+     155,
+     524
+    ],
+    [
+     14,
+     27,
+     528,
+     155,
+     622
+    ],
+    [
+     14,
+     27,
+     634,
+     155,
+     727
+    ]
+   ],
+   "layout": "grid",
+   "largura": 786,
+   "altura": 570,
+   "sha256": "2d38633e0a7be92cfd26cbcfe137b3e01b649b7596ff5175a4414ca263c2e421",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_038.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Alternativas exclusivamente gráficas: os quatro gráficos de y = p(x), com as letras a–d, estão na imagem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a COMVEST a classificou como média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 39,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "classificou a questão como muito difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 40,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "Fração composta escrita em linha (numerador e denominador entre colchetes).",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a COMVEST a classificou como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 41,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a dificuldade se confirmou no desempenho dos candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 42,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_042.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_042.png",
+   "caixas_pt": [
+    [
+     14,
+     361,
+     471,
+     521,
+     554
+    ]
+   ],
+   "layout": "stack",
+   "largura": 480,
+   "altura": 249,
+   "sha256": "2ec2798eac29da5722ebb525d9da4221ab23f4064e877ad3bb3bd8a3a6123d56",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_042.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "difícil pela COMVEST",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 43,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a COMVEST a classificou como média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 44,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "Matrizes escritas em linha: [a −1; a−2 a] = 1ª linha (a, −1), 2ª linha (a−2, a); vetores coluna [x; y] e [3; a−4].",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a COMVEST a considerou difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 45,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "Raiz de índice 2021: ²⁰²¹√(10^(3x+5)).",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Critério: equação exponencial direta, com estimativa por logaritmo; comentada não declara nível",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 46,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "como difícil pela COMVEST",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 47,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "como difícil pelo revisor e pela COMVEST",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 48,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "Anulado",
+  "resposta_comentada": null,
+  "resposta_json": "Anulado",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Critério: questão anulada; estimativa pelo tipo de conteúdo (razão de áreas de sólidos regulares)",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 49,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi classificada como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 50,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.927,
+   "ausentes": [
+    "nas",
+    "sempre",
+    "necessário",
+    "use",
+    "recentemente",
+    "equipe",
+    "detectou"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada de dificuldade média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 51,
+  "paginas_pdf": [
+   15,
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.957,
+   "ausentes": [
+    "nas",
+    "sempre",
+    "necessário",
+    "use"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão se revelou difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 52,
+  "paginas_pdf": [
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.937,
+   "ausentes": [
+    "sempre",
+    "necessário",
+    "água",
+    "atmosférica",
+    "respectivamente"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão era, de fato, fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 53,
+  "paginas_pdf": [
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.818,
+   "ausentes": [
+    "sempre",
+    "necessário",
+    "comum",
+    "março",
+    "estados",
+    "unidos",
+    "assinaram",
+    "cooperação",
+    "científica",
+    "criostatos",
+    "esses",
+    "densidade"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "confirmou o grau médio de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 54,
+  "paginas_pdf": [
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.885,
+   "ausentes": [
+    "sempre",
+    "necessário",
+    "comum",
+    "indicadas",
+    "razão",
+    "germicida"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão de fato era fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 55,
+  "paginas_pdf": [
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.836,
+   "ausentes": [
+    "sempre",
+    "necessário",
+    "comum",
+    "indicadas",
+    "razão",
+    "seu",
+    "ser",
+    "expressa",
+    "também"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão era, de fato, fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 56,
+  "paginas_pdf": [
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_056.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_056.png",
+   "caixas_pt": [
+    [
+     16,
+     313,
+     451,
+     574,
+     653
+    ]
+   ],
+   "layout": "stack",
+   "largura": 783,
+   "altura": 606,
+   "sha256": "429b788ee9da4bbb96b4bd2d59461c66b3a25808cb9e6bf56ffb4d836099e159",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_056.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.806,
+   "ausentes": [
+    "questões",
+    "sempre",
+    "lâmpadas",
+    "ultravioleta",
+    "indicadas",
+    "higienização",
+    "objetos",
+    "ambientes",
+    "razão",
+    "radiação",
+    "seguir",
+    "mostra"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "revelou uma questão de dificuldade média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 57,
+  "paginas_pdf": [
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Critério: sem nível declarado na comentada; leitura direta de texto, com cerca de 89% de acerto",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 58,
+  "paginas_pdf": [
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Critério: sem nível declarado na comentada; cerca de 83% de acerto e texto interpretativo simples",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 59,
+  "paginas_pdf": [
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "entenderam a questão como fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 60,
+  "paginas_pdf": [
+   17,
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "relativa facilidade na resolução da questão (Fácil)",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 61,
+  "paginas_pdf": [
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "classifica a questão como Muito Fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 62,
+  "paginas_pdf": [
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_062.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_062.png",
+   "caixas_pt": [
+    [
+     18,
+     72,
+     601,
+     287,
+     820
+    ]
+   ],
+   "layout": "stack",
+   "largura": 645,
+   "altura": 657,
+   "sha256": "cfcb72d88ab711a03ace15308dab6283d9a1ef03a78cb5b03535957559392d18",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_062.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "uma questão que se mostrou Fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 63,
+  "paginas_pdf": [
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "classificada como Muito Fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 64,
+  "paginas_pdf": [
+   18,
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o que foi verificado na prática: Fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 65,
+  "paginas_pdf": [
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_065.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_065.png",
+   "caixas_pt": [
+    [
+     19,
+     28,
+     484,
+     283,
+     703
+    ]
+   ],
+   "layout": "stack",
+   "largura": 765,
+   "altura": 657,
+   "sha256": "38ff4a37915e876ce2f6d5152a542e310256103fcf156158945f8a822b2d10d6",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_065.png"
+  },
+  "revisao_manual": true,
+  "observacao": "O mapa e a tabela de resultados (candidatos, partidos, delegados e votos populares) estão na imagem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão apresentou um grau de dificuldade elevado",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 66,
+  "paginas_pdf": [
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão apresentou um grau de dificuldade médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 67,
+  "paginas_pdf": [
+   19,
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Critério: sem nível declarado na comentada; texto direto, com cerca de 80% de acerto",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 68,
+  "paginas_pdf": [
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_068.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_068.png",
+   "caixas_pt": [
+    [
+     20,
+     28,
+     280,
+     292,
+     534
+    ],
+    [
+     20,
+     28,
+     538,
+     292,
+     788
+    ]
+   ],
+   "layout": "stack",
+   "largura": 792,
+   "altura": 1530,
+   "sha256": "203d4e329be33ce836e85a35bd2b8e917eea428b9e89d756dffcc70e291ca3d9",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_068.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão apresentou um grau médio de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 69,
+  "paginas_pdf": [
+   20,
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021qz_questao_069.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia2_qz/questao_069.png",
+   "caixas_pt": [
+    [
+     20,
+     315.6,
+     349.98,
+     554.4000000000001,
+     680.04
+    ]
+   ],
+   "layout": "stack",
+   "largura": 717,
+   "altura": 991,
+   "sha256": "2e64e512216b0d405298f88292bfecf33141d1de07658e937aa7dd62b5f94ef0",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia2_qz/questao_069.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "elevado grau de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 70,
+  "paginas_pdf": [
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "elevado grau de dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": "Texto das alternativas veio desordenado na extração; a justificativa foi conferida com a comentada."
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 71,
+  "paginas_pdf": [
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.993,
+   "ausentes": [
+    "pólos"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão apresentou um grau de dificuldade médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2021,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e Z (dia 2: Biológicas e Saúde)",
+  "numero_original": 72,
+  "paginas_pdf": [
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2021/F1/f12021Q_Z.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/01/DIA2_gabarito_2020.pdf (pág. 1, PROVAS Q e Z)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi considerada muito fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ }
+]

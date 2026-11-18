@@ -10,7 +10,6 @@ const cfg = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
 const draft = JSON.parse(fs.readFileSync(cfg.outDir + '/draft.json', 'utf8'));
 const doc = await openPdf(cfg.pdf);
 const S = cfg.cropScale || 3; // 3 × 72 = 216 dpi
-const GAP = Math.round(6 * S);
 fs.mkdirSync(cfg.outDir + '/img', { recursive: true });
 fs.mkdirSync(cfg.outDir + '/audit', { recursive: true });
 for (const f of fs.readdirSync(cfg.outDir + '/img')) fs.unlinkSync(cfg.outDir + '/img/' + f);
@@ -18,6 +17,7 @@ for (const f of fs.readdirSync(cfg.outDir + '/img')) fs.unlinkSync(cfg.outDir + 
 const manifest = [];
 for (const d of draft) {
   if (!d.crops.length) continue;
+  const GAP = Math.round((d.cropGap ?? 6) * S);
   const pieces = [];
   for (const [pn, x0, y0, x1, y1] of d.crops) pieces.push(await crop(doc, pn, { x0, y0, x1, y1 }, S));
   let W, H, place;
@@ -31,7 +31,7 @@ for (const d of draft) {
     let x = 0; place = pieces.map(c => { const p = [x, 0]; x += c.width + GAP; return p; });
   } else {
     W = Math.max(...pieces.map(c => c.width)); H = pieces.reduce((s, c) => s + c.height, 0) + GAP * (pieces.length - 1);
-    let y = 0; place = pieces.map(c => { const p = [Math.round((W - c.width) / 2), y]; y += c.height + GAP; return p; });
+    let y = 0; place = pieces.map(c => { const p = [d.cropAlign === 'left' ? 0 : Math.round((W - c.width) / 2), y]; y += c.height + GAP; return p; });
   }
   const out = createCanvas(W, H); const g = out.getContext('2d');
   g.fillStyle = '#fff'; g.fillRect(0, 0, W, H);

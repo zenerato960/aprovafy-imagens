@@ -29,6 +29,7 @@ for (const q of raw.questions) {
     alternativas: alts,
     crops: r.crops !== undefined ? r.crops : q.figs.concat(q.shared?.figs || []).map(f => [f.pn, f.x0, f.y0, f.x1, f.y1]),
     cropLayout: r.cropLayout || 'stack',
+    cropGap: r.cropGap, cropAlign: r.cropAlign,
     cropLabels: r.cropLabels || null,
     revisado: !!rev[q.num],
     obs: r.obs || '',

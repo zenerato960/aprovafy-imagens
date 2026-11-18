@@ -1,0 +1,9 @@
+{
+ "55": {
+  "explicacao": "A potência elétrica é o produto da tensão pela corrente, P = U·i. Assim, i = P/U = 60 W / 100 V = 0,60 A (alternativa b). A informação sobre kVA apenas confirma que 1 V × 1 A = 1 W."
+ },
+ "65": {
+  "explicacao": "Pela tabela, Trump obteve 304 delegados com menos votos populares que Clinton (62.980.160 contra 65.845.063). Como a eleição é indireta e quem vence num estado leva todos os seus delegados, ele venceu em muitos estados menos populosos, que somados garantiram mais delegados; no mapa, os estados do Golfo do México aparecem na cor de Trump. Clinton concentrou votos em estados populosos, como os da Costa Oeste e do Nordeste, por isso teve mais votos individuais e menos delegados (alternativa c).",
+  "pendencia": ""
+ }
+}

@@ -6,7 +6,7 @@ Gerado automaticamente por `scripts/unicamp_pipeline/report.mjs` a partir de `ma
 
 | Item | Valor |
 |---|---|
-| Prova | UNICAMP — Vestibular 2020, 1ª fase (Conhecimentos Gerais) (aplicada em 2019) |
+| Prova | UNICAMP — Vestibular 2020, 1ª fase (Conhecimentos Gerais) (aplicada em novembro de 2019) |
 | Versão | Provas Q e X (mesma sequência de questões e gabarito) |
 | PDF oficial | https://www.comvest.unicamp.br/vest2020/F1/f12020Q_X.pdf |
 | Gabarito oficial | https://www.comvest.unicamp.br/wp-content/uploads/2019/11/gabarito2020.pdf (pág. 1, PROVAS Q e X) |
@@ -49,7 +49,7 @@ Matérias: Inglês 7 · História 11 · Física 12 · Biologia 11 · Geografia 9
 | Item | Valor |
 |---|---|
 | Repositório | zenerato960/aprovafy-imagens (público) |
-| Branch | `unicamp-2020-qx-auditado` |
+| Branch | `unicamp-2020-2021-auditado` |
 | Commit | `2523f9f` |
 | Status | Branch publicada; `main` não foi alterada |
 
@@ -70,6 +70,7 @@ Matérias: Inglês 7 · História 11 · Física 12 · Biologia 11 · Geografia 9
 - **Q5:** a Prova Comentada traz o enunciado e a alternativa c) reescritos ("retirado do site"; "estimular a discussão a respeito de estereótipos"). O JSON segue o caderno aplicado ("publicado no site"; "estimular o combate aos estereótipos"), conferido visualmente.
 - **Q56:** a equação de combustão do propano está no caderno sem o coeficiente do O₂ (`C₃H₈(g) + O₂(g) → 3CO₂(g) + 4H₂O(g)`); foi mantida como no original.
 - **Referências bibliográficas:** foram removidos somente os espaços que a justificação do texto inseriu dentro de URLs (Q64, Q65/66, Q68, Q69) e as quebras de data ("01/06/ 2019"). Nenhuma outra palavra foi alterada.
+- **Q24 (correção pós-publicação inicial):** o JSON publicado no commit 713722e tinha uma quebra de parágrafo indevida antes do travessão em "sociedade moderna – uma sociedade…". A regra do extrator foi corrigida, e só a Q24 mudou (verificado por diff das 90 questões).
 - **Hifenização:** hifens de fim de linha foram mantidos como hífen real (meia-vida, castanha-do-brasil, presume-se) e retirados apenas em quebras silábicas das referências ("Aces-sado", "Acessa-do").
 
 ## Auditorias executadas

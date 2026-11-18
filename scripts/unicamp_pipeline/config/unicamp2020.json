@@ -66,5 +66,6 @@
  "finalName": "unicamp_2020_1fase_qx_90_questoes.json",
  "repoDir": "imagens/unicamp/2020/qx",
  "repoFilePrefix": "questao_",
- "explicOverrides": "explic_overrides.json"
+ "explicOverrides": "explic_overrides.json",
+ "aplicacao": "aplicada em novembro de 2019"
 }

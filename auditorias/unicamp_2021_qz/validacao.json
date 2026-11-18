@@ -1,0 +1,524 @@
+{
+ "arquivo": "unicamp_2021qz_1fase_72_questoes.json",
+ "total": 72,
+ "errosGlobais": [],
+ "online": true,
+ "questoes": [
+  {
+   "num": 1,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 2,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 3,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 4,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 5,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 6,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 7,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 8,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 9,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 10,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 11,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 12,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 13,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 621387,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 14,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 281442,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 15,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 16,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 17,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 82829,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 18,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 624449,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 19,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 20,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 375883,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 21,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 94071,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 22,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 23,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 131596,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 24,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 25,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 268596,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 26,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 27,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 328895,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 28,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 29,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 78169,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 30,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 19582,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 31,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 123537,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 32,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 93733,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 33,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 229674,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 34,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 34850,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 35,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 131563,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 36,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 37,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 38,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 63637,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 39,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 40,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 41,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 42,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 35560,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 43,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 44,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 45,
+   "erros": [],
+   "avisos": [
+    "notação ^( ) ou _( ) remanescente"
+   ]
+  },
+  {
+   "num": 46,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 47,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 48,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 49,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 50,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 51,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 52,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 53,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 54,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 55,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 56,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 83036,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 57,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 58,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 59,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 60,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 61,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 62,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 253915,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 63,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 64,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 65,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 157610,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 66,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 67,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 68,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 460107,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 69,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 186151,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 70,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)",
+    "pendência da explicação: Texto das alternativas veio desordenado na extração; a justificativa foi conferida com a comentada."
+   ]
+  },
+  {
+   "num": 71,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 72,
+   "erros": [],
+   "avisos": []
+  }
+ ],
+ "resumo": {
+  "com_erro": [],
+  "com_aviso": [
+   5,
+   45,
+   61,
+   70
+  ]
+ }
+}

@@ -1,0 +1,498 @@
+[
+ {
+  "num": 1,
+  "palavras": 89,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 2,
+  "palavras": 176,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 3,
+  "palavras": 115,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 4,
+  "palavras": 84,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 5,
+  "palavras": 96,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 6,
+  "palavras": 117,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 7,
+  "palavras": 188,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 8,
+  "palavras": 216,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 9,
+  "palavras": 46,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 10,
+  "palavras": 169,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 11,
+  "palavras": 100,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 12,
+  "palavras": 171,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 13,
+  "palavras": 58,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 14,
+  "palavras": 56,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 15,
+  "palavras": 164,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 16,
+  "palavras": 214,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 17,
+  "palavras": 195,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 18,
+  "palavras": 55,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 19,
+  "palavras": 126,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 20,
+  "palavras": 219,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 21,
+  "palavras": 74,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 22,
+  "palavras": 164,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 23,
+  "palavras": 73,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 24,
+  "palavras": 67,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 25,
+  "palavras": 174,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 26,
+  "palavras": 116,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 27,
+  "palavras": 85,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 28,
+  "palavras": 151,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 29,
+  "palavras": 77,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 30,
+  "palavras": 127,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 31,
+  "palavras": 156,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 32,
+  "palavras": 106,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 33,
+  "palavras": 93,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 34,
+  "palavras": 98,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 35,
+  "palavras": 145,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 36,
+  "palavras": 100,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 37,
+  "palavras": 31,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 38,
+  "palavras": 28,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 39,
+  "palavras": 18,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 40,
+  "palavras": 20,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 41,
+  "palavras": 8,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 42,
+  "palavras": 26,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 43,
+  "palavras": 45,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 44,
+  "palavras": 8,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 45,
+  "palavras": 15,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 46,
+  "palavras": 20,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 47,
+  "palavras": 9,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 48,
+  "palavras": 17,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 49,
+  "palavras": 85,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 50,
+  "palavras": 96,
+  "cobertura": 0.927,
+  "ausentes": [
+   "nas",
+   "sempre",
+   "necessário",
+   "use",
+   "recentemente",
+   "equipe",
+   "detectou"
+  ]
+ },
+ {
+  "num": 51,
+  "palavras": 93,
+  "cobertura": 0.957,
+  "ausentes": [
+   "nas",
+   "sempre",
+   "necessário",
+   "use"
+  ]
+ },
+ {
+  "num": 52,
+  "palavras": 79,
+  "cobertura": 0.937,
+  "ausentes": [
+   "sempre",
+   "necessário",
+   "água",
+   "atmosférica",
+   "respectivamente"
+  ]
+ },
+ {
+  "num": 53,
+  "palavras": 66,
+  "cobertura": 0.818,
+  "ausentes": [
+   "sempre",
+   "necessário",
+   "comum",
+   "março",
+   "estados",
+   "unidos",
+   "assinaram",
+   "cooperação",
+   "científica",
+   "criostatos",
+   "esses",
+   "densidade"
+  ]
+ },
+ {
+  "num": 54,
+  "palavras": 52,
+  "cobertura": 0.885,
+  "ausentes": [
+   "sempre",
+   "necessário",
+   "comum",
+   "indicadas",
+   "razão",
+   "germicida"
+  ]
+ },
+ {
+  "num": 55,
+  "palavras": 55,
+  "cobertura": 0.836,
+  "ausentes": [
+   "sempre",
+   "necessário",
+   "comum",
+   "indicadas",
+   "razão",
+   "seu",
+   "ser",
+   "expressa",
+   "também"
+  ]
+ },
+ {
+  "num": 56,
+  "palavras": 67,
+  "cobertura": 0.806,
+  "ausentes": [
+   "questões",
+   "sempre",
+   "lâmpadas",
+   "ultravioleta",
+   "indicadas",
+   "higienização",
+   "objetos",
+   "ambientes",
+   "razão",
+   "radiação",
+   "seguir",
+   "mostra"
+  ]
+ },
+ {
+  "num": 57,
+  "palavras": 157,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 58,
+  "palavras": 152,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 59,
+  "palavras": 168,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 60,
+  "palavras": 190,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 61,
+  "palavras": 124,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 62,
+  "palavras": 111,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 63,
+  "palavras": 153,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 64,
+  "palavras": 191,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 65,
+  "palavras": 140,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 66,
+  "palavras": 116,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 67,
+  "palavras": 157,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 68,
+  "palavras": 92,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 69,
+  "palavras": 157,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 70,
+  "palavras": 143,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 71,
+  "palavras": 149,
+  "cobertura": 0.993,
+  "ausentes": [
+   "pólos"
+  ]
+ },
+ {
+  "num": 72,
+  "palavras": 163,
+  "cobertura": 1,
+  "ausentes": []
+ }
+]
