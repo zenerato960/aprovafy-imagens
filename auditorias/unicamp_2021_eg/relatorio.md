@@ -22,7 +22,7 @@ Gerado automaticamente por `scripts/unicamp_pipeline/report.mjs` a partir de `ma
 | Pendentes | 0 |
 | Anuladas | 0 |
 | Duplicadas internas | 0 |
-| Revisadas manualmente (texto e/ou recorte) | 18 |
+| Revisadas manualmente (texto e/ou recorte) | 19 |
 
 Status por questão: aprovada: 72
 
@@ -30,13 +30,13 @@ Status por questão: aprovada: 72
 
 | Métrica | Valor |
 |---|---|
-| Questões com imagem | 26 |
-| Recortes (regiões de página) | 36 |
-| Imagens aprovadas visualmente | 26 (folhas de contato + auditoria lado a lado) |
-| Imagens publicadas | 26 |
-| URLs testadas (HTTP 200, PNG, SHA-256 idêntico ao validado) | 26/26 |
+| Questões com imagem | 27 |
+| Recortes (regiões de página) | 37 |
+| Imagens aprovadas visualmente | 27 (folhas de contato + auditoria lado a lado) |
+| Imagens publicadas | 27 |
+| URLs testadas (HTTP 200, PNG, SHA-256 idêntico ao validado) | 27/27 |
 | Diretório no repositório | `imagens/unicamp/2021/dia1_eg/` |
-| Padrão de URL | `https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_NNN.png` |
+| Padrão de URL | `https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_NNN.png` |
 
 ## Classificação
 
@@ -50,7 +50,7 @@ Matérias: Artes 1 · Literatura 6 · Português 4 · Sociologia 2 · Inglês 8 
 |---|---|
 | Repositório | zenerato960/aprovafy-imagens (público) |
 | Branch | `unicamp-2020-2021-auditado` |
-| Commit | `cfe829e` |
+| Commit | `dfd7983` |
 | Status | Branch publicada; `main` não foi alterada |
 
 ## Fontes e decisões
@@ -62,6 +62,14 @@ Matérias: Artes 1 · Literatura 6 · Português 4 · Sociologia 2 · Inglês 8 
 - **Notação em texto puro:** índices com sublinhado (P⃗_B, F⃗_at, μ_c, R_eq, i_B, d_BR), vetores com seta combinante, matriz em linha `[a b; c d]` e frações compostas entre parênteses.
 - **Alternativas em imagem:** Q20 (ilustrações), Q23 (gráficos) e Q41 (triângulos do fogo). As figuras de cada alternativa, com as letras a–d originais, ficam na imagem da questão.
 - **Q71:** a logomarca do cabeçalho da página fica sobre o canto superior do Mapa 2. Por isso o mapa foi recortado em duas faixas, coladas sem espaço, que excluem a logomarca sem perder conteúdo.
+
+## Correções após a 1ª publicação (commit cc57580)
+
+Uma nova rodada de auditoria encontrou erros na versão publicada, agora corrigidos:
+- **Q18:** o cartaz da OMS não tinha sido recortado (o extrator descartava figuras que ultrapassam a margem inferior), e o enunciado tinha fragmentos da fonte impressa na vertical. Agora a imagem traz o cartaz com a fonte.
+- **Q64 e Q70:** havia fragmentos de legendas verticais no enunciado; foram removidos (as legendas estão nas imagens).
+- **Q68:** o título comum dos mapas foi incluído na imagem.
+- **Q4, Q7, Q46 e Q47:** a fonte, as massas molares ou os dados impressos depois da alternativa d tinham sido colados nela. Foram movidos para o fim do enunciado.
 
 ## Auditorias executadas
 
@@ -94,10 +102,10 @@ Matérias: Artes 1 · Literatura 6 · Português 4 · Sociologia 2 · Inglês 8 
 | 13 | 6 | B | B | B | sim | Fácil (comentada) | aprovada |  |
 | 14 | 6 | A | A | A | sim | Fácil (comentada) | aprovada |  |
 | 15 | 7 | A | A | A | sim | Difícil (comentada) | aprovada |  |
-| 16 | 7 | A | A | A | — | Média (comentada) | aprovada |  |
+| 16 | 7 | A | A | A | — | Média (comentada) | aprovada | fragmentos curtos no enunciado (conferir): "By Richard A. Friedman" |
 | 17 | 7 | A | A | A | — | Fácil (comentada) | aprovada |  |
-| 18 | 7,8 | B | B | B | — | Fácil (comentada) | aprovada | menciona elemento visual mas não tem imagem (conferir se o elemento é textual) |
-| 19 | 8 | D | D | D | — | Fácil (comentada) | aprovada |  |
+| 18 | 7,8 | B | B | B | sim | Fácil (comentada) | aprovada | Cartaz da OMS com a fonte (impressa na vertical, na margem esquerda do cartaz) incluída na imagem. |
+| 19 | 8 | D | D | D | — | Fácil (comentada) | aprovada | fragmentos curtos no enunciado (conferir): "Your affectionate, J. Keats" "O autor da carta" |
 | 20 | 8 | C | C | C | sim | Fácil (comentada) | aprovada | Alternativas exclusivamente gráficas: as quatro ilustrações, com as letras a–d, estão na imagem. |
 | 21 | 9 | C | C | C | — | Média (comentada) | aprovada |  |
 | 22 | 9 | D | D | D | — | Média (comentada) | aprovada | Fração composta escrita em linha: numerador (1/2 + 1/3), denominador (x/4 + 1/x). |
@@ -145,8 +153,8 @@ Matérias: Artes 1 · Literatura 6 · Português 4 · Sociologia 2 · Inglês 8 
 | 64 | 18,19 | B | B | B | sim | Fácil (comentada) | aprovada |  |
 | 65 | 19 | C | C | C | sim | Fácil (comentada) | aprovada |  |
 | 66 | 19 | D | D | D | sim | Fácil (comentada) | aprovada |  |
-| 67 | 19,20 | C | C | C | — | Fácil (comentada) | aprovada |  |
-| 68 | 20 | A | A | A | sim | Difícil (comentada) | aprovada |  |
+| 67 | 19,20 | C | C | C | — | Fácil (comentada) | aprovada | fragmentos curtos no enunciado (conferir): "Depreende-se do texto que" |
+| 68 | 20 | A | A | A | sim | Difícil (comentada) | aprovada | Imagem com o título comum e os Mapas 1, 2 e 3; a fonte (vertical, na margem) está incluída na imagem. |
 | 69 | 20 | A | A | A | — | Média (comentada) | aprovada | menciona elemento visual mas não tem imagem (conferir se o elemento é textual) |
 | 70 | 20,21 | B | B | B | sim | Difícil (comentada) | aprovada |  |
 | 71 | 21 | C | C | C | sim | Fácil (comentada) | aprovada | Imagem com o Mapa 1 seguido do Mapa 2. O topo do Mapa 2 foi recortado separadamente para excluir a logomarca do cabeçalho, sem perda de conteúdo. |

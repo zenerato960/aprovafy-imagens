@@ -13,8 +13,8 @@ const doc = await openPdf(cfg.pdf);
 const TOP = cfg.top ?? 78, BOTTOM = cfg.bottom ?? 805;
 const MATH = cfg.mathMap || {};
 const QHEAD = /^QUESTÃO\s+(\d+)$/;
-const SHARED = /^(Textos? comu(m|ns) (às|para|para as) questões|Leia os? textos? a seguir e responda às questões|O texto abaixo será utilizado nas questões|Os textos abaixo serão utilizados nas questões)/i;
-const NOTE = /^(Obs\.?:|Nas questões de \d+ a \d+)/i;
+const SHARED = /^(Textos? comu(m|ns) (às|para|para as) questões|Leia os? textos? a seguir e responda às questões|O texto abaixo será utilizado nas questões|Os textos abaixo serão utilizados nas questões|USE OS? TEXTOS?\b)/i;
+const NOTE = { test: t => /^(Obs\.?:|Nas questões de \d+ a \d+)/i.test(t) || /^Sempre que necessário,? (aproxime|use)/.test(t) };
 
 // Letras matemáticas (𝑎, ℎ, 𝜃...) viram letras comuns; símbolos de fonte Symbol via mapa da prova.
 const mapChars = s => [...s].map(c => {
@@ -49,7 +49,8 @@ for (let pn = cfg.firstPage; pn <= (cfg.lastPage || doc.numPages); pn++) {
   const mid = W / 2;
   const gr = (await pageGraphics(await doc.getPage(pn))).filter(g => {
     const w = g.x1 - g.x0, h = g.y1 - g.y0;
-    if (g.y0 < TOP - 5 || g.y1 > BOTTOM) return false;               // cabeçalho/rodapé
+    // só descarta o que está inteiramente no cabeçalho/rodapé; figuras que invadem as margens são mantidas
+    if (g.y1 <= TOP || g.y0 >= BOTTOM) return false;
     if (g.kind === 'path' && g.fill && h < 15 && w > 200) return false; // barra cinza "QUESTÃO N"
     if (w < 3 && h > 500) return false;                               // fio separador de colunas
     if (w < 3 && h < 3) return false;
@@ -85,6 +86,7 @@ let cur = null;
 for (const ln of stream) {
   let m;
   if ((m = ln.text.match(QHEAD))) { cur = { type: 'Q', num: +m[1], head: ln, lines: [] }; blocks.push(cur); continue; }
+  if (cur && cur.type === 'S' && !/\d/.test(cur.header) && !cur.lines.length) { cur.header += ' ' + ln.text; continue; } // cabeçalho em 2 linhas
   if (SHARED.test(ln.text)) { cur = { type: 'S', header: ln.text, head: ln, lines: [] }; blocks.push(cur); continue; }
   if (NOTE.test(ln.text)) { cur = { type: 'N', header: ln.text, head: ln, lines: [] }; blocks.push(cur); continue; }
   if (cur && cur.type === 'N' && (ln.pn !== cur.head.pn || ln.col !== cur.head.col || ln.y - (cur.lines.at(-1)?.y ?? cur.head.y) > 13)) {
@@ -93,7 +95,7 @@ for (const ln of stream) {
   }
   if (cur) cur.lines.push(ln);
 }
-for (const b of blocks) if (b.type === 'N') { b.text = [b.header, ...b.lines.map(l => l.text)].join(' ').replace(/\s+/g, ' '); b.qs = parseList(b.text); }
+for (const b of blocks) if (b.type === 'N') { b.text = [b.header, ...b.lines.map(l => l.text)].join(' ').replace(/\s+/g, ' '); b.qs = /quest/i.test(b.text) ? parseList(b.text) : []; for (const [re, qs] of cfg.noteQs || []) if (new RegExp(re).test(b.text)) b.qs = qs; }
 for (const b of blocks) if (b.type === 'S') b.qs = parseList(b.header);
 
 function paragraphs(lines) {
@@ -129,7 +131,9 @@ function paragraphs(lines) {
       else t += ' ' + ln.text;
     }
     t = t.replace(/(\d+) (\d+)⁄/g, '$1/$2'); // frações do Word: "2 3⁄" = 2/3
-    return { text: t.replace(/\s+/g, ' ').trim(), small: p.small, hyphen: hy, pn: p.lines[0].pn, col: p.lines[0].col, y0: p.lines[0].y, y1: p.lines.at(-1).y };
+    return { text: t.replace(/\s+/g, ' ').trim(), small: p.small, hyphen: hy, pn: p.lines[0].pn, col: p.lines[0].col, y0: p.lines[0].y, y1: p.lines.at(-1).y,
+      // caixa de cada linha (para descartar texto que fica dentro de um recorte de figura)
+      boxes: p.lines.map(l => [l.pn, l.x0, l.y - l.h, l.x1, l.y, l.text]) };
   });
 }
 
@@ -197,12 +201,26 @@ for (const b of blocks.filter(b => b.type === 'Q')) {
   }
   const sh = blocks.find(s => s.type === 'S' && s.qs.includes(b.num));
   const regs = regionsOf(b);
+  // Material impresso depois da última alternativa (dados, glossário, fontes) não pertence a ela:
+  // vai para "posAlternativas" (exibido ao fim do enunciado). Critério: parágrafos seguintes ao 1º da alternativa d,
+  // e, dentro do 1º, o trecho a partir de "Dados:"/"Dado:".
+  const lastK = ['d', 'c', 'b', 'a'].find(k => alts[k].length);
+  const altParas = Object.fromEntries(Object.entries(alts).map(([k, v]) => [k, paragraphs(v)]));
+  const posAlt = [];
+  if (lastK && altParas[lastK].length) {
+    const [first, ...rest] = altParas[lastK];
+    posAlt.push(...rest.map(p => p.text));
+    const m = first.text.match(/^(.*?[.)”"])\s+(Dados?:.*)$/);
+    if (m) { first.text = m[1]; posAlt.unshift(m[2]); }
+    altParas[lastK] = [first];
+  }
   result.push({
     num: b.num,
     notes: blocks.filter(n => n.type === 'N' && n.qs.includes(b.num)).map(n => n.text),
     shared: sh ? { header: sh.header, paras: paragraphs(sh.lines), figs: figsIn(regionsOf(sh)) } : null,
     stem: paragraphs(stem),
-    alts: Object.fromEntries(Object.entries(alts).map(([k, v]) => [k, paragraphs(v).map(p => p.text).join('\n')])),
+    posAlternativas: posAlt,
+    alts: Object.fromEntries(Object.entries(altParas).map(([k, ps]) => [k, ps.map(p => p.text).join('\n')])),
     altPos: Object.fromEntries(Object.entries(alts).map(([k, v]) => [k, v.length ? { pn: v[0].pn, col: v[0].col, y: v[0].y } : null])),
     segs: segsOf([b.head, ...b.lines]),
     regions: regs,

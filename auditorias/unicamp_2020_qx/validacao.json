@@ -18,7 +18,9 @@
   {
    "num": 2,
    "erros": [],
-   "avisos": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"A tirinha apresentada\""
+   ],
    "url": {
     "status": 200,
     "content_type": "image/png",
@@ -73,12 +75,16 @@
   {
    "num": 7,
    "erros": [],
-   "avisos": []
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"By Daniel F. Sullivan\""
+   ]
   },
   {
    "num": 8,
    "erros": [],
-   "avisos": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"A peça publicitária\""
+   ],
    "url": {
     "status": 200,
     "content_type": "image/png",
@@ -475,7 +481,9 @@
   {
    "num": 63,
    "erros": [],
-   "avisos": []
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"Psia é feminino\""
+   ]
   },
   {
    "num": 64,
@@ -684,10 +692,14 @@
  "resumo": {
   "com_erro": [],
   "com_aviso": [
+   2,
+   7,
+   8,
    24,
    30,
    31,
    62,
+   63,
    77,
    85,
    87,

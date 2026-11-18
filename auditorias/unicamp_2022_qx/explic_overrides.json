@@ -1,0 +1,20 @@
+{
+ "17": {
+  "explicacao": "Como I(R₀) = 100(R₀ − 1)/R₀ = 100 − 100/R₀, a porcentagem mínima a imunizar cresce com R₀; como a imunização vem só da vacina, com efetividade e a fração a vacinar é I(R₀)/e, que também cresce com R₀. Logo, para uma vacina, quanto maior R₀, maior a porcentagem mínima a vacinar (alternativa c). A alternativa a é falsa porque, para 1 < R₀ < 2, I(R₀) < 50% (ex.: R₀ = 1,5 dá cerca de 33%), e a d inverte o efeito da efetividade: quanto maior a efetividade, menor a porcentagem necessária.",
+  "pendencia": ""
+ },
+ "20": {
+  "dificuldade": "Difícil",
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como difícil pela COMVEST."
+ },
+ "23": {
+  "dificuldade": "Difícil",
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como difícil pela COMVEST."
+ },
+ "26": {
+  "explicacao": "A pesquisa colocou artista como a profissão mais \"não essencial\" (71%). No post, Budhrani questiona a validade da amostra (\"if, assuming this survey is done with a truly representative sample...\") e propõe que, então, as pessoas apaguem a Netflix, cancelem o Spotify, vendam suas TVs e parem de ouvir música e ver vídeos — ações que, ao revelar quanto o cotidiano depende de produções artísticas, ratificam a relevância da profissão (alternativa d). As recomendações são irônicas: não visam a valorizar diretamente os artistas (a), ampliar o debate (b) nem depreciar a arte (c).",
+  "pendencia": ""
+ }
+}

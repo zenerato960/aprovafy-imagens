@@ -69,7 +69,9 @@
   {
    "num": 13,
    "erros": [],
-   "avisos": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"Em sua resposta, a atriz\""
+   ],
    "url": {
     "status": 200,
     "content_type": "image/png",
@@ -123,12 +125,16 @@
   {
    "num": 19,
    "erros": [],
-   "avisos": []
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"O poema destaca\""
+   ]
   },
   {
    "num": 20,
    "erros": [],
-   "avisos": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"THE COMPLETE STORIES\""
+   ],
    "url": {
     "status": 200,
     "content_type": "image/png",
@@ -269,7 +275,9 @@
   {
    "num": 35,
    "erros": [],
-   "avisos": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"Os resultados mostram que\""
+   ],
    "url": {
     "status": 200,
     "content_type": "image/png",
@@ -306,7 +314,9 @@
   {
    "num": 40,
    "erros": [],
-   "avisos": []
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"é equivalente a\""
+   ]
   },
   {
    "num": 41,
@@ -316,7 +326,9 @@
   {
    "num": 42,
    "erros": [],
-   "avisos": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"A razão R/r é igual a\""
+   ],
    "url": {
     "status": 200,
     "content_type": "image/png",
@@ -516,6 +528,12 @@
   "com_erro": [],
   "com_aviso": [
    5,
+   13,
+   19,
+   20,
+   35,
+   40,
+   42,
    45,
    61,
    70

@@ -2,6 +2,7 @@
 const NOTA = 'Nas questões de 33 a 40, sempre que necessário, use π = 3 e g = 10 m/s².';
 const fig = (k, pre = 'Figura') => ['a', 'b', 'c', 'd'].map(l => `${pre} ${l}.`);
 const r = {
+  18: { crops: [[7, 317, 612, 566, 826]], obs: 'Cartaz da OMS com a fonte (impressa na vertical, na margem esquerda do cartaz) incluída na imagem.' },
   20: {
     crops: [[8, 313, 145, 588, 294], [8, 313, 309, 588, 460], [8, 313, 476, 588, 625], [8, 313, 646, 588, 795]],
     cropLayout: 'grid', alternativas: fig(), obs: 'Alternativas exclusivamente gráficas: as quatro ilustrações, com as letras a–d, estão na imagem.',
@@ -55,7 +56,7 @@ const r = {
     obs: 'Alternativas gráficas: cada alternativa é uma sequência de três triângulos do fogo (ações A, B e C), na imagem com as letras a–d.',
   },
   64: { crops: [[18, 336, 644, 577, 781]] },
-  68: { crops: [[20, 28, 256, 300, 815]] },
+  68: { crops: [[20, 28, 240, 300, 815]], obs: 'Imagem com o título comum e os Mapas 1, 2 e 3; a fonte (vertical, na margem) está incluída na imagem.' },
   70: { crops: [[21, 10, 16, 296, 216]] },
   71: {
     crops: [[21, 24, 604, 292, 824], [21, 303, 16, 515, 62], [21, 303, 62, 594, 238]], cropGap: 0, cropAlign: 'left',

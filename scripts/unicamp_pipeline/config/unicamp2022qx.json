@@ -1,0 +1,70 @@
+{
+ "pdf": "../src/oficial/2022/f12022Q_X.pdf",
+ "outDir": "../out/2022qx",
+ "firstPage": 3,
+ "top": 70,
+ "bottom": 812,
+ "colX": [
+  28,
+  315
+ ],
+ "colRight": [
+  282,
+  569
+ ],
+ "dehyphen": [
+  "Aces-sado",
+  "Acessa-do"
+ ],
+ "mathMap": {
+  "": "−",
+  "": "=",
+  "": "+",
+  "": "Δ",
+  "": "π",
+  "": "θ",
+  "": "ρ",
+  "": "λ",
+  "": "→",
+  "": "×",
+  "": "⋅",
+  "": "→",
+  "ሺ": "(",
+  "ሻ": ")",
+  "ൌ": "=",
+  "൅": "+",
+  "െ": "−",
+  "൫": "(",
+  "൯": ")",
+  "ଶ": "2",
+  "ଷ": "3",
+  "௫": "x",
+  "்": "T",
+  "ర": "4",
+  "്": "≠",
+  "ඥ": "√",
+  "൤": "[",
+  "൨": "]",
+  "ത": ""
+ },
+ "review": "review2022qx.mjs",
+ "imgPrefix": "unicamp_2022qx",
+ "cropScale": 3,
+ "vestibular": "UNICAMP",
+ "ano": 2022,
+ "fase": "1ª fase (Conhecimentos Gerais)",
+ "caderno": "Provas Q e X",
+ "numAlternativas": 4,
+ "totalQuestoes": 72,
+ "pdfUrl": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+ "gabaritoUrl": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+ "comentadaUrl": "https://www.comvest.unicamp.br/wp-content/uploads/2022/09/CQ_F1_TODAS.pdf",
+ "explicFiles": [
+  "explic.json"
+ ],
+ "finalName": "unicamp_2022qx_1fase_72_questoes.json",
+ "repoDir": "imagens/unicamp/2022/qx_auditado",
+ "repoFilePrefix": "questao_",
+ "aplicacao": "aplicada em outubro de 2021",
+ "explicOverrides": "explic_overrides.json"
+}

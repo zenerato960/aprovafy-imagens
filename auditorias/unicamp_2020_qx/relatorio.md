@@ -92,13 +92,13 @@ Matérias: Inglês 7 · História 11 · Física 12 · Biologia 11 · Geografia 9
 | Nº | Págs. | Gabarito oficial | JSON | Comentada | Imagem | Dificuldade (fonte) | Status | Observações |
 |---|---|---|---|---|---|---|---|---|
 | 1 | 3 | D | D | D | sim | Fácil (comentada) | aprovada |  |
-| 2 | 3 | A | A | A | sim | Fácil (comentada) | aprovada |  |
+| 2 | 3 | A | A | A | sim | Fácil (comentada) | aprovada | fragmentos curtos no enunciado (conferir): "A tirinha apresentada" |
 | 3 | 3 | A | A | A | sim | Fácil (comentada) | aprovada |  |
 | 4 | 3,4 | B | B | B | sim | Fácil (comentada) | aprovada |  |
 | 5 | 4 | C | C | C | sim | Fácil (comentada) | aprovada |  |
 | 6 | 4 | D | D | D | sim | Fácil (comentada) | aprovada |  |
-| 7 | 4,5 | C | C | C | — | Média (comentada) | aprovada |  |
-| 8 | 5 | D | D | D | sim | Média (comentada) | aprovada |  |
+| 7 | 4,5 | C | C | C | — | Média (comentada) | aprovada | fragmentos curtos no enunciado (conferir): "By Daniel F. Sullivan" |
+| 8 | 5 | D | D | D | sim | Média (comentada) | aprovada | fragmentos curtos no enunciado (conferir): "A peça publicitária" |
 | 9 | 5 | D | D | D | — | Fácil (comentada) | aprovada |  |
 | 10 | 5,6 | D | D | D | — | Média (comentada) | aprovada |  |
 | 11 | 6 | A | A | A | — | Difícil (comentada) | aprovada |  |
@@ -153,7 +153,7 @@ Matérias: Inglês 7 · História 11 · Física 12 · Biologia 11 · Geografia 9
 | 60 | 19 | C | C | C | — | Fácil (comentada) | aprovada |  |
 | 61 | 19 | D | D | D | — | Média (comentada) | aprovada |  |
 | 62 | 19 | B | B | B | — | Média (comentada) | aprovada | menciona elemento visual mas não tem imagem (conferir se o elemento é textual) |
-| 63 | 19,20 | C | C | C | — | Média (comentada) | aprovada |  |
+| 63 | 19,20 | C | C | C | — | Média (comentada) | aprovada | fragmentos curtos no enunciado (conferir): "Psia é feminino" |
 | 64 | 20 | D | D | D | sim | Fácil (comentada) | aprovada |  |
 | 65 | 20 | A | A | A | — | Fácil (comentada) | aprovada |  |
 | 66 | 20 | C | C | C | — | Média (comentada) | aprovada |  |

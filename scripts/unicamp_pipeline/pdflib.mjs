@@ -28,7 +28,8 @@ export async function pageItems(doc, pn) {
   const p = await doc.getPage(pn);
   const vp = p.getViewport({ scale: 1 });
   const tc = await p.getTextContent();
-  const items = tc.items.filter(i => i.str && i.str.trim() !== '').map(i => {
+  // texto rotacionado (legendas verticais, rótulos de eixo) é ignorado: fica dentro das figuras recortadas
+  const items = tc.items.filter(i => i.str && i.str.trim() !== '' && Math.abs(i.transform[1]) <= 0.01).map(i => {
     const fs_ = Math.hypot(i.transform[2], i.transform[3]);
     return { s: i.str, x: i.transform[4], y: vp.height - i.transform[5], w: i.width, h: fs_ || i.height, font: i.fontName };
   });

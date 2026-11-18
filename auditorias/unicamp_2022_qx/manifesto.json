@@ -1,0 +1,2718 @@
+[
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 1,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "considerou a questão de nível fácil, o que foi confirmado no desempenho dos candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 2,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "O desempenho dos candidatos mostrou que o nível de dificuldade foi médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 3,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A banca considerou a questão como de dificuldade mediana, o que se confirmou no desempenho dos candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 4,
+  "paginas_pdf": [
+   3,
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o que mostra que, efetivamente, ela foi fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 5,
+  "paginas_pdf": [
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi considerada de nível médio pela banca elaboradora",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 6,
+  "paginas_pdf": [
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "No entanto, o desempenho dos candidatos mostra que a questão foi de grau fácil.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 7,
+  "paginas_pdf": [
+   4,
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_007.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_007.png",
+   "caixas_pt": [
+    [
+     4,
+     315.3500671,
+     296.4053516,
+     574.7394452999999,
+     454.7539905
+    ]
+   ],
+   "layout": "stack",
+   "largura": 779,
+   "altura": 476,
+   "sha256": "42f373e765bb110fd732c1a037ab24e6af624e22e7b2aec12a469b91f1e468f4",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_007.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "foi considerada “muito fácil”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 8,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": null,
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_008.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_008.png",
+   "caixas_pt": [
+    [
+     4,
+     315.3500671,
+     296.4053516,
+     574.7394452999999,
+     454.7539905
+    ]
+   ],
+   "layout": "stack",
+   "largura": 779,
+   "altura": 476,
+   "sha256": "42f373e765bb110fd732c1a037ab24e6af624e22e7b2aec12a469b91f1e468f4",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_008.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.695,
+   "ausentes": [
+    "cidadefloresta",
+    "lambelambe",
+    "80m",
+    "12m",
+    "disponível",
+    "https",
+    "www",
+    "premiopipa",
+    "wpcontent",
+    "uploads",
+    "2019",
+    "23denilsonbaniwa",
+    "jpeg",
+    "acessado",
+    "permaneçam",
+    "vivas",
+    "museu",
+    "pessoa",
+    "rádio",
+    "yandê",
+    "ailton",
+    "krenak",
+    "realizar",
+    "virtual",
+    "jovens"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo considerada de dificuldade “média”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 9,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": null,
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_009.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_009.png",
+   "caixas_pt": [
+    [
+     5,
+     28.3500767,
+     581.0061206,
+     280.8500481,
+     651.0056445
+    ]
+   ],
+   "layout": "stack",
+   "largura": 758,
+   "altura": 210,
+   "sha256": "ea85725d54f49552d8200935341cb07d64766f59551497f2f9c38a0d5e397496",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_009.png"
+  },
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo classificada como “fácil”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 10,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": null,
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_010.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_010.png",
+   "caixas_pt": [
+    [
+     5,
+     363,
+     251,
+     520,
+     374
+    ],
+    [
+     5,
+     357,
+     412,
+     524,
+     551
+    ]
+   ],
+   "layout": "stack",
+   "largura": 501,
+   "altura": 804,
+   "sha256": "75e2b433ae541f3767d10c9e86fe6fa9f6534847254341f8db7e613f15646c61",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_010.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Texto I (André Vallias) e Texto II (Hélio Oiticica) na imagem, nesta ordem; as fontes estão no enunciado.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "em termos de “facilidade/dificuldade”, como “média”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 11,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "facilidade/dificuldade “média”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 12,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": null,
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_012.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_012.png",
+   "caixas_pt": [
+    [
+     6,
+     26,
+     551,
+     278,
+     776
+    ]
+   ],
+   "layout": "stack",
+   "largura": 756,
+   "altura": 675,
+   "sha256": "b402ea0a15389ce2d1f59679e8647f4bf1f5f07c6ec5442911180033a01f431f",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_012.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "foi avaliada como “difícil” pelas bancas elaboradora e revisora",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 13,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": null,
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como de dificuldade \"média\" pela banca elaboradora e pela COMVEST.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 14,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_014.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_014.png",
+   "caixas_pt": [
+    [
+     6,
+     308,
+     523,
+     575,
+     593
+    ]
+   ],
+   "layout": "stack",
+   "largura": 801,
+   "altura": 210,
+   "sha256": "af7de88f99b8728f3902ac9929069a8f695bd5af7e69d4fa7080a4b4e0c86fd4",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_014.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "tanto a banca revisora quanto a Comvest consideraram como “médio” o grau de dificuldade da questão",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 15,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": null,
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_015.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_015.png",
+   "caixas_pt": [
+    [
+     7,
+     79,
+     130,
+     229,
+     236
+    ],
+    [
+     7,
+     81,
+     255,
+     228,
+     361
+    ]
+   ],
+   "layout": "stack",
+   "largura": 450,
+   "altura": 654,
+   "sha256": "2584d10a7036094ed7c513e3958494f00de09e70919b8959bcbf0c61dd7a075d",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_015.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "classificada como \"média\" pela Comvest",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 16,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": null,
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "Raiz de índice n escrita como ⁿ√( ).",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "tanto a banca elaborada quanto a Comvest classificaram-na como questão de dificuldade média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 17,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "Alternativas transcritas a partir da página (a extração automática embaralhou as linhas por causa dos subscritos de R₀).",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.852,
+   "ausentes": [
+    "conter",
+    "viral",
+    "aplicada",
+    "pode",
+    "entendida",
+    "indivíduos",
+    "vacinados",
+    "estarão",
+    "imunes",
+    "doença",
+    "fórmula",
+    "associado",
+    "características",
+    "assumese",
+    "eventual",
+    "imunização",
+    "somente",
+    "adquirida",
+    "meio"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "e classificada como média pela Comvest",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 18,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": null,
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.782,
+   "ausentes": [
+    "conter",
+    "viral",
+    "aplicada",
+    "pode",
+    "entendida",
+    "indivíduos",
+    "vacinados",
+    "estarão",
+    "imunes",
+    "doença",
+    "fórmula",
+    "associado",
+    "características",
+    "assumese",
+    "eventual",
+    "imunização",
+    "somente",
+    "adquirida",
+    "meio"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A Comvest a classificou como difícil.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 19,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": null,
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como difícil pela banca elaboradora e pela COMVEST.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 20,
+  "paginas_pdf": [
+   7,
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "Matriz escrita em linha: [1 k; 3 k²] = 1ª linha (1, k), 2ª linha (3, k²); vetores coluna [x; y] e [2021; 2022].",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.379,
+   "ausentes": [
+    "considere",
+    "matriz",
+    "seja",
+    "transposta",
+    "sobre",
+    "sistema",
+    "2021",
+    "2022",
+    "afirmar",
+    "infinitas",
+    "soluções"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como difícil pela COMVEST.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 21,
+  "paginas_pdf": [
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": null,
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_021.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_021.png",
+   "caixas_pt": [
+    [
+     8,
+     78,
+     270,
+     230,
+     338
+    ]
+   ],
+   "layout": "stack",
+   "largura": 456,
+   "altura": 204,
+   "sha256": "d60f3f5891d292a3770f3b3718b33bc78c3c770a8fdd496321782d43bb6dba6f",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_021.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Os emojis de pedra, papel e tesoura estão na imagem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como difícil pela banca corretora e como muito difícil pela COMVEST.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 22,
+  "paginas_pdf": [
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": null,
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como difícil pela COMVEST.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 23,
+  "paginas_pdf": [
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": null,
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.143,
+   "ausentes": [
+    "polinômio",
+    "2x3",
+    "ax2",
+    "divisível",
+    "2x2",
+    "valor"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como difícil pela COMVEST.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 24,
+  "paginas_pdf": [
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_024.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_024.png",
+   "caixas_pt": [
+    [
+     8,
+     330,
+     184,
+     551,
+     548
+    ]
+   ],
+   "layout": "stack",
+   "largura": 663,
+   "altura": 1092,
+   "sha256": "b5fe61bc6aed1951de336554caf217495c27ae18d16b3140ab3248d0fa859725",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_024.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A questão foi classificada como difícil pela banca elaboradora, banca revisora e pela COMVEST.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 25,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": null,
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A estatística da Comvest classificou a questão como “muito fácil”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 26,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": null,
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_026.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_026.png",
+   "caixas_pt": [
+    [
+     9,
+     43,
+     665,
+     265,
+     772
+    ],
+    [
+     9,
+     340,
+     38,
+     526,
+     264
+    ]
+   ],
+   "layout": "stack",
+   "largura": 666,
+   "altura": 1017,
+   "sha256": "55dca57bb3bd12400a1d515961be427466fa847abd69585a9111f4f16b80f696",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_026.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Imagem com o infográfico da pesquisa e, abaixo, o post de Rishi Budhrani (texto em inglês do post incluído na imagem).",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "enquanto banca a julgou “fácil”, como de fato foi, segundo as estatísticas da Comvest",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 27,
+  "paginas_pdf": [
+   9,
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_027.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_027.png",
+   "caixas_pt": [
+    [
+     9,
+     309,
+     569,
+     401,
+     672
+    ]
+   ],
+   "layout": "stack",
+   "largura": 276,
+   "altura": 309,
+   "sha256": "67d622ab6bc2b8189adb13d06bedc92ff0301f92fd308d64ec82d207edfdd4de",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_027.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "estatisticamente foi classificada como “fácil” pela Comvest",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 28,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": null,
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_028.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_028.png",
+   "caixas_pt": [
+    [
+     10,
+     15,
+     262,
+     157,
+     358
+    ]
+   ],
+   "layout": "stack",
+   "largura": 426,
+   "altura": 288,
+   "sha256": "e1e71f1ba7d770610a305099b752c06c7973b8efeafb796c191c0782012ac3c2",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_028.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "avaliaram a questão como média em relação ao seu nível de dificuldade, o que se confirmou na estatística da Comvest",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 29,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "foi considerada “média” pela banca e pelo revisor e tal resultado foi ao encontro das estatísticas da Comvest",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 30,
+  "paginas_pdf": [
+   10,
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_030.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_030.png",
+   "caixas_pt": [
+    [
+     11,
+     59,
+     107,
+     245,
+     213
+    ],
+    [
+     11,
+     59,
+     228,
+     245,
+     330
+    ],
+    [
+     11,
+     57,
+     347,
+     244,
+     458
+    ],
+    [
+     11,
+     57,
+     477,
+     244,
+     582
+    ]
+   ],
+   "layout": "grid",
+   "largura": 1140,
+   "altura": 669,
+   "sha256": "a384fd36d204e2bb44af9a9c1a3178a8e3897f7b2d8cea9feda138bc17da0f7d",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_030.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Alternativas exclusivamente visuais: as quatro ilustrações, na ordem a, b (linha de cima) e c, d (linha de baixo), estão na imagem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "que se confirmou pelas estatísticas da Comvest – era a de que a questão seria média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 31,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": null,
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_031.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_031.png",
+   "caixas_pt": [
+    [
+     11,
+     24,
+     624,
+     157,
+     700
+    ]
+   ],
+   "layout": "stack",
+   "largura": 399,
+   "altura": 228,
+   "sha256": "bc7452fb62aad35a2ab2c7b8ba12d5fadf245e8e74435b7098ae536500a41b8d",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_031.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi “muito fácil”, com o maior índice de facilidade entre todas as disciplinas",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 32,
+  "paginas_pdf": [
+   11,
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o nível de dificuldade foi médio, diferente do que esperavam a banca elaboradora",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 33,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": null,
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_033.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_033.png",
+   "caixas_pt": [
+    [
+     12,
+     26,
+     358,
+     290,
+     527
+    ]
+   ],
+   "layout": "stack",
+   "largura": 792,
+   "altura": 507,
+   "sha256": "d270819e2ebf31cab9b2c108a1987675d015fca4a673bb080f92b017abbd1116",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_033.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "considerada uma questão de nível médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 34,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": null,
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_034.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_034.png",
+   "caixas_pt": [
+    [
+     12,
+     323,
+     124,
+     560,
+     308
+    ]
+   ],
+   "layout": "stack",
+   "largura": 711,
+   "altura": 552,
+   "sha256": "f676ccfaa8a7f8dc9c08c67d0b8365bc94448ecf512862429163b4748a0ab412",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_034.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Esta questão teve um índice de facilidade de 0,552, sendo, portanto, considerada uma questão de nível médio.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 35,
+  "paginas_pdf": [
+   12,
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": null,
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_035.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_035.png",
+   "caixas_pt": [
+    [
+     12,
+     298,
+     658,
+     576,
+     813
+    ]
+   ],
+   "layout": "stack",
+   "largura": 834,
+   "altura": 465,
+   "sha256": "baf70aa34c5b370eb62bd4a959dc20c76bd29b40e3f287483009ac520caad28b",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_035.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "considerada uma questão de nível muito difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 36,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_036.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_036.png",
+   "caixas_pt": [
+    [
+     13,
+     33,
+     535,
+     264,
+     640
+    ]
+   ],
+   "layout": "stack",
+   "largura": 693,
+   "altura": 315,
+   "sha256": "00eaec930ea853f9d3dfbebf38f799a39c78077d013cb689fa071f7f03a5e720",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_036.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "considerada uma questão de nível difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 37,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.874,
+   "ausentes": [
+    "resíduos",
+    "contribuem",
+    "clima",
+    "mude",
+    "pessoas",
+    "pensam",
+    "blue",
+    "planet",
+    "ink",
+    "anunciou",
+    "agora",
+    "disponível",
+    "cartuchos",
+    "remanufaturados",
+    "impressoras",
+    "determinada",
+    "marca",
+    "economizadora",
+    "impressa",
+    "sulfite",
+    "normal",
+    "exposição",
+    "vapor",
+    "corante",
+    "perde"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Esta questão teve um índice de facilidade de 0,279, sendo, portanto, considerada uma questão de nível difícil.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 38,
+  "paginas_pdf": [
+   13,
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_038.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_038.png",
+   "caixas_pt": [
+    [
+     13,
+     308,
+     622,
+     575,
+     701
+    ]
+   ],
+   "layout": "stack",
+   "largura": 801,
+   "altura": 237,
+   "sha256": "a60b1f5f0a37bd06f977c27f087fb46fae05034bdeb4834c9b3d9ec792c039bc",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_038.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Esta questão teve um índice de facilidade de 0,350, sendo, portanto, considerada uma questão de nível difícil.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 39,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_039.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_039.png",
+   "caixas_pt": [
+    [
+     14,
+     16,
+     333,
+     283,
+     499
+    ]
+   ],
+   "layout": "stack",
+   "largura": 801,
+   "altura": 498,
+   "sha256": "f91902b102fcb123f71c5d1aa0c9131d532aa60afc7aa265f4ff08b2112231e2",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_039.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Esta questão teve um índice de facilidade de 0,739, sendo, portanto, considerada uma questão de nível fácil.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 40,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": null,
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_040.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_040.png",
+   "caixas_pt": [
+    [
+     14,
+     313,
+     228,
+     569,
+     596
+    ]
+   ],
+   "layout": "stack",
+   "largura": 768,
+   "altura": 1104,
+   "sha256": "28a5128fb474f3d5e3dd0babe09a0fa6bec41e70b89033d9825c79b174bb4557",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_040.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.953,
+   "ausentes": [
+    "adsorvida",
+    "mmol",
+    "pressão",
+    "bar"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "considerada uma questão de nível médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 41,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_041.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_041.png",
+   "caixas_pt": [
+    [
+     15,
+     26,
+     184,
+     282,
+     417
+    ]
+   ],
+   "layout": "stack",
+   "largura": 768,
+   "altura": 699,
+   "sha256": "609b6e9224a951fde9958b9b41f7971e2dc9bec570c3c5f6de8a988cb3101970",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_041.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A banca elaboradora considerou a questão como de dificuldade média",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 42,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "Anulado",
+  "resposta_comentada": "C",
+  "resposta_json": "Anulado",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_042.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_042.png",
+   "caixas_pt": [
+    [
+     15,
+     313,
+     38,
+     571,
+     325
+    ]
+   ],
+   "layout": "stack",
+   "largura": 774,
+   "altura": 861,
+   "sha256": "952af52c700ccfe6002470f5aaef45759bbd0a932621303fcd5490ec3789d269",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_042.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Questão ANULADA pela Comvest: erro de plotagem no mapa do Bioma 3 (a área indicada é semidesértica, e não desértica, como consta da alternativa c).",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Questão anulada; nível estimado pela leitura de mapas de biomas e pela comparação de quatro alternativas conceituais.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 43,
+  "paginas_pdf": [
+   15,
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Acerto próximo de 48% e alternativas diretas sobre cobre, salmonicultura e privatizações; sem nível único declarado.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 44,
+  "paginas_pdf": [
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_044.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_044.png",
+   "caixas_pt": [
+    [
+     16,
+     31,
+     352,
+     278,
+     535
+    ]
+   ],
+   "layout": "stack",
+   "largura": 741,
+   "altura": 549,
+   "sha256": "8363f0a8baf677bc827a6a2499460dd9cea75d3c1fdbed14ba34b8e6bf6160a8",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_044.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o índice de Facilidade tenha indicado ser esta uma questão muito fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 45,
+  "paginas_pdf": [
+   16,
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_045.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_045.png",
+   "caixas_pt": [
+    [
+     16,
+     313,
+     140,
+     576,
+     532
+    ]
+   ],
+   "layout": "stack",
+   "largura": 789,
+   "altura": 1176,
+   "sha256": "6071dfcdc295d61cec553c87bc7f8a280af18f16519be8176d00c921a781ace1",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_045.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o que fez com que o índice de Facilidade indique ter sido esta uma questão fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 46,
+  "paginas_pdf": [
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o índice de Facilidade evidencie ser uma questão fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 47,
+  "paginas_pdf": [
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_047.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_047.png",
+   "caixas_pt": [
+    [
+     17,
+     300,
+     40,
+     572,
+     205
+    ]
+   ],
+   "layout": "stack",
+   "largura": 816,
+   "altura": 495,
+   "sha256": "48382b35e685ae84700db4b8c6f2f3ddf2336544f9e6d4a10002442b84d3cd79",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_047.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o índice de Facilidade deve ser considerado “difícil”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 48,
+  "paginas_pdf": [
+   17,
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Índice de Facilidade “fácil”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 49,
+  "paginas_pdf": [
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": null,
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_049.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_049.png",
+   "caixas_pt": [
+    [
+     18,
+     26,
+     244,
+     286,
+     466
+    ]
+   ],
+   "layout": "stack",
+   "largura": 780,
+   "altura": 666,
+   "sha256": "afe3df5601a430130eaf62d7b93c0383517c03c27cede5c9145e8c20d2d167f5",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_049.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "um comportamento fácil no IF",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 50,
+  "paginas_pdf": [
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": null,
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Leitura direta do texto, com uma única alternativa coerente com o enunciado; sem nível declarado no texto oficial.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 51,
+  "paginas_pdf": [
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": null,
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Exige conhecimento histórico externo ao texto (Nzinga, Congo, rivalidade luso-holandesa); sem nível declarado no texto oficial.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 52,
+  "paginas_pdf": [
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": null,
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "e teve um desempenho fácil entre os candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 53,
+  "paginas_pdf": [
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Definida como uma pergunta fácil, ela correspondeu a este desempenho junto aos estudantes.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 54,
+  "paginas_pdf": [
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Definida como uma pergunta fácil, ela correspondeu a este desempenho junto aos estudantes.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 55,
+  "paginas_pdf": [
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Leitura direta do texto, com exemplos nacionais explícitos; sem nível declarado no texto oficial.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 56,
+  "paginas_pdf": [
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": null,
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Interpretação de texto com contexto histórico a mobilizar; sem nível declarado no texto oficial.",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 57,
+  "paginas_pdf": [
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi classificada com um grau de dificuldade médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 58,
+  "paginas_pdf": [
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": null,
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.77,
+   "ausentes": [
+    "sempre",
+    "necessário",
+    "aproxime",
+    "2018",
+    "nasa",
+    "lançou",
+    "estudar",
+    "isso",
+    "suas",
+    "órbitas",
+    "aproximará",
+    "gradativamente",
+    "coletando",
+    "fez",
+    "oitava",
+    "aproximação",
+    "atingindo",
+    "novos",
+    "recordes",
+    "artefatos",
+    "realizados",
+    "máxima"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão ficou com um Índice de Facilidade Médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 59,
+  "paginas_pdf": [
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": null,
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.962,
+   "ausentes": [
+    "sempre",
+    "necessário",
+    "aproxime"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão ficou com um Índice de Facilidade médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 60,
+  "paginas_pdf": [
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.754,
+   "ausentes": [
+    "sempre",
+    "necessário",
+    "aproxime",
+    "questões",
+    "abril",
+    "2021",
+    "faleceu",
+    "astronauta",
+    "norteamericano",
+    "michael",
+    "collins",
+    "integrante",
+    "levou",
+    "primeiro",
+    "homem",
+    "outros",
+    "astronautas",
+    "neil",
+    "armstrong",
+    "buzz",
+    "aldrin",
+    "desceram",
+    "permaneceu",
+    "pilotando",
+    "105"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "considerassem de dificuldade média a questão, o que, de fato, foi observado",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 61,
+  "paginas_pdf": [
+   21,
+   22
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_061.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_061.png",
+   "caixas_pt": [
+    [
+     22,
+     22,
+     79,
+     277,
+     244
+    ]
+   ],
+   "layout": "stack",
+   "largura": 765,
+   "altura": 495,
+   "sha256": "d45653b59117524ac474723f88d5f59bdf1c8d243378d056ce1c3c373b53887a",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_061.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.964,
+   "ausentes": [
+    "sempre",
+    "necessário",
+    "aproxime"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a banca revisora considerou-a de média dificuldade, o que se confirmou a partir das respostas dos candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 62,
+  "paginas_pdf": [
+   22
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": null,
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_062.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_062.png",
+   "caixas_pt": [
+    [
+     22,
+     20,
+     479,
+     287,
+     664
+    ]
+   ],
+   "layout": "stack",
+   "largura": 801,
+   "altura": 555,
+   "sha256": "1fb20a3cfd4b80486ef4b81fd898665fae96f5e3b7da586104b319fec5a66ea7",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_062.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.973,
+   "ausentes": [
+    "sempre",
+    "necessário",
+    "aproxime"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi classificada como fácil e apresentou um ótimo índice de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 63,
+  "paginas_pdf": [
+   22
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": null,
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_063.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_063.png",
+   "caixas_pt": [
+    [
+     22,
+     313,
+     252,
+     566,
+     324
+    ]
+   ],
+   "layout": "stack",
+   "largura": 759,
+   "altura": 216,
+   "sha256": "f3410b11d4b7f4f0893812c72ff36cc3386320d0c8a57ba95ea330f121f77d54",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_063.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.986,
+   "ausentes": [
+    "1010"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi classificada de grau de dificuldade médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 64,
+  "paginas_pdf": [
+   22,
+   23
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_064.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_064.png",
+   "caixas_pt": [
+    [
+     22,
+     454,
+     486,
+     577,
+     578
+    ]
+   ],
+   "layout": "stack",
+   "largura": 369,
+   "altura": 276,
+   "sha256": "a317a4dcf6d1910ea2a5e1836e3096a8683f972d6718bfc98e484ea97834d3ff",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_064.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi classificada como difícil e apresentou um Índice de discriminação baixo",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 65,
+  "paginas_pdf": [
+   23
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada difícil e com capacidade de discriminação marginal",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 66,
+  "paginas_pdf": [
+   23
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_066.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_066.png",
+   "caixas_pt": [
+    [
+     23,
+     315,
+     154,
+     568,
+     255
+    ],
+    [
+     23,
+     330,
+     262,
+     560,
+     282
+    ]
+   ],
+   "layout": "stack",
+   "largura": 759,
+   "altura": 363,
+   "sha256": "efd2db62f0379260fc93c040740bfd26e708ff10437dbfff1e6959360f3c1e15",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_066.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Rótulos \"Flor completa\", \"Flor I\" e \"Flor II\" incluídos na imagem, sob as respectivas figuras.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada de média dificuldade e com boa capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 67,
+  "paginas_pdf": [
+   23,
+   24
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada de média dificuldade e com ótima capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 68,
+  "paginas_pdf": [
+   24
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada de média dificuldade e com boa capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 69,
+  "paginas_pdf": [
+   24
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_069.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_069.png",
+   "caixas_pt": [
+    [
+     24,
+     309,
+     77,
+     579,
+     378
+    ],
+    [
+     24,
+     313,
+     385,
+     589,
+     551
+    ]
+   ],
+   "layout": "stack",
+   "largura": 828,
+   "altura": 1419,
+   "sha256": "34fa38b2c459d4dddbd603e525d032c6652d17e84b81c278c5976155cdfb1ba8",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_069.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada fácil e com boa capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 70,
+  "paginas_pdf": [
+   25
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_070.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_070.png",
+   "caixas_pt": [
+    [
+     25,
+     37,
+     220,
+     271,
+     267
+    ]
+   ],
+   "layout": "stack",
+   "largura": 702,
+   "altura": 141,
+   "sha256": "b9c53fb15bbf18f47e71de2e3907a95fc0871d320a92fc6765ad231f764fb13d",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_070.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada de média dificuldade e com capacidade de discriminação marginal",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 71,
+  "paginas_pdf": [
+   25
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada de média dificuldade e com capacidade de discriminação muito fraca",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2022,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas Q e X",
+  "numero_original": 72,
+  "paginas_pdf": [
+   25
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2022/F1/f12022Q_X.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2021/11/gabarito_2022_DIVULGA.pdf (pág. 1, PROVAS Q e X)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2022qx_questao_072.png",
+   "arquivo_repo": "imagens/unicamp/2022/qx_auditado/questao_072.png",
+   "caixas_pt": [
+    [
+     25,
+     309,
+     211,
+     577,
+     417
+    ]
+   ],
+   "layout": "stack",
+   "largura": 804,
+   "altura": 618,
+   "sha256": "1fcc233aef961d8c5575607061110a2d1d7ef98a21c520c0347799d85d41d507",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2022/qx_auditado/questao_072.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada difícil e com boa capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ }
+]

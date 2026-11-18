@@ -108,6 +108,24 @@
   "layout": "stack"
  },
  {
+  "num": 18,
+  "arquivo": "unicamp_2021eg_questao_018.png",
+  "largura": 747,
+  "altura": 642,
+  "bytes": 279196,
+  "sha256": "c1e81bdbf1426f8aec66a3c4f7fc1974a5dc97141adace8694e462448e3d6af5",
+  "caixas": [
+   [
+    7,
+    317,
+    612,
+    566,
+    826
+   ]
+  ],
+  "layout": "stack"
+ },
+ {
   "num": 20,
   "arquivo": "unicamp_2021eg_questao_020.png",
   "largura": 1668,
@@ -473,14 +491,14 @@
   "num": 68,
   "arquivo": "unicamp_2021eg_questao_068.png",
   "largura": 816,
-  "altura": 1677,
-  "bytes": 571083,
-  "sha256": "9067fbc3f1e1465ca0f775078b43a3802c7c560e9f318ed03e656f64dfb347c1",
+  "altura": 1725,
+  "bytes": 583034,
+  "sha256": "12de7ed27b3a2f9bda79bf6d14a6688c01881f18dfc7dbfd93d6c9ea2f242e94",
   "caixas": [
    [
     20,
     28,
-    256,
+    240,
     300,
     815
    ]

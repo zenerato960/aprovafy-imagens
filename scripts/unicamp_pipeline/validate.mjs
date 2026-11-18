@@ -40,6 +40,11 @@ for (let i = 0; i < data.length; i++) {
   if (alts.some(a => !a.trim())) E.push('alternativa vazia');
   if (alts.some(a => /^[a-eA-E]\)\s/.test(a))) E.push('alternativa com rótulo a)/b)… embutido');
   if (new Set(alts.map(a => a.trim().toLowerCase())).size !== alts.length) W.push('alternativas repetidas');
+  // material que vem depois das alternativas na página (dados, fontes, glossário) colado numa alternativa
+  alts.forEach((a, k) => { if (/(Dados?:|Massas molares|\(Fonte|\(Adaptado|Dispon[ií]veis? em|Acessado em|Texto comum|USE O)/.test(a)) E.push(`alternativa ${'abcd'[k]} contém material que não é da alternativa: "${a.slice(0, 60)}…"`); });
+  // fragmentos curtos e soltos no enunciado (rótulos de figura, texto rotacionado)
+  const frag = q.enunciado.split('\n').filter((p, k, ps) => { const t = p.trim(); return t.length < 28 && !/^(Texto [IVX\d]+|TEXTO \d|Dados?:|Obs)/.test(t) && !/[.?!:;,”"…)]$/.test(t) && !((ps[k - 1] || '').length < 60 && (ps[k + 1] || '').length < 60); });
+  if (frag.length) W.push('fragmentos curtos no enunciado (conferir): ' + frag.map(f => JSON.stringify(f)).join(' '));
   const okResp = [...LETRAS, 'Anulado'];
   if (!okResp.includes(q.alternativa_correta)) E.push('alternativa_correta inválida: ' + q.alternativa_correta);
   if (gab[num] !== q.alternativa_correta) E.push(`gabarito oficial ${gab[num]} ≠ JSON ${q.alternativa_correta}`);

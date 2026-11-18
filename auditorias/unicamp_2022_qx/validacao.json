@@ -1,0 +1,607 @@
+{
+ "arquivo": "unicamp_2022qx_1fase_72_questoes.json",
+ "total": 72,
+ "errosGlobais": [],
+ "online": true,
+ "questoes": [
+  {
+   "num": 1,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 2,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 3,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 4,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 5,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 6,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 7,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 556577,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 8,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 556577,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 9,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 27820,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 10,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 511844,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 11,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 12,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 568411,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 13,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 14,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 27566,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 15,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 111174,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 16,
+   "erros": [],
+   "avisos": [
+    "notação ^( ) ou _( ) remanescente"
+   ]
+  },
+  {
+   "num": 17,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 18,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 19,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 20,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 21,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 16753,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 22,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 23,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 24,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 347255,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 25,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 26,
+   "erros": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"Pode-se dizer que Budhrani\""
+   ],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 435509,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 27,
+   "erros": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"Em seu discurso, o ator\""
+   ],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 86569,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 28,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 177169,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 29,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 30,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 529750,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 31,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 76428,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 32,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 33,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 159198,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 34,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 89054,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 35,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 152906,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 36,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 62607,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 37,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 38,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 46928,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 39,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 55060,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 40,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 151858,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 41,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 196922,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 42,
+   "erros": [],
+   "avisos": [
+    "comentada C ≠ gabarito Anulado"
+   ],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 189045,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 43,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 44,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 121398,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 45,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 613986,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 46,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 47,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 277545,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 48,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 49,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 517823,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 50,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 51,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 52,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 53,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 54,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 55,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 56,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 57,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 58,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 59,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 60,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 61,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 107131,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 62,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 100481,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 63,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 12952,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 64,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 57941,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 65,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 66,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 95697,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 67,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 68,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 69,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 697321,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 70,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 19511,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 71,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 72,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 147347,
+    "sha_confere": true
+   }
+  }
+ ],
+ "resumo": {
+  "com_erro": [],
+  "com_aviso": [
+   2,
+   11,
+   16,
+   25,
+   26,
+   27,
+   42,
+   52
+  ]
+ }
+}

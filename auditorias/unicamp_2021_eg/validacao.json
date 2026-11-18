@@ -120,7 +120,9 @@
   {
    "num": 16,
    "erros": [],
-   "avisos": []
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"By Richard A. Friedman\""
+   ]
   },
   {
    "num": 17,
@@ -130,14 +132,20 @@
   {
    "num": 18,
    "erros": [],
-   "avisos": [
-    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
-   ]
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 279196,
+    "sha_confere": true
+   }
   },
   {
    "num": 19,
    "erros": [],
-   "avisos": []
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"Your affectionate, J. Keats\" \"O autor da carta\""
+   ]
   },
   {
    "num": 20,
@@ -479,7 +487,9 @@
   {
    "num": 67,
    "erros": [],
-   "avisos": []
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"Depreende-se do texto que\""
+   ]
   },
   {
    "num": 68,
@@ -488,7 +498,7 @@
    "url": {
     "status": 200,
     "content_type": "image/png",
-    "bytes": 571083,
+    "bytes": 583034,
     "sha_confere": true
    }
   },
@@ -531,7 +541,9 @@
   "com_erro": [],
   "com_aviso": [
    2,
-   18,
+   16,
+   19,
+   67,
    69
   ]
  }

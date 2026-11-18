@@ -1,0 +1,611 @@
+[
+ {
+  "num": 1,
+  "palavras": 131,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 2,
+  "palavras": 183,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 3,
+  "palavras": 149,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 4,
+  "palavras": 112,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 5,
+  "palavras": 140,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 6,
+  "palavras": 128,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 7,
+  "palavras": 234,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 8,
+  "palavras": 226,
+  "cobertura": 0.695,
+  "ausentes": [
+   "cidadefloresta",
+   "lambelambe",
+   "80m",
+   "12m",
+   "disponível",
+   "https",
+   "www",
+   "premiopipa",
+   "wpcontent",
+   "uploads",
+   "2019",
+   "23denilsonbaniwa",
+   "jpeg",
+   "acessado",
+   "permaneçam",
+   "vivas",
+   "museu",
+   "pessoa",
+   "rádio",
+   "yandê",
+   "ailton",
+   "krenak",
+   "realizar",
+   "virtual",
+   "jovens"
+  ]
+ },
+ {
+  "num": 9,
+  "palavras": 98,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 10,
+  "palavras": 97,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 11,
+  "palavras": 163,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 12,
+  "palavras": 63,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 13,
+  "palavras": 53,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 14,
+  "palavras": 117,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 15,
+  "palavras": 9,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 16,
+  "palavras": 18,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 17,
+  "palavras": 128,
+  "cobertura": 0.852,
+  "ausentes": [
+   "conter",
+   "viral",
+   "aplicada",
+   "pode",
+   "entendida",
+   "indivíduos",
+   "vacinados",
+   "estarão",
+   "imunes",
+   "doença",
+   "fórmula",
+   "associado",
+   "características",
+   "assumese",
+   "eventual",
+   "imunização",
+   "somente",
+   "adquirida",
+   "meio"
+  ]
+ },
+ {
+  "num": 18,
+  "palavras": 87,
+  "cobertura": 0.782,
+  "ausentes": [
+   "conter",
+   "viral",
+   "aplicada",
+   "pode",
+   "entendida",
+   "indivíduos",
+   "vacinados",
+   "estarão",
+   "imunes",
+   "doença",
+   "fórmula",
+   "associado",
+   "características",
+   "assumese",
+   "eventual",
+   "imunização",
+   "somente",
+   "adquirida",
+   "meio"
+  ]
+ },
+ {
+  "num": 19,
+  "palavras": 39,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 20,
+  "palavras": 29,
+  "cobertura": 0.379,
+  "ausentes": [
+   "considere",
+   "matriz",
+   "seja",
+   "transposta",
+   "sobre",
+   "sistema",
+   "2021",
+   "2022",
+   "afirmar",
+   "infinitas",
+   "soluções"
+  ]
+ },
+ {
+  "num": 21,
+  "palavras": 76,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 22,
+  "palavras": 20,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 23,
+  "palavras": 7,
+  "cobertura": 0.143,
+  "ausentes": [
+   "polinômio",
+   "2x3",
+   "ax2",
+   "divisível",
+   "2x2",
+   "valor"
+  ]
+ },
+ {
+  "num": 24,
+  "palavras": 64,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 25,
+  "palavras": 155,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 26,
+  "palavras": 115,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 27,
+  "palavras": 196,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 28,
+  "palavras": 221,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 29,
+  "palavras": 256,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 30,
+  "palavras": 123,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 31,
+  "palavras": 228,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 32,
+  "palavras": 208,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 33,
+  "palavras": 94,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 34,
+  "palavras": 92,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 35,
+  "palavras": 129,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 36,
+  "palavras": 166,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 37,
+  "palavras": 198,
+  "cobertura": 0.874,
+  "ausentes": [
+   "resíduos",
+   "contribuem",
+   "clima",
+   "mude",
+   "pessoas",
+   "pensam",
+   "blue",
+   "planet",
+   "ink",
+   "anunciou",
+   "agora",
+   "disponível",
+   "cartuchos",
+   "remanufaturados",
+   "impressoras",
+   "determinada",
+   "marca",
+   "economizadora",
+   "impressa",
+   "sulfite",
+   "normal",
+   "exposição",
+   "vapor",
+   "corante",
+   "perde"
+  ]
+ },
+ {
+  "num": 38,
+  "palavras": 139,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 39,
+  "palavras": 102,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 40,
+  "palavras": 159,
+  "cobertura": 0.987,
+  "ausentes": [
+   "pressão",
+   "bar"
+  ]
+ },
+ {
+  "num": 41,
+  "palavras": 151,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 42,
+  "palavras": 143,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 43,
+  "palavras": 137,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 44,
+  "palavras": 72,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 45,
+  "palavras": 141,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 46,
+  "palavras": 201,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 47,
+  "palavras": 181,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 48,
+  "palavras": 133,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 49,
+  "palavras": 234,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 50,
+  "palavras": 221,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 51,
+  "palavras": 199,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 52,
+  "palavras": 230,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 53,
+  "palavras": 153,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 54,
+  "palavras": 133,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 55,
+  "palavras": 173,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 56,
+  "palavras": 206,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 57,
+  "palavras": 86,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 58,
+  "palavras": 100,
+  "cobertura": 0.77,
+  "ausentes": [
+   "sempre",
+   "necessário",
+   "aproxime",
+   "2018",
+   "nasa",
+   "lançou",
+   "estudar",
+   "isso",
+   "suas",
+   "órbitas",
+   "aproximará",
+   "gradativamente",
+   "coletando",
+   "fez",
+   "oitava",
+   "aproximação",
+   "atingindo",
+   "novos",
+   "recordes",
+   "artefatos",
+   "realizados",
+   "máxima"
+  ]
+ },
+ {
+  "num": 59,
+  "palavras": 78,
+  "cobertura": 0.962,
+  "ausentes": [
+   "sempre",
+   "necessário",
+   "aproxime"
+  ]
+ },
+ {
+  "num": 60,
+  "palavras": 118,
+  "cobertura": 0.754,
+  "ausentes": [
+   "sempre",
+   "necessário",
+   "aproxime",
+   "questões",
+   "abril",
+   "2021",
+   "faleceu",
+   "astronauta",
+   "norteamericano",
+   "michael",
+   "collins",
+   "integrante",
+   "levou",
+   "primeiro",
+   "homem",
+   "outros",
+   "astronautas",
+   "neil",
+   "armstrong",
+   "buzz",
+   "aldrin",
+   "desceram",
+   "permaneceu",
+   "pilotando",
+   "105"
+  ]
+ },
+ {
+  "num": 61,
+  "palavras": 84,
+  "cobertura": 0.964,
+  "ausentes": [
+   "sempre",
+   "necessário",
+   "aproxime"
+  ]
+ },
+ {
+  "num": 62,
+  "palavras": 112,
+  "cobertura": 0.973,
+  "ausentes": [
+   "sempre",
+   "necessário",
+   "aproxime"
+  ]
+ },
+ {
+  "num": 63,
+  "palavras": 70,
+  "cobertura": 0.986,
+  "ausentes": [
+   "1010"
+  ]
+ },
+ {
+  "num": 64,
+  "palavras": 203,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 65,
+  "palavras": 146,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 66,
+  "palavras": 118,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 67,
+  "palavras": 155,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 68,
+  "palavras": 172,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 69,
+  "palavras": 129,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 70,
+  "palavras": 143,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 71,
+  "palavras": 111,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 72,
+  "palavras": 90,
+  "cobertura": 1,
+  "ausentes": []
+ }
+]

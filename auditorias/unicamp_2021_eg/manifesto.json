@@ -29,7 +29,7 @@
    "largura": 395,
    "altura": 622,
    "sha256": "91cc81e45a9b91da5a284a7ea25e50bf644b83bae67a3e410b833904e5e35dbc",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_001.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_001.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -254,7 +254,7 @@
    "largura": 787,
    "altura": 812,
    "sha256": "dd777e9b5310b5ef9fe84692283325c2f5523fc825a60b7ecbb00510b59b955f",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_009.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_009.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -349,7 +349,7 @@
    "largura": 773,
    "altura": 1305,
    "sha256": "651396b76d4b381d5fb635b769aa6bf08bcb567f54b56d022564ae326a43e235",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_012.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_012.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -392,7 +392,7 @@
    "largura": 756,
    "altura": 528,
    "sha256": "611eb43260e7a6ac8cba0f7404b75f6ace6d7874f34f7ca5ab779b1b2c47d6c8",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_013.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_013.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -435,7 +435,7 @@
    "largura": 404,
    "altura": 378,
    "sha256": "eb81d4cf8888cbdc6875df12f3f30d7c0ab64faa1a5fba772d14166c9ff0f699",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_014.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_014.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -478,7 +478,7 @@
    "largura": 220,
    "altura": 340,
    "sha256": "aed087a320a5ba74bbb182f9344c02e2c04e5b5daec5ffeb5b5fb669e47be7d5",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_015.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_015.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -558,9 +558,26 @@
   "resposta_gabarito": "B",
   "resposta_comentada": "B",
   "resposta_json": "B",
-  "imagem": null,
-  "revisao_manual": false,
-  "observacao": "",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2021eg_questao_018.png",
+   "arquivo_repo": "imagens/unicamp/2021/dia1_eg/questao_018.png",
+   "caixas_pt": [
+    [
+     7,
+     317,
+     612,
+     566,
+     826
+    ]
+   ],
+   "layout": "stack",
+   "largura": 747,
+   "altura": 642,
+   "sha256": "c1e81bdbf1426f8aec66a3c4f7fc1974a5dc97141adace8694e462448e3d6af5",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_018.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Cartaz da OMS com a fonte (impressa na vertical, na margem esquerda do cartaz) incluída na imagem.",
   "auditoria_texto_comentada": {
    "cobertura": 1,
    "ausentes": []
@@ -647,7 +664,7 @@
    "largura": 1668,
    "altura": 918,
    "sha256": "a80d4836bc32c2266ba70cdcb83c095398ea2d4b05b6626e6da902d192c5b76a",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_020.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_020.png"
   },
   "revisao_manual": true,
   "observacao": "Alternativas exclusivamente gráficas: as quatro ilustrações, com as letras a–d, estão na imagem.",
@@ -763,7 +780,7 @@
    "largura": 690,
    "altura": 585,
    "sha256": "f2d1eaaae59c88d3a2d8efb1f4b20a8262f27bca1ac69a81d9e45f3063b50726",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_023.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_023.png"
   },
   "revisao_manual": true,
   "observacao": "Alternativas exclusivamente gráficas: os quatro gráficos, com as letras a–d, estão na imagem.",
@@ -912,7 +929,7 @@
    "largura": 429,
    "altura": 332,
    "sha256": "e56db74d75d52ce597253e37c73fd1cd44fae0dbfad28b8813ec72f22e59dbc8",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_028.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_028.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -1087,7 +1104,7 @@
    "largura": 570,
    "altura": 384,
    "sha256": "93dd84661010a33b5e59f76841ddef2ae52d0172140d65bd21c1a0c90e700e15",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_034.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_034.png"
   },
   "revisao_manual": true,
   "observacao": "",
@@ -1252,7 +1269,7 @@
    "largura": 702,
    "altura": 432,
    "sha256": "99dcf192c7313b85d189bb602e32248ec6c890787f1ae8d3b18db707628bc79d",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_039.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_039.png"
   },
   "revisao_manual": true,
   "observacao": "",
@@ -1299,7 +1316,7 @@
    "largura": 726,
    "altura": 309,
    "sha256": "6ccc0ce73ddd772335d6a8a331981185365ef1aeccb7d077576fa952c5339d8f",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_040.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_040.png"
   },
   "revisao_manual": true,
   "observacao": "",
@@ -1353,7 +1370,7 @@
    "largura": 738,
    "altura": 1782,
    "sha256": "b0dd5f75b8ac75db11037b454c5c8aea7e0ce3284d58e4d41dd754cfdd95042c",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_041.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_041.png"
   },
   "revisao_manual": true,
   "observacao": "Alternativas gráficas: cada alternativa é uma sequência de três triângulos do fogo (ações A, B e C), na imagem com as letras a–d.",
@@ -1425,7 +1442,7 @@
    "largura": 598,
    "altura": 519,
    "sha256": "dd784ffb6d6573a3ef6e855e4939a52f4a51a053c23810b943e7c4e71ad83001",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_043.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_043.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -1494,7 +1511,7 @@
    "largura": 680,
    "altura": 509,
    "sha256": "229e7675c23584a589b37998e8e8643e5ca68b6b3dfd2a2d27289fbb08ad65c1",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_045.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_045.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -1589,7 +1606,7 @@
    "largura": 766,
    "altura": 613,
    "sha256": "1f4f710eed38ac6ce4e0c7b3b41a1adf51d4eb037869d1aafef5e6d7be808e99",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_048.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_048.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -1632,7 +1649,7 @@
    "largura": 723,
    "altura": 460,
    "sha256": "436c5a422883932f2f02e68f92290aded669940764991424ac2012b0613ebde8",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_049.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_049.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -1754,7 +1771,7 @@
    "largura": 792,
    "altura": 402,
    "sha256": "02ef6d5bea8bdc71a123d93f323af6bc2dc452f1d689e7839d8218b3908a3f4d",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_053.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_053.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -1830,7 +1847,7 @@
    "largura": 710,
    "altura": 787,
    "sha256": "b2ba9601c41284106c17c0c6a81e16891fb0e2d39e355dc167e23226cb848fef",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_055.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_055.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -2004,7 +2021,7 @@
    "largura": 639,
    "altura": 454,
    "sha256": "ad1080507a4befbf6520ff398a10e38a950389d0736d52a8873a41a47988365f",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_061.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_061.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -2100,7 +2117,7 @@
    "largura": 723,
    "altura": 411,
    "sha256": "d92f76af4a137337e0e3e6a123d3c4637db7b4fefdb7f7d7e4825306975810b1",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_064.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_064.png"
   },
   "revisao_manual": true,
   "observacao": "",
@@ -2143,7 +2160,7 @@
    "largura": 729,
    "altura": 787,
    "sha256": "d406a49d531d827bebddf56f7c16457cc1d2cfcb6519747688946ffc5ca31df5",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_065.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_065.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -2186,7 +2203,7 @@
    "largura": 735,
    "altura": 473,
    "sha256": "20b45b5a5f7b59506dbf0e4c7bfbb5c99b64fa67f1abc2b1d242e5472c3ac033",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_066.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_066.png"
   },
   "revisao_manual": false,
   "observacao": "",
@@ -2247,19 +2264,19 @@
     [
      20,
      28,
-     256,
+     240,
      300,
      815
     ]
    ],
    "layout": "stack",
    "largura": 816,
-   "altura": 1677,
-   "sha256": "9067fbc3f1e1465ca0f775078b43a3802c7c560e9f318ed03e656f64dfb347c1",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_068.png"
+   "altura": 1725,
+   "sha256": "12de7ed27b3a2f9bda79bf6d14a6688c01881f18dfc7dbfd93d6c9ea2f242e94",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_068.png"
   },
   "revisao_manual": true,
-  "observacao": "",
+  "observacao": "Imagem com o título comum e os Mapas 1, 2 e 3; a fonte (vertical, na margem) está incluída na imagem.",
   "auditoria_texto_comentada": {
    "cobertura": 1,
    "ausentes": []
@@ -2326,7 +2343,7 @@
    "largura": 858,
    "altura": 600,
    "sha256": "2434cea2ecaed7727cdc2b5c03264c03d810a8c745989c5f68c79db7bc4dc5dc",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_070.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_070.png"
   },
   "revisao_manual": true,
   "observacao": "",
@@ -2385,7 +2402,7 @@
    "largura": 873,
    "altura": 1326,
    "sha256": "21bc67995676155cebfea521edfd5cb14ea16fa8f0bd213aab9a8cb8bb339e2b",
-   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/cfe829e2c9cc6d87a3e4b08785766087704d67a3/imagens/unicamp/2021/dia1_eg/questao_071.png"
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/dfd7983aab2ccacb85883e89e2333b0f605d308b/imagens/unicamp/2021/dia1_eg/questao_071.png"
   },
   "revisao_manual": true,
   "observacao": "Imagem com o Mapa 1 seguido do Mapa 2. O topo do Mapa 2 foi recortado separadamente para excluir a logomarca do cabeçalho, sem perda de conteúdo.",

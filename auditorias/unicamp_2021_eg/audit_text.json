@@ -103,7 +103,7 @@
  },
  {
   "num": 18,
-  "palavras": 63,
+  "palavras": 58,
   "cobertura": 1,
   "ausentes": []
  },
@@ -412,7 +412,7 @@
  },
  {
   "num": 64,
-  "palavras": 110,
+  "palavras": 100,
   "cobertura": 1,
   "ausentes": []
  },
@@ -436,7 +436,7 @@
  },
  {
   "num": 68,
-  "palavras": 56,
+  "palavras": 35,
   "cobertura": 1,
   "ausentes": []
  },
@@ -448,11 +448,9 @@
  },
  {
   "num": 70,
-  "palavras": 138,
-  "cobertura": 0.993,
-  "ausentes": [
-   "ambientaisde"
-  ]
+  "palavras": 122,
+  "cobertura": 1,
+  "ausentes": []
  },
  {
   "num": 71,

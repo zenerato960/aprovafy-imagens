@@ -169,7 +169,7 @@
  },
  {
   "num": 29,
-  "palavras": 77,
+  "palavras": 67,
   "cobertura": 1,
   "ausentes": []
  },
@@ -181,7 +181,7 @@
  },
  {
   "num": 31,
-  "palavras": 156,
+  "palavras": 131,
   "cobertura": 1,
   "ausentes": []
  },
@@ -429,7 +429,7 @@
  },
  {
   "num": 62,
-  "palavras": 111,
+  "palavras": 103,
   "cobertura": 1,
   "ausentes": []
  },
@@ -465,7 +465,7 @@
  },
  {
   "num": 68,
-  "palavras": 92,
+  "palavras": 80,
   "cobertura": 1,
   "ausentes": []
  },

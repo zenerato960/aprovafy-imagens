@@ -17,7 +17,7 @@ export default {
     enunciado: 'Se θ ∈ (0, π/2), a expressão\n[(cos(θ) + sen(θ))/sen(θ) + (cos(θ) − sen(θ))/cos(θ)] / [(cos(θ) + sen(θ))/cos(θ) + (cos(θ) − sen(θ))/sen(θ)]\né equivalente a',
     obs: 'Fração composta escrita em linha (numerador e denominador entre colchetes).',
   },
-  41: { alternativas: ['0° < θ ≤ 30°.', '30° < θ ≤ 45°.', '45° < θ ≤ 60°.', '60° < θ ≤ 90°.'] },
+  41: { enunciado: 'Sabendo que 0 < θ ≤ 90° e que 2 cos(2θ) + 5 cos(θ) = 4, é correto afirmar que', alternativas: ['0° < θ ≤ 30°.', '30° < θ ≤ 45°.', '45° < θ ≤ 60°.', '60° < θ ≤ 90°.'] },
   42: { enunciado: 'A figura abaixo exibe três círculos tangentes dois a dois e os três tangentes a uma mesma reta. Os raios dos círculos maiores têm comprimento R e o círculo menor tem raio de comprimento r.\nA razão R/r é igual a', crops: [[14, 361, 471, 521, 554]], alternativas: ['3.', '√10.', '4.', '2√5.'] },
   43: { replace: [['log₁₀ 2 ൎ 0,3 e log₁₀ 5 ൎ 0,7', 'log₁₀ 2 ≈ 0,3 e log₁₀ 5 ≈ 0,7']] },
   44: {

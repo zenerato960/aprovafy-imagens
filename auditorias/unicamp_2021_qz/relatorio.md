@@ -64,6 +64,14 @@ Matérias: Literatura 6 · Português 6 · Inglês 8 · Biologia 8 · Química 7
 - **Alternativas em imagem:** na Q38, os quatro gráficos de y = p(x), com as letras a–d, ficam na imagem.
 - **Falsos positivos removidos:** caixas de destaque em torno de "100 W", "15 minutos" e "3,0×10⁸ m/s" (Q54 e Q56) não são figuras e não foram recortadas.
 
+## Correções após a 1ª publicação (commit cc57580)
+
+Uma nova rodada de auditoria encontrou erros na versão publicada, agora corrigidos:
+- **Q29, Q33 e Q36:** os dados e as massas molares impressos depois da alternativa d tinham sido colados nela. Foram movidos para o fim do enunciado.
+- **Q29, Q31 e Q68:** rótulos de eixos e títulos de gráficos ou mapas tinham vazado para o enunciado; foram removidos (estão nas imagens).
+- **Q62:** fragmentos da legenda vertical foram removidos do enunciado.
+- **Q41:** foi removido o fragmento "° °" do enunciado.
+
 ## Auditorias executadas
 
 1. Revisão visual de todas as páginas e zoom nas fórmulas.
@@ -92,14 +100,14 @@ Matérias: Literatura 6 · Português 6 · Inglês 8 · Biologia 8 · Química 7
 | 10 | 5 | A | A | A | — | Média (comentada) | aprovada |  |
 | 11 | 5 | C | C | C | — | Média (comentada) | aprovada |  |
 | 12 | 5,6 | B | B | B | — | Fácil (comentada) | aprovada |  |
-| 13 | 6 | C | C | C | sim | Fácil (comentada) | aprovada |  |
+| 13 | 6 | C | C | C | sim | Fácil (comentada) | aprovada | fragmentos curtos no enunciado (conferir): "Em sua resposta, a atriz" |
 | 14 | 6 | D | D | D | sim | Fácil (comentada) | aprovada |  |
 | 15 | 6,7 | D | D | D | — | Média (comentada) | aprovada |  |
 | 16 | 7 | B | B | B | — | Média (comentada) | aprovada |  |
 | 17 | 7 | B | B | B | sim | Fácil (comentada) | aprovada |  |
 | 18 | 7,8 | C | C | C | sim | Difícil (comentada) | aprovada |  |
-| 19 | 8 | A | A | A | — | Difícil (comentada) | aprovada |  |
-| 20 | 8 | A | A | A | sim | Fácil (comentada) | aprovada |  |
+| 19 | 8 | A | A | A | — | Difícil (comentada) | aprovada | fragmentos curtos no enunciado (conferir): "O poema destaca" |
+| 20 | 8 | A | A | A | sim | Fácil (comentada) | aprovada | fragmentos curtos no enunciado (conferir): "THE COMPLETE STORIES" |
 | 21 | 9 | C | C | C | sim | Difícil (comentada) | aprovada |  |
 | 22 | 9 | B | B | B | — | Média (comentada) | aprovada |  |
 | 23 | 9 | A | A | A | sim | Fácil (comentada) | aprovada |  |
@@ -114,14 +122,14 @@ Matérias: Literatura 6 · Português 6 · Inglês 8 · Biologia 8 · Química 7
 | 32 | 12 | A | A | A | sim | Média (comentada) | aprovada |  |
 | 33 | 12,13 | C | C | C | sim | Média (comentada) | aprovada |  |
 | 34 | 13 | D | D | D | sim | Média (comentada) | aprovada |  |
-| 35 | 13 | B | B | B | sim | Média (comentada) | aprovada |  |
+| 35 | 13 | B | B | B | sim | Média (comentada) | aprovada | fragmentos curtos no enunciado (conferir): "Os resultados mostram que" |
 | 36 | 13 | C | C | C | — | Média (comentada) | aprovada |  |
 | 37 | 14 | C | C | C | — | Difícil (comentada) | aprovada |  |
 | 38 | 14 | A | A | A | sim | Média (comentada) | aprovada | Alternativas exclusivamente gráficas: os quatro gráficos de y = p(x), com as letras a–d, estão na imagem. |
 | 39 | 14 | C | C | C | — | Difícil (comentada) | aprovada |  |
-| 40 | 14 | B | B | B | — | Difícil (comentada) | aprovada | Fração composta escrita em linha (numerador e denominador entre colchetes). |
+| 40 | 14 | B | B | B | — | Difícil (comentada) | aprovada | Fração composta escrita em linha (numerador e denominador entre colchetes). / fragmentos curtos no enunciado (conferir): "é equivalente a" |
 | 41 | 14 | B | B | B | — | Difícil (comentada) | aprovada |  |
-| 42 | 14 | C | C | C | sim | Difícil (comentada) | aprovada |  |
+| 42 | 14 | C | C | C | sim | Difícil (comentada) | aprovada | fragmentos curtos no enunciado (conferir): "A razão R/r é igual a" |
 | 43 | 14 | C | C | C | — | Média (comentada) | aprovada |  |
 | 44 | 15 | D | D | D | — | Difícil (comentada) | aprovada | Matrizes escritas em linha: [a −1; a−2 a] = 1ª linha (a, −1), 2ª linha (a−2, a); vetores coluna [x; y] e [3; a−4]. |
 | 45 | 15 | B | B | B | — | Média (estimativa) | aprovada | Raiz de índice 2021: ²⁰²¹√(10^(3x+5)). / notação ^( ) ou _( ) remanescente |
