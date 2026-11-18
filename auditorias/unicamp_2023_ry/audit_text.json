@@ -1,0 +1,645 @@
+[
+ {
+  "num": 1,
+  "palavras": 77,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 2,
+  "palavras": 156,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 3,
+  "palavras": 171,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 4,
+  "palavras": 127,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 5,
+  "palavras": 84,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 6,
+  "palavras": 117,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 7,
+  "palavras": 151,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 8,
+  "palavras": 104,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 9,
+  "palavras": 47,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 10,
+  "palavras": 54,
+  "cobertura": 0.981,
+  "ausentes": [
+   "aproximados"
+  ]
+ },
+ {
+  "num": 11,
+  "palavras": 55,
+  "cobertura": 0.673,
+  "ausentes": [
+   "aproximados",
+   "balonismo",
+   "esporte",
+   "aeronáutico",
+   "adeptos",
+   "mundo",
+   "oferece",
+   "belo",
+   "espetáculo",
+   "observadores",
+   "maçarico",
+   "usado",
+   "aquecer",
+   "variar",
+   "densidade",
+   "permitindo",
+   "controle",
+   "subida"
+  ]
+ },
+ {
+  "num": 12,
+  "palavras": 70,
+  "cobertura": 0.743,
+  "ausentes": [
+   "aproximados",
+   "balonismo",
+   "esporte",
+   "aeronáutico",
+   "adeptos",
+   "mundo",
+   "oferece",
+   "belo",
+   "espetáculo",
+   "observadores",
+   "maçarico",
+   "usado",
+   "aquecer",
+   "variar",
+   "densidade",
+   "permitindo",
+   "controle",
+   "subida"
+  ]
+ },
+ {
+  "num": 13,
+  "palavras": 90,
+  "cobertura": 0.989,
+  "ausentes": [
+   "aproximados"
+  ]
+ },
+ {
+  "num": 14,
+  "palavras": 77,
+  "cobertura": 0.974,
+  "ausentes": [
+   "valores",
+   "aproximados"
+  ]
+ },
+ {
+  "num": 15,
+  "palavras": 55,
+  "cobertura": 0.982,
+  "ausentes": [
+   "aproximados"
+  ]
+ },
+ {
+  "num": 16,
+  "palavras": 104,
+  "cobertura": 0.981,
+  "ausentes": [
+   "aproximados",
+   "conhecido"
+  ]
+ },
+ {
+  "num": 17,
+  "palavras": 121,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 18,
+  "palavras": 65,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 19,
+  "palavras": 90,
+  "cobertura": 0.744,
+  "ausentes": [
+   "verde",
+   "fluorescente",
+   "inglês",
+   "green",
+   "fluorescence",
+   "protein",
+   "observada",
+   "primeira",
+   "vez",
+   "águaviva",
+   "aequorea",
+   "victoria",
+   "tornouse",
+   "ferramentas",
+   "importantes",
+   "usadas",
+   "evolutivamente",
+   "encontrada",
+   "marielyne",
+   "zoological",
+   "letters",
+   "211",
+   "2020"
+  ]
+ },
+ {
+  "num": 20,
+  "palavras": 198,
+  "cobertura": 0.884,
+  "ausentes": [
+   "verde",
+   "fluorescente",
+   "inglês",
+   "green",
+   "fluorescence",
+   "protein",
+   "observada",
+   "primeira",
+   "vez",
+   "águaviva",
+   "aequorea",
+   "victoria",
+   "tornouse",
+   "ferramentas",
+   "importantes",
+   "usadas",
+   "evolutivamente",
+   "encontrada",
+   "marielyne",
+   "zoological",
+   "letters",
+   "211",
+   "2020"
+  ]
+ },
+ {
+  "num": 21,
+  "palavras": 163,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 22,
+  "palavras": 92,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 23,
+  "palavras": 117,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 24,
+  "palavras": 146,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 25,
+  "palavras": 26,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 26,
+  "palavras": 36,
+  "cobertura": 0.972,
+  "ausentes": [
+   "imagem"
+  ]
+ },
+ {
+  "num": 27,
+  "palavras": 185,
+  "cobertura": 0.995,
+  "ausentes": [
+   "desses"
+  ]
+ },
+ {
+  "num": 28,
+  "palavras": 18,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 29,
+  "palavras": 10,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 30,
+  "palavras": 42,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 31,
+  "palavras": 44,
+  "cobertura": 0.977,
+  "ausentes": [
+   "comum"
+  ]
+ },
+ {
+  "num": 32,
+  "palavras": 57,
+  "cobertura": 0.614,
+  "ausentes": [
+   "texto",
+   "comum",
+   "questões",
+   "transformação",
+   "möbius",
+   "quociente",
+   "polinômios",
+   "grau",
+   "essas",
+   "transformações",
+   "computação",
+   "gráfica",
+   "também",
+   "área",
+   "engenharia",
+   "conhecida",
+   "processamento",
+   "sinais",
+   "versão",
+   "simplificada"
+  ]
+ },
+ {
+  "num": 33,
+  "palavras": 10,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 34,
+  "palavras": 14,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 35,
+  "palavras": 75,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 36,
+  "palavras": 18,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 37,
+  "palavras": 161,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 38,
+  "palavras": 243,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 39,
+  "palavras": 218,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 40,
+  "palavras": 134,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 41,
+  "palavras": 230,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 42,
+  "palavras": 183,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 43,
+  "palavras": 171,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 44,
+  "palavras": 216,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 45,
+  "palavras": 61,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 46,
+  "palavras": 124,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 47,
+  "palavras": 175,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 48,
+  "palavras": 224,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 49,
+  "palavras": 209,
+  "cobertura": 0.699,
+  "ausentes": [
+   "history",
+   "rise",
+   "around",
+   "multiple",
+   "waves",
+   "political",
+   "unrest",
+   "avantgarde",
+   "activism",
+   "upperclass",
+   "residents",
+   "displaced",
+   "lowincome",
+   "households",
+   "anger",
+   "fueled",
+   "movement",
+   "take",
+   "back",
+   "streets",
+   "via",
+   "spray",
+   "paint",
+   "video",
+   "projections"
+  ]
+ },
+ {
+  "num": 50,
+  "palavras": 242,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 51,
+  "palavras": 185,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 52,
+  "palavras": 162,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 53,
+  "palavras": 135,
+  "cobertura": 0.993,
+  "ausentes": [
+   "marília"
+  ]
+ },
+ {
+  "num": 54,
+  "palavras": 217,
+  "cobertura": 0.995,
+  "ausentes": [
+   "discutidas"
+  ]
+ },
+ {
+  "num": 55,
+  "palavras": 221,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 56,
+  "palavras": 187,
+  "cobertura": 0.658,
+  "ausentes": [
+   "quebrando",
+   "apesar",
+   "reconhecida",
+   "poeta",
+   "nunca",
+   "definiu",
+   "reino",
+   "bichos",
+   "animais",
+   "meu",
+   "qual",
+   "ficou",
+   "conhecida",
+   "potência",
+   "palavras",
+   "encontra",
+   "chamava",
+   "preservado",
+   "foram",
+   "pacientes",
+   "psiquiátricos",
+   "1986",
+   "1988",
+   "muitos",
+   "anos"
+  ]
+ },
+ {
+  "num": 57,
+  "palavras": 69,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 58,
+  "palavras": 163,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 59,
+  "palavras": 172,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 60,
+  "palavras": 152,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 61,
+  "palavras": 250,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 62,
+  "palavras": 185,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 63,
+  "palavras": 119,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 64,
+  "palavras": 92,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 65,
+  "palavras": 86,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 66,
+  "palavras": 264,
+  "cobertura": 0.992,
+  "ausentes": [
+   "h2o"
+  ]
+ },
+ {
+  "num": 67,
+  "palavras": 221,
+  "cobertura": 0.765,
+  "ausentes": [
+   "cria",
+   "redução",
+   "eliminação",
+   "substâncias",
+   "nocivas",
+   "homem",
+   "2019",
+   "reunir",
+   "várias",
+   "pesquisadores",
+   "paul",
+   "anastas",
+   "julie",
+   "zimmerman",
+   "propuseram",
+   "preceitos",
+   "mesmos",
+   "pura",
+   "beleza",
+   "realeza",
+   "reagindo",
+   "compasso",
+   "natureza",
+   "simples",
+   "menestrel"
+  ]
+ },
+ {
+  "num": 68,
+  "palavras": 87,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 69,
+  "palavras": 133,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 70,
+  "palavras": 162,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 71,
+  "palavras": 105,
+  "cobertura": 0.99,
+  "ausentes": [
+   "abaixo"
+  ]
+ },
+ {
+  "num": 72,
+  "palavras": 85,
+  "cobertura": 1,
+  "ausentes": []
+ }
+]

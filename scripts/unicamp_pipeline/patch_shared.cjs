@@ -1,0 +1,11 @@
+const fs = require('fs');
+const f = 'extract.mjs';
+let s = fs.readFileSync(f, 'utf8');
+const lines = s.split('\n');
+const i = lines.findIndex(l => l.startsWith('const SHARED = '));
+const j = lines.findIndex(l => l.startsWith('const NOTE = '));
+if (i < 0 || j < 0) throw new Error('nf');
+lines[i] = String.raw`const SHARED = /^(Textos? comu(m|ns) (às|para|para as) questões|Leia os? textos?( \d+ e \d+)?,?( a seguir)?,? (e responda|para responder) às questões|O texto abaixo será utilizado nas questões|Os textos abaixo serão utilizados nas questões|USE OS? TEXTOS?\b)/i;`;
+lines[j] = String.raw`const NOTE = { test: t => /^(Obs\.?:|Nas questões de \d+ a \d+)/i.test(t) || /^Sempre que necessário,? (aproxime|use)/.test(t) || /^Use os valores aproximados/.test(t) };`;
+fs.writeFileSync(f, lines.join('\n'));
+console.log('ok');

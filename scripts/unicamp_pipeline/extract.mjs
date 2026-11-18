@@ -9,12 +9,33 @@ import { openPdf, pageItems, toLines } from './pdflib.mjs';
 import { pageGraphics } from './graphics.mjs';
 
 const cfg = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
+
+// Hifenização silábica (cadernos com texto hifenizado no fim da linha): decide se "w1-" + "w2" é quebra de
+// sílaba (junta) ou hífen real (mantém). Evidência, em ordem: (1) a forma aparece inteira ou hifenizada no
+// meio de linha no próprio caderno; (2) idem no texto de referência (Prova Comentada); (3) pronome enclítico
+// ou prefixo hifenizável → mantém; (4) caso contrário junta. Toda decisão fica registrada em hyphen-log.
+const hyLog = [];
+let corpusDoc = '', corpusRef = '';
+function decideJoin(w1, w2) {
+  const j = (w1 + w2).toLowerCase(), h = (w1 + '-' + w2).toLowerCase();
+  const has = (c, s) => new RegExp('(^|[^\\p{L}])' + s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '([^\\p{L}]|$)', 'u').test(c);
+  let dec, why;
+  if (has(corpusDoc, h)) { dec = false; why = 'hífen no caderno'; }
+  else if (has(corpusDoc, j)) { dec = true; why = 'inteira no caderno'; }
+  else if (has(corpusRef, h)) { dec = false; why = 'hífen na comentada'; }
+  else if (has(corpusRef, j)) { dec = true; why = 'inteira na comentada'; }
+  else if (/^(se|me|te|lhe|lhes|nos|vos|lo|la|los|las)$/i.test(w2)) { dec = false; why = 'enclítico'; }
+  else if (/^(ex|pós|pré|pró|vice|recém|além|aquém|sem|bem|sócio|afro|ítalo|luso|euro|latino|norte|sul|centro|avant|self|well|co)$/i.test(w1)) { dec = false; why = 'prefixo'; }
+  else { dec = true; why = 'padrão (quebra silábica)'; }
+  hyLog.push(`${w1}-${w2} → ${dec ? w1 + w2 : w1 + '-' + w2} (${why})`);
+  return dec;
+}
 const doc = await openPdf(cfg.pdf);
 const TOP = cfg.top ?? 78, BOTTOM = cfg.bottom ?? 805;
 const MATH = cfg.mathMap || {};
 const QHEAD = /^QUESTÃO\s+(\d+)$/;
-const SHARED = /^(Textos? comu(m|ns) (às|para|para as) questões|Leia os? textos? a seguir e responda às questões|O texto abaixo será utilizado nas questões|Os textos abaixo serão utilizados nas questões|USE OS? TEXTOS?\b)/i;
-const NOTE = { test: t => /^(Obs\.?:|Nas questões de \d+ a \d+)/i.test(t) || /^Sempre que necessário,? (aproxime|use)/.test(t) };
+const SHARED = /^(Textos? comu(m|ns) (às|para|para as) questões|Leia os? textos?( \d+ e \d+)?,?( a seguir)?,? (e responda|para responder) às questões|O texto abaixo será utilizado nas questões|Os textos abaixo serão utilizados nas questões|USE OS? TEXTOS?\b)/i;
+const NOTE = { test: t => /^(Obs\.?:|Nas questões de \d+ a \d+)/i.test(t) || /^Sempre que necessário,? (aproxime|use)/.test(t) || /^Use os valores aproximados/.test(t) };
 
 // Letras matemáticas (𝑎, ℎ, 𝜃...) viram letras comuns; símbolos de fonte Symbol via mapa da prova.
 const mapChars = s => [...s].map(c => {
@@ -74,6 +95,12 @@ for (let pn = cfg.firstPage; pn <= (cfg.lastPage || doc.numPages); pn++) {
   }
 }
 
+corpusDoc = stream.map(l => l.text).join("\n").toLowerCase();
+if (cfg.autoDehyphen && cfg.refPdf) {
+  const ref = await openPdf(cfg.refPdf);
+  for (let pn = 1; pn <= ref.numPages; pn++) corpusRef += toLines((await pageItems(ref, pn)).items).map(l => l.text).join("\n") + "\n";
+  corpusRef = corpusRef.toLowerCase();
+}
 const parseList = t => {
   const m = t.match(/quest(?:ões|ão)\s+(?:de\s+)?(\d+)\s*(?:a|até)\s*(\d+)/i);
   if (m) { const a = []; for (let k = +m[1]; k <= +m[2]; k++) a.push(k); return a; }
@@ -86,7 +113,7 @@ let cur = null;
 for (const ln of stream) {
   let m;
   if ((m = ln.text.match(QHEAD))) { cur = { type: 'Q', num: +m[1], head: ln, lines: [] }; blocks.push(cur); continue; }
-  if (cur && cur.type === 'S' && !/\d/.test(cur.header) && !cur.lines.length) { cur.header += ' ' + ln.text; continue; } // cabeçalho em 2 linhas
+  if (cur && cur.type === 'S' && !cur.lines.length && (!/\d/.test(cur.header) || (!/\.$/.test(cur.header.trim()) && ln.text.length < 30))) { cur.header += ' ' + ln.text; continue; } // cabeçalho em 2 linhas
   if (SHARED.test(ln.text)) { cur = { type: 'S', header: ln.text, head: ln, lines: [] }; blocks.push(cur); continue; }
   if (NOTE.test(ln.text)) { cur = { type: 'N', header: ln.text, head: ln, lines: [] }; blocks.push(cur); continue; }
   if (cur && cur.type === 'N' && (ln.pn !== cur.head.pn || ln.col !== cur.head.col || ln.y - (cur.lines.at(-1)?.y ?? cur.head.y) > 13)) {
@@ -96,7 +123,7 @@ for (const ln of stream) {
   if (cur) cur.lines.push(ln);
 }
 for (const b of blocks) if (b.type === 'N') { b.text = [b.header, ...b.lines.map(l => l.text)].join(' ').replace(/\s+/g, ' '); b.qs = /quest/i.test(b.text) ? parseList(b.text) : []; for (const [re, qs] of cfg.noteQs || []) if (new RegExp(re).test(b.text)) b.qs = qs; }
-for (const b of blocks) if (b.type === 'S') b.qs = parseList(b.header);
+for (const b of blocks) if (b.type === 'S') b.qs = parseList(b.header.replace(/^.*?quest(ões|ão)/i, 'questões'));
 
 function paragraphs(lines) {
   const paras = [];
@@ -122,7 +149,7 @@ function paragraphs(lines) {
       else if (/[A-Za-zÀ-ÿ]-$/.test(t) && /^[a-zà-ÿ]/.test(ln.text)) {
         // hífen em fim de linha: mantido (compostos reais), salvo se a junção constar da lista de quebras silábicas da prova
         const w1 = t.match(/([A-Za-zÀ-ÿ]+)-$/)[1]; const w2 = ln.text.match(/^([a-zà-ÿ]+)/)[1];
-        const joined = (cfg.dehyphen || []).includes(`${w1}-${w2}`);
+        const joined = (cfg.dehyphen || []).includes(`${w1}-${w2}`) || (cfg.autoDehyphen && decideJoin(w1, w2));
         hy.push(`${w1}-${w2}${joined ? '→' + w1 + w2 : ''}`);
         t = joined ? t.slice(0, -1) + ln.text : t + ln.text;
       }
@@ -242,6 +269,7 @@ for (const r of result) {
   for (const k of 'abcd') txt += `${k}) ${r.alts[k]}\n`;
 }
 fs.writeFileSync(cfg.outDir + '/raw.txt', txt);
+if (hyLog.length) fs.writeFileSync(cfg.outDir + '/hyphen-log.txt', [...new Set(hyLog)].join('\n'));
 console.log('questoes', result.length, 'nums ok:', result.map(r => r.num).every((n, i) => n === i + 1));
 console.log('comuns', blocks.filter(b => b.type === 'S').map(b => b.header + ' -> ' + b.qs).join(' | '));
 console.log('notas', blocks.filter(b => b.type === 'N').map(n => n.qs.join('-') + ': ' + n.text).join(' | '));

@@ -1,0 +1,2702 @@
+[
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 1,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a banca revisora considerou que seria uma questão muito difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 2,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "considerou que esta seria uma questão fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 3,
+  "paginas_pdf": [
+   3
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "Anulado",
+  "resposta_comentada": "B",
+  "resposta_json": "Anulado",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_003.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_003.png",
+   "caixas_pt": [
+    [
+     3,
+     307,
+     49,
+     563,
+     253
+    ]
+   ],
+   "layout": "stack",
+   "largura": 768,
+   "altura": 612,
+   "sha256": "f75752401eadfa90d7f43ea2a3ac92465810eb6c7eee7d96d2980c49e409b941",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_003.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Questão ANULADA pela Comvest (gabarito definitivo V2 e nota oficial sobre a questão 23 da prova Q, que é esta mesma questão): pela ambiguidade do enunciado — a subsidência em Maceió é irreversível, enquanto a alternativa b, apontada inicialmente pela banca, descreve a subsidência reversível de solos argilosos.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Questão anulada; exige leitura de figura e distinção entre subsidência reversível e irreversível, conceito pouco usual",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 4,
+  "paginas_pdf": [
+   3,
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": null,
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_004.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_004.png",
+   "caixas_pt": [
+    [
+     3,
+     308,
+     659,
+     566,
+     769
+    ]
+   ],
+   "layout": "stack",
+   "largura": 774,
+   "altura": 330,
+   "sha256": "4a158fcc2a2bb8640fcc5fa422e62f492402be1c0adcc059f3dcaa07b1e13ebb",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_004.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "como de média dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 5,
+  "paginas_pdf": [
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Exige conhecimento específico e atual sobre especialização produtiva regional e imigração, pouco tratado no ensino médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 6,
+  "paginas_pdf": [
+   4
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_006.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_006.png",
+   "caixas_pt": [
+    [
+     4,
+     27,
+     704,
+     290,
+     807
+    ],
+    [
+     4,
+     307,
+     52,
+     566,
+     160
+    ]
+   ],
+   "layout": "stack",
+   "largura": 789,
+   "altura": 633,
+   "sha256": "87e3a0931a6e3e66306694e3ac0b9483f29068552676835cffb41681a9213a23",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_006.png"
+  },
+  "revisao_manual": true,
+  "observacao": "A tabela (11 municípios; emissão de CO₂, área territorial e densidade demográfica) está na imagem, unindo as duas partes impressas em colunas diferentes.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "como uma questão fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 7,
+  "paginas_pdf": [
+   4,
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": null,
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a banca revisora como fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 8,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "considerou que esta seria uma questão de nível fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 9,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_009.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_009.png",
+   "caixas_pt": [
+    [
+     5,
+     68,
+     672,
+     250,
+     800
+    ]
+   ],
+   "layout": "stack",
+   "largura": 546,
+   "altura": 384,
+   "sha256": "8cc2a781845cfd4c0c76f4f3668b2abf51c0cf7271e325cb5a2e2296f51a2ada",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_009.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a banca revisora considerou a questão “fácil”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 10,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": null,
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.981,
+   "ausentes": [
+    "aproximados"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a Questão 30 foi classificada como “difícil”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 11,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": null,
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.673,
+   "ausentes": [
+    "aproximados",
+    "balonismo",
+    "esporte",
+    "aeronáutico",
+    "adeptos",
+    "mundo",
+    "oferece",
+    "belo",
+    "espetáculo",
+    "observadores",
+    "maçarico",
+    "usado",
+    "aquecer",
+    "variar",
+    "densidade",
+    "permitindo",
+    "controle",
+    "subida"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a Questão 31 foi considerada de “médio grau de dificuldade”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 12,
+  "paginas_pdf": [
+   5
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.743,
+   "ausentes": [
+    "aproximados",
+    "balonismo",
+    "esporte",
+    "aeronáutico",
+    "adeptos",
+    "mundo",
+    "oferece",
+    "belo",
+    "espetáculo",
+    "observadores",
+    "maçarico",
+    "usado",
+    "aquecer",
+    "variar",
+    "densidade",
+    "permitindo",
+    "controle",
+    "subida"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a banca revisora considerou ”fácil” a questão",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 13,
+  "paginas_pdf": [
+   5,
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_013.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_013.png",
+   "caixas_pt": [
+    [
+     6,
+     70,
+     153,
+     240,
+     257
+    ]
+   ],
+   "layout": "stack",
+   "largura": 510,
+   "altura": 312,
+   "sha256": "ac132e76cdebbf8b79260e9fcfbba6bea13725152db01e43bf1c433d96c6eb40",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_013.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.989,
+   "ausentes": [
+    "aproximados"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a banca revisora considerou a questão como “difícil”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 14,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_014.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_014.png",
+   "caixas_pt": [
+    [
+     6,
+     33,
+     528,
+     288,
+     661
+    ]
+   ],
+   "layout": "stack",
+   "largura": 765,
+   "altura": 399,
+   "sha256": "50c8ccea207ba9a899e4d62c88c63c6b3a4b0a3a0904dea1cfcb9ae5428fc132",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_014.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.974,
+   "ausentes": [
+    "valores",
+    "aproximados"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "e “fácil” pela banca revisora",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 15,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_015.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_015.png",
+   "caixas_pt": [
+    [
+     6,
+     452,
+     111,
+     549,
+     226
+    ]
+   ],
+   "layout": "stack",
+   "largura": 291,
+   "altura": 345,
+   "sha256": "84385c3f6a88723870bd0da8386776c739eb068c8b876eb69f334b4abfa68d7d",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_015.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.982,
+   "ausentes": [
+    "aproximados"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "e “fácil” pela banca revisora",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 16,
+  "paginas_pdf": [
+   6
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_016.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_016.png",
+   "caixas_pt": [
+    [
+     6,
+     320,
+     376,
+     553,
+     505
+    ]
+   ],
+   "layout": "stack",
+   "largura": 699,
+   "altura": 387,
+   "sha256": "1411ec364977839ad98bd23b6abcc73f03e952f4fbe7867b00139983b173b8ea",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_016.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.981,
+   "ausentes": [
+    "aproximados",
+    "conhecido"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi “difícil” e com índice de discriminação “marginal”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 17,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a questão foi considerada fácil e com boa capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 18,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada difícil e com boa capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 19,
+  "paginas_pdf": [
+   7
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.744,
+   "ausentes": [
+    "verde",
+    "fluorescente",
+    "inglês",
+    "green",
+    "fluorescence",
+    "protein",
+    "observada",
+    "primeira",
+    "vez",
+    "águaviva",
+    "aequorea",
+    "victoria",
+    "tornouse",
+    "ferramentas",
+    "importantes",
+    "usadas",
+    "evolutivamente",
+    "encontrada",
+    "marielyne",
+    "zoological",
+    "letters",
+    "211",
+    "2020"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada como de média dificuldade",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 20,
+  "paginas_pdf": [
+   7,
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_020.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_020.png",
+   "caixas_pt": [
+    [
+     7,
+     326,
+     414,
+     555,
+     579
+    ]
+   ],
+   "layout": "stack",
+   "largura": 687,
+   "altura": 495,
+   "sha256": "5984b4facb680276ea0d98de9d0fa24290b5e1433f6cfc82bd5d5125068ba650",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_020.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.884,
+   "ausentes": [
+    "verde",
+    "fluorescente",
+    "inglês",
+    "green",
+    "fluorescence",
+    "protein",
+    "observada",
+    "primeira",
+    "vez",
+    "águaviva",
+    "aequorea",
+    "victoria",
+    "tornouse",
+    "ferramentas",
+    "importantes",
+    "usadas",
+    "evolutivamente",
+    "encontrada",
+    "marielyne",
+    "zoological",
+    "letters",
+    "211",
+    "2020"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada difícil e com capacidade de discriminação marginal",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 21,
+  "paginas_pdf": [
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada de média dificuldade e com boa capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 22,
+  "paginas_pdf": [
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_022.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_022.png",
+   "caixas_pt": [
+    [
+     8,
+     33,
+     680,
+     285,
+     808
+    ]
+   ],
+   "layout": "stack",
+   "largura": 756,
+   "altura": 384,
+   "sha256": "009730b5c3f0bea090385eeadc8b646ae38cd69c29c829b55902f5701700832e",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_022.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada difícil e com fraca capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 23,
+  "paginas_pdf": [
+   8
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada fácil e com capacidade de discriminação marginal",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 24,
+  "paginas_pdf": [
+   8,
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_024.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_024.png",
+   "caixas_pt": [
+    [
+     9,
+     30,
+     49,
+     288,
+     327
+    ]
+   ],
+   "layout": "stack",
+   "largura": 774,
+   "altura": 834,
+   "sha256": "da62d5ce723b548887d2b58d1d4cc7644198b582677f9eb38b3c3a5e443d3580",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_024.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ela foi considerada fácil e com fraca capacidade de discriminação",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 25,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "classificada como \"de dificuldade média\"",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 26,
+  "paginas_pdf": [
+   9
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_026.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_026.png",
+   "caixas_pt": [
+    [
+     9,
+     350,
+     262,
+     523,
+     351
+    ],
+    [
+     9,
+     350,
+     369,
+     523,
+     461
+    ],
+    [
+     9,
+     350,
+     478,
+     523,
+     573
+    ],
+    [
+     9,
+     350,
+     589,
+     523,
+     684
+    ]
+   ],
+   "layout": "grid",
+   "largura": 1056,
+   "altura": 579,
+   "sha256": "fda01483a8b2b1a20ad8a4a286b32783ac0f78b6be1437c1a1fbe08ef9e54e71",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_026.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Os quatro gráficos estão na imagem em grade: (i) e (ii) na linha de cima, (iii) e (iv) na de baixo.",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.972,
+   "ausentes": [
+    "imagem"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "e foi classificada como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 27,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_027.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_027.png",
+   "caixas_pt": [
+    [
+     10,
+     32,
+     264,
+     286,
+     505
+    ]
+   ],
+   "layout": "stack",
+   "largura": 762,
+   "altura": 723,
+   "sha256": "3a695f336b4a82f8140f05d8d4c6b1f0458b6ea4f9071a69e12f648fd4ef6b87",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_027.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.995,
+   "ausentes": [
+    "desses"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "considerada muito fácil pela Comvest",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 28,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "foi considerada difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 29,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "tendo sido classificada como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 30,
+  "paginas_pdf": [
+   10
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_030.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_030.png",
+   "caixas_pt": [
+    [
+     10,
+     337,
+     355,
+     536,
+     465
+    ]
+   ],
+   "layout": "stack",
+   "largura": 597,
+   "altura": 330,
+   "sha256": "da15e44d84649abe4796a1c5fe81432c718c13ef500f5126b60dee3778a17edb",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_030.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "tendo sido classificada como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 31,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.977,
+   "ausentes": [
+    "comum"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo considerada difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 32,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": null,
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.614,
+   "ausentes": [
+    "texto",
+    "comum",
+    "questões",
+    "transformação",
+    "möbius",
+    "quociente",
+    "polinômios",
+    "grau",
+    "essas",
+    "transformações",
+    "computação",
+    "gráfica",
+    "também",
+    "área",
+    "engenharia",
+    "conhecida",
+    "processamento",
+    "sinais",
+    "versão",
+    "simplificada"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "classificada como \"de dificuldade média\"",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 33,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo classificada como \"de dificudade média\" (mesma classificação dada pelas bancas)",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 34,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_034.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_034.png",
+   "caixas_pt": [
+    [
+     11,
+     76,
+     698,
+     256,
+     808
+    ]
+   ],
+   "layout": "stack",
+   "largura": 540,
+   "altura": 330,
+   "sha256": "fac1a37866ebd624284f32432f1c2b403e0959cc82b8d00e534502d92f4402ee",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_034.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "classificada como \"de dificudade média\"",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 35,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "considerada difícil pela Comvest",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 36,
+  "paginas_pdf": [
+   11
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_036.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_036.png",
+   "caixas_pt": [
+    [
+     11,
+     373,
+     539,
+     500,
+     680
+    ]
+   ],
+   "layout": "stack",
+   "largura": 381,
+   "altura": 423,
+   "sha256": "31bce525745c3238acc5adbaa91fa900427c9a2cec6d17afa063154c4dc42c75",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_036.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "considerada como \"de dificuldade média\" pela Comvest",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 37,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_037.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_037.png",
+   "caixas_pt": [
+    [
+     12,
+     29,
+     69,
+     288,
+     247
+    ]
+   ],
+   "layout": "stack",
+   "largura": 777,
+   "altura": 534,
+   "sha256": "081940ac1183905da6481c05b104bf7b45ef34b367aa7954a4c24b1f79937014",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_037.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Leitura direta de imagem e texto que se confirmam; distratores com erros evidentes",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 38,
+  "paginas_pdf": [
+   12
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o desempenho dos candidatos a coloca na faixa \"fácil\"",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 39,
+  "paginas_pdf": [
+   12,
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": null,
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "O grau de dificuldade ficou em 0,588 (Média)",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 40,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": null,
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_040.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_040.png",
+   "caixas_pt": [
+    [
+     13,
+     29,
+     285,
+     288,
+     484
+    ],
+    [
+     13,
+     29,
+     501,
+     288,
+     641
+    ]
+   ],
+   "layout": "stack",
+   "largura": 777,
+   "altura": 1035,
+   "sha256": "0966a1b2ddf8b2c4126182350c176253c18c1eaa0619fd7b9df92117453a522f",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_040.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o que a classifica no grau de facilidade \"fácil\"",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 41,
+  "paginas_pdf": [
+   13
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": null,
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "ficando classificada na faixa muito fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 42,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "enquadrando-a no nível fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 43,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "apresenta um nível de dificuldade médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 44,
+  "paginas_pdf": [
+   14
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Tema relativamente novo no ensino básico, mas com texto de apoio que fornece quase toda a informação necessária",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 45,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_045.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_045.png",
+   "caixas_pt": [
+    [
+     15,
+     65,
+     123,
+     241,
+     331
+    ],
+    [
+     15,
+     65,
+     360,
+     241,
+     630
+    ]
+   ],
+   "layout": "stack",
+   "largura": 528,
+   "altura": 1452,
+   "sha256": "87133db4f987fc4bd0f560afb663edaa06c75e0f2b9c70de91bbebda909bdf93",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_045.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Texto A e Texto B (postagens) na imagem, nesta ordem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "classificou a questão como “muito fácil”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 46,
+  "paginas_pdf": [
+   15
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Comvest, que classificou a questão como fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 47,
+  "paginas_pdf": [
+   15,
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "segundo a estatística da Comvest, a proposta foi fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 48,
+  "paginas_pdf": [
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_048.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_048.png",
+   "caixas_pt": [
+    [
+     16,
+     29,
+     445,
+     288,
+     637
+    ]
+   ],
+   "layout": "stack",
+   "largura": 777,
+   "altura": 576,
+   "sha256": "62e6e4ee5637959059c688165b4de4bc1b23a66ace24c77238f4223479cd1996",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_048.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Texto 2 (fotografia) na imagem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "classificada como fácil pela estatística da Comvest",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 49,
+  "paginas_pdf": [
+   16
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_049.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_049.png",
+   "caixas_pt": [
+    [
+     16,
+     29,
+     445,
+     288,
+     637
+    ]
+   ],
+   "layout": "stack",
+   "largura": 777,
+   "altura": 576,
+   "sha256": "62e6e4ee5637959059c688165b4de4bc1b23a66ace24c77238f4223479cd1996",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_049.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Texto 2 (fotografia) na imagem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.699,
+   "ausentes": [
+    "history",
+    "rise",
+    "around",
+    "multiple",
+    "waves",
+    "political",
+    "unrest",
+    "avantgarde",
+    "activism",
+    "upperclass",
+    "residents",
+    "displaced",
+    "lowincome",
+    "households",
+    "anger",
+    "fueled",
+    "movement",
+    "take",
+    "back",
+    "streets",
+    "via",
+    "spray",
+    "paint",
+    "video",
+    "projections"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "que a classificou como “de dificuldade média”",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 50,
+  "paginas_pdf": [
+   16,
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "a estatística da Comvest classificou a questão como fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 51,
+  "paginas_pdf": [
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Linguagem não padrão e ironia exigem inferência, mas o contraste é explícito e a banca o considerou não excessivamente difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 52,
+  "paginas_pdf": [
+   17
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": null,
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_052.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_052.png",
+   "caixas_pt": [
+    [
+     17,
+     305,
+     290,
+     566,
+     388
+    ],
+    [
+     17,
+     305,
+     411,
+     566,
+     501
+    ],
+    [
+     17,
+     305,
+     521,
+     566,
+     611
+    ],
+    [
+     17,
+     305,
+     629,
+     566,
+     722
+    ]
+   ],
+   "layout": "grid",
+   "largura": 1584,
+   "altura": 591,
+   "sha256": "7d16801fecc4fd6bf7591416821871984deb6bc56557df43323a899d0d410dd7",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_052.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Alternativas exclusivamente gráficas: os quatro gráficos (mortes diárias × tempo), cada um com sua letra a)–d), a e b em cima, c e d embaixo.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o índice de facilidade foi médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 53,
+  "paginas_pdf": [
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_053.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_053.png",
+   "caixas_pt": [
+    [
+     18,
+     29,
+     98,
+     288,
+     227
+    ]
+   ],
+   "layout": "stack",
+   "largura": 777,
+   "altura": 387,
+   "sha256": "900422b8adb653df8bf0e69ac66ca18340a4da182c6201679e87a01ee1dbc15c",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_053.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.993,
+   "ausentes": [
+    "marília"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "A banca elaboradora classificou a questão como sendo de nível fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 54,
+  "paginas_pdf": [
+   18
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.995,
+   "ausentes": [
+    "discutidas"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "nos leva a caracterizar a questão como fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 55,
+  "paginas_pdf": [
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "nível de dificuldade, considerado médio",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 56,
+  "paginas_pdf": [
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.658,
+   "ausentes": [
+    "quebrando",
+    "apesar",
+    "reconhecida",
+    "poeta",
+    "nunca",
+    "definiu",
+    "reino",
+    "bichos",
+    "animais",
+    "meu",
+    "qual",
+    "ficou",
+    "conhecida",
+    "potência",
+    "palavras",
+    "encontra",
+    "chamava",
+    "preservado",
+    "foram",
+    "pacientes",
+    "psiquiátricos",
+    "1986",
+    "1988",
+    "muitos",
+    "anos"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "Conforme o previsto pela banca elaboradora, a questão foi fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 57,
+  "paginas_pdf": [
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_057.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_057.png",
+   "caixas_pt": [
+    [
+     19,
+     29,
+     554,
+     288,
+     785
+    ]
+   ],
+   "layout": "stack",
+   "largura": 777,
+   "altura": 693,
+   "sha256": "695ba8f8922027f53385841b7035814b16e54acf30a11b5cd2f9e6706a7ea1e5",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_057.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "revela que foi uma questão fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 58,
+  "paginas_pdf": [
+   19
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Alto índice de acerto indicado no relatório, tema lexical comum nas escolas",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 59,
+  "paginas_pdf": [
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Exige leitura irônica do narrador; a alternativa A atrai a maioria, exigindo refinamento analítico",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 60,
+  "paginas_pdf": [
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Texto de leitura acessível e distratores eurocêntricos fáceis de descartar, mas exige conhecimento da obra",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 61,
+  "paginas_pdf": [
+   20
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Comparação de dois textos de épocas distintas, com acerto intermediário e ideia central explícita nos dois trechos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 62,
+  "paginas_pdf": [
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Comparação incomum entre textos, com acerto próximo de metade dos candidatos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 63,
+  "paginas_pdf": [
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Poema curto e de leitura direta, de autor muito estudado, com alto índice de acerto",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 64,
+  "paginas_pdf": [
+   21
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "D",
+  "resposta_json": "C",
+  "imagem": null,
+  "revisao_manual": true,
+  "observacao": "A Prova Comentada indica \"d\" para esta questão, mas o gabarito oficial definitivo indica \"c\" (e também \"c\" para a mesma questão na versão Q, nº 12). Prevalece o gabarito oficial.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Texto muito conhecido e interpretação direta, com altíssimo índice de acerto",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 65,
+  "paginas_pdf": [
+   22
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "julgaram previamente a questão como sendo fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 66,
+  "paginas_pdf": [
+   22
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": null,
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_066.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_066.png",
+   "caixas_pt": [
+    [
+     22,
+     29,
+     553,
+     290,
+     728
+    ]
+   ],
+   "layout": "stack",
+   "largura": 783,
+   "altura": 525,
+   "sha256": "1f97d395674bcfa6079ef4ba2ff8927383a30d595c9002c4b4d4ca68fef0153f",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_066.png"
+  },
+  "revisao_manual": true,
+  "observacao": "A TPQVS (Texto 1) está na imagem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.992,
+   "ausentes": [
+    "h2o"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "classificada pela estatística, banca elaboradora e revisor como uma questão difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 67,
+  "paginas_pdf": [
+   22
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_067.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_067.png",
+   "caixas_pt": [
+    [
+     22,
+     29,
+     553,
+     290,
+     728
+    ]
+   ],
+   "layout": "stack",
+   "largura": 783,
+   "altura": 525,
+   "sha256": "1f97d395674bcfa6079ef4ba2ff8927383a30d595c9002c4b4d4ca68fef0153f",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_067.png"
+  },
+  "revisao_manual": true,
+  "observacao": "O negrito do original não existe em texto puro; os quatro versos em negrito são listados explicitamente antes do comando. A TPQVS (Texto 1) está na imagem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.765,
+   "ausentes": [
+    "cria",
+    "redução",
+    "eliminação",
+    "substâncias",
+    "nocivas",
+    "homem",
+    "2019",
+    "reunir",
+    "várias",
+    "pesquisadores",
+    "paul",
+    "anastas",
+    "julie",
+    "zimmerman",
+    "propuseram",
+    "preceitos",
+    "mesmos",
+    "pura",
+    "beleza",
+    "realeza",
+    "reagindo",
+    "compasso",
+    "natureza",
+    "simples",
+    "menestrel"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "O resultado mostrou ser esta uma questão fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 68,
+  "paginas_pdf": [
+   23
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "C",
+  "resposta_comentada": "C",
+  "resposta_json": "C",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_068.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_068.png",
+   "caixas_pt": [
+    [
+     23,
+     73,
+     126,
+     216,
+     146
+    ],
+    [
+     23,
+     46,
+     152,
+     243,
+     283
+    ],
+    [
+     23,
+     46,
+     290,
+     264,
+     383
+    ],
+    [
+     23,
+     46,
+     393,
+     257,
+     513
+    ],
+    [
+     23,
+     46,
+     525,
+     256,
+     672
+    ]
+   ],
+   "layout": "stack",
+   "largura": 654,
+   "altura": 1605,
+   "sha256": "c9725590a0174537d3516663d6b6ee018f34d2afb98a7afb1586f9bde2edab3e",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_068.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Na imagem: legenda (H, C, O) e os esquemas A, B, C e D, nesta ordem.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "sendo esta questão considerada fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 69,
+  "paginas_pdf": [
+   23
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_069.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_069.png",
+   "caixas_pt": [
+    [
+     23,
+     325,
+     359,
+     535,
+     532
+    ]
+   ],
+   "layout": "stack",
+   "largura": 630,
+   "altura": 519,
+   "sha256": "df8a7c4674cc682b02b77cd7201fe75e7aec6e2ad048a0adb429b454e1deba04",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_069.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "estimativa",
+  "dificuldade_evidencia": "Interpretação direta de gráfico, sem cálculo complexo, com elevado índice de acertos",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 70,
+  "paginas_pdf": [
+   23,
+   24
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "A",
+  "resposta_comentada": "A",
+  "resposta_json": "A",
+  "imagem": null,
+  "revisao_manual": false,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "o que classifica a questão como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 71,
+  "paginas_pdf": [
+   24
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "B",
+  "resposta_comentada": "B",
+  "resposta_json": "B",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_071.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_071.png",
+   "caixas_pt": [
+    [
+     24,
+     45,
+     600,
+     250,
+     775
+    ]
+   ],
+   "layout": "stack",
+   "largura": 615,
+   "altura": 525,
+   "sha256": "c2df193f4444f6d2aa40b011563768c8d94ded33967abc9b83052ffa86edf603",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_071.png"
+  },
+  "revisao_manual": true,
+  "observacao": "",
+  "auditoria_texto_comentada": {
+   "cobertura": 0.99,
+   "ausentes": [
+    "abaixo"
+   ]
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "colaboram para que a questão seja considerada fácil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ },
+ {
+  "prova": "UNICAMP",
+  "ano": 2023,
+  "fase": "1ª fase (Conhecimentos Gerais)",
+  "caderno": "Provas R e Y",
+  "numero_original": 72,
+  "paginas_pdf": [
+   24
+  ],
+  "pdf_fonte": "https://www.comvest.unicamp.br/vest2023/F1/f12023R_Y.pdf",
+  "gabarito_fonte": "https://www.comvest.unicamp.br/wp-content/uploads/2022/11/Gabarito_F1_VEST2023_V2.pdf (pág. 2, PROVAS R e Y)",
+  "resposta_gabarito": "D",
+  "resposta_comentada": "D",
+  "resposta_json": "D",
+  "imagem": {
+   "arquivo_local": "img/unicamp_2023ry_questao_072.png",
+   "arquivo_repo": "imagens/unicamp/2023/ry_auditado/questao_072.png",
+   "caixas_pt": [
+    [
+     24,
+     307,
+     286,
+     384,
+     331
+    ],
+    [
+     24,
+     319,
+     419,
+     554,
+     614
+    ]
+   ],
+   "layout": "stack",
+   "largura": 705,
+   "altura": 738,
+   "sha256": "4e4e804bcd6d35d8830a9329e6be33514adf2e1b2187f03df8d0a82a642b8b97",
+   "url": "https://raw.githubusercontent.com/zenerato960/aprovafy-imagens/48b0a447047bbd5d3f69fb1ef795ec2c1c915cfe/imagens/unicamp/2023/ry_auditado/questao_072.png"
+  },
+  "revisao_manual": true,
+  "observacao": "Na imagem: os símbolos do carbono e do nitrogênio e o gráfico com as faixas A, B e C.",
+  "auditoria_texto_comentada": {
+   "cobertura": 1,
+   "ausentes": []
+  },
+  "dificuldade_fonte": "comentada",
+  "dificuldade_evidencia": "O resultado apontou a questão como difícil",
+  "raciocinio_confere": true,
+  "pendencia_explicacao": ""
+ }
+]

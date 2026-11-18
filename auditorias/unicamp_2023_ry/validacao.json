@@ -1,0 +1,583 @@
+{
+ "arquivo": "unicamp_2023ry_1fase_72_questoes.json",
+ "total": 72,
+ "errosGlobais": [],
+ "online": true,
+ "questoes": [
+  {
+   "num": 1,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 2,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 3,
+   "erros": [],
+   "avisos": [
+    "comentada B ≠ gabarito Anulado"
+   ],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 321053,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 4,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 333602,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 5,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 6,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 136522,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 7,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 8,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 9,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 66976,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 10,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 11,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 12,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 13,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 29398,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 14,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 87408,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 15,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 16725,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 16,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 57778,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 17,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 18,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 19,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 20,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 242996,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 21,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 22,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 65528,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 23,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 24,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 306283,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 25,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 26,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 63151,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 27,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 186878,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 28,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 29,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 30,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 65155,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 31,
+   "erros": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"Considere a função\""
+   ]
+  },
+  {
+   "num": 32,
+   "erros": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"Considere a função\""
+   ]
+  },
+  {
+   "num": 33,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 34,
+   "erros": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"O valor de sen α é\""
+   ],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 22380,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 35,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 36,
+   "erros": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"O valor de a + b é\""
+   ],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 34015,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 37,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 882576,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 38,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 39,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 40,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 1703450,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 41,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 42,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 43,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 44,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 45,
+   "erros": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"Texto A\""
+   ],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 465200,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 46,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 47,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 48,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 867550,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 49,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 867550,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 50,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 51,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 52,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 380929,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 53,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 177865,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 54,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 55,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 56,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 57,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 648161,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 58,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 59,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 60,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 61,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 62,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 63,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 64,
+   "erros": [],
+   "avisos": [
+    "comentada D ≠ gabarito C"
+   ]
+  },
+  {
+   "num": 65,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 66,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 219187,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 67,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 219187,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 68,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 576350,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 69,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 61012,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 70,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 71,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 78557,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 72,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 116018,
+    "sha_confere": true
+   }
+  }
+ ],
+ "resumo": {
+  "com_erro": [],
+  "com_aviso": [
+   3,
+   31,
+   32,
+   34,
+   36,
+   45,
+   58,
+   59,
+   62,
+   64
+  ]
+ }
+}
