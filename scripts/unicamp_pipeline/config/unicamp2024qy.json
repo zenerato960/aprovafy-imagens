@@ -1,0 +1,108 @@
+{
+ "pdf": "../src/oficial/2024/f12024Q_Y.pdf",
+ "outDir": "../out/2024qy",
+ "firstPage": 3,
+ "top": 50,
+ "bottom": 815,
+ "colX": [
+  31,
+  309
+ ],
+ "colRight": [
+  287,
+  565
+ ],
+ "dehyphen": [
+  "ex-portar"
+ ],
+ "mathMap": {
+  "": "−",
+  "": "=",
+  "": "+",
+  "": "Δ",
+  "": "π",
+  "": "θ",
+  "": "ρ",
+  "": "λ",
+  "": "→",
+  "": "×",
+  "": "⋅",
+  "": "→",
+  "ሺ": "(",
+  "ሻ": ")",
+  "ൌ": "=",
+  "൅": "+",
+  "െ": "−",
+  "൫": "(",
+  "൯": ")",
+  "ଶ": "2",
+  "ଷ": "3",
+  "௫": "x",
+  "்": "T",
+  "ర": "4",
+  "്": "≠",
+  "ඥ": "√",
+  "൤": "[",
+  "൨": "]",
+  "ത": "",
+  "": "≈"
+ },
+ "review": "review2024qy.mjs",
+ "imgPrefix": "unicamp_2024qy",
+ "cropScale": 3,
+ "vestibular": "UNICAMP",
+ "ano": 2024,
+ "fase": "1ª fase (Conhecimentos Gerais)",
+ "caderno": "Provas Q e Y",
+ "numAlternativas": 4,
+ "totalQuestoes": 72,
+ "pdfUrl": "https://www.comvest.unicamp.br/vest2024/F1/f12024Q_Y.pdf",
+ "gabaritoUrl": "https://www.comvest.unicamp.br/wp-content/uploads/2023/10/Q_Y.pdf (PROVAS Q e Y)",
+ "comentadaUrl": "https://www.comvest.unicamp.br/wp-content/uploads/2024/11/F1_2024_Prova-Q_Y-3.pdf",
+ "explicFiles": [
+  "explic.json"
+ ],
+ "finalName": "unicamp_2024qy_1fase_72_questoes.json",
+ "repoDir": "imagens/unicamp/2024/qy_auditado",
+ "repoFilePrefix": "questao_",
+ "aplicacao": "aplicada em outubro de 2023",
+ "autoDehyphen": true,
+ "refPdf": "../src/oficial/2024/F1_2024_Prova-Q_Y-3.pdf",
+ "lastPage": 21,
+ "noteQs": [
+  [
+   "^Use os valores aproximados",
+   [
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+   ]
+  ],
+  [
+   "^Dados?: Velocidade da luz",
+   [
+    37
+   ]
+  ]
+ ],
+ "keepHyphen": [
+  "roller-coaster"
+ ],
+ "textFrames": [
+  [
+   21,
+   150,
+   190
+  ],
+  [
+   21,
+   430,
+   550
+  ]
+ ],
+ "explicOverrides": "explic_overrides.json"
+}

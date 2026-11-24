@@ -1,0 +1,557 @@
+{
+ "arquivo": "unicamp_2024qy_1fase_72_questoes.json",
+ "total": 72,
+ "errosGlobais": [],
+ "online": true,
+ "questoes": [
+  {
+   "num": 1,
+   "erros": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"‘Nevou’ no Rio\""
+   ]
+  },
+  {
+   "num": 2,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 3,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 156722,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 4,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 543923,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 5,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 6,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 7,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 8,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 9,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 10,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 11,
+   "erros": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"As estrelas\" \"Esmaiado: esmaecido, pálido\" \"Aprisco: curral\"",
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 12,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 13,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 14,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 15,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 16,
+   "erros": [],
+   "avisos": [
+    "menciona elemento visual mas não tem imagem (conferir se o elemento é textual)"
+   ]
+  },
+  {
+   "num": 17,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 406863,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 18,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 19,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 432442,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 20,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 52502,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 21,
+   "erros": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"com base em seu potencial\""
+   ],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 156261,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 22,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 23,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 78558,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 24,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 190202,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 25,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 136492,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 26,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 171942,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 27,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 28,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 29,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 697657,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 30,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 534909,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 31,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 32,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 476641,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 33,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 211288,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 34,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 35,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 36,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 37,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 50617,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 38,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 39,
+   "erros": [],
+   "avisos": [
+    "alternativas repetidas"
+   ],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 48713,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 40,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 146132,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 41,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 42,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 231305,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 43,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 44,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 460096,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 45,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 46,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 59762,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 47,
+   "erros": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"ledôneas. Nas figuras A\""
+   ],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 48709,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 48,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 49,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 37147,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 50,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 51,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 52,
+   "erros": [],
+   "avisos": [
+    "fragmentos curtos no enunciado (conferir): \"Excerto 1\" \"Excerto 2\""
+   ]
+  },
+  {
+   "num": 53,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 54,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 55,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 56,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 57,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 48823,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 58,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 59,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 60,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 61,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 62,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 63,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 20683,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 64,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 65,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 21979,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 66,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 323209,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 67,
+   "erros": [],
+   "avisos": [],
+   "url": {
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 527412,
+    "sha_confere": true
+   }
+  },
+  {
+   "num": 68,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 69,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 70,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 71,
+   "erros": [],
+   "avisos": []
+  },
+  {
+   "num": 72,
+   "erros": [],
+   "avisos": []
+  }
+ ],
+ "resumo": {
+  "com_erro": [],
+  "com_aviso": [
+   1,
+   11,
+   16,
+   21,
+   39,
+   47,
+   52
+  ]
+ }
+}

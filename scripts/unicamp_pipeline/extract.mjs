@@ -34,8 +34,8 @@ const doc = await openPdf(cfg.pdf);
 const TOP = cfg.top ?? 78, BOTTOM = cfg.bottom ?? 805;
 const MATH = cfg.mathMap || {};
 const QHEAD = /^QUESTÃO\s+(\d+)$/;
-const SHARED = /^(Textos? comu(m|ns) (às|para|para as) questões|Leia os? textos?( \d+ e \d+)?,?( a seguir)?,? (e responda|para responder) às questões|O texto abaixo será utilizado nas questões|Os textos abaixo serão utilizados nas questões|USE OS? TEXTOS?\b)/i;
-const NOTE = { test: t => /^(Obs\.?:|Nas questões de \d+ a \d+)/i.test(t) || /^Sempre que necessário,? (aproxime|use)/.test(t) || /^Use os valores aproximados/.test(t) };
+const SHARED = /^(Textos? comu(m|ns) (às|para|para as) questões|Leia os? textos?( \d+ e \d+)?,?( a seguir)?,? (e responda|para responder) às questões|O texto abaixo será utilizado nas questões|Os? textos? a seguir (será|serão) usados? para responder às questões|Os textos abaixo serão utilizados nas questões|USE OS? TEXTOS?\b)/i;
+const NOTE = { test: t => /^(Obs\.?:|Nas questões de \d+ a \d+)/i.test(t) || /^Sempre que necessário,? (aproxime|use)/.test(t) || /^Use os valores aproximados/.test(t) || /^Dados?: Velocidade da luz no vácuo/.test(t) };
 
 // Letras matemáticas (𝑎, ℎ, 𝜃...) viram letras comuns; símbolos de fonte Symbol via mapa da prova.
 const mapChars = s => [...s].map(c => {
@@ -83,6 +83,7 @@ for (let pn = cfg.firstPage; pn <= (cfg.lastPage || doc.numPages); pn++) {
     const inCol = gr.filter(g => (col === 0 ? (g.x0 + g.x1) / 2 < mid : (g.x0 + g.x1) / 2 >= mid));
     figs.push(...cluster(inCol, 8).filter(c => (c.x1 - c.x0) > 15 && (c.y1 - c.y0) > 12).map(c => ({ pn, col, x0: c.x0, y0: c.y0, x1: c.x1, y1: c.y1, n: c.n })));
   }
+  for (const [fp, fx, fy] of cfg.textFrames || []) if (fp === pn) for (let k = figs.length - 1; k >= 0; k--) { const F = figs[k]; if (fx >= F.x0 && fx <= F.x1 && fy >= F.y0 && fy <= F.y1) figs.splice(k, 1); }
   figsByPage[pn] = figs;
   const body = items.filter(i => i.y > TOP && i.y < BOTTOM).map(i => ({ ...i, s: mapChars(i.s) }));
   for (const [col, f] of [[0, i => i.x < mid - 4], [1, i => i.x >= mid - 4]]) {
@@ -113,7 +114,7 @@ let cur = null;
 for (const ln of stream) {
   let m;
   if ((m = ln.text.match(QHEAD))) { cur = { type: 'Q', num: +m[1], head: ln, lines: [] }; blocks.push(cur); continue; }
-  if (cur && cur.type === 'S' && !cur.lines.length && (!/\d/.test(cur.header) || (!/\.$/.test(cur.header.trim()) && ln.text.length < 30))) { cur.header += ' ' + ln.text; continue; } // cabeçalho em 2 linhas
+  if (cur && cur.type === 'S' && !cur.lines.length && (!/quest(ões|ão)\s+\d/i.test(cur.header) || (!/[.:]$/.test(cur.header.trim()) && ln.text.length < 30))) { cur.header += ' ' + ln.text; continue; } // cabeçalho em 2 linhas
   if (SHARED.test(ln.text)) { cur = { type: 'S', header: ln.text, head: ln, lines: [] }; blocks.push(cur); continue; }
   if (NOTE.test(ln.text)) { cur = { type: 'N', header: ln.text, head: ln, lines: [] }; blocks.push(cur); continue; }
   if (cur && cur.type === 'N' && (ln.pn !== cur.head.pn || ln.col !== cur.head.col || ln.y - (cur.lines.at(-1)?.y ?? cur.head.y) > 13)) {
@@ -123,7 +124,7 @@ for (const ln of stream) {
   if (cur) cur.lines.push(ln);
 }
 for (const b of blocks) if (b.type === 'N') { b.text = [b.header, ...b.lines.map(l => l.text)].join(' ').replace(/\s+/g, ' '); b.qs = /quest/i.test(b.text) ? parseList(b.text) : []; for (const [re, qs] of cfg.noteQs || []) if (new RegExp(re).test(b.text)) b.qs = qs; }
-for (const b of blocks) if (b.type === 'S') b.qs = parseList(b.header.replace(/^.*?quest(ões|ão)/i, 'questões'));
+for (const b of blocks) if (b.type === 'S') b.qs = parseList((b.header.match(/quest(?:ões|ão)\s+(?:de\s+)?[\d\s,ea]+?(?=[.:]|$)/i) || [''])[0]);
 
 function paragraphs(lines) {
   const paras = [];
@@ -149,7 +150,7 @@ function paragraphs(lines) {
       else if (/[A-Za-zÀ-ÿ]-$/.test(t) && /^[a-zà-ÿ]/.test(ln.text)) {
         // hífen em fim de linha: mantido (compostos reais), salvo se a junção constar da lista de quebras silábicas da prova
         const w1 = t.match(/([A-Za-zÀ-ÿ]+)-$/)[1]; const w2 = ln.text.match(/^([a-zà-ÿ]+)/)[1];
-        const joined = (cfg.dehyphen || []).includes(`${w1}-${w2}`) || (cfg.autoDehyphen && decideJoin(w1, w2));
+        const joined = !(cfg.keepHyphen || []).includes(`${w1}-${w2}`) && ((cfg.dehyphen || []).includes(`${w1}-${w2}`) || (cfg.autoDehyphen && decideJoin(w1, w2)));
         hy.push(`${w1}-${w2}${joined ? '→' + w1 + w2 : ''}`);
         t = joined ? t.slice(0, -1) + ln.text : t + ln.text;
       }

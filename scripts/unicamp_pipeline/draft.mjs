@@ -33,11 +33,13 @@ for (const q of raw.questions) {
   if (pos.length) parts.push(...pos);
   let enunciado = parts.join('\n');
   let alts = ['a', 'b', 'c', 'd'].map(k => q.alts[k].replace(/\n/g, ' ').trim());
+  const clean = t => t.replace(/\^o ?C/g, '°C').replace(/\( ?°C\)/g, '(°C)').replace(/(\d\/\d+)\s+([.,;])/g, '$1$2').replace(/ +([.,;:])(?=\s|$)/g, '$1');
+  const preCleaned = r.enunciado === undefined;
+  if (preCleaned && !r.rawReplace) { enunciado = clean(enunciado); alts = alts.map(clean); }
   if (r.enunciado !== undefined) enunciado = r.enunciado.trim();
-  if (r.replace) for (const [a, b] of r.replace) { if (!enunciado.includes(a) && b.trim() === '') continue; /* remoção já feita pelo filtro de texto na imagem */ if (!enunciado.includes(a)) throw new Error(`Q${q.num}: trecho não encontrado para substituir: ${a}`); enunciado = enunciado.split(a).join(b); }
+  if (r.replace) for (let [a, b] of r.replace) { if (!enunciado.includes(a) && enunciado.includes(clean(a))) a = clean(a); if (!enunciado.includes(a) && b.trim() === '') continue; /* remoção já feita pelo filtro de texto na imagem */ if (!enunciado.includes(a)) throw new Error(`Q${q.num}: trecho não encontrado para substituir: ${a}`); enunciado = enunciado.split(a).join(b); }
   if (r.alternativas) alts = r.alternativas;
   // limpeza tipográfica comum (não altera conteúdo)
-  const clean = t => t.replace(/\^o ?C/g, '°C').replace(/\( ?°C\)/g, '(°C)').replace(/(\d\/\d+)\s+([.,;])/g, '$1$2').replace(/ +([.,;:])(?=\s|$)/g, '$1');
   enunciado = clean(enunciado); alts = alts.map(clean);
   if (r.altReplace) for (const [i, a, b] of r.altReplace) { if (!alts[i].includes(a)) throw new Error(`Q${q.num}: alt ${i} sem trecho ${a}`); alts[i] = alts[i].split(a).join(b); }
   out.push({

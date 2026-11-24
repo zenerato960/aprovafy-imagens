@@ -1,0 +1,631 @@
+[
+ {
+  "num": 1,
+  "palavras": 113,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 2,
+  "palavras": 27,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 3,
+  "palavras": 171,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 4,
+  "palavras": 105,
+  "cobertura": 0.99,
+  "ausentes": [
+   "considerando"
+  ]
+ },
+ {
+  "num": 5,
+  "palavras": 156,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 6,
+  "palavras": 156,
+  "cobertura": 0.974,
+  "ausentes": [
+   "enfatiza",
+   "ideia",
+   "francesa",
+   "ainda"
+  ]
+ },
+ {
+  "num": 7,
+  "palavras": 107,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 8,
+  "palavras": 207,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 9,
+  "palavras": 173,
+  "cobertura": 0.971,
+  "ausentes": [
+   "ingênuo",
+   "deixa",
+   "iludir",
+   "relações",
+   "pessoais"
+  ]
+ },
+ {
+  "num": 10,
+  "palavras": 145,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 11,
+  "palavras": 241,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 12,
+  "palavras": 180,
+  "cobertura": 0.989,
+  "ausentes": [
+   "experimentada",
+   "infância"
+  ]
+ },
+ {
+  "num": 13,
+  "palavras": 209,
+  "cobertura": 0.986,
+  "ausentes": [
+   "coincidência",
+   "mínimo",
+   "solar"
+  ]
+ },
+ {
+  "num": 14,
+  "palavras": 92,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 15,
+  "palavras": 145,
+  "cobertura": 0.979,
+  "ausentes": [
+   "diversidade",
+   "relacionava",
+   "distribuição"
+  ]
+ },
+ {
+  "num": 16,
+  "palavras": 166,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 17,
+  "palavras": 134,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 18,
+  "palavras": 183,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 19,
+  "palavras": 226,
+  "cobertura": 0.69,
+  "ausentes": [
+   "postada",
+   "março",
+   "2023",
+   "reddit",
+   "comunidade",
+   "fóruns",
+   "página",
+   "específica",
+   "midjourney",
+   "reúne",
+   "criações",
+   "feitas",
+   "ferramenta",
+   "permite",
+   "criar",
+   "hiperrealistas",
+   "descrição",
+   "viralizou",
+   "twitter",
+   "nunca",
+   "usou",
+   "aquele",
+   "casaco",
+   "branco",
+   "disponível"
+  ]
+ },
+ {
+  "num": 20,
+  "palavras": 204,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 21,
+  "palavras": 218,
+  "cobertura": 0.904,
+  "ausentes": [
+   "organização",
+   "saúde",
+   "organismo",
+   "temse",
+   "intensificado",
+   "atualmente",
+   "sejam",
+   "utilizados",
+   "controlar",
+   "corporal",
+   "oferecem",
+   "benefício",
+   "gordura",
+   "esses",
+   "aspectos",
+   "quais",
+   "chama",
+   "atenção",
+   "diets",
+   "contêm"
+  ]
+ },
+ {
+  "num": 22,
+  "palavras": 88,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 23,
+  "palavras": 72,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 24,
+  "palavras": 90,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 25,
+  "palavras": 142,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 26,
+  "palavras": 65,
+  "cobertura": 0.938,
+  "ausentes": [
+   "conjunto"
+  ]
+ },
+ {
+  "num": 27,
+  "palavras": 182,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 28,
+  "palavras": 99,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 29,
+  "palavras": 168,
+  "cobertura": 0.994,
+  "ausentes": [
+   "472"
+  ]
+ },
+ {
+  "num": 30,
+  "palavras": 160,
+  "cobertura": 0.994,
+  "ausentes": [
+   "têm"
+  ]
+ },
+ {
+  "num": 31,
+  "palavras": 145,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 32,
+  "palavras": 126,
+  "cobertura": 0.976,
+  "ausentes": [
+   "tremores",
+   "gerados",
+   "respectivamente"
+  ]
+ },
+ {
+  "num": 33,
+  "palavras": 103,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 34,
+  "palavras": 93,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 35,
+  "palavras": 87,
+  "cobertura": 0.586,
+  "ausentes": [
+   "use",
+   "aproximados",
+   "etapas",
+   "difíceis",
+   "voo",
+   "tripulado",
+   "reentrada",
+   "reencontrar",
+   "camadas",
+   "altas",
+   "nave",
+   "sofre",
+   "forte",
+   "desaceleração",
+   "externa",
+   "atinge",
+   "milhares",
+   "graus",
+   "celsius",
+   "caso",
+   "ocorra",
+   "dentro",
+   "condições",
+   "apropriadas",
+   "risco"
+  ]
+ },
+ {
+  "num": 36,
+  "palavras": 90,
+  "cobertura": 0.589,
+  "ausentes": [
+   "use",
+   "aproximados",
+   "etapas",
+   "difíceis",
+   "voo",
+   "espacial",
+   "tripulado",
+   "reentrada",
+   "terrestre",
+   "reencontrar",
+   "camadas",
+   "altas",
+   "nave",
+   "sofre",
+   "forte",
+   "desaceleração",
+   "externa",
+   "atinge",
+   "milhares",
+   "graus",
+   "celsius",
+   "ocorra",
+   "dentro",
+   "condições",
+   "apropriadas"
+  ]
+ },
+ {
+  "num": 37,
+  "palavras": 125,
+  "cobertura": 0.688,
+  "ausentes": [
+   "aproximados",
+   "etapas",
+   "difíceis",
+   "voo",
+   "espacial",
+   "tripulado",
+   "reentrada",
+   "reencontrar",
+   "camadas",
+   "altas",
+   "nave",
+   "forte",
+   "desaceleração",
+   "externa",
+   "milhares",
+   "graus",
+   "celsius",
+   "ocorra",
+   "dentro",
+   "condições",
+   "apropriadas",
+   "risco",
+   "graves",
+   "danos",
+   "inclusive"
+  ]
+ },
+ {
+  "num": 38,
+  "palavras": 83,
+  "cobertura": 0.988,
+  "ausentes": [
+   "aproximados"
+  ]
+ },
+ {
+  "num": 39,
+  "palavras": 77,
+  "cobertura": 0.987,
+  "ausentes": [
+   "aproximados"
+  ]
+ },
+ {
+  "num": 40,
+  "palavras": 96,
+  "cobertura": 0.802,
+  "ausentes": [
+   "use",
+   "aproximados",
+   "texto",
+   "questões",
+   "neurotransmissão",
+   "organismo",
+   "humano",
+   "química",
+   "entendimento",
+   "ocorreu",
+   "recentemente",
+   "graças",
+   "estudos",
+   "avançados",
+   "mecânicas",
+   "elasticidade",
+   "turno",
+   "desenvolvimento",
+   "deles"
+  ]
+ },
+ {
+  "num": 41,
+  "palavras": 95,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 42,
+  "palavras": 65,
+  "cobertura": 0.969,
+  "ausentes": [
+   "correto",
+   "indicadas"
+  ]
+ },
+ {
+  "num": 43,
+  "palavras": 117,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 44,
+  "palavras": 87,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 45,
+  "palavras": 134,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 46,
+  "palavras": 75,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 47,
+  "palavras": 48,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 48,
+  "palavras": 140,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 49,
+  "palavras": 140,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 50,
+  "palavras": 180,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 51,
+  "palavras": 186,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 52,
+  "palavras": 195,
+  "cobertura": 0.995,
+  "ausentes": [
+   "sustentam"
+  ]
+ },
+ {
+  "num": 53,
+  "palavras": 123,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 54,
+  "palavras": 45,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 55,
+  "palavras": 65,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 56,
+  "palavras": 72,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 57,
+  "palavras": 56,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 58,
+  "palavras": 40,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 59,
+  "palavras": 7,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 60,
+  "palavras": 54,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 61,
+  "palavras": 58,
+  "cobertura": 0.948,
+  "ausentes": [
+   "passos",
+   "retiram",
+   "aleatoriamente"
+  ]
+ },
+ {
+  "num": 62,
+  "palavras": 10,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 63,
+  "palavras": 16,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 64,
+  "palavras": 22,
+  "cobertura": 0.818,
+  "ausentes": [
+   "sejam",
+   "interseção",
+   "eixo",
+   "gráficos"
+  ]
+ },
+ {
+  "num": 65,
+  "palavras": 6,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 66,
+  "palavras": 119,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 67,
+  "palavras": 101,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 68,
+  "palavras": 142,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 69,
+  "palavras": 155,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 70,
+  "palavras": 166,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 71,
+  "palavras": 146,
+  "cobertura": 1,
+  "ausentes": []
+ },
+ {
+  "num": 72,
+  "palavras": 154,
+  "cobertura": 1,
+  "ausentes": []
+ }
+]
